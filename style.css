@@ -165,6 +165,8 @@ body, input {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
   font-size: 80%;
   font-weight: 550;
 }
