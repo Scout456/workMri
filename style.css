@@ -133,6 +133,15 @@ color: #575757;
 
 .mainPhone{
   color: white;
+  margin-bottom: 2em;
+}
+
+.pacers, .loop, .stim{
+  border: 2px solid #d9d9d9;
+  width: 55%;
+  margin: 1em auto;
+  border-radius: 5px;
+  
 }
 
 .head{
