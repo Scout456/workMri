@@ -131,6 +131,23 @@ color: #575757;
   font-size: 60px;
 }
 
+.mainPhone{
+  color: white;
+}
+
+.head{
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+ p{
+  color:#a7a6a6;
+  transition: .3s;
+ }
+
+ p:hover{
+  color: white;
+ }
+
 /* Start of Search bar animation */
 
 * {
