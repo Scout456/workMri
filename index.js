@@ -566,6 +566,9 @@ function implantLookup(){
      }else if(pacerValue.toUpperCase() === 'PROCLAIM XR' || pacerValue.toUpperCase() === '3662' ){
    window.open('abbottImplants/neurostimulation.pdf', '_blank');
 
+    }else if(pacerValue.toUpperCase() === 'PROCLAIM' || pacerValue.toUpperCase() === '3662' ){
+   window.open('abbottImplants/neurostimulation.pdf', '_blank');
+
    }else if(pacerValue.toUpperCase() === 'PROCLAIM DRG' || pacerValue.toUpperCase() === '3664' ){
    window.open('abbottImplants/neurostimulation.pdf', '_blank');
 
