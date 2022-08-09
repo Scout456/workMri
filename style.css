@@ -404,5 +404,27 @@ color: black;
 
 }
 
-    
-  }
+
+}
+
+   @media screen and (min-width: 1200px ) {
+.fa-bars {
+  font-size: 40px;
+  padding: 1em;
+  color:black;
+  cursor: pointer;
+ 
+}
+
+.implant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-family: serif;
+  margin-top: 1em;
+  
+}
+  
+   }
