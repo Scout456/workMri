@@ -174,12 +174,22 @@ form{
  margin-top: 3em;
 }
 
+
+
 input{
-  height: 3em;
+  padding: .7em;
   width: 205px;
   text-align: center;
   border: 1.5px solid #8F97B5;
+  border-radius:5px;
+  outline: none;
+  
 }
+
+  input:focus{
+    background-color: lightblue;
+    border: 1px solid blue;
+  }
 
 
 
@@ -187,16 +197,24 @@ input{
   background-color: blue;
   color: white;
   border: 1.5px solid #8F97B5;
-  height: 3em;
+  padding: .7em;
+  border-radius: 5px;
+
 }
+
+  .search-btn:hover{
+    background-color: rgb(34, 34, 178);
+  }
+
 
 
 .not-case{
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
-  font-size: 1.1em;
-
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ margin-top: 1em;
+ font-size: 1.1em;
 }
 
 
