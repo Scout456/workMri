@@ -242,6 +242,11 @@ input{
 }
 
 @media screen and (min-width: 700px){
+
+  form{
+    margin-top: 4em;
+  }
+
   input{
   padding: .7em;
   font-size: 18px;
