@@ -106,6 +106,7 @@ color: #575757;
   /* Centered text/links */
   margin-top:30px;
   /* 30px top margin to avoid conflict with the close button on smaller screens */
+  padding: .5em;
 }
 
 /* The navigation links inside the overlay */
