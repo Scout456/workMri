@@ -186,11 +186,12 @@ form{
 
 input{
   padding: .7em;
-  width: 205px;
+  width: 210px;
   text-align: center;
   border: 1.5px solid #8F97B5;
   border-radius:5px;
   outline: none;
+  font-size:.8em;
   }
 
   input:focus{
