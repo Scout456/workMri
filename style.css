@@ -167,15 +167,17 @@ color: #575757;
   align-items: center;
   align-content: center;
   
+  
 }
 
 form{
-  margin-top: 4em;
+ margin-top: 3em;
 }
 
 input{
   height: 3em;
   width: 205px;
+  text-align: center;
   border: 1.5px solid #8F97B5;
   
 }
@@ -231,15 +233,6 @@ input{
  
 }
 
-.implant {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5em;
-  font-family: serif;
-  margin-top: 1.5em;
-  
-}
+
   
    }
