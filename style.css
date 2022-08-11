@@ -129,7 +129,7 @@ color: #575757;
 /* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
-  top: 25px;
+  top: 5px;
   left: 23px;
   font-size: 60px;
 }
