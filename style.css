@@ -146,7 +146,7 @@ color: #575757;
   font-size: 60px;
 }
 
-.medtronic-pacer, .loop-record, .pain-stim, .bio-pace{
+.medtronic-pacer, .loop-record, .pain-stim, .bio-pace, .bio-loop{
   border-bottom: 1px solid white;
 }
 
