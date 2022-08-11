@@ -65,7 +65,10 @@ function implantLookup(){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
 }else if(pacerValue.toUpperCase() === 'ATTESTA SR' || pacerValue.toUpperCase() === 'ATSR01'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+  window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+}else if(pacerValue.toUpperCase() === 'RESTORE' || pacerValue.toUpperCase() === '37712'){
+
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/CONTRIB_171957.pdf', '_blank' );
 }else if(pacerValue.toUpperCase() === 'SPHERA SR' || pacerValue.toUpperCase() === 'SPSR01'){
 
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
