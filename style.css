@@ -224,7 +224,7 @@ input{
  justify-content: center;
  align-items: center;
  margin-top: 1em;
- font-size: 100%;
+ font-size:20px;
 }
 
 
@@ -274,7 +274,7 @@ input{
   background-color: blue;
   color: white;
   border: 1.5px solid #8F97B5;
-  font-size: 22px;
+  font-size: 17px;
   padding: .7em;
   border-top-right-radius: 5px 5px;
   border-bottom-right-radius: 5px 5px;
@@ -310,7 +310,7 @@ input{
   background-color: blue;
   color: white;
   border: 1.5px solid #8F97B5;
-  font-size: 30px;
+  font-size: 23px;
   padding: .7em;
   border-top-right-radius: 5px 5px;
   border-bottom-right-radius: 5px 5px;
