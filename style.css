@@ -175,7 +175,7 @@ h1{
   align-items: center;
   align-content: center;
   position: relative;
-  top: 8em;
+  top: 6em;
   
   }
 
@@ -223,7 +223,7 @@ input{
  margin-top: 1em;
  font-size:20px;
  position: relative;
- top: 6em;
+ top: 4em;
 }
 
 
@@ -297,7 +297,7 @@ input{
   align-items: center;
   align-content: center;
   position: relative;
-  top: 6em;
+  top: 4em;
   
   }
 
@@ -329,6 +329,16 @@ input{
 
  
 
+.not-case{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ margin-top: 1em;
+ font-size:25px;
+ position: relative;
+ top: 2em;
+}
 
 
 
