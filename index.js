@@ -473,6 +473,15 @@ function implantLookup(){
        }else if(pacerValue.toUpperCase() === 'EDORA 8 SR-T'){
    window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
 
+      }else if(pacerValue.toUpperCase() === 'NUCLEUS'){
+   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
+
+      }else if(pacerValue.toUpperCase() === 'OSIA'){
+   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
+
+      }else if(pacerValue.toUpperCase() === 'BAHA'){
+   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
+
       }else if(pacerValue.toUpperCase() === 'INSPIRE'){
    window.open('https://manuals.inspiresleep.com/content/widgets/manual.php?NDg5fDF8MQ==', '_blank');
 
