@@ -1,26 +1,23 @@
 /* Open when someone clicks on the span element */
+
 function openNav() {
-  document.getElementById("myNav").style.width = "70%";
+document.getElementById("myNav").style.width = "70%";
 }
+  
+
+
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 
-
-
-
+/*---------------------------------------------------------------------------*/
 
 function implantLookup(){
   let implantInput = document.getElementById('implant');
   let pacerValue = implantInput.value;
   
-  
-  
- 
-
-
   
   if(pacerValue.toUpperCase() === 'ADVISA SR' || pacerValue.toUpperCase() === 'A3SR01'){
      
