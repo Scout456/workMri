@@ -42,11 +42,16 @@ function implantLookup(){
     alert("Not FDA approved, BUT SAFE TO SCAN, need radiologist approval to scan off label.");
     
     open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_231430.pdf', '_blank' );
-    
 
  }else if(pacerValue.toUpperCase() === 'AZURE XT DR' || pacerValue.toUpperCase() === 'W1DR01'){
 
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf', '_blank' );
+    
+
+ }else if(pacerValue.toUpperCase() === 'NEVRO' || pacerValue.toUpperCase() === 'SENZA'){
+
+   window.open('https://s28.q4cdn.com/260621474/files/doc_downloads/2022/05/1.5T-and-3T-MRI-Guidelines-for-the-Senza-Neuromodulation-Systems-(11096)-Rev-P.pdf', '_blank' );
+   
 
  }else if(pacerValue.toUpperCase() === 'AZURE XT SR' || pacerValue.toUpperCase() === 'W1SR01'){
 
