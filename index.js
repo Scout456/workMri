@@ -27,6 +27,23 @@ function implantLookup(){
    
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf', '_blank' );
 
+
+ }else if(pacerValue.toUpperCase() === 'ENSURA DR' || pacerValue.toUpperCase() === 'EN1DR01'){ 
+    alert("Not FDA approved, BUT SAFE TO SCAN, need radiologist approval to scan off label.");
+    
+    open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_231430.pdf', '_blank' );
+
+ }else if(pacerValue.toUpperCase() === 'ENSURA' || pacerValue.toUpperCase() === 'EN1DR01'){ 
+    alert("Not FDA approved, BUT SAFE TO SCAN, need radiologist approval to scan off label.");
+    
+    open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_231430.pdf', '_blank' );
+
+ }else if(pacerValue.toUpperCase() === 'ENSURA SR' || pacerValue.toUpperCase() === 'EN1SR01'){ 
+    alert("Not FDA approved, BUT SAFE TO SCAN, need radiologist approval to scan off label.");
+    
+    open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_231430.pdf', '_blank' );
+    
+
  }else if(pacerValue.toUpperCase() === 'AZURE XT DR' || pacerValue.toUpperCase() === 'W1DR01'){
 
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf', '_blank' );
