@@ -18,7 +18,8 @@ function implantLookup(){
   let implantInput = document.getElementById('implant');
   let pacerValue = implantInput.value;
   
-  
+
+
   if(pacerValue.toUpperCase() === 'ADVISA SR' || pacerValue.toUpperCase() === 'A3SR01'){
      
  window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf', '_blank' );
@@ -28,20 +29,12 @@ function implantLookup(){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf', '_blank' );
 
 
- }else if(pacerValue.toUpperCase() === 'ENSURA DR' || pacerValue.toUpperCase() === 'EN1DR01'){ 
+ }else if(pacerValue.toUpperCase() === 'ENSURA' || pacerValue.toUpperCase() === 'EN1DR01'|| pacerValue.toUpperCase() === 'EN1SR01'){ 
     alert("Not FDA approved, BUT SAFE TO SCAN, need radiologist approval to scan off label.");
     
-    open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_231430.pdf', '_blank' );
+    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_231430.pdf', '_blank' );
 
- }else if(pacerValue.toUpperCase() === 'ENSURA' || pacerValue.toUpperCase() === 'EN1DR01'){ 
-    alert("Not FDA approved, BUT SAFE TO SCAN, need radiologist approval to scan off label.");
-    
-    open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_231430.pdf', '_blank' );
 
- }else if(pacerValue.toUpperCase() === 'ENSURA SR' || pacerValue.toUpperCase() === 'EN1SR01'){ 
-    alert("Not FDA approved, BUT SAFE TO SCAN, need radiologist approval to scan off label.");
-    
-    open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_231430.pdf', '_blank' );
 
  }else if(pacerValue.toUpperCase() === 'AZURE XT DR' || pacerValue.toUpperCase() === 'W1DR01'){
 
@@ -51,7 +44,7 @@ function implantLookup(){
  }else if(pacerValue.toUpperCase() === 'NEVRO' || pacerValue.toUpperCase() === 'SENZA'){
 
    window.open('https://s28.q4cdn.com/260621474/files/doc_downloads/2022/05/1.5T-and-3T-MRI-Guidelines-for-the-Senza-Neuromodulation-Systems-(11096)-Rev-P.pdf', '_blank' );
-   
+
 
  }else if(pacerValue.toUpperCase() === 'AZURE XT SR' || pacerValue.toUpperCase() === 'W1SR01'){
 
@@ -393,10 +386,10 @@ function implantLookup(){
 }else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37704'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37703'){
+}else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37703'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'ITREL 3' || pacerValue.toUpperCase() === '7425'){
+}else if(pacerValue.toUpperCase() === 'ITREL 3' || pacerValue.toUpperCase() === '7425'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'RESTORESENSOR' || pacerValue.toUpperCase() === '37714'){
