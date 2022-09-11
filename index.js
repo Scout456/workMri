@@ -30,7 +30,7 @@ function implantLookup(){
 
 
  }else if(pacerValue.toUpperCase() === 'ENSURA' || pacerValue.toUpperCase() === 'EN1DR01'|| pacerValue.toUpperCase() === 'EN1SR01'){ 
-    alert("Not FDA approved, BUT SAFE TO SCAN, need radiologist approval to scan off label.");
+    alert("Not FDA approved, BUT MRI-CONDITIONAL, need radiologist approval to scan off label.");
     
     window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_231430.pdf', '_blank' );
 
