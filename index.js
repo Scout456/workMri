@@ -1,16 +1,29 @@
 /* Open when someone clicks on the span element */
 
-function openNav() {
+/*function openNav() {
 document.getElementById("myNav").style.width = "70%";
-}
-  
+}*/
 
+function openNav(){
+   var nav = document.getElementById('myNav');
+   if(window.innerWidth > 700){
+      nav.style.width="40%";
+   }else{
+      window.innerWidth < 700;
+      nav.style.width="70%";
+   }
+}
+
+window.addEventListener('onclick', openNav);
+  
 
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+
+
 
 /*---------------------------------------------------------------------------*/
 
