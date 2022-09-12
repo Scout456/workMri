@@ -79,6 +79,7 @@ color: #575757;
 
 
 
+
 /* The Overlay (background) */
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
@@ -145,6 +146,10 @@ color: #575757;
   left: 15px;
   font-size: 60px;
 }
+
+
+
+
 
 .medtronic-pacer, .loop-record, .pain-stim, .bio-pace, .bio-loop, .pace-abbott, .boston-pace,.dbs{
   border-bottom: 1px solid white;
@@ -249,10 +254,16 @@ input{
     right: 35px;
   }
 
+   
+
 
 }
 
 @media screen and (min-width: 700px){
+
+  .open-bars{
+    width: 50%;
+  }
 
  
 
