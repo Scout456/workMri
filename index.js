@@ -385,52 +385,56 @@ function implantLookup(){
 
 
  }else if(pacerValue.toUpperCase() === 'INTELLIS' || pacerValue.toUpperCase() === '97715'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank'); 
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank'); 
 
     }else if(pacerValue.toUpperCase() === 'INTELLIS' || pacerValue.toUpperCase() === '97716'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank'); 
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank'); 
 
 }else if(pacerValue.toUpperCase() === 'PRIMEADVANCED' || pacerValue.toUpperCase() === '37702'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'VANTA' || pacerValue.toUpperCase() === '977006'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37704'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37703'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ITREL 3' || pacerValue.toUpperCase() === '7425'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'RESTORESENSOR' || pacerValue.toUpperCase() === '37714'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'RESTOREULTRA SURESCAN' || pacerValue.toUpperCase() === '97712'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'RESTOREADVANCED SURESCAN' || pacerValue.toUpperCase() === '97713'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'RESTORESENSOR SURESCAN' || pacerValue.toUpperCase() === '97714'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'RESTORE' || pacerValue.toUpperCase() === '37711'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'SYNERGY' || pacerValue.toUpperCase() === '7427'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'VERSITREL' || pacerValue.toUpperCase() === '7427V'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'MEDTRONIC NEUROSTIMULATOR' || pacerValue.toUpperCase() === '7427V'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'SYNCHROMED II' || pacerValue.toUpperCase() === '8637'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M005186C_a_001_view.pdf', '_blank');
+
+   }else if(pacerValue.toUpperCase() === 'AMS 700'){
+   window.open('https://www.bostonscientific.com/content/dam/elabeling/uro-ph/ams700-ms-pump/50654574-01A_AMS700_MSPump_IFU_multi_s.pdf', '_blank');
+
 
    }else if(pacerValue.toUpperCase() === 'ISOMED' || pacerValue.toUpperCase() === '8472'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M005186C_a_001_view.pdf', '_blank');
