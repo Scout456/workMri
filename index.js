@@ -350,13 +350,12 @@ function implantLookup(){
 }else if(pacerValue.toUpperCase() === 'SOLARA'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'REVEAL'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_188127.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'REVEAL LINQ' || pacerValue.toUpperCase() === 'LNQ11'){
+}else if(pacerValue.toUpperCase() === 'LINQ11' || pacerValue.toUpperCase() === 'LNQ11'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_188127.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'REVEAL XT' || pacerValue.toUpperCase() === '9529'){
+   alert("Section D: MRI scanning instructions.  Must wait 6 weeks before scanning.")
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_092102.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ACTIVA PC' || pacerValue.toUpperCase() === '37601'){
@@ -374,11 +373,12 @@ function implantLookup(){
 }else if(pacerValue.toUpperCase() === 'S0LETRA' || pacerValue.toUpperCase() === '7426'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'PRIMEADVANCED SURESCAN' || pacerValue.toUpperCase() === '97702'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+
+}else if(pacerValue.toUpperCase() === 'PRIMEADVANCED' || pacerValue.toUpperCase() === '97702'){
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === 'KINETRA' || pacerValue.toUpperCase() === '7428'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M006348C_a_001_view.pdf', '_blank');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/CONTRIB_228155.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === 'PERCEPT PC' || pacerValue.toUpperCase() === 'B35200'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
@@ -408,13 +408,13 @@ function implantLookup(){
 }else if(pacerValue.toUpperCase() === 'RESTORESENSOR' || pacerValue.toUpperCase() === '37714'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'RESTOREULTRA SURESCAN' || pacerValue.toUpperCase() === '97712'){
+}else if(pacerValue.toUpperCase() === 'RESTOREULTRA' || pacerValue.toUpperCase() === '97712'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'RESTOREADVANCED SURESCAN' || pacerValue.toUpperCase() === '97713'){
+}else if(pacerValue.toUpperCase() === 'RESTOREADVANCED' || pacerValue.toUpperCase() === '97713'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'RESTORESENSOR SURESCAN' || pacerValue.toUpperCase() === '97714'){
+}else if(pacerValue.toUpperCase() === 'RESTORESENSOR' || pacerValue.toUpperCase() === '97714'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'RESTORE' || pacerValue.toUpperCase() === '37711'){
@@ -460,47 +460,20 @@ function implantLookup(){
       }else if(pacerValue.toUpperCase() === 'ENTERRA II' || pacerValue.toUpperCase() === '37800'){
         alert("NOT COMPATIBLE FOR MRI!!!!!");
 
-      }else if(pacerValue.toUpperCase() === 'ENITRA 8 DR-T'){
+      }else if(pacerValue.toUpperCase() === 'ENITRA'){
    window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
 
-       }else if(pacerValue.toUpperCase() === 'ENITRA 8 SR-T'){
+   
+       }else if(pacerValue.toUpperCase() === 'EVITY'){
    window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
 
-       }else if(pacerValue.toUpperCase() === 'ENITRA 6 DR-T'){
+       }else if(pacerValue.toUpperCase() === 'ENTICOS'){
    window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
 
-       }else if(pacerValue.toUpperCase() === 'ENITRA 6 SR-T'){
+      }else if(pacerValue.toUpperCase() === 'EDORA'){
    window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
 
-       }else if(pacerValue.toUpperCase() === 'EVITY 8 DR-T'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
 
-       }else if(pacerValue.toUpperCase() === 'ENITRA 8 DR-T'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-       }else if(pacerValue.toUpperCase() === 'EVITY 6 DR-T'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-       }else if(pacerValue.toUpperCase() === 'EVITY 6 SR-T'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-       }else if(pacerValue.toUpperCase() === 'ENTICOS 4 DR'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-       }else if(pacerValue.toUpperCase() === 'ENTICOS 4 D'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-       }else if(pacerValue.toUpperCase() === 'ENTICOS 4 SR'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-       }else if(pacerValue.toUpperCase() === 'ENTICOS 4 S'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-       }else if(pacerValue.toUpperCase() === 'EDORA 8 DR-T'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-       }else if(pacerValue.toUpperCase() === 'EDORA 8 SR-T'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
 
       }else if(pacerValue.toUpperCase() === 'NUCLEUS'){
    window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
@@ -532,7 +505,7 @@ function implantLookup(){
       }else if(pacerValue.toUpperCase() === 'RIVACOR 7 DR-T'){
    window.open('https://www.biotronik.com/en-us/products/crm/tachycardia/rivacor', '_blank');
 
-      }else if(pacerValue.toUpperCase() === 'ACTICOR 7 HF-T QP'){
+      }else if(pacerValue.toUpperCase() === 'ACTICOR 7'){
    window.open('https://www.biotronik.com/en-us/products/crm/cardiac-resynchronization/acticor-7-hf-t-qp', '_blank');
 
       }else if(pacerValue.toUpperCase() === 'AVEIR' || pacerValue.toUpperCase() === 'LSP112V' ){
@@ -631,49 +604,49 @@ function implantLookup(){
    }else if(pacerValue.toUpperCase() === 'INFINITY 7' || pacerValue.toUpperCase() === '6662' ){
    window.open('abbottImplants/infinity.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'VITALIO MRI' || pacerValue.toUpperCase() === 'K275' ){
+   }else if(pacerValue.toUpperCase() === 'VITALIO' || pacerValue.toUpperCase() === 'K275' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'VITALIO MRI' || pacerValue.toUpperCase() === 'K277' ){
+   }else if(pacerValue.toUpperCase() === 'VITALIO' || pacerValue.toUpperCase() === 'K277' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'ESSENTIO MRI' || pacerValue.toUpperCase() === 'L110' ){
+   }else if(pacerValue.toUpperCase() === 'ESSENTIO' || pacerValue.toUpperCase() === 'L110' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'ESSENTIO MRI' || pacerValue.toUpperCase() === 'L111' ){
+   }else if(pacerValue.toUpperCase() === 'ESSENTIO' || pacerValue.toUpperCase() === 'L111' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'ESSENTIO MRI' || pacerValue.toUpperCase() === 'L131' ){
+   }else if(pacerValue.toUpperCase() === 'ESSENTIO' || pacerValue.toUpperCase() === 'L131' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'PROPONENT MRI' || pacerValue.toUpperCase() === 'L210' ){
+   }else if(pacerValue.toUpperCase() === 'PROPONENT' || pacerValue.toUpperCase() === 'L210' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'PROPONENT MRI' || pacerValue.toUpperCase() === 'L211' ){
+   }else if(pacerValue.toUpperCase() === 'PROPONENT' || pacerValue.toUpperCase() === 'L211' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'PROPONENT MRI' || pacerValue.toUpperCase() === 'L231' ){
+   }else if(pacerValue.toUpperCase() === 'PROPONENT' || pacerValue.toUpperCase() === 'L231' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'ACCOLADE MRI' || pacerValue.toUpperCase() === 'L310' ){
+   }else if(pacerValue.toUpperCase() === 'ACCOLADE' || pacerValue.toUpperCase() === 'L310' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'ACCOLADE MRI' || pacerValue.toUpperCase() === 'L311' ){
+   }else if(pacerValue.toUpperCase() === 'ACCOLADE' || pacerValue.toUpperCase() === 'L311' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'ACCOLADE MRI' || pacerValue.toUpperCase() === 'L331' ){
+   }else if(pacerValue.toUpperCase() === 'ACCOLADE' || pacerValue.toUpperCase() === 'L331' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'VALITUDE X4' || pacerValue.toUpperCase() === 'U128' ){
+   }else if(pacerValue.toUpperCase() === 'VALITUDE' || pacerValue.toUpperCase() === 'U128' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'VISIONIST X4' || pacerValue.toUpperCase() === 'U228' ){
+   }else if(pacerValue.toUpperCase() === 'VISIONIST' || pacerValue.toUpperCase() === 'U228' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'EMBLEM S-ICD' || pacerValue.toUpperCase() === 'A209' ){
+   }else if(pacerValue.toUpperCase() === 'EMBLEM' || pacerValue.toUpperCase() === 'A209' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/92346926-001_IMAGEREADY_MRITG_en-USA_S.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'EMBLEM MRI S-ICD' || pacerValue.toUpperCase() === 'A219' ){
+   }else if(pacerValue.toUpperCase() === 'EMBLEM' || pacerValue.toUpperCase() === 'A219' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/92346926-001_IMAGEREADY_MRITG_en-USA_S.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === 'EMBLEM' ){
