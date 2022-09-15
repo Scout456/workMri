@@ -149,7 +149,7 @@ color: #575757;
 
 details{
   color:#a7a6a6;
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin: .5em;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -157,6 +157,11 @@ details{
 
 details:hover{
    color: #f1f1f1;
+}
+
+.spatialG{
+  font-size: 1em;
+  line-height: 1.2em;
 }
 
 
