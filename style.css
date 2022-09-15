@@ -227,11 +227,15 @@ input{
   border-top-right-radius: 5px 5px;
   border-bottom-right-radius: 5px 5px;
   border-left: none;
+
 }
 
   .search-btn:hover{
     background-color: rgb(34, 34, 178);
   }
+
+
+ 
 
 
 
