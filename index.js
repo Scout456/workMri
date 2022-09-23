@@ -52,6 +52,20 @@ function implantLookup(){
  }else if(pacerValue.toUpperCase() === 'AZURE XT DR' || pacerValue.toUpperCase() === 'W1DR01'){
 
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf', '_blank' );
+
+    }else if(pacerValue.toUpperCase() === 'PERCUFLEX PLUS' || pacerValue.toUpperCase() === 'PERCUFLEX'){
+
+   window.open('http://www.mrisafety.com/TMDL_view.php?editid1=6058', '_blank' );
+
+
+    }else if(pacerValue.toUpperCase() === 'YASARGIL' || pacerValue.toUpperCase() === 'SENZA'){
+
+   window.open('Docs/MRI-Safety-Information-Yasargil-Titanium-and-Phynox-Aneurysm-Clips.pdf', '_blank' );
+
+     }else if(pacerValue.toUpperCase() === 'VIRTUOSO' || pacerValue.toUpperCase() === 'D154AWG'){
+
+      alert("NOT MR-CONDITIONAL");
+
     
 
  }else if(pacerValue.toUpperCase() === 'NEVRO' || pacerValue.toUpperCase() === 'SENZA'){
