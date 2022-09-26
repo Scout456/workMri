@@ -62,6 +62,11 @@ function implantLookup(){
 
    window.open('Docs/MRI-Safety-Information-Yasargil-Titanium-and-Phynox-Aneurysm-Clips.pdf', '_blank' );
 
+      }else if(pacerValue.toUpperCase() === 'SUGITA' || pacerValue.toUpperCase() === 'MIZUHO'){
+
+   window.open('https://www.mrisafety.com/TMDL_list.php?goto=201', '_blank' );
+
+
      }else if(pacerValue.toUpperCase() === 'VIRTUOSO' || pacerValue.toUpperCase() === 'D154AWG'){
 
       alert("NOT MR-CONDITIONAL");
