@@ -51,8 +51,8 @@ table {
 
 /*-----------------------End of CSS reset----------------------------------------------*/
 
-html{
-  background-image: url('https://www.usa.philips.com/c-dam/b2bhc/master/Products/Category/magnetic-resonance/mr-therapy/mr-therapy-HC781439.jpg');
+body{
+  background-image: url('images/mri-magnet-min.jpg');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
