@@ -53,23 +53,23 @@ function implantLookup(){
 
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf', '_blank' );
 
-    }else if(pacerValue.toUpperCase() === 'PERCUFLEX PLUS' || pacerValue.toUpperCase() === 'PERCUFLEX'){
+ }else if(pacerValue.toUpperCase() === 'PERCUFLEX PLUS' || pacerValue.toUpperCase() === 'PERCUFLEX'){
 
-   window.open('http://www.mrisafety.com/TMDL_view.php?editid1=6058', '_blank' );
-
-
-    }else if(pacerValue.toUpperCase() === 'YASARGIL'){
-
-   window.open('Docs/MRI-Safety-Information-Yasargil-Titanium-and-Phynox-Aneurysm-Clips.pdf', '_blank' );
-
-      }else if(pacerValue.toUpperCase() === 'SUGITA' || pacerValue.toUpperCase() === 'MIZUHO'){
-
-   window.open('https://www.mrisafety.com/TMDL_list.php?goto=201', '_blank' );
+  window.open('http://www.mrisafety.com/TMDL_view.php?editid1=6058', '_blank' );
 
 
-     }else if(pacerValue.toUpperCase() === 'VIRTUOSO' || pacerValue.toUpperCase() === 'D154AWG'){
+ }else if(pacerValue.toUpperCase() === 'YASARGIL'){
 
-      alert("NOT MR-CONDITIONAL");
+  window.open('Docs/MRI-Safety-Information-Yasargil-Titanium-and-Phynox-Aneurysm-Clips.pdf', '_blank' );
+
+ }else if(pacerValue.toUpperCase() === 'SUGITA' || pacerValue.toUpperCase() === 'MIZUHO'){
+
+  window.open('https://www.mrisafety.com/TMDL_list.php?goto=201', '_blank' );
+
+
+}else if(pacerValue.toUpperCase() === 'VIRTUOSO' || pacerValue.toUpperCase() === 'D154AWG'){
+
+alert("NOT MR-CONDITIONAL");
 
     
 
@@ -402,6 +402,22 @@ function implantLookup(){
    }else if(pacerValue.toUpperCase() === 'PERCEPT PC' || pacerValue.toUpperCase() === 'B35200'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
 
+   }else if(pacerValue.toUpperCase() === 'OPTIMA' || pacerValue.toUpperCase() === 'OPTIMA COIL'){
+   alert("Page 10 for MRI information.")
+   window.open('Docs/optima-coil.pdf', '_blank');
+
+    }else if(pacerValue.toUpperCase() === 'BARRICADE' || pacerValue.toUpperCase() === 'BARRICADE COIL'){
+   alert("Page 8 for MRI information.")
+   window.open('Docs/barricade-coil.pdf', '_blank');
+
+   
+   }else if(pacerValue.toUpperCase() === 'PENUMBRA' || pacerValue.toUpperCase() === 'PENUMBRA COIL'){
+   window.open('https://www.penumbrainc.com/nl/mri-compatibility/', '_blank'); 
+
+   }else if(pacerValue.toUpperCase() === 'SPETZLER' || pacerValue.toUpperCase() === 'ANEURYSM CLIP'){
+      alert("Pages 190 and 191 have Spetzler aneurysm clip information")
+   window.open('https://www.mrisafety.com/TMDL_list.php?goto=190', '_blank'); 
+   
 
  }else if(pacerValue.toUpperCase() === 'INTELLIS' || pacerValue.toUpperCase() === '97715'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank'); 
