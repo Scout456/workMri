@@ -414,7 +414,7 @@ alert("NOT MR-CONDITIONAL");
    }else if(pacerValue.toUpperCase() === 'PENUMBRA' || pacerValue.toUpperCase() === 'PENUMBRA COIL'){
    window.open('https://www.penumbrainc.com/nl/mri-compatibility/', '_blank'); 
 
-   }else if(pacerValue.toUpperCase() === 'SPETZLER' || pacerValue.toUpperCase() === 'ANEURYSM CLIP'){
+   }else if(pacerValue.toUpperCase() === 'SPETZLER' || pacerValue.toUpperCase() === 'SPETZLER TITANIUM ANEURYSM CLIP'){
       alert("Pages 190 and 191 have Spetzler aneurysm clip information")
    window.open('https://www.mrisafety.com/TMDL_list.php?goto=190', '_blank'); 
    
