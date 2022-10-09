@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-----------------------End of CSS reset----------------------------------------------*/
+body{
+  background-color: whitesmoke;
+}
+
+.mainPhone{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  gap: 1em;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+  font-size: 5vw;
+  margin:.5em 0 .5em 0;
+}
+
+.title{
+  font-size: 4vw;
+}
+
+div{
+ /* background: linear-gradient(to right,  50%#002E6E, 50% #003C71);*/
+ background: linear-gradient(to bottom, #003C71 0%, #003C71 10%,#002E6E 50%, #002E6E 50%, #009ADA 100%); 
+  padding: .5em;
+  color:whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div:hover{
+ background: linear-gradient(to bottom, #009ADA 0%, #009ADA 10%,#003C71 50%, #003C71 50%, #003C71 100%);
+ scale: 1.05;
+}
+
+
+.manufacture{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2em;
+  color: whitesmoke;
+
+}
+
+.text-large{
+scale: 1.5;
+}
+
+/*Media queries------------------------------------------------*/
+
+@media screen and (min-width: 700px){
+  .mainPhone{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 1em;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  font-size: 2.4vw;
+  margin:.5em 0 .5em 0;
+}
+
+.title{
+  font-size: 2.2vw;
+}
+
+div{
+  background: linear-gradient(to bottom, #003C71 0%, #003C71 10%,#002E6E 50%, #002E6E 50%, #009ADA 100%); 
+  color:whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.manufacture{
+ margin: 0 0 .5em 0;
+ font-size: 2vw;
+ color:whitesmoke;
+  
+}
+
+}

@@ -256,7 +256,6 @@ input{
 
 
 
-
 /*----------------------------------------media queries------------------------------------*/
 
 /* For slide out menu*/
@@ -273,10 +272,7 @@ input{
     right: 35px;
   }
 
-   
-
-
-}
+  }
 
 @media screen and (min-width: 700px){
 
@@ -416,8 +412,5 @@ input{
  position: relative;
  top: 6em;
 }
-
-
-
-
 }
+
