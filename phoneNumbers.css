@@ -66,12 +66,12 @@ body{
 
 
 header{
-  font-size: 5vw;
+  font-size: 6vw;
   margin:.5em 0 .5em 0;
 }
 
 .title{
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 div{
@@ -98,9 +98,7 @@ div:hover{
 
 }
 
-.text-large{
-scale: 1.5;
-}
+
 
 /*Media queries------------------------------------------------*/
 
