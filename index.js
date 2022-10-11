@@ -627,6 +627,12 @@ alert("NOT MR-CONDITIONAL");
      }else if(pacerValue.toUpperCase() === 'PROCLAIM XR' || pacerValue.toUpperCase() === '3662' ){
    window.open('abbottImplants/neurostimulation.pdf', '_blank');
 
+    }else if(pacerValue.toUpperCase() === 'ESSURE' ){
+   window.open('https://labeling.bayerhealthcare.com/html/products/pi/essure_ifu.pdf', '_blank');
+
+    }else if(pacerValue.toUpperCase() === 'INGENIO' || pacerValue.toUpperCase() === 'K173' ){
+    alert('Not MR-Conditional');
+
     }else if(pacerValue.toUpperCase() === 'PROCLAIM' || pacerValue.toUpperCase() === '3662' ){
    window.open('abbottImplants/neurostimulation.pdf', '_blank');
 
