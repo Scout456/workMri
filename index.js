@@ -573,8 +573,8 @@ alert("NOT MR-CONDITIONAL");
     }else if(pacerValue.toUpperCase() === 'QUADRA ALLURE' || pacerValue.toUpperCase() === 'PM3542' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
-   }else if(pacerValue.toUpperCase() === 'QUADRA ALLURE MP' || pacerValue.toUpperCase() === 'PM3562' ){ 
-         window.open('abbottImplants/assurity.pdf', '_blank');
+   }else if(pacerValue.toUpperCase() === 'QUADRA ALLURE MP' || pacerValue.toUpperCase() === 'PM3562' ){
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1311-36Q' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
