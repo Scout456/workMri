@@ -549,44 +549,40 @@ alert("NOT MR-CONDITIONAL");
       }else if(pacerValue.toUpperCase() === 'ACTICOR 7'){
    window.open('https://www.biotronik.com/en-us/products/crm/cardiac-resynchronization/acticor-7-hf-t-qp', '_blank');
 
-      }else if(pacerValue.toUpperCase() === 'AVEIR' || pacerValue.toUpperCase() === 'LSP112V' ){
+     }else if(pacerValue.toUpperCase() === 'AVEIR' || pacerValue.toUpperCase() === 'LSP112V' ){
    window.open('abbottImplants/aveir.pdf', '_blank');
 
-      }else if(pacerValue.toUpperCase() === 'ASSURITY' || pacerValue.toUpperCase() === 'PM1272' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+     }else if(pacerValue.toUpperCase() === 'ASSURITY' || pacerValue.toUpperCase() === 'PM1272' || pacerValue.toUpperCase() === 'PM2272' ){
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
-     }else if(pacerValue.toUpperCase() === 'ASSURITY' || pacerValue.toUpperCase() === 'PM2272' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+    }else if(pacerValue.toUpperCase() === 'ENDURITY' || pacerValue.toUpperCase() === 'PM1172'|| pacerValue.toUpperCase() === 'PM2172'  ){
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
-     }else if(pacerValue.toUpperCase() === 'ENDURITY' || pacerValue.toUpperCase() === 'PM1172' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
-
-     }else if(pacerValue.toUpperCase() === 'ENDURITY' || pacerValue.toUpperCase() === 'PM2172' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+    
 
     }else if(pacerValue.toUpperCase() === 'ACCENT' || pacerValue.toUpperCase() === 'PM1224' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ACCENT' || pacerValue.toUpperCase() === 'PM2218' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
     }else if(pacerValue.toUpperCase() === 'QUADRA ALLURE' || pacerValue.toUpperCase() === 'PM3542' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === 'QUADRA ALLURE MP' || pacerValue.toUpperCase() === 'PM3562' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1311-36Q' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1411-36Q' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1411-36QC' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD2311-36Q' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD2411-36Q' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
@@ -598,28 +594,28 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://www.integralife.com/file/general/1547128541.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD1357-40Q' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD1357-40QC' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD2357-40Q' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD2357-40QC' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3365-40Q' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3365-40QC' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3369-40Q' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3369-40QC' ){
-   window.open('abbottImplants/assurity.pdf', '_blank');
+   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'PROCLAIM XR' || pacerValue.toUpperCase() === '3660' ){
    window.open('abbottImplants/neurostimulation.pdf', '_blank');
@@ -714,8 +710,10 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'SPECTRA WAVEWRITER' || pacerValue.toUpperCase() === 'SC-1160' ){
      window.open('https://www.bostonscientific.com/content/dam/elabeling/nm/91171762-02_ImageReady%E2%84%A2_MRI_Head_Only_Guidelines_for_Spectra_WaveWriter%E2%84%A2_Spinal_Cord_Stimulator_System_s.pdf', '_blank');
 
-       }else if(pacerValue.toUpperCase() === 'SPECTRA WAVEWRITER' || pacerValue.toUpperCase() === 'SC-1160' ){
-     window.open('https://www.bostonscientific.com/content/dam/elabeling/nm/91171762-02_ImageReady%E2%84%A2_MRI_Head_Only_Guidelines_for_Spectra_WaveWriter%E2%84%A2_Spinal_Cord_Stimulator_System_s.pdf', '_blank');
+   }else if(pacerValue.toUpperCase() === 'WAVEWRITER' || pacerValue.toUpperCase() === 'SC-1232' || pacerValue.toUpperCase() === 'SC-1216' || pacerValue.toUpperCase() === 'SC-1432' || pacerValue.toUpperCase() === 'SC-1416'){
+     window.open('https://www.bostonscientific.com/content/dam/elabeling/nm/92395569-01_B_ImageReady_MRI_Full_Body_Guidelines_for_WaveWriter_Alpha_and_WaveWriter_Alpha_Prime_Spinal_Cord_Stimulator_Systems_en-US_s.pdf', '_blank');
+
+     
 
      }else{
         alert("Something went wrong please try again.  Check spelling and model number.");
