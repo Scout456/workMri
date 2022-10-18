@@ -646,6 +646,9 @@ alert("NOT MR-CONDITIONAL");
    }else if(pacerValue.toUpperCase() === 'INFINITY 7' || pacerValue.toUpperCase() === '6662' ){
    window.open('abbottImplants/infinity.pdf', '_blank');
 
+   }else if(pacerValue.toUpperCase() === 'GALLANT' || pacerValue.toUpperCase() === 'CDVRA500Q' || pacerValue.toUpperCase() === 'CDDRA500Q' ){
+   window.open('abbottImplants/STjude.pdf', '_blank');
+
    }else if(pacerValue.toUpperCase() === 'VITALIO' || pacerValue.toUpperCase() === 'K275' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
 
