@@ -553,36 +553,32 @@ alert("NOT MR-CONDITIONAL");
    window.open('abbottImplants/aveir.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'ASSURITY' || pacerValue.toUpperCase() === 'PM1272' || pacerValue.toUpperCase() === 'PM2272' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ENDURITY' || pacerValue.toUpperCase() === 'PM1172'|| pacerValue.toUpperCase() === 'PM2172'  ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
     
+   }else if(pacerValue.toUpperCase() === 'ACCENT' || pacerValue.toUpperCase() === 'PM1224' || pacerValue.toUpperCase() === 'PM2218'  ){
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
-    }else if(pacerValue.toUpperCase() === 'ACCENT' || pacerValue.toUpperCase() === 'PM1224' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
-
-    }else if(pacerValue.toUpperCase() === 'ACCENT' || pacerValue.toUpperCase() === 'PM2218' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
-
-    }else if(pacerValue.toUpperCase() === 'QUADRA ALLURE' || pacerValue.toUpperCase() === 'PM3542' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   }else if(pacerValue.toUpperCase() === 'QUADRA ALLURE' || pacerValue.toUpperCase() === 'PM3542' ){
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === 'QUADRA ALLURE MP' || pacerValue.toUpperCase() === 'PM3562' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1311-36Q' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1411-36Q' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1411-36QC' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD2311-36Q' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD2411-36Q' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
@@ -594,28 +590,28 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://www.integralife.com/file/general/1547128541.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD1357-40Q' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD1357-40QC' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD2357-40Q' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD2357-40QC' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3365-40Q' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3365-40QC' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3369-40Q' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3369-40QC' ){
-   window.open('http://127.0.0.1:5502/abbottImplants/assurity.pdf', '_blank');
+   window.open('abbottImplants/assurity.pdf', '_blank');
 
      }else if(pacerValue.toUpperCase() === 'PROCLAIM XR' || pacerValue.toUpperCase() === '3660' ){
    window.open('abbottImplants/neurostimulation.pdf', '_blank');
