@@ -726,6 +726,9 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'ENTRANT' || pacerValue.toUpperCase() === 'CDVRA300Q' || pacerValue.toUpperCase() === 'CDDRA300Q'){
    window.open('abbottImplants/STjude.pdf', '_blank');     
 
+}else if(pacerValue.toUpperCase() === 'WATCHMAN'){
+   window.open('https://www.bostonscientific.com/content/dam/elabeling/ic/watchman/51221705-01A_WATCHMAN_IFU_en_s.pdf', '_blank'); 
+
 
 }else{
       alert("Something went wrong please try again.  Check spelling and model number. If that doesn't work use slideout menu for manufactures website search."
