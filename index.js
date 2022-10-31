@@ -406,17 +406,17 @@ alert("NOT MR-CONDITIONAL");
    alert("Page 10 for MRI information.")
    window.open('Docs/optima-coil.pdf', '_blank');
 
-    }else if(pacerValue.toUpperCase() === 'BARRICADE' || pacerValue.toUpperCase() === 'BARRICADE COIL'){
-   alert("Page 8 for MRI information.")
-   window.open('Docs/barricade-coil.pdf', '_blank');
+    }else if (pacerValue.toUpperCase() === 'BARRICADE' ||  pacerValue.toUpperCase() === 'BARRICADE COIL'){
+    alert("Page 8 for MRI information.")
+    window.open('Docs/barricade-coil.pdf', '_blank');
 
    
    }else if(pacerValue.toUpperCase() === 'PENUMBRA' || pacerValue.toUpperCase() === 'PENUMBRA COIL'){
-   window.open('https://www.penumbrainc.com/nl/mri-compatibility/', '_blank'); 
+    window.open('https://www.penumbrainc.com/nl/mri-compatibility/', '_blank'); 
 
    }else if(pacerValue.toUpperCase() === 'SPETZLER' || pacerValue.toUpperCase() === 'SPETZLER TITANIUM ANEURYSM CLIP'){
-      alert("Pages 190 and 191 have Spetzler aneurysm clip information")
-   window.open('https://www.mrisafety.com/TMDL_list.php?goto=190', '_blank'); 
+    alert("Pages 190 and 191 have Spetzler aneurysm clip information")
+    window.open('https://www.mrisafety.com/TMDL_list.php?goto=190', '_blank'); 
    
 
  }else if(pacerValue.toUpperCase() === 'INTELLIS' || pacerValue.toUpperCase() === '97715'){
@@ -720,17 +720,19 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'RELIA' || pacerValue.toUpperCase() === 'REDRO1' || pacerValue.toUpperCase() === 'RED01' || pacerValue.toUpperCase() === 'RESR01' || pacerValue.toUpperCase() === 'RES01' || pacerValue.toUpperCase() === 'REVDD01'){
      window.open('Docs/medtronic-non-mriConditional-devices.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'AVANT' || pacerValue.toUpperCase() === 'NEUTRINO' || pacerValue.toUpperCase() === 'CDVRA700Q' || pacerValue.toUpperCase() === 'CDDRA700Q' || pacerValue.toUpperCase() === 'CDVRA800Q'  || pacerValue.toUpperCase() === 'CDVRA600Q'  || pacerValue.toUpperCase() === 'CDDRA800Q'  || pacerValue.toUpperCase() === 'CDDRA600Q'){
+}else if(pacerValue.toUpperCase() === 'AVANT' || pacerValue.toUpperCase() === 'NEUTRINO' || pacerValue.toUpperCase() === 'CDVRA700Q' || pacerValue.toUpperCase() === 'CDDRA700Q' || pacerValue.toUpperCase() === 'CDVRA800Q'  || pacerValue.toUpperCase() === 'CDVRA600Q'  || pacerValue.toUpperCase() === 'CDDRA800Q'  || pacerValue.toUpperCase() === 'CDDRA600Q' || pacerValue.toUpperCase() === 'CDHFA700Q' || pacerValue.toUpperCase() === 'CDHFA800Q' || pacerValue.toUpperCase() === 'CDHFA600Q'){
      window.open('abbottImplants/STjude.pdf', '_blank');    
 
-}else if(pacerValue.toUpperCase() === 'ENTRANT' || pacerValue.toUpperCase() === 'CDVRA300Q' || pacerValue.toUpperCase() === 'CDDRA300Q'){
+}else if(pacerValue.toUpperCase() === 'ENTRANT' || pacerValue.toUpperCase() === 'CDVRA300Q' || pacerValue.toUpperCase() === 'CDDRA300Q' || pacerValue.toUpperCase() === 'CDHFA300Q'){
    window.open('abbottImplants/STjude.pdf', '_blank');     
 
 }else if(pacerValue.toUpperCase() === 'WATCHMAN'){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/ic/watchman/51221705-01A_WATCHMAN_IFU_en_s.pdf', '_blank');
    
 }else if(pacerValue.toUpperCase() === 'AMPLATZER' || pacerValue.toUpperCase() === 'PFO OCCLUDER' ){
-   window.open('https://www.myamplatzer.com/media/resources/MAT-2002608-v1.0_PFO_Spec_Sheet_US_FINAL.PDF', '_blank');    
+   window.open('https://www.myamplatzer.com/media/resources/MAT-2002608-v1.0_PFO_Spec_Sheet_US_FINAL.PDF', '_blank');  
+   
+
 
 
 }else{
