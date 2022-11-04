@@ -731,6 +731,9 @@ alert("NOT MR-CONDITIONAL");
    
 }else if(pacerValue.toUpperCase() === 'AMPLATZER' || pacerValue.toUpperCase() === 'PFO OCCLUDER' ){
    window.open('https://www.myamplatzer.com/media/resources/MAT-2002608-v1.0_PFO_Spec_Sheet_US_FINAL.PDF', '_blank');  
+
+}else if(pacerValue.toUpperCase() === 'CODMAN MICROSENSOR'){
+   window.open('https://www.integralife.com/file/general/1571417954.pdf', '_blank');  
    
 
 
