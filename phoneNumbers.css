@@ -51,7 +51,7 @@ table {
 
 /*-----------------------End of CSS reset----------------------------------------------*/
 body{
-  background-color: whitesmoke;
+  background-color: black;
 }
 
 .mainPhone{
@@ -79,7 +79,7 @@ div{
  background: linear-gradient(to bottom, #003C71 0%, #003C71 10%,#002E6E 50%, #002E6E 50%, #009ADA 100%); 
   padding: .5em;
   color:whitesmoke;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(256, 256, 256, 0.2), 0 6px 10px 0 rgba(256, 256, 256, 0.19);
   text-align: center;
 }
 
@@ -124,7 +124,8 @@ header{
 div{
   background: linear-gradient(to bottom, #003C71 0%, #003C71 10%,#002E6E 50%, #002E6E 50%, #009ADA 100%); 
   color:whitesmoke;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(256, 256, 256, 0.2), 0 6px 10px 0 rgba(256, 256, 256, 0.19);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
   text-align: center;
 }
 
