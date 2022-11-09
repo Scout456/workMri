@@ -734,6 +734,9 @@ alert("NOT MR-CONDITIONAL");
 
 }else if(pacerValue.toUpperCase() === 'CODMAN MICROSENSOR'){
    window.open('https://www.integralife.com/file/general/1571417954.pdf', '_blank');  
+
+}else if(pacerValue.toUpperCase() === 'UROLIFT'){
+   window.open('https://cdn2.hubspot.net/hubfs/2618738/L00135-01_RevA%20Patient%20Implant%20Card.pdf', '_blank');  
    
 
 
