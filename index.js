@@ -90,7 +90,7 @@ alert("NOT MR-CONDITIONAL");
 
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf', '_blank' );
 
-}else if(pacerValue.toUpperCase() === 'MICRA VR' || pacerValue.toUpperCase() === 'MC1VR01'){
+}else if(pacerValue.toUpperCase() === 'MICRA VR' || pacerValue.toUpperCase() === 'MICRA' || pacerValue.toUpperCase() === 'MC1VR01'){
 
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M992497A001A_view.pdf', '_blank' );
   
