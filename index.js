@@ -737,6 +737,12 @@ alert("NOT MR-CONDITIONAL");
 
 }else if(pacerValue.toUpperCase() === 'UROLIFT'){
    window.open('https://cdn2.hubspot.net/hubfs/2618738/L00135-01_RevA%20Patient%20Implant%20Card.pdf', '_blank');  
+
+
+}else if(pacerValue.toUpperCase() === 'PIPELINE'){
+   alert('MRI information page 5');
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/neurovascular/M002318CDOC2_B.pdf', '_blank');  
+
    
 
 
