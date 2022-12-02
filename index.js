@@ -746,7 +746,7 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'WAVECREST'){
    window.open('http://www.mrisafety.com/OBJ_STATUS_view.php?editid1=11', '_blank');  
 
-}else if(pacerValue.toUpperCase() === 'VILIGANT'|| pacerValue.toUpperCase() === 'D220' || pacerValue.toUpperCase() === 'D221' || pacerValue.toUpperCase() === 'D232' || pacerValue.toUpperCase() === 'D233'){
+}else if(pacerValue.toUpperCase() === 'VILIGANT'|| pacerValue.toUpperCase() === 'D220' || pacerValue.toUpperCase() === 'D221' || pacerValue.toUpperCase() === 'D232' || pacerValue.toUpperCase() === 'D233' || pacerValue.toUpperCase() === 'G248' || pacerValue.toUpperCase() === 'G247'){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/359450-007_Tachy_MRI_TG_us_s.pdf', '_blank');  
 
    
