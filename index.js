@@ -749,6 +749,9 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'VILIGANT'|| pacerValue.toUpperCase() === 'D220' || pacerValue.toUpperCase() === 'D221' || pacerValue.toUpperCase() === 'D232' || pacerValue.toUpperCase() === 'D233' || pacerValue.toUpperCase() === 'G248' || pacerValue.toUpperCase() === 'G247'){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/359450-007_Tachy_MRI_TG_us_s.pdf', '_blank');  
 
+}else if(pacerValue.toUpperCase() === 'LUX-DX' || pacerValue.toUpperCase() === 'M301'){
+   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/92216906-001_IMAGEREADY_MRITG_en_S.pdf', '_blank');  
+
    
 
 
