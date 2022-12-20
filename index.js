@@ -470,7 +470,7 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'MEDTRONIC NEUROSTIMULATOR' || pacerValue.toUpperCase() === '7427V'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'SYNCHROMED II' || pacerValue.toUpperCase() === '8637'){
+}else if(pacerValue.toUpperCase() === 'SYNCHROMED II' || pacerValue.toUpperCase() === '8637'  || pacerValue.toUpperCase() === 'SYNCHROMED'  || pacerValue.toUpperCase() === 'SYNCHROMED2'  || pacerValue.toUpperCase() === 'SYNCHROMED 2' || pacerValue.toUpperCase() === '8626'  || pacerValue.toUpperCase() === '8627'  || pacerValue.toUpperCase() === '8615'  || pacerValue.toUpperCase() === '8616'  || pacerValue.toUpperCase() === '8617'  || pacerValue.toUpperCase() === '8616'  || pacerValue.toUpperCase() === 'ISOMED'  || pacerValue.toUpperCase() === '8472'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M005186C_a_001_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'AMS 700'){
