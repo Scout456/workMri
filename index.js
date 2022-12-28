@@ -753,11 +753,15 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/92216906-001_IMAGEREADY_MRITG_en_S.pdf', '_blank');  
 
    
+}else if(pacerValue.toUpperCase() === 'SYNCHRONY2' || pacerValue.toUpperCase() === 'SYNCHRONY 2' || pacerValue.toUpperCase() === 'MI1250' || pacerValue.toUpperCase() === 'SYNCHRONY' || pacerValue.toUpperCase() === 'MI1200'  || pacerValue.toUpperCase() === 'MED-EL CONCERT'  || pacerValue.toUpperCase() === 'CONCERT'  || pacerValue.toUpperCase() === 'MI1000' || pacerValue.toUpperCase() === 'SONATA' || pacerValue.toUpperCase() === 'PULSAR' || pacerValue.toUpperCase() === 'C40+' || pacerValue.toUpperCase() === 'C40')  {
+     window.open('https://www.medel.com/docs/default-source/isi-important-safety-information/languages/en-us-english-usa/ci-cochlear-implants/aw33290_80_manual-medical-procedures-ci-systems-en-english-us_web.pdf?auto=format&sfvrsn=b5299142_4', '_blank');  
+
+   
 
 
 
 }else{
-      alert("Something went wrong please try again.  Check spelling and model number. If that doesn't work use slideout menu for manufactures website search."
+      alert("Something went wrong please try again. If that doesn't work use slideout/hamburger menu(UPPER LEFT CORNER OF WEBPAGE 3 Horizontal lines) for manufactures website search."
       );
      }     
 }
