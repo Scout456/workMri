@@ -756,6 +756,10 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'SYNCHRONY2' || pacerValue.toUpperCase() === 'SYNCHRONY 2' || pacerValue.toUpperCase() === 'MI1250' || pacerValue.toUpperCase() === 'SYNCHRONY' || pacerValue.toUpperCase() === 'MI1200'  || pacerValue.toUpperCase() === 'MED-EL CONCERT'  || pacerValue.toUpperCase() === 'CONCERT'  || pacerValue.toUpperCase() === 'MI1000' || pacerValue.toUpperCase() === 'SONATA' || pacerValue.toUpperCase() === 'PULSAR' || pacerValue.toUpperCase() === 'C40+' || pacerValue.toUpperCase() === 'C40')  {
      window.open('https://www.medel.com/docs/default-source/isi-important-safety-information/languages/en-us-english-usa/ci-cochlear-implants/aw33290_80_manual-medical-procedures-ci-systems-en-english-us_web.pdf?auto=format&sfvrsn=b5299142_4', '_blank');  
 
+
+ }else if(pacerValue.toUpperCase() === 'ASSURANCE' || pacerValue.toUpperCase() === 'ASSURANCE CLIP'){
+   window.open('https://ww1.steris.com/onbDocs/V517/0/4101648.pdf', '_blank');      
+
    
 
 
