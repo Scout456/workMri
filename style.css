@@ -139,12 +139,13 @@ color: #575757;
   color: #f1f1f1;
 }
 
-/* Position the close button (top right corner) */
+/* Position the close button (top left corner) */
 .overlay .closebtn {
   position: absolute;
-  top: 9;
+  top: 9px;
   left: 15px;
   font-size: 60px;
+   
 }
 
 details{

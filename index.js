@@ -760,6 +760,9 @@ alert("NOT MR-CONDITIONAL");
  }else if(pacerValue.toUpperCase() === 'ASSURANCE' || pacerValue.toUpperCase() === 'ASSURANCE CLIP'){
    window.open('https://ww1.steris.com/onbDocs/V517/0/4101648.pdf', '_blank');      
 
+ }else if(pacerValue.toUpperCase() === 'RHYTHMLINK'){
+   window.open('Docs/rhythmlink.pdf', '_blank');   
+
    
 
 
