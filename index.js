@@ -763,6 +763,9 @@ alert("NOT MR-CONDITIONAL");
  }else if(pacerValue.toUpperCase() === 'RHYTHMLINK'){
    window.open('Docs/rhythmlink.pdf', '_blank');   
 
+ }else if(pacerValue.toUpperCase() === 'RESOLUTION' || pacerValue.toUpperCase() === 'RESOLUTION CLIP'){
+   window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/resolution-clip/bsci-sheet-dfu-resolutionclip.pdf', '_blank');   
+
    
 
 
