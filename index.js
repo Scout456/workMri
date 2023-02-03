@@ -627,7 +627,7 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'PROCLAIM' || pacerValue.toUpperCase() === '3662' ){
    window.open('abbottImplants/neurostimulation.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'LIVANOVA' || pacerValue.toUpperCase() === '103' || pacerValue.toUpperCase() === '105' || pacerValue.toUpperCase() === '106' || pacerValue.toUpperCase() === '1000'){
+}else if(pacerValue.toUpperCase() === 'LIVANOVA' || pacerValue.toUpperCase() === '103' || pacerValue.toUpperCase() === '105' || pacerValue.toUpperCase() === '106' || pacerValue.toUpperCase() === '1000' || pacerValue.toUpperCase() === 'DEMIPULSE' || pacerValue.toUpperCase() === 'ASPIREHC' || pacerValue.toUpperCase() === 'ASPIRESR' || pacerValue.toUpperCase() === 'SENTIVA' || pacerValue.toUpperCase() === '102' || pacerValue.toUpperCase() === 'PULSE DUO' || pacerValue.toUpperCase() === '102R' || pacerValue.toUpperCase() === 'DEMIPULSE DUO'){
    window.open('https://www.livanova.com/epilepsy-vnstherapy/getmedia/7a696c39-8777-4d24-afdf-fea7d54b7475/im-7601036-epi-mri-guidelines-digital_5.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'PROCLAIM DRG' || pacerValue.toUpperCase() === '3664' ){
@@ -732,7 +732,7 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'AMPLATZER' || pacerValue.toUpperCase() === 'PFO OCCLUDER' ){
    window.open('https://www.myamplatzer.com/media/resources/MAT-2002608-v1.0_PFO_Spec_Sheet_US_FINAL.PDF', '_blank');  
 
-}else if(pacerValue.toUpperCase() === 'CODMAN MICROSENSOR'){
+}else if(pacerValue.toUpperCase() === 'CODMAN MICROSENSOR'|| pacerValue.toUpperCase() === 'CODMAN'){
    window.open('https://www.integralife.com/file/general/1571417954.pdf', '_blank');  
 
 }else if(pacerValue.toUpperCase() === 'UROLIFT'){
@@ -764,7 +764,15 @@ alert("NOT MR-CONDITIONAL");
    window.open('Docs/rhythmlink.pdf', '_blank');   
 
  }else if(pacerValue.toUpperCase() === 'RESOLUTION' || pacerValue.toUpperCase() === 'RESOLUTION CLIP'){
-   window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/resolution-clip/bsci-sheet-dfu-resolutionclip.pdf', '_blank');   
+   window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/resolution-clip/bsci-sheet-dfu-resolutionclip.pdf', '_blank');  
+   
+ }else if(pacerValue.toUpperCase() === 'MIRENA'){
+   window.open('https://www.mrisafety.com/SafetyInformation_view.php?editid1=181', '_blank'); 
+
+ }else if(pacerValue.toUpperCase() === 'VIVISTIM'|| pacerValue.toUpperCase() === '1001'){
+   window.open('Docs/Vivistim.pdf', '_blank'); 
+
+
 
    
 
