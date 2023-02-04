@@ -71,11 +71,14 @@ body{
   padding: 1em;
   color:black;
   cursor: pointer;
+  animation: bounce;
+  animation-duration: 4s;
 }
 
 .fa-bars:hover{
 color: #575757;
 }
+
 
 
 
