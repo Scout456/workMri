@@ -693,8 +693,6 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'EMBLEM' || pacerValue.toUpperCase() === 'A219' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/92346926-001_IMAGEREADY_MRITG_en-USA_S.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'EMBLEM' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/92346926-001_IMAGEREADY_MRITG_en-USA_S.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'PRECISION MONTAGE MRI' || pacerValue.toUpperCase() === 'SC-1200' ){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/nm/91035972-02_RevA_ImageReady_MRI_Full_Body_Guidelines_for_Precision_Montage_MRI_Spinal_Cord_Stimulator_System_MRI_en-US_S.pdf', '_blank');
@@ -777,6 +775,9 @@ alert("NOT MR-CONDITIONAL");
 
  }else if(pacerValue.toUpperCase() === 'HYDROFRAME'|| pacerValue.toUpperCase() === 'MICROPLEX' || pacerValue.toUpperCase() === 'HYDROCOIL'){
    window.open('https://www.microvention.com/product/hydroframe/instructions-for-use/mri-safety-information-hydrocoil', '_blank'); 
+
+ }else if(pacerValue.toUpperCase() === 'VIGILANT' || pacerValue.toUpperCase() === 'G228' || pacerValue.toUpperCase() === 'G248' || pacerValue.toUpperCase() === 'G237' || pacerValue.toUpperCase() === 'G247'  || pacerValue.toUpperCase() === 'G224'  || pacerValue.toUpperCase() === 'G225'  || pacerValue.toUpperCase() === 'AUTOGEN' || pacerValue.toUpperCase() === 'G166' || pacerValue.toUpperCase() === 'G168' || pacerValue.toUpperCase() === 'G160' || pacerValue.toUpperCase() === 'G161' || pacerValue.toUpperCase() === 'G168' || pacerValue.toUpperCase() === 'G160'  || pacerValue.toUpperCase() === 'DYNAGEN' || pacerValue.toUpperCase() === 'G156' || pacerValue.toUpperCase() === 'G158'  || pacerValue.toUpperCase() === 'G150' || pacerValue.toUpperCase() === 'G151' || pacerValue.toUpperCase() === 'INOGEN'  || pacerValue.toUpperCase() === 'G146' || pacerValue.toUpperCase() === 'G148' || pacerValue.toUpperCase() === 'G140'  || pacerValue.toUpperCase() === 'G141' || pacerValue.toUpperCase() === 'MOMENTUM' || pacerValue.toUpperCase() === 'G128'  || pacerValue.toUpperCase() === 'G138' || pacerValue.toUpperCase() === 'G124' || pacerValue.toUpperCase() === 'G125'  || pacerValue.toUpperCase() === 'ORIGEN' || pacerValue.toUpperCase() === 'G056' || pacerValue.toUpperCase() === 'G058'  || pacerValue.toUpperCase() === 'G050' || pacerValue.toUpperCase() === 'G051' || pacerValue.toUpperCase() === 'RESONATE'  || pacerValue.toUpperCase() === 'G524' || pacerValue.toUpperCase() === 'G525' || pacerValue.toUpperCase() === 'G528'  || pacerValue.toUpperCase() === 'G548' || pacerValue.toUpperCase() === 'G537' || pacerValue.toUpperCase() === 'G547'  || pacerValue.toUpperCase() === 'G428' || pacerValue.toUpperCase() === 'G448' || pacerValue.toUpperCase() === 'G437'  || pacerValue.toUpperCase() === 'G447' || pacerValue.toUpperCase() === 'G424' || pacerValue.toUpperCase() === 'G425'){
+     window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/51114094-001A_IMAGEREADY_MRITG_en_S.pdf', '_blank');   
 
 
 
