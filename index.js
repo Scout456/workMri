@@ -772,6 +772,14 @@ alert("NOT MR-CONDITIONAL");
  }else if(pacerValue.toUpperCase() === 'VIVISTIM'|| pacerValue.toUpperCase() === '1001'){
    window.open('Docs/Vivistim.pdf', '_blank'); 
 
+ }else if(pacerValue.toUpperCase() === 'KURZ'){
+   window.open('https://www.ccmed.co.uk/wp-content/uploads/2019/10/MR_Information_en_Rev_06.pdf', '_blank'); 
+
+ }else if(pacerValue.toUpperCase() === 'HYDROFRAME'|| pacerValue.toUpperCase() === 'MICROPLEX' || pacerValue.toUpperCase() === 'HYDROCOIL'){
+   window.open('https://www.microvention.com/product/hydroframe/instructions-for-use/mri-safety-information-hydrocoil', '_blank'); 
+
+
+
 
 
    
