@@ -786,6 +786,11 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'D520' || pacerValue.toUpperCase() === 'D521' || pacerValue.toUpperCase() === 'D532' || pacerValue.toUpperCase() === 'D533' || pacerValue.toUpperCase() === 'D420'  || pacerValue.toUpperCase() === 'D421'  || pacerValue.toUpperCase() === 'D432'  || pacerValue.toUpperCase() === 'D433' || pacerValue.toUpperCase() === 'D220' || pacerValue.toUpperCase() === 'D221' || pacerValue.toUpperCase() === 'D232' || pacerValue.toUpperCase() === 'D233'){
      window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/51114094-001A_IMAGEREADY_MRITG_en_S.pdf', '_blank');     
 
+  }else if(pacerValue.toUpperCase() === 'STRATA'|| pacerValue.toUpperCase() === 'STRATAMR'){
+    alert("Page 12 is MRI Safety information") ;
+   window.open('https://manuals.medtronic.com/content/dam/emanuals/st/CONTRIB_249312.pdf', '_blank');   
+
+
 
 
 
