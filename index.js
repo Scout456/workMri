@@ -524,8 +524,9 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'BAHA'){
    window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
  
-}else if(pacerValue.toUpperCase() === 'INSPIRE'){
-   window.open('https://manuals.inspiresleep.com/content/widgets/manual.php?NDg5fDF8MQ==', '_blank');
+}else if(pacerValue.toUpperCase() === 'INSPIRE' || pacerValue.toUpperCase() === '3028' || pacerValue.toUpperCase() === '3024'){
+   alert("Model# 3024 Not eligible for MRI ")
+   window.open('https://manuals.inspiresleep.com/content/widgets/manual.php?NTAwfDF8MQ==', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ACTICOR 7 DR-T'){
    window.open('https://www.biotronik.com/en-de/products/tachycardia/acticor_7_dr-t_vr-t', '_blank');
@@ -790,7 +791,7 @@ alert("NOT MR-CONDITIONAL");
     alert("Page 12 is MRI Safety information") ;
    window.open('https://manuals.medtronic.com/content/dam/emanuals/st/CONTRIB_249312.pdf', '_blank');   
 
-
+  
 
 
 
