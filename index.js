@@ -86,17 +86,17 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'MICRA AV' || pacerValue.toUpperCase() === 'MC1AVR1'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M995149A001A_view.pdf', '_blank' );
-   
+
   
 }else if(pacerValue.toUpperCase() === 'ATTESTA DR' || pacerValue.toUpperCase() === 'ATDR01'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
 }else if(pacerValue.toUpperCase() === 'ATTESTA L DR' || pacerValue.toUpperCase() === 'ATDRL1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
 }else if(pacerValue.toUpperCase() === 'ATTESTA S DR' || pacerValue.toUpperCase() === 'ATDRS1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
 }else if(pacerValue.toUpperCase() === 'ATTESTA SR' || pacerValue.toUpperCase() === 'ATSR01'){
 
   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
@@ -105,79 +105,77 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/CONTRIB_171957.pdf', '_blank' );
 }else if(pacerValue.toUpperCase() === 'SPHERA SR' || pacerValue.toUpperCase() === 'SPSR01'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
 }else if(pacerValue.toUpperCase() === 'SPHERA DR' || pacerValue.toUpperCase() === 'SPDR01'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
 }else if(pacerValue.toUpperCase() === 'SPHERA L DR' || pacerValue.toUpperCase() === 'SPDRL1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+
 }else if(pacerValue.toUpperCase() === 'ATTESTA' || pacerValue.toUpperCase() === 'ATDRL1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
 }else if(pacerValue.toUpperCase() === 'SPHERA' || pacerValue.toUpperCase() === 'ATDRL1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
 
-}else if(pacerValue.toUpperCase() === 'AZURE'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ASTRA'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'REVO' || pacerValue.toUpperCase() === 'RVDR01'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_184935.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_184935.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'COBALT XT' || pacerValue.toUpperCase() === 'DVPA2D1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'COBALT XT' || pacerValue.toUpperCase() === 'DVPA2D4'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'COBALT XT' || pacerValue.toUpperCase() === 'DDPA2D1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'COBALT XT' || pacerValue.toUpperCase() === 'DDPA2D4'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'COBALT' || pacerValue.toUpperCase() === 'DVPB3D1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'COBALT' || pacerValue.toUpperCase() === 'DVPB3D4'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'COBALT' || pacerValue.toUpperCase() === 'DDPB3D1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'COBALT' || pacerValue.toUpperCase() === 'DDPB3D4'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'CROME' || pacerValue.toUpperCase() === 'DVPC3D4'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'CROME' || pacerValue.toUpperCase() === 'DVPC3D1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'CROME' || pacerValue.toUpperCase() === 'DDPC3D4'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
    
 }else if(pacerValue.toUpperCase() === 'CROME' || pacerValue.toUpperCase() === 'DDPC3D1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
    
 }else if(pacerValue.toUpperCase() === 'PRIMO' || pacerValue.toUpperCase() === 'DDMD3D1'){
 
