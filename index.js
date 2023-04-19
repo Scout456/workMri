@@ -129,221 +129,84 @@ alert("NOT MR-CONDITIONAL");
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_184935.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'COBALT XT' || pacerValue.toUpperCase() === 'DVPA2D1'){
+}else if(pacerValue.toUpperCase() === 'COBALT XT' || pacerValue.toUpperCase() === 'DVPA2D1'  || pacerValue.toUpperCase() === 'DVPA2D4'  || pacerValue.toUpperCase() === 'DDPA2D1' || pacerValue.toUpperCase() === 'DDPA2D4' || pacerValue.toUpperCase() === 'DVPB3D1'  || pacerValue.toUpperCase() === 'DVPB3D4' || pacerValue.toUpperCase() === 'DDPB3D1' || pacerValue.toUpperCase() === 'COBALT' || pacerValue.toUpperCase() === 'DDPB3D4'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'COBALT XT' || pacerValue.toUpperCase() === 'DVPA2D4'){
+
+}else if(pacerValue.toUpperCase() === 'CROME' || pacerValue.toUpperCase() === 'DVPC3D4' || pacerValue.toUpperCase() === 'DVPC3D1' || pacerValue.toUpperCase() === 'DDPC3D4' || pacerValue.toUpperCase() === 'DDPC3D1'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'COBALT XT' || pacerValue.toUpperCase() === 'DDPA2D1'){
 
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'COBALT XT' || pacerValue.toUpperCase() === 'DDPA2D4'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'COBALT' || pacerValue.toUpperCase() === 'DVPB3D1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'COBALT' || pacerValue.toUpperCase() === 'DVPB3D4'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'COBALT' || pacerValue.toUpperCase() === 'DDPB3D1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'COBALT' || pacerValue.toUpperCase() === 'DDPB3D4'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'CROME' || pacerValue.toUpperCase() === 'DVPC3D4'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'CROME' || pacerValue.toUpperCase() === 'DVPC3D1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'CROME' || pacerValue.toUpperCase() === 'DDPC3D4'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
    
-}else if(pacerValue.toUpperCase() === 'CROME' || pacerValue.toUpperCase() === 'DDPC3D1'){
+}else if(pacerValue.toUpperCase() === 'PRIMO' || pacerValue.toUpperCase() === 'DDMD3D1' || pacerValue.toUpperCase() === 'DDMD3D4'  || pacerValue.toUpperCase() === 'DVMD3D1'  || pacerValue.toUpperCase() === 'DVMDD3D4'){
 
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
+
+
+}else if(pacerValue.toUpperCase() === 'MIRRO' || pacerValue.toUpperCase() === 'DVME3D1' || pacerValue.toUpperCase() === 'DVME3D4' || pacerValue.toUpperCase() === 'DDME3D1' || pacerValue.toUpperCase() === 'DDME3D4'){
+
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
    
-}else if(pacerValue.toUpperCase() === 'PRIMO' || pacerValue.toUpperCase() === 'DDMD3D1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
    
-}else if(pacerValue.toUpperCase() === 'PRIMO' || pacerValue.toUpperCase() === 'DDMD3D4'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
    
-}else if(pacerValue.toUpperCase() === 'PRIMO' || pacerValue.toUpperCase() === 'DVMD3D1'){
+}else if(pacerValue.toUpperCase() === 'VISIA AF' || pacerValue.toUpperCase() === 'DVFB1D1'  || pacerValue.toUpperCase() === 'DVFB1D1'  || pacerValue.toUpperCase() === 'DVFB1D4' || pacerValue.toUpperCase() === 'DVFC3D1'  || pacerValue.toUpperCase() === 'DVFC3D4'  || pacerValue.toUpperCase() === 'DVFC3D4'  || pacerValue.toUpperCase() === 'VISIA'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf', '_blank');
+
    
-}else if(pacerValue.toUpperCase() === 'PRIMO' || pacerValue.toUpperCase() === 'DVMDD3D4'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'MIRRO' || pacerValue.toUpperCase() === 'DVME3D1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
    
-}else if(pacerValue.toUpperCase() === 'MIRRO' || pacerValue.toUpperCase() === 'DVME3D4'){
+}else if(pacerValue.toUpperCase() === 'EVERA XT' || pacerValue.toUpperCase() === 'DDMB1D4'  || pacerValue.toUpperCase() === 'DVMB1D4'  || pacerValue.toUpperCase() === 'DDMB1D1' || pacerValue.toUpperCase() === 'DVMB1D1' || pacerValue.toUpperCase() === 'EVERA' || pacerValue.toUpperCase() === 'DDMC3D4'  || pacerValue.toUpperCase() === 'DDMC3D1'  || pacerValue.toUpperCase() === 'DVMC3D1' || pacerValue.toUpperCase() === 'DVMC3D4'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', '_blank');
+
    
-}else if(pacerValue.toUpperCase() === 'MIRRO' || pacerValue.toUpperCase() === 'DDME3D1'){
+  
+}else if(pacerValue.toUpperCase() === 'CLARIA' || pacerValue.toUpperCase() === 'DTMA1QQ' || pacerValue.toUpperCase() === 'DTMA1Q1' || pacerValue.toUpperCase() === 'DTMA1D4'  || pacerValue.toUpperCase() === 'DTMA1D1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', '_blank');
+
    
-}else if(pacerValue.toUpperCase() === 'MIRRO' || pacerValue.toUpperCase() === 'DDME3D4'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
+
    
-}else if(pacerValue.toUpperCase() === 'VISIA AF' || pacerValue.toUpperCase() === 'DVFB1D1'){
+}else if(pacerValue.toUpperCase() === 'AMPLIA' || pacerValue.toUpperCase() === 'DTMB1QQ' || pacerValue.toUpperCase() === 'DTMB1Q1' || pacerValue.toUpperCase() === 'DTMB1D4' || pacerValue.toUpperCase() === 'DTMB1D1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
+
    
-}else if(pacerValue.toUpperCase() === 'VISIA AF' || pacerValue.toUpperCase() === 'DVFB1D1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf', '_blank');
    
-}else if(pacerValue.toUpperCase() === 'VISIA AF' || pacerValue.toUpperCase() === 'DVFB1D4'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf', '_blank');
    
-}else if(pacerValue.toUpperCase() === 'VISIA AF S' || pacerValue.toUpperCase() === 'DVFC3D1'){
+}else if(pacerValue.toUpperCase() === 'COMPIA' || pacerValue.toUpperCase() === 'DTMC1QQ' || pacerValue.toUpperCase() === 'DTMC1D1'  || pacerValue.toUpperCase() === 'DTMCC1D1'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
+
    
-}else if(pacerValue.toUpperCase() === 'VISIA AF S' || pacerValue.toUpperCase() === 'DVFC3D4'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf', '_blank');
    
-}else if(pacerValue.toUpperCase() === 'VISIA' || pacerValue.toUpperCase() === 'DVFC3D4'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf', '_blank');
    
-}else if(pacerValue.toUpperCase() === 'EVERA XT' || pacerValue.toUpperCase() === 'DDMB1D4'){
+}else if(pacerValue.toUpperCase() === 'PERCEPTA' || pacerValue.toUpperCase() === 'W4TR01' || pacerValue.toUpperCase() === 'W1TR01'){
 
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'EVERA XT' || pacerValue.toUpperCase() === 'DVMB1D4'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'EVERA XT' || pacerValue.toUpperCase() === 'DDMB1D1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'EVERA XT' || pacerValue.toUpperCase() === 'DVMB1D1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'EVERA'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'EVERA S' || pacerValue.toUpperCase() === 'DDMC3D4'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'EVERA S' || pacerValue.toUpperCase() === 'DDMC3D1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'EVERA S' || pacerValue.toUpperCase() === 'DVMC3D1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'EVERA S' || pacerValue.toUpperCase() === 'DVMC3D4'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'CLARIA QUAD CRT-D' || pacerValue.toUpperCase() === 'DTMA1QQ'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'CLARIA QUAD CRT-D' || pacerValue.toUpperCase() === 'DTMA1Q1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'CLARIA CRT-D' || pacerValue.toUpperCase() === 'DTMA1D4'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'CLARIA CRT-D' || pacerValue.toUpperCase() === 'DTMA1D1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'CLARIA'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'AMPLIA QUAD CRT-D' || pacerValue.toUpperCase() === 'DTMB1QQ'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'AMPLIA QUAD CRT-D' || pacerValue.toUpperCase() === 'DTMB1Q1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'AMPLIA CRT-D' || pacerValue.toUpperCase() === 'DTMB1D4'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'AMPLIA CRT-D' || pacerValue.toUpperCase() === 'DTMB1D1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'AMPLIA'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'COMPIA QUAD CRT-D' || pacerValue.toUpperCase() === 'DTMC1QQ'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'COMPIA CRT-D' || pacerValue.toUpperCase() === 'DTMC1D1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'COMPIA CRT-D' || pacerValue.toUpperCase() === 'DTMCC1D1'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'COMPIA'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'PERCEPTA QUAD CRT-P' || pacerValue.toUpperCase() === 'W4TR01'){
-
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
 
 
-}else if(pacerValue.toUpperCase() === 'PERCEPTA CRT-P' || pacerValue.toUpperCase() === 'W1TR01'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
+
 
 }else if(pacerValue.toUpperCase() === 'SERENA QUAD CRT-P' || pacerValue.toUpperCase() === 'W4TR02'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'SERENA CRT-P' || pacerValue.toUpperCase() === 'W1TR02'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
+
 
 }else if(pacerValue.toUpperCase() === 'SOLARA QUAD CRT-P' || pacerValue.toUpperCase() === 'W4TR03'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'SOLARA CRT-P' || pacerValue.toUpperCase() === 'W1TR03'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
+
 
 }else if(pacerValue.toUpperCase() === 'PERCEPTA'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
@@ -386,6 +249,8 @@ alert("NOT MR-CONDITIONAL");
 
    }else if(pacerValue.toUpperCase() === 'PERCEPT PC' || pacerValue.toUpperCase() === 'B35200'){
    window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
+
+
 
    }else if(pacerValue.toUpperCase() === 'OPTIMA' || pacerValue.toUpperCase() === 'OPTIMA COIL'){
    alert("Page 10 for MRI information.")
