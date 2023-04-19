@@ -194,61 +194,50 @@ alert("NOT MR-CONDITIONAL");
 
 
 
-}else if(pacerValue.toUpperCase() === 'SERENA QUAD CRT-P' || pacerValue.toUpperCase() === 'W4TR02'){
+}else if(pacerValue.toUpperCase() === 'SERENA' || pacerValue.toUpperCase() === 'W4TR02' || pacerValue.toUpperCase() === 'W1TR02'){
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'SERENA CRT-P' || pacerValue.toUpperCase() === 'W1TR02'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
 
 
-}else if(pacerValue.toUpperCase() === 'SOLARA QUAD CRT-P' || pacerValue.toUpperCase() === 'W4TR03'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'SOLARA CRT-P' || pacerValue.toUpperCase() === 'W1TR03'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
 
 
-}else if(pacerValue.toUpperCase() === 'PERCEPTA'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
+}else if(pacerValue.toUpperCase() === 'SOLARA' || pacerValue.toUpperCase() === 'W4TR03'  || pacerValue.toUpperCase() === 'W1TR03'){
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'SERENA'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'SOLARA'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
+
 
 
 }else if(pacerValue.toUpperCase() === 'LINQ11' || pacerValue.toUpperCase() === 'LNQ11'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_188127.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'REVEAL XT' || pacerValue.toUpperCase() === '9529'){
-   alert("Section D: MRI scanning instructions.  Must wait 6 weeks before scanning.")
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/crdm/CONTRIB_092102.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ACTIVA PC' || pacerValue.toUpperCase() === '37601'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ACTIVA SC' || pacerValue.toUpperCase() === '37603'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ACTIVA RC' || pacerValue.toUpperCase() === '37612'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ACTIVA' || pacerValue.toUpperCase() === '37602'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'S0LETRA' || pacerValue.toUpperCase() === '7426'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_188127.pdf', '_blank');
 
 
-}else if(pacerValue.toUpperCase() === 'PRIMEADVANCED' || pacerValue.toUpperCase() === '97702'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+}else if(pacerValue.toUpperCase() === 'REVEAL' || pacerValue.toUpperCase() === '9529'){
+   alert("Section D Page 86: MRI scanning instructions.  Must wait 6 weeks before scanning.")
+   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_092102.pdf', '_blank');
+   
+
+}else if(pacerValue.toUpperCase() === 'ACTIVA' || pacerValue.toUpperCase() === '37601'  || pacerValue.toUpperCase() === '37603' || pacerValue.toUpperCase() === '37612' || pacerValue.toUpperCase() === '37602'){
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
+
+
+
+
+
+}else if(pacerValue.toUpperCase() === 'SOLETRA' || pacerValue.toUpperCase() === '7426'){
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/CONTRIB_228155.pdf', '_blank');
+
+
+}else if(pacerValue.toUpperCase() === 'PRIMEADVANCED' || pacerValue.toUpperCase() === 'PRIME ADVANCED'|| pacerValue.toUpperCase() === '97702'){
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+
 
    }else if(pacerValue.toUpperCase() === 'KINETRA' || pacerValue.toUpperCase() === '7428'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/CONTRIB_228155.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/CONTRIB_228155.pdf', '_blank');
+
 
    }else if(pacerValue.toUpperCase() === 'PERCEPT PC' || pacerValue.toUpperCase() === 'B35200'){
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
 
 
 
