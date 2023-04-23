@@ -365,7 +365,7 @@ alert("NOT MR-CONDITIONAL");
  
 }else if(pacerValue.toUpperCase() === 'INSPIRE' || pacerValue.toUpperCase() === '3028' || pacerValue.toUpperCase() === '3024'){
    alert("Model# 3024 Not eligible for MRI ")
-   window.open('https://www.inspiresleep.com/content/widgets/manual.php?NTAwfDF8MQ==', '_blank');
+   window.open('https://manuals.inspiresleep.com/content/widgets/manual.php?NTAwfDF8MQ==', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ACTICOR 7 DR-T'){
    window.open('https://www.biotronik.com/en-de/products/tachycardia/acticor_7_dr-t_vr-t', '_blank');
@@ -625,7 +625,7 @@ alert("NOT MR-CONDITIONAL");
      window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/51114094-001A_IMAGEREADY_MRITG_en_S.pdf', '_blank');     
 
   }else if(pacerValue.toUpperCase() === 'STRATA'|| pacerValue.toUpperCase() === 'STRATAMR'){
-    alert("Page 12 is MRI Safety information") ;
+    alert("Page 12 is MRI Safety information"); 
    window.open('https://www.medtronic.com/content/dam/emanuals/st/CONTRIB_249312.pdf', '_blank');  
    
   }else if(pacerValue.toUpperCase() === 'ADVANCED BIONICS'|| pacerValue.toUpperCase() === 'HIRES ULTRA 3D' || pacerValue.toUpperCase() === 'CI-1601-04'){
@@ -638,12 +638,6 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'PROGAV 2.0'|| pacerValue.toUpperCase() === 'PROGAV'){
    window.open('Docs/proGav.pdf', '_blank');  
   
-
-
-
-
-   
-
 
 
 }else{
