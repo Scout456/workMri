@@ -206,9 +206,12 @@ alert("NOT MR-CONDITIONAL");
 
 
 
+}else if(pacerValue.toUpperCase() === 'TAVR'){
+   window.open('http://www.mrisafety.com/TMDL_list.php?goto=48', '_blank');
 
 
-}else if(pacerValue.toUpperCase() === 'LINQ11' || pacerValue.toUpperCase() === 'LNQ11'){
+
+}else if(pacerValue.toUpperCase() === 'LINQ11' || pacerValue.toUpperCase() === 'LNQ11' || pacerValue.toUpperCase() === 'LNQ22 ' || pacerValue.toUpperCase() === 'LINQ'){
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_188127.pdf', '_blank');
 
 
