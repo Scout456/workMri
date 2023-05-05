@@ -640,6 +640,11 @@ alert("NOT MR-CONDITIONAL");
 
   }else if(pacerValue.toUpperCase() === 'PROGAV 2.0'|| pacerValue.toUpperCase() === 'PROGAV'){
    window.open('Docs/proGav.pdf', '_blank');  
+
+  }else if(pacerValue.toUpperCase() === 'AVEIR'|| pacerValue.toUpperCase() === 'LSP112V'){
+   window.open('Docs/aveirPacemaker.pdf', '_blank');  
+
+
   
 
 
