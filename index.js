@@ -245,7 +245,6 @@ alert("NOT MR-CONDITIONAL");
 
    /*Implant alert page------------------------------------------------------------*/
     }else if (pacerValue.toUpperCase() === 'BARRICADE' ||  pacerValue.toUpperCase() === 'BARRICADE COIL'){
-    alert("Page 8 for MRI information.")
     window.open('../implantGuides/barricade.html', '_blank');
 
    
