@@ -626,8 +626,8 @@ alert("NOT MR-CONDITIONAL");
 
   /*Implant guide alert page-----------------------------------------*/
   }else if(pacerValue.toUpperCase() === 'STRATA'|| pacerValue.toUpperCase() === 'STRATAMR'){
-    alert("Page 12 is MRI Safety information"); 
-   window.open('https://www.medtronic.com/content/dam/emanuals/st/CONTRIB_249312.pdf', '_blank');  
+   window.open('../implantGuides/strata.html', '_blank'); 
+
    
   }else if(pacerValue.toUpperCase() === 'ADVANCED BIONICS'|| pacerValue.toUpperCase() === 'HIRES ULTRA 3D' || pacerValue.toUpperCase() === 'CI-1601-04'){
    window.open('https://www.advancedbionics.com/content/dam/advancedbionics/Documents/Regional/en-us/Professionals/hires-ultra-3d-mri-safety-information.pdf', '_blank'); 
