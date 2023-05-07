@@ -241,18 +241,18 @@ alert("NOT MR-CONDITIONAL");
 
   /*Implant alert page----------------------------------------------------*/
    }else if(pacerValue.toUpperCase() === 'OPTIMA' || pacerValue.toUpperCase() === 'OPTIMA COIL'){
-   alert("Page 10 for MRI information.")
-   window.open('Docs/optima-coil.pdf', '_blank');
+   window.open('../implantGuides/optima.html', '_blank');
 
    /*Implant alert page------------------------------------------------------------*/
     }else if (pacerValue.toUpperCase() === 'BARRICADE' ||  pacerValue.toUpperCase() === 'BARRICADE COIL'){
     alert("Page 8 for MRI information.")
-    window.open('Docs/barricade-coil.pdf', '_blank');
+    window.open('../implantGuides/barricade.html', '_blank');
 
    
    }else if(pacerValue.toUpperCase() === 'PENUMBRA' || pacerValue.toUpperCase() === 'PENUMBRA COIL'){
     window.open('https://www.penumbrainc.com/nl/mri-compatibility/', '_blank'); 
 
+    /*Implant alert page---------------------------------------------------*/
    }else if(pacerValue.toUpperCase() === 'SPETZLER' || pacerValue.toUpperCase() === 'SPETZLER TITANIUM ANEURYSM CLIP'){
     alert("Pages 190 and 191 have Spetzler aneurysm clip information")
     window.open('https://www.mrisafety.com/TMDL_list.php?goto=190', '_blank'); 
