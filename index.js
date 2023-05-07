@@ -41,11 +41,9 @@ function implantLookup(){
    
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf', '_blank' );
 
-
+/*Implant alert page----------------------------------------------*/
  }else if(pacerValue.toUpperCase() === 'ENSURA' || pacerValue.toUpperCase() === 'EN1DR01'|| pacerValue.toUpperCase() === 'EN1SR01'){ 
-    alert("Not FDA approved, BUT MRI-CONDITIONAL, need radiologist approval to scan off label.");
-    
-    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_250980.pdf', '_blank' );
+  window.open('../implantGuides/ensura.html', '_blank');
 
 
 
@@ -67,7 +65,8 @@ function implantLookup(){
   window.open('https://www.mrisafety.com/TMDL_list.php?goto=201', '_blank' );
 
 
-}else if(pacerValue.toUpperCase() === 'VIRTUOSO' || pacerValue.toUpperCase() === 'D154AWG'){
+/*Implant alert page-----------------------------------------------------*/
+ }else if(pacerValue.toUpperCase() === 'VIRTUOSO' || pacerValue.toUpperCase() === 'D154AWG'){
 
 alert("NOT MR-CONDITIONAL");
 
@@ -214,10 +213,10 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'LINQ11' || pacerValue.toUpperCase() === 'LNQ11' || pacerValue.toUpperCase() === 'LNQ22 ' || pacerValue.toUpperCase() === 'LINQ'){
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_188127.pdf', '_blank');
 
-
+/*Implant alert page----------------------------------------------------*/
 }else if(pacerValue.toUpperCase() === 'REVEAL' || pacerValue.toUpperCase() === '9529'){
-   alert("Section D Page 86: MRI scanning instructions.  Must wait 6 weeks before scanning.")
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_092102.pdf', '_blank');
+
+   window.open('../implantGuides/reveal.html', '_blank');
    
 
 }else if(pacerValue.toUpperCase() === 'ACTIVA' || pacerValue.toUpperCase() === '37601'  || pacerValue.toUpperCase() === '37603' || pacerValue.toUpperCase() === '37612' || pacerValue.toUpperCase() === '37602'){
@@ -240,12 +239,12 @@ alert("NOT MR-CONDITIONAL");
    }else if(pacerValue.toUpperCase() === 'PERCEPT PC' || pacerValue.toUpperCase() === 'B35200' || pacerValue.toUpperCase() === 'PERCEPT'){
    window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M929535A_b_074_view.pdf', '_blank');
 
-
-
+  /*Implant alert page----------------------------------------------------*/
    }else if(pacerValue.toUpperCase() === 'OPTIMA' || pacerValue.toUpperCase() === 'OPTIMA COIL'){
    alert("Page 10 for MRI information.")
    window.open('Docs/optima-coil.pdf', '_blank');
 
+   /*Implant alert page------------------------------------------------------------*/
     }else if (pacerValue.toUpperCase() === 'BARRICADE' ||  pacerValue.toUpperCase() === 'BARRICADE COIL'){
     alert("Page 8 for MRI information.")
     window.open('Docs/barricade-coil.pdf', '_blank');
@@ -577,10 +576,9 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'UROLIFT'){
    window.open('https://cdn2.hubspot.net/hubfs/2618738/L00135-01_RevA%20Patient%20Implant%20Card.pdf', '_blank');  
 
-
+/*Implant alert page--------------------------------------*/
 }else if(pacerValue.toUpperCase() === 'PIPELINE'){
-   alert('MRI information page 5');
-   window.open('https://manuals.medtronic.com/content/dam/emanuals/neurovascular/M002318CDOC2_B.pdf', '_blank');  
+   window.open('../implantGuides/pipeLine.html', '_blank');  
 
 }else if(pacerValue.toUpperCase() === 'WAVECREST'){
    window.open('http://www.mrisafety.com/OBJ_STATUS_view.php?editid1=11', '_blank');  
