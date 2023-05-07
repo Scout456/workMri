@@ -253,8 +253,7 @@ alert("NOT MR-CONDITIONAL");
 
     /*Implant alert page---------------------------------------------------*/
    }else if(pacerValue.toUpperCase() === 'SPETZLER' || pacerValue.toUpperCase() === 'SPETZLER TITANIUM ANEURYSM CLIP'){
-    alert("Pages 190 and 191 have Spetzler aneurysm clip information")
-    window.open('https://www.mrisafety.com/TMDL_list.php?goto=190', '_blank'); 
+    window.open('../implantGuides/spetzler.html', '_blank'); 
    
 
     }else if(pacerValue.toUpperCase() === 'OPTION' || pacerValue.toUpperCase() === 'OPTION ELITE'|| pacerValue.toUpperCase() === 'OPTIONELITE' || pacerValue.toUpperCase() === 'ELITE'){
