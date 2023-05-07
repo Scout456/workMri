@@ -263,17 +263,17 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://www.axonics.com/images/hcp/resources/03-16-2022/110-0093-001rY_-_MRI_Patient_Guidelines_Axonics_SNM_System_US_English.pdf', '_blank'); 
  
 
-
-}else if(pacerValue.toUpperCase() === 'VANTA' || pacerValue.toUpperCase() === '977006'){
+   
+    }else if(pacerValue.toUpperCase() === 'VANTA' || pacerValue.toUpperCase() === '977006'){
    window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37704'){
+    }else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37704'){
    window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37703'){
+    }else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37703'){
    window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'ITREL 3' || pacerValue.toUpperCase() === '7425'){
+    }else if(pacerValue.toUpperCase() === 'ITREL 3' || pacerValue.toUpperCase() === '7425'){
    window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 
@@ -333,12 +333,12 @@ alert("NOT MR-CONDITIONAL");
 
 }else if(pacerValue.toUpperCase() === 'INTERSTIM TWIN' || pacerValue.toUpperCase() === '7427T'){
    window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M980291A_a_017_view_color.pdf', '_blank');
-
+/*Implant guide alert page-----------------------------------------*/
 }else if(pacerValue.toUpperCase() === 'ENTERRA' || pacerValue.toUpperCase() === '3116'){
-        alert("NOT COMPATIBLE FOR MRI!!!!!");
-
+    window.open('../implantGuides/enterra.html', '_blank'); 
+/*Implant guide alert page-----------------------------------------*/
 }else if(pacerValue.toUpperCase() === 'ENTERRA II' || pacerValue.toUpperCase() === '37800'){
-        alert("NOT COMPATIBLE FOR MRI!!!!!");
+    window.open('../implantGuides/enterra.html', '_blank'); 
 
 }else if(pacerValue.toUpperCase() === 'ENITRA'){
    window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
@@ -362,9 +362,9 @@ alert("NOT MR-CONDITIONAL");
 
 }else if(pacerValue.toUpperCase() === 'BAHA'){
    window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
+
  
 }else if(pacerValue.toUpperCase() === 'INSPIRE' || pacerValue.toUpperCase() === '3028' || pacerValue.toUpperCase() === '3024'){
-   alert("Model# 3024 Not eligible for MRI ")
    window.open('https://manuals.inspiresleep.com/content/widgets/manual.php?NTAwfDF8MQ==', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ACTICOR 7 DR-T'){
@@ -623,6 +623,8 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'D520' || pacerValue.toUpperCase() === 'D521' || pacerValue.toUpperCase() === 'D532' || pacerValue.toUpperCase() === 'D533' || pacerValue.toUpperCase() === 'D420'  || pacerValue.toUpperCase() === 'D421'  || pacerValue.toUpperCase() === 'D432'  || pacerValue.toUpperCase() === 'D433' || pacerValue.toUpperCase() === 'D220' || pacerValue.toUpperCase() === 'D221' || pacerValue.toUpperCase() === 'D232' || pacerValue.toUpperCase() === 'D233'){
      window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/51114094-001A_IMAGEREADY_MRITG_en_S.pdf', '_blank');     
 
+
+  /*Implant guide alert page-----------------------------------------*/
   }else if(pacerValue.toUpperCase() === 'STRATA'|| pacerValue.toUpperCase() === 'STRATAMR'){
     alert("Page 12 is MRI Safety information"); 
    window.open('https://www.medtronic.com/content/dam/emanuals/st/CONTRIB_249312.pdf', '_blank');  
