@@ -80,19 +80,21 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 100vh;
   gap: 1em;
+  padding: 2em;
 }
 
 h2{
-  font-size: 1.2em;
+  font-size: 6vw;
   color: #212427;
+  text-align: center;
 }
 
 button{
   border: none;
   border-radius: 20px 20px;
-  font-size: 1em;
+  font-size: 5vw;
   padding: .5em;
   background-color: blue;
   color: whitesmoke;
@@ -103,4 +105,36 @@ button:hover{
   background-color: whitesmoke;
   color: blue;
   margin-top: .5em;
+}
+
+
+
+/*----------------------------------------media queries------------------------------------*/
+
+@media screen and (min-width: 700px) {
+ #mainContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1em;
+  padding: 7em;
+}
+
+h2{
+  font-size: 3vw;
+  color: #212427;
+  text-align: center;
+  
+}
+
+button{
+  border: none;
+  border-radius: 20px 20px;
+  font-size: 2vw;
+  padding: .5em;
+  background-color: blue;
+  color: whitesmoke;
+}
 }
