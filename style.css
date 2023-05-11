@@ -142,6 +142,17 @@ color: #575757;
   color: #f1f1f1;
 }
 
+.dbsReport{
+  line-height: 1.2em;
+  background-color: #BAC1D4;
+  color: rgb(46, 46, 46);
+  border-radius: 5px;
+}
+
+.dbsReport:hover{
+  background-color:rgb(46, 46, 46) ;
+}
+
 /* Position the close button (top left corner) */
 .overlay .closebtn {
   position: absolute;
