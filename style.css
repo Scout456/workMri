@@ -320,6 +320,11 @@ input{
   border-bottom-right-radius: 5px 5px;
   border-left: none;
 }
+
+.phone:hover{
+ font-size: 1.7em;
+}
+
 }
 
 
@@ -381,6 +386,10 @@ input{
  top: 2em;
 }
 
+.phone:hover{
+ font-size: 1.7em;
+}
+
 }
 
    @media screen and (min-width: 1600px ) {
@@ -404,6 +413,10 @@ input{
  position: relative;
  top: 5em;
 }
+.phone:hover{
+ font-size: 1.7em;
+}
+
 }
 
  @media screen and (min-width: 1900px ) {
@@ -427,5 +440,10 @@ input{
  position: relative;
  top: 6em;
 }
+
+.phone:hover{
+ font-size: 1.7em;
+}
+
 }
 
