@@ -431,6 +431,9 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'CODMAN HAKIM' || pacerValue.toUpperCase() === 'HAKIM'){
    window.open('Docs/CODMAN-hakim.png', '_blank'); 
 
+}else if(pacerValue.toUpperCase() === 'CODMAN'){
+   window.open('implantGuides/codman.html', '_blank'); 
+
 }else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD1357-40Q' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
@@ -647,7 +650,8 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'GORE'|| pacerValue.toUpperCase() === 'GORE TAG' || pacerValue.toUpperCase() === 'GORE VIABIL' || pacerValue.toUpperCase() === 'GORE CARDIOFORM' || pacerValue.toUpperCase() === 'GORE EXCLUDER' || pacerValue.toUpperCase() === 'GORE VIABAHN' || pacerValue.toUpperCase() === 'GORE VIATORR'){
    window.open('https://www.goremedical.com/support/mri-safety-information', '_blank');  
 
-
+  }else if(pacerValue.toUpperCase() === 'LOCKADO'){
+   window.open('https://mtendoscopy.com/wp-content/uploads/2023/01/Lockado-MRI_Card_1-0027609-REV-5-2.pdf', '_blank');   
   
 
 
