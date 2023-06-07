@@ -652,6 +652,10 @@ alert("NOT MR-CONDITIONAL");
 
   }else if(pacerValue.toUpperCase() === 'LOCKADO'){
    window.open('https://mtendoscopy.com/wp-content/uploads/2023/01/Lockado-MRI_Card_1-0027609-REV-5-2.pdf', '_blank');   
+
+   
+  }else if(pacerValue.toUpperCase() === 'DM3500'|| pacerValue.toUpperCase() === 'CONFIRM RX' || pacerValue.toUpperCase() === 'CONFIRMRX' || pacerValue.toUpperCase() === 'CONFIRM'){
+   window.open('Docs/dm3500.pdf', '_blank');  
   
 
 
