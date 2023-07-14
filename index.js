@@ -659,6 +659,9 @@ alert("NOT MR-CONDITIONAL");
 
   }else if(pacerValue.toUpperCase() === 'SYNERGYXD'|| pacerValue.toUpperCase() === 'SYNERGY XD'){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/ic/synergy_xd/51266501-02A_SYNERGYXD_PatientGuide_US_EN_s.pdf', '_blank');  
+
+  }else if(pacerValue.toUpperCase() === 'AXIOS'){
+   window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/AXIOS/dfu_AXIOS-stent-and%20delivery-system.pdf', '_blank');  
   
 
 

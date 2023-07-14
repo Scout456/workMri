@@ -1,8 +1,8 @@
 
-Attached is the SBAR regarding EEG Leads 
+
 
 For MRI BRAINS
 
 Previously, it was communicated that if the EEG leads were still attached we could only scan for a total of 20 minutes.  
 
-Dr Kantartzis has given the ok for the W/WO protocol to be scanned as it is built in the 1.5T scanner at approximately 25 minutes in Normal Mode.
+Dr Kantartzis has given the ok for the brain W/WO protocol to be scanned as it is built in the 1.5T scanner at approximately 25 minutes in Normal Mode.
