@@ -9,3 +9,20 @@ The Codman Hakim Precision CSF Shunt Valve (CSF shunt valve, Codman, a Johnson &
 · Use an MR System with a spatial gradient of 720 gauss/cm or less
 
 · Limit the exposure to RF energy to a whole-body-averaged specific absorption rate (SAR) of 3 W/kg for 15 minutes (per pulse sequence)
+
+
+MRI Information
+
+The CODMAN HAKIM Programmable Valve (CSF shunt valve, Codman, a Johnson & Johnson Company, Raynham, MA) is “MR Conditional” according to ASTM F 2503. The valve demonstrates no known hazards when an MRI is performed under the following conditions:
+
+· MRI can be performed at any time after implantation
+
+· Use an MR system with a static magnetic field of 3 T or less
+
+· Use an MR System with a spatial gradient of 720 gauss/cm or less
+
+· Limit the exposure to RF energy to a whole-body-averaged specific absorption rate (SAR) of 3 W/kg for 15 minutes
+
+· Verify the valve setting after the MRI procedure (see Programming the Valve)
+
+In non-clinical testing, the valve produced a temperature rise of 0.4-degrees C at a maximum whole-body-averaged specific absorption rate (SAR) of 3-W/kg for 15 minutes of MR scanning in a 3-T Excite General Electric MR scanner.
