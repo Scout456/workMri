@@ -1,0 +1,11 @@
+Description. The CODMAN HAKIM Precision Fixed Pressure Valve (CSF shunt valve, Codman, a Johnson & Johnson Company, Raynham, MA) offers five distinct and narrow bandwidths to assure the correct pressure setting for each individual case. It also uses the proven ball and cone technology to insure that each pressure range is correct within a + / -10mm H2O variance. The CODMAN HAKIM Precision Fixed Pressure Valve is available in eight basic configurations, and each of these configurations can be purchased with a unitized distal catheter or as a valve only.
+
+The Codman Hakim Precision CSF Shunt Valve (CSF shunt valve, Codman, a Johnson & Johnson Company, Raynham, MA) is "MR Conditional” according to ASTM F2503. The valve demonstrates no known hazards when an MRI is performed under the following conditions:
+
+· MRI can be performed at any time after implantation
+
+· Use an MR system with a static magnetic field of 3-T or less
+
+· Use an MR System with a spatial gradient of 720 gauss/cm or less
+
+· Limit the exposure to RF energy to a whole-body-averaged specific absorption rate (SAR) of 3 W/kg for 15 minutes (per pulse sequence)
