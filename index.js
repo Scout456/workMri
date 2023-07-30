@@ -319,20 +319,11 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'ISOMED' || pacerValue.toUpperCase() === '8472' || pacerValue.toUpperCase() === '8637'){
    window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M005186C_a_001_view.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'INTERSTIM' || pacerValue.toUpperCase() === '3023'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M980291A_a_017_view_color.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'INTERSTIM II' || pacerValue.toUpperCase() === '3058'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M980291A_a_017_view_color.pdf', '_blank');
+/*Medtronic InterStim------------------------------------------------------*/
+}else if(pacerValue.toUpperCase() === 'INTERSTIM' || pacerValue.toUpperCase() === '3023'  || pacerValue.toUpperCase() === 'INTERSTIM II' || pacerValue.toUpperCase() === '3058' || pacerValue.toUpperCase() === 'INTERSTIM MICRO' || pacerValue.toUpperCase() === '97810'|| pacerValue.toUpperCase() === 'INTERSTIM X' || pacerValue.toUpperCase() === '97800' || pacerValue.toUpperCase() === 'INTERSTIM TWIN' || pacerValue.toUpperCase() === '7427T'  ){
+   window.open('../implantGuides/InterStim.html', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'INTERSTIM MICRO' || pacerValue.toUpperCase() === '97810'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M980291A_a_017_view_color.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'INTERSTIM X'  || pacerValue.toUpperCase() === '97800'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M980291A_a_017_view_color.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'INTERSTIM TWIN' || pacerValue.toUpperCase() === '7427T'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M980291A_a_017_view_color.pdf', '_blank');
 /*Implant guide alert page-----------------------------------------*/
 }else if(pacerValue.toUpperCase() === 'ENTERRA' || pacerValue.toUpperCase() === '3116'){
     window.open('../implantGuides/enterra.html', '_blank'); 
