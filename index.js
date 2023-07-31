@@ -592,7 +592,7 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://ww1.steris.com/onbDocs/V517/0/4101648.pdf', '_blank');      
 
  }else if(pacerValue.toUpperCase() === 'RHYTHMLINK'){
-   window.open('Docs/rhythmlink.pdf', '_blank');   
+   window.open('../implantGuides/eeg.html', '_blank');   
 
  }else if(pacerValue.toUpperCase() === 'RESOLUTION' || pacerValue.toUpperCase() === 'RESOLUTION CLIP'){
    window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/resolution-clip/bsci-sheet-dfu-resolutionclip.pdf', '_blank');  
