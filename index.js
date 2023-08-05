@@ -653,6 +653,9 @@ alert("NOT MR-CONDITIONAL");
 
   }else if(pacerValue.toUpperCase() === 'AXIOS'){
    window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/AXIOS/dfu_AXIOS-stent-and%20delivery-system.pdf', '_blank');  
+
+  }else if(pacerValue.toUpperCase() === '3500' || pacerValue.toUpperCase() === 'DM3500' || pacerValue.toUpperCase() === 'CONFIRMRX' || pacerValue.toUpperCase() === 'CONFIRM RX'){
+   window.open('abbottImplants/abbott-3500Loop.pdf', '_blank');  
   
 
 
