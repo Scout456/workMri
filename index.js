@@ -344,16 +344,6 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'EDORA'){
    window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
 
-
-}else if(pacerValue.toUpperCase() === 'NUCLEUS'){
-   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'OSIA'){
-   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'BAHA'){
-   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
-
  
 }else if(pacerValue.toUpperCase() === 'INSPIRE' || pacerValue.toUpperCase() === '3028' || pacerValue.toUpperCase() === '3024'){
    window.open('https://manuals.inspiresleep.com/content/widgets/manual.php?NTAwfDF8MQ==', '_blank');
@@ -624,9 +614,27 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'STRATA'|| pacerValue.toUpperCase() === 'STRATAMR'){
    window.open('../implantGuides/strata.html', '_blank'); 
 
-   
+
+   /*Cochlear implants--------------------------------------------------*/
+
+    }else if(pacerValue.toUpperCase() === 'COCHLEAR'){
+   window.open('../implantGuides/cochlear.html', '_blank');
+
   }else if(pacerValue.toUpperCase() === 'ADVANCED BIONICS'|| pacerValue.toUpperCase() === 'HIRES ULTRA 3D' || pacerValue.toUpperCase() === 'CI-1601-04'){
    window.open('https://www.advancedbionics.com/content/dam/advancedbionics/Documents/Regional/en-us/Professionals/hires-ultra-3d-mri-safety-information.pdf', '_blank'); 
+
+   }else if(pacerValue.toUpperCase() === 'NUCLEUS'){
+   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
+
+}else if(pacerValue.toUpperCase() === 'OSIA'){
+   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
+
+}else if(pacerValue.toUpperCase() === 'BAHA'){
+   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
+
+}else if(pacerValue.toUpperCase() === 'VISTAFIX'){
+   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
+
 
   }else if(pacerValue.toUpperCase() === 'WALLFLEX'|| pacerValue.toUpperCase() === 'COLONIC AND DUODENAL SOFT STENT'){
    window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/wallflex-colonic-and-duodenal/Wallflex_Soft_Abbreviated_DFU_FINAL.pdf', '_blank');  
@@ -645,7 +653,7 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://mtendoscopy.com/wp-content/uploads/2023/01/Lockado-MRI_Card_1-0027609-REV-5-2.pdf', '_blank');   
 
    
-  }else if(pacerValue.toUpperCase() === 'DM3500'|| pacerValue.toUpperCase() === 'CONFIRM RX' || pacerValue.toUpperCase() === 'CONFIRMRX' || pacerValue.toUpperCase() === 'CONFIRM'){
+  }else if(pacerValue.toUpperCase() === 'DM3500'|| pacerValue.toUpperCase() === 'CONFIRM RX' || pacerValue.toUpperCase() === 'CONFIRMRX' || pacerValue.toUpperCase() === 'CONFIRM' || pacerValue.toUpperCase() === '3500' ){
    window.open('Docs/dm3500.pdf', '_blank');  
 
   }else if(pacerValue.toUpperCase() === 'SYNERGYXD'|| pacerValue.toUpperCase() === 'SYNERGY XD'){
@@ -654,8 +662,6 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'AXIOS'){
    window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/AXIOS/dfu_AXIOS-stent-and%20delivery-system.pdf', '_blank');  
 
-  }else if(pacerValue.toUpperCase() === '3500' || pacerValue.toUpperCase() === 'DM3500' || pacerValue.toUpperCase() === 'CONFIRMRX' || pacerValue.toUpperCase() === 'CONFIRM RX'){
-   window.open('abbottImplants/abbott-3500Loop.pdf', '_blank');  
   
 
 
