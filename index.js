@@ -617,7 +617,7 @@ alert("NOT MR-CONDITIONAL");
 
    /*Cochlear implants--------------------------------------------------*/
 
-    }else if(pacerValue.toUpperCase() === 'COCHLEAR'){
+    }else if(pacerValue.toUpperCase() === 'COCHLEAR' || pacerValue.toUpperCase() === 'COCHLEAR IMPLANT'){
    window.open('../implantGuides/cochlear.html', '_blank');
 
   }else if(pacerValue.toUpperCase() === 'ADVANCED BIONICS'|| pacerValue.toUpperCase() === 'HIRES ULTRA 3D' || pacerValue.toUpperCase() === 'CI-1601-04'){
