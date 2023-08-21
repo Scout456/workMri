@@ -384,6 +384,10 @@ input{
  top: 2em;
 }
 
+.phone:hover, .phoneBackLine:hover{
+ font-size: 1.7em;
+}
+
 }
 
    @media screen and (min-width: 1600px ){
@@ -408,6 +412,7 @@ input{
  top: 5em;
 
 }
+
 .phone:hover, .phoneBackLine:hover{
  font-size: 1.7em;
 }
