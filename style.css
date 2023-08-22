@@ -384,7 +384,7 @@ input{
  top: 2em;
 }
 
-.phone:hover, .phoneBackLine:hover{
+.phone:hover{
  font-size: 1.7em;
 }
 
@@ -413,9 +413,10 @@ input{
 
 }
 
-.phone:hover, .phoneBackLine:hover{
+.phone:hover{
  font-size: 1.7em;
 }
+  
 
 
 
@@ -441,7 +442,7 @@ input{
  top: 6em;
 }
 
-.phone:hover, .phoneBackLine:hover{
+.phone:hover{
  font-size: 1.7em;
 }
 
