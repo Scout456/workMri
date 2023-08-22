@@ -7,7 +7,7 @@ document.getElementById("myNav").style.width = "70%";
 function openNav(){
    var nav = document.getElementById('myNav');
    if(window.innerWidth > 700){
-      nav.style.width="40%";
+      nav.style.width="50%";
    }else{
       window.innerWidth < 700;
       nav.style.width="70%";
