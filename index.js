@@ -10,7 +10,7 @@ function openNav(){
       nav.style.width="50%";
    }else{
       window.innerWidth < 700;
-      nav.style.width="70%";
+      nav.style.width="80%";
    }
 }
 

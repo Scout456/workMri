@@ -323,13 +323,19 @@ input{
 }
 
  .overlay a, p {
-    font-size: 20px;
+    font-size: 1.5em;
     
     }
 
+  h1{
+  font-size: 2.5em;
+  color: white;
+  text-decoration: underline;
+  margin: .5em;
   
+}
 
-
+    
 
 .phone:hover{
  font-size: 1.7em;
@@ -397,9 +403,17 @@ input{
 }
 
  .overlay a, p {
-    font-size: 30px;
+    font-size: 3em;
     
     }
+
+   h1{
+  font-size: 4em;
+  color: white;
+  text-decoration: underline;
+  margin: .5em;
+  
+}
 
 .phone:hover{
  font-size: 2em;
@@ -431,9 +445,17 @@ input{
 }
 
  .overlay a, p {
-    font-size: 30px;
+    font-size: 3em;
     
     }
+
+  h1{
+  font-size: 4em;
+  color: white;
+  text-decoration: underline;
+  margin: .5em;
+  
+}  
 
 .phone:hover{
  font-size: 2em;
@@ -465,9 +487,17 @@ input{
 }
 
  .overlay a, p {
-    font-size: 30px;
+    font-size: 3em;
     
     }
+
+  h1{
+  font-size: 4em;
+  color: white;
+  text-decoration: underline;
+  margin: .5em;
+  
+}   
 
 .phone:hover{
  font-size: 2em;
