@@ -47,6 +47,7 @@ function implantLookup(){
 
 
 
+
  }else if(pacerValue.toUpperCase() === 'AZURE XT DR' || pacerValue.toUpperCase() === 'W1DR01' || pacerValue.toUpperCase() === 'AZURE' || pacerValue.toUpperCase() === 'W1SR01' || pacerValue.toUpperCase() === 'W3SR01' || pacerValue.toUpperCase() === 'W3DR01'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf', '_blank' );
@@ -308,16 +309,13 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
 
 
-}else if(pacerValue.toUpperCase() === 'SYNCHROMED II' || pacerValue.toUpperCase() === '8637'  || pacerValue.toUpperCase() === 'SYNCHROMED'  || pacerValue.toUpperCase() === 'SYNCHROMED2'  || pacerValue.toUpperCase() === 'SYNCHROMED 2' || pacerValue.toUpperCase() === '8626'  || pacerValue.toUpperCase() === '8627'  || pacerValue.toUpperCase() === '8615'  || pacerValue.toUpperCase() === '8616'  || pacerValue.toUpperCase() === '8617'  || pacerValue.toUpperCase() === '8616'  || pacerValue.toUpperCase() === 'ISOMED'  || pacerValue.toUpperCase() === '8472'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M005186C_a_001_view.pdf', '_blank');
+
 
 
 }else if(pacerValue.toUpperCase() === 'AMS 700'){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/uro-ph/ams700-ms-pump/50654574-01A_AMS700_MSPump_IFU_multi_s.pdf', '_blank');
 
 
-}else if(pacerValue.toUpperCase() === 'ISOMED' || pacerValue.toUpperCase() === '8472' || pacerValue.toUpperCase() === '8637'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M005186C_a_001_view.pdf', '_blank');
 
 
 /*Medtronic InterStim------------------------------------------------------*/
@@ -575,8 +573,9 @@ alert("NOT MR-CONDITIONAL");
 
    
 }else if(pacerValue.toUpperCase() === 'SYNCHRONY2' || pacerValue.toUpperCase() === 'SYNCHRONY 2' || pacerValue.toUpperCase() === 'MI1250' || pacerValue.toUpperCase() === 'SYNCHRONY' || pacerValue.toUpperCase() === 'MI1200'  || pacerValue.toUpperCase() === 'MED-EL CONCERT'  || pacerValue.toUpperCase() === 'CONCERT'  || pacerValue.toUpperCase() === 'MI1000' || pacerValue.toUpperCase() === 'SONATA' || pacerValue.toUpperCase() === 'PULSAR' || pacerValue.toUpperCase() === 'C40+' || pacerValue.toUpperCase() === 'C40')  {
-     window.open('https://www.medel.com/docs/default-source/isi-important-safety-information/languages/en-us-english-usa/ci-cochlear-implants/aw33290_80_manual-medical-procedures-ci-systems-en-english-us_web.pdf?auto=format&sfvrsn=b5299142_4', '_blank');  
+     window.open('https://www.medel.com/docs/default-source/isi-important-safety-information/languages/en-us-english-usa/ci-cochlear-implants/aw33290_80_manual-medical-procedures-ci-systems-en-english-us_web.pdf?auto=format&sfvrsn=b5299142_4', '_blank'); 
 
+ 
 
  }else if(pacerValue.toUpperCase() === 'ASSURANCE' || pacerValue.toUpperCase() === 'ASSURANCE CLIP'){
    window.open('https://ww1.steris.com/onbDocs/V517/0/4101648.pdf', '_blank');      
@@ -661,6 +660,14 @@ alert("NOT MR-CONDITIONAL");
 
   }else if(pacerValue.toUpperCase() === 'AXIOS'){
    window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/AXIOS/dfu_AXIOS-stent-and%20delivery-system.pdf', '_blank');  
+
+
+
+
+  }else if(pacerValue.toUpperCase() === 'SYNCHROMED II' || pacerValue.toUpperCase() === '8637'  || pacerValue.toUpperCase() === 'SYNCHROMED'  || pacerValue.toUpperCase() === 'SYNCHROMED2'  || pacerValue.toUpperCase() === 'SYNCHROMED 2' || pacerValue.toUpperCase() === '8626'  || pacerValue.toUpperCase() === '8627'  || pacerValue.toUpperCase() === '8615'  || pacerValue.toUpperCase() === '8616'  || pacerValue.toUpperCase() === '8617'  || pacerValue.toUpperCase() === '8616'  || pacerValue.toUpperCase() === 'ISOMED'  || pacerValue.toUpperCase() === '8472'){
+   window.open('../implantGuides/synchromed.html', '_blank');
+
+
 
   
 
