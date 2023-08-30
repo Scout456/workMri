@@ -662,6 +662,13 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/AXIOS/dfu_AXIOS-stent-and%20delivery-system.pdf', '_blank');  
 
 
+   }else if(pacerValue.toUpperCase() === 'KYLEENA'){
+   window.open('https://www.bayer.com/sites/default/files/KYLEENA%20ENG%20PI%2023.11.17.pdf', '_blank');
+   
+   }else if(pacerValue.toUpperCase() === 'ALTO'|| pacerValue.toUpperCase() === '6XX' || pacerValue.toUpperCase() === 'GRACE MEDICAL' || pacerValue.toUpperCase() === 'GRACE MEDICAL OTOLOGIC IMPLANTS' || pacerValue.toUpperCase() === '612-001L' ){
+   window.open('https://www.gracemedical.com/mri-info/', '_blank');  
+
+
 
 
   }else if(pacerValue.toUpperCase() === 'SYNCHROMED II' || pacerValue.toUpperCase() === '8637'  || pacerValue.toUpperCase() === 'SYNCHROMED'  || pacerValue.toUpperCase() === 'SYNCHROMED2'  || pacerValue.toUpperCase() === 'SYNCHROMED 2' || pacerValue.toUpperCase() === '8626'  || pacerValue.toUpperCase() === '8627'  || pacerValue.toUpperCase() === '8615'  || pacerValue.toUpperCase() === '8616'  || pacerValue.toUpperCase() === '8617'  || pacerValue.toUpperCase() === '8616'  || pacerValue.toUpperCase() === 'ISOMED'  || pacerValue.toUpperCase() === '8472'){
