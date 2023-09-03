@@ -328,7 +328,7 @@ input{
     }
 
   h1{
-  font-size: 2.5em;
+  font-size: 2.3em;
   color: white;
   text-decoration: underline;
   margin: .5em;
@@ -408,7 +408,7 @@ input{
     }
 
    h1{
-  font-size: 3em;
+  font-size: 2.3em;
   color: white;
   text-decoration: underline;
   margin: .5em;
@@ -417,6 +417,10 @@ input{
 
 .phone:hover{
  font-size: 2em;
+}
+
+.sumGradient{
+  font-size: 1.5em;
 }
 
 }
@@ -445,12 +449,12 @@ input{
 }
 
  .overlay a, p {
-    font-size: 2.1em;
+    font-size: 2em;
     
     }
 
   h1{
-  font-size: 3.5em;
+  font-size: 3em;
   color: white;
   text-decoration: underline;
   margin: .5em;
@@ -458,7 +462,11 @@ input{
 }  
 
 .phone:hover{
- font-size: 2.5em;
+ font-size: 2.3em;
+}
+
+.sumGradient{
+  font-size: 1.5em;
 }
   
 
@@ -487,12 +495,12 @@ input{
 }
 
  .overlay a, p {
-    font-size: 2.8em;
+    font-size: 2.3em;
     
     }
 
   h1{
-  font-size: 3.5em;
+  font-size: 3em;
   color: white;
   text-decoration: underline;
   margin: .5em;
@@ -500,7 +508,11 @@ input{
 }   
 
 .phone:hover{
- font-size: 3em;
+ font-size: 2.5em;
+}
+
+.sumGradient{
+  font-size: 2em;
 }
 
  }
