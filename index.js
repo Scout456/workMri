@@ -211,8 +211,8 @@ alert("NOT MR-CONDITIONAL");
 
 
 
-}else if(pacerValue.toUpperCase() === 'LINQ11' || pacerValue.toUpperCase() === 'LNQ11' || pacerValue.toUpperCase() === 'LNQ22 ' || pacerValue.toUpperCase() === 'LINQ'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_188127.pdf', '_blank');
+}else if(pacerValue.toUpperCase() === 'LINQ11' || pacerValue.toUpperCase() === 'LNQ11' || pacerValue.toUpperCase() === 'LNQ22 ' || pacerValue.toUpperCase() === 'LINQ' || pacerValue.toUpperCase() === 'LINQ22' || pacerValue.toUpperCase() === 'LNQ'){
+   window.open('../implantGuides/linq.html', '_blank');
 
 /*Implant alert page----------------------------------------------------*/
 }else if(pacerValue.toUpperCase() === 'REVEAL' || pacerValue.toUpperCase() === '9529'){
