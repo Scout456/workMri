@@ -674,6 +674,9 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'SYNCHROMED II' || pacerValue.toUpperCase() === '8637'  || pacerValue.toUpperCase() === 'SYNCHROMED'  || pacerValue.toUpperCase() === 'SYNCHROMED2'  || pacerValue.toUpperCase() === 'SYNCHROMED 2' || pacerValue.toUpperCase() === '8626'  || pacerValue.toUpperCase() === '8627'  || pacerValue.toUpperCase() === '8615'  || pacerValue.toUpperCase() === '8616'  || pacerValue.toUpperCase() === '8617'  || pacerValue.toUpperCase() === '8616'  || pacerValue.toUpperCase() === 'ISOMED'  || pacerValue.toUpperCase() === '8472'){
    window.open('../implantGuides/synchromed.html', '_blank');
 
+  }else if(pacerValue.toUpperCase() === 'MITRACLIP'|| pacerValue.toUpperCase() === 'MITRA CLIP' || pacerValue.toUpperCase() === 'MITRA CLIP G4' || pacerValue.toUpperCase() === 'MITRACLIP G4'){
+   window.open('Docs/mitraClip.pdf', '_blank');  
+
 
 
   
