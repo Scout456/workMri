@@ -678,6 +678,12 @@ alert("NOT MR-CONDITIONAL");
    window.open('Docs/mitraClip.pdf', '_blank');  
 
 
+  }else if(pacerValue.toUpperCase() === 'BIOMONITOR 3'|| pacerValue.toUpperCase() === 'BIOMONITOR3' || pacerValue.toUpperCase() === 'BIOMONITOR III' || pacerValue.toUpperCase() === '436066'){
+   window.open('https://www.promricheck.com/spring/main?execution=e1s1', '_blank');  
+
+  }else if(pacerValue.toUpperCase() === '6660'|| pacerValue.toUpperCase() === '6662' || pacerValue.toUpperCase() === '6170' || pacerValue.toUpperCase() === '6171' || pacerValue.toUpperCase() === '6172' || pacerValue.toUpperCase() === '6173' || pacerValue.toUpperCase() === '6371' || pacerValue.toUpperCase() === '6372' || pacerValue.toUpperCase() === 'INFINITY'){
+   window.open('abbottImplants/dbs.pdf', '_blank');  
+
 
   
 
