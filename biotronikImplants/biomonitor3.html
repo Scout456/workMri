@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://www.promricheck.com/spring/main?execution=e2s1 -->
+<html xmlns="http://www.w3.org/1999/xhtml" class=" js no-touch csstransitions"><head id="j_idt2"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link type="text/css" rel="stylesheet" href="./biomonitor3_files/theme.css"><link type="text/css" rel="stylesheet" href="./biomonitor3_files/style.css" media="screen"><link type="text/css" rel="stylesheet" href="./biomonitor3_files/print.css" media="print"><link type="text/css" rel="stylesheet" href="./biomonitor3_files/components.css"><script type="text/javascript" src="./biomonitor3_files/jquery.js.download"></script><script type="text/javascript" src="./biomonitor3_files/jquery-plugins.js.download"></script><script type="text/javascript" src="./biomonitor3_files/core.js.download"></script><script type="text/javascript" src="./biomonitor3_files/components.js.download"></script><script type="text/javascript" src="./biomonitor3_files/watermark.js.download"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';}</script>
+    
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0, minimum-scale=0.1, maximum-scale=2.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    
+	<title>ProMRI SystemCheck - 3.2.0</title>
+	
+	
+	<link rel="shortcut icon" href="https://www.promricheck.com/spring/javax.faces.resource/images/favicon.ico?ln=default&amp;v=3_0">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="https://www.promricheck.com/spring/javax.faces.resource/images/favicon.ico?ln=default&amp;v=3_0"><style type="text/css"></style></head><body cz-shortcut-listen="true" class="report-up">
+
+		<div id="main-wrap" class="success02">
+
+			
+			<div id="header">
+				<div class="container">
+
+					<div id="language-dropdown" class="no-print" tabindex="1" lang="en">
+						<span class="selected"> <span id="lang-label" class="lang-label"><span id="msg320">Language:</span></span> <span class="language">English</span>
+							<span class="country-code">(EN)</span>
+
+						</span>
+						<ul class="dropdown">
+							<li><a class="langLink" href="https://www.promricheck.com/spring/main?siteLanguage=de"><span class="language">Deutsch</span><span class="country-code">(DE)</span></a></li>
+							<li><a class="langLink" href="https://www.promricheck.com/spring/main?siteLanguage=en"><span class="language">English</span><span class="country-code">(EN)</span></a></li>
+							<li><a class="langLink" href="https://www.promricheck.com/spring/main?siteLanguage=es"><span class="language">Español</span><span class="country-code">(ES)</span></a></li>
+							<li><a class="langLink" href="https://www.promricheck.com/spring/main?siteLanguage=fr"><span class="language">Français</span><span class="country-code">(FR)</span></a></li>
+							<li><a class="langLink" href="https://www.promricheck.com/spring/main?siteLanguage=it"><span class="language">Italiano</span><span class="country-code">(IT)</span></a></li>
+							<li><a class="langLink" href="https://www.promricheck.com/spring/main?siteLanguage=pt"><span class="language">Português</span><span class="country-code">(PT)</span></a></li>
+						</ul>
+					</div>
+				
+					<div id="report-title" class="print-only"><span id="printMsg2">ProMRI SystemCheck</span>
+					</div>
+
+					<a href="http://www.biotronik.com/" target="_blank" id="biotronik-logo"> 
+					<img src="./biomonitor3_files/biotronik_logo.jpg" alt="">
+					</a>
+				</div>
+			</div>
+
+			
+			<div id="section0" class="section condensed">
+				<div id="intro">
+					<div id="intro-wrap">
+						<div id="intro-title"><span id="msg2">ProMRI SystemCheck</span>
+							<br>
+						</div>
+						<p class="hidden-phone"><span id="msg1">This website will assist you in determining whether an implanted BIOTRONIK ProMRI system is MR conditional in the country/region where the MRI scan will be performed. The website will guide you through the large variety of system-specific MR conditions by requesting information on the implanted device and lead combination. All entered data will be deleted when leaving the web page.</span>
+						</p>
+					</div>
+				</div>
+			</div><div id="progressDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-draggable ui-resizable" role="dialog" aria-describedby="progressDialog_content" aria-hidden="true" aria-modal="true" aria-live="off" style="width: auto; height: auto; visibility: visible; left: 473.21px; top: 231.57px; z-index: 1005; display: none;"><div class="ui-dialog-content ui-widget-content" id="progressDialog_content" style="height: 117.6px;"><span id="pleaseWaitText">Please wait, checking input.</span></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div></div><div id="serviceNotAvailableDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-draggable ui-resizable" role="dialog" aria-describedby="serviceNotAvailableDialog_content" aria-hidden="true" aria-modal="true" style="width: 320px; height: auto;"><div class="ui-dialog-content ui-widget-content" id="serviceNotAvailableDialog_content" style="height: auto;"><span id="serviceNotAvailableText">Sorry, the serial number check is currently unavailable. Please enter the device name or order number instead. We are working quickly to recover this service.</span><button id="closeProgressDialogButton" name="closeProgressDialogButton" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn-simple" onclick="PF(&#39;serviceNotAvailableDialog&#39;).hide();" style="margin-top: 20px !important; margin-bottom: 10px !important;" type="button" role="button" aria-disabled="false"><span class="ui-button-text ui-c">OK</span></button></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div></div>
+<form id="checkProMriFrom" name="checkProMriFrom" method="post" action="https://www.promricheck.com/spring/main?execution=e2s1" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="checkProMriFrom" value="checkProMriFrom">
+
+
+				
+				<div id="section1" class="section condensed">
+					<div class="container">
+						<div class="question-wrap">
+							<div class="demand"><span id="checkProMriFrom:enterCountry">1. Please enter the country/region where the MRI scan will be performed</span>
+							</div>
+							<div id="inputWrapCountry" class="input-wrap"><span id="checkProMriFrom:country" class="ui-autocomplete test ui-inputwrapper-filled" role="application"><input id="checkProMriFrom:country_input" name="checkProMriFrom:country_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-filled" autocomplete="off" role="textbox" aria-disabled="false" aria-readonly="false" aria-autocomplete="list" placeholder="Country/Region"><span role="status" aria-live="polite" class="ui-autocomplete-status ui-helper-hidden-accessible"><div>1 results are available, use up and down arrow keys to navigate</div></span></span>
+								<div class="conditional true" id="country-conditional"></div>
+							</div>
+							<div class="error-message">
+								<span class="reason" id="unknownCountryInputError" style="display: block;"><span id="checkProMriFrom:countryNotFound">The name could not be found.</span><br><span id="checkProMriFrom:checkInput">Please check your input. Make sure you enter the country/region name in the currently selected language. This website provides worldwide support, except for Japan. For MRI information in Japan please check the following webpage: www.pro-mri.jp.</span>
+								</span>
+							</div><button id="checkProMriFrom:enter-country" name="checkProMriFrom:enter-country" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left btn" onclick="PrimeFaces.ab({s:&quot;checkProMriFrom:enter-country&quot;,f:&quot;checkProMriFrom&quot;,onst:function(cfg){PF(&#39;progressDialog&#39;).show(); $(&#39;#progressDialog&#39;).spin(&#39;small&#39;);;},onco:function(xhr,status,args,data){checkCountryInput();}});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c identify-icon"></span><span class="ui-button-text ui-c">Continue</span></button>
+						</div>
+
+						<div class="result-wrap open" id="result01">
+							<div class="result-label hidden-phone"><span id="checkProMriFrom:scanIn">MRI scan in:</span>
+							</div>
+							<div class="result" id="chosen-country">USA</div>
+						</div>
+						<a href="https://www.promricheck.com/spring/main?execution=e2s1#country-popup" class="bio-icon help open-popup-link" id="countryHelpLink" title="FAQ - Country/Region"></a>
+						<div class="bio-icon toggle-btn edit" id="edit1"></div>
+					</div>
+				</div>
+
+				
+				<div id="section2" class="section on condensed">
+					<div class="container">
+						<div class="question-wrap open">
+							<div class="demand"><span id="checkProMriFrom:enterDevice">2. ICD, pacemaker or cardiac monitor (BIOTRONIK products only)</span>
+							</div>
+							<div id="inputWrapDevice" class="input-wrap"><span id="checkProMriFrom:device" class="ui-autocomplete test ui-inputwrapper-filled" role="application"><input id="checkProMriFrom:device_input" name="checkProMriFrom:device_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-filled" autocomplete="off" role="textbox" aria-disabled="false" aria-readonly="false" aria-autocomplete="list" placeholder="Device name, order number, or SN"><span role="status" aria-live="polite" class="ui-autocomplete-status ui-helper-hidden-accessible"><div>6 results are available, use up and down arrow keys to navigate</div></span></span>
+								<div class="conditional true" id="device-conditional"></div>
+							</div>
+							<div class="error-message">
+								<span class="reason"><span id="checkProMriFrom:deviceNotFound">Please check your input. Make sure you entered the device name, order number or serial number correctly.</span><br>
+								</span> <br>
+							</div><button id="checkProMriFrom:enter-device" name="checkProMriFrom:enter-device" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left btn" onclick="PrimeFaces.ab({s:&quot;checkProMriFrom:enter-device&quot;,f:&quot;checkProMriFrom&quot;,onst:function(cfg){PF(&#39;progressDialog&#39;).show(); $(&#39;#progressDialog&#39;).spin(&#39;small&#39;);;},onco:function(xhr,status,args,data){checkDeviceInput();}});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c identify-icon"></span><span class="ui-button-text ui-c">Continue</span></button>
+
+						</div>
+						<div class="result-wrap open" id="result02">
+							<div class="result-label hidden-phone"><span id="checkProMriFrom:msg13">Device:</span>
+							</div>
+							<div class="result" id="device-name">BIOMONITOR III (Ref. 436066)</div>
+						</div>
+						<a href="https://www.promricheck.com/spring/main?execution=e2s1#device-popup" class="bio-icon help open-popup-link" id="deviceHelpLink" title="FAQ - ICD, pacemaker or cardiac monitor"></a>
+						<div class="bio-icon toggle-btn edit" id="edit2"></div>
+					</div>
+				</div>
+
+				
+				<div id="section3" class="section condensed">
+					<div class="container">
+						<div class="question-wrap">
+							<div class="demand"><span id="checkProMriFrom:enterLeads">3. Leads (BIOTRONIK products only)</span>
+							</div>
+							<div class="input-group">
+								<div id="inputWrapLead1" class="input-wrap"><span id="checkProMriFrom:inLead1" class="ui-autocomplete lead" role="application"><input id="checkProMriFrom:inLead1_input" name="checkProMriFrom:inLead1_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all" autocomplete="off" role="textbox" aria-disabled="false" aria-readonly="false" aria-autocomplete="list" placeholder="Lead name, order number, or SN"><span role="status" aria-live="polite" class="ui-autocomplete-status ui-helper-hidden-accessible"></span></span>
+									<div class="conditional true"></div>
+								</div>
+								<div id="inputWrapLead2" class="input-wrap"><span id="checkProMriFrom:inLead2" class="ui-autocomplete lead" role="application"><input id="checkProMriFrom:inLead2_input" name="checkProMriFrom:inLead2_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all" autocomplete="off" role="textbox" aria-disabled="false" aria-readonly="false" aria-autocomplete="list" placeholder="Lead name, order number, or SN"><span role="status" aria-live="polite" class="ui-autocomplete-status ui-helper-hidden-accessible"></span></span>
+									<div class="conditional true"></div>
+								</div>
+								<div id="inputWrapLead3" class="input-wrap"><span id="checkProMriFrom:inLead3" class="ui-autocomplete lead" role="application"><input id="checkProMriFrom:inLead3_input" name="checkProMriFrom:inLead3_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all" autocomplete="off" role="textbox" aria-disabled="false" aria-readonly="false" aria-autocomplete="list" placeholder="Lead name, order number, or SN"><span role="status" aria-live="polite" class="ui-autocomplete-status ui-helper-hidden-accessible"></span></span>
+									<div class="conditional true"></div>
+								</div>
+							</div>
+							<div class="error-message">
+								<span class="reason"><span id="checkProMriFrom:leadNotFound"></span><br>
+								</span> <br>
+							</div><button id="checkProMriFrom:enter-inLead" name="checkProMriFrom:enter-inLead" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left btn" onclick="PrimeFaces.ab({s:&quot;checkProMriFrom:enter-inLead&quot;,f:&quot;checkProMriFrom&quot;,onst:function(cfg){PF(&#39;progressDialog&#39;).show(); $(&#39;#progressDialog&#39;).spin(&#39;small&#39;);;},onco:function(xhr,status,args,data){checkLeadInput();}});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c identify-icon"></span><span class="ui-button-text ui-c">Continue</span></button>
+						</div>
+						<div class="result-wrap open" id="result03">
+							<div class="result-label hidden-phone"><span id="checkProMriFrom:msg17">Leads:</span>
+							</div>
+							<div class="result" id="lead0"></div>
+							<div class="clearfix"></div>
+							<div class="result" id="lead1"></div>
+							<div class="clearfix"></div>
+							<div class="result" id="lead2"></div>
+							<div class="clearfix"></div>
+						</div>
+						<a href="https://www.promricheck.com/spring/main?execution=e2s1#leads-popup" class="bio-icon help open-popup-link" id="leadHelpLink" title="FAQ - Leads"></a>
+						<div class="bio-icon toggle-btn edit" id="edit3"></div>
+					</div>
+				</div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="e2s1">
+</form>
+
+			
+			<div class="summary-row print-only">
+				<div id="patient-details">
+					<div id="patient-name">
+						<div class="p-label">Patient name</div>
+					</div>
+					<div id="patient-dob">
+						<div class="p-label">Date of birth</div>
+					</div>
+				</div>
+			</div>
+			<div class="summary-row print-only">
+				<div id="input-summary">
+					<div id="summary-country">
+						<div class="summary-label"><span id="printCountryText">MRI scan in:</span>
+						</div>
+						<div class="summary-input">
+							<span class="value">USA</span>
+						</div>
+					</div>
+					<div id="summary-device">
+						<div class="summary-label"><span id="printDeviceText">Device:</span>
+						</div>
+						<div class="summary-input">
+							<span class="value">BIOMONITOR III (Ref. 436066)</span>
+						</div>
+					</div>
+					<div id="summary-leads">
+						<div class="summary-label"><span id="printLeadsText">Leads:</span>
+						</div>
+						<div class="summary-input">
+							<span class="value value0"></span> 
+							<span class="value value1"></span>
+							<span class="value value2"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clearfix"></div>
+			
+
+			
+
+			<div id="section4" class="section" style="display: block;">
+				<div class="container">
+					<a href="https://www.promricheck.com/spring/main?execution=e2s1#results-popup" class="bio-icon help open-popup-link" id="resultHelpLink" title="FAQ - Results"></a><div id="conditionalResultFragment">
+						<div id="configuration-message" class="positive">
+							<div id="pos"><span id="posText">The system is MR conditional.</span>
+								<img src="./biomonitor3_files/conditional_true.jpg" alt="">
+							</div>
+							<div id="neg"><span id="conditionalText">The system could not be identified as MR conditional.</span>
+								<img src="./biomonitor3_files/conditional_false.jpg" alt="">
+							</div>
+							<div class="clearfix"></div>
+							<b>
+								<span class="bigwarning"><span id="warning1">Warning: This website provides information on the MRI compatibility of the implanted system. This information on MRI compatibility does not, however, replace the product and application instructions in the </span>
+										<a id="hrefwarning2" href="https://manuals.biotronik.com/emanuals-professionals/" target="_blank"><span id="warning2">ProMRI manual </span>
+										</a><span id="warning3">. Users must not rely solely on this information, but must carefully read and observe the ProMRI System Technical Manual for proper use of the implanted system for treatment and determination of MRI compatibility. </span>
+								</span>
+							</b>
+						</div>
+
+						<div class="conditions" id="conditionsResults" style="display: block;">
+							<div class="conditions-label row"><span id="infoMRI">MRI scanner</span>
+							</div>
+							<div id="firstConditionalRow" class="row">
+								<div class="cell"><span id="resultCat1">Field strength</span>
+								</div>
+								<div class="cell"><span id="resultCat2">Isocenter position</span>
+								</div>
+								<div class="cell"><span id="resultCat3">Slew rate</span>
+								</div>
+								<div class="cell"><span id="resultCat4">Whole body SAR</span>
+								</div>
+							</div>
+								<div class="result-data row">
+									<div class="cell" id="r-tesla">
+										<span>1.5 T</span>
+									</div>
+									<div class="cell" id="r-exclusion">
+										<span>Full body</span>
+									</div>
+									<div class="cell" id="r-slew">
+										<span>≤ 200&nbsp;T/m/s</span>
+									</div>
+									<div class="cell" id="r-sar">
+										<span>≤ 4.0&nbsp;W/kg</span>
+									</div>
+								</div><div id="conditionalRepeat:0:j_idt52" class="ui-outputpanel ui-widget divider hidden-medium-up"></div><div id="conditionalRepeat:1:conditionalRow" class="ui-outputpanel ui-widget row hidden-medium-up">
+									<div class="cell"><span id="conditionalRepeat:1:resultCat1a">Field strength</span>
+									</div>
+									<div class="cell"><span id="conditionalRepeat:1:resultCat2a">Isocenter position</span>
+									</div>
+									<div class="cell"><span id="conditionalRepeat:1:resultCat3a">Slew rate</span>
+									</div>
+									<div class="cell"><span id="conditionalRepeat:1:resultCat4a">Whole body SAR</span>
+									</div></div>
+								<div class="result-data row">
+									<div class="cell" id="r-tesla">
+										<span>3 T</span>
+									</div>
+									<div class="cell" id="r-exclusion">
+										<span>Full body</span>
+									</div>
+									<div class="cell" id="r-slew">
+										<span>≤ 200&nbsp;T/m/s</span>
+									</div>
+									<div class="cell" id="r-sar">
+										<span>≤ 4.0&nbsp;W/kg</span>
+									</div>
+								</div>
+						</div><div id="footnote" class="ui-outputpanel ui-widget"></div>
+						<div class="conditions" id="fc1" style="display: block;">
+							<div class="conditions-label row"><span id="conditionHeader">Further MR conditions</span>
+							</div>
+							<div id="fixed-conditions" class="open">
+							<ul>
+							<li><span id="condition1">You can find detailed information about the requirements, conditions and measures for safely conducting an MRI scan in the</span>
+									<a id="hrefCondition2" href="https://manuals.biotronik.com/emanuals-professionals/" target="_blank"><span id="condition2" class="linkedText">ProMRI manual</span>
+									</a>.
+								
+								</li>
+							</ul>
+
+							</div>
+						</div>
+						
+						<div class="print-only" id="signature-wrap">
+							<div>
+								<div id="signature-field">
+									<div id="signature-label">Signature</div>
+								</div>
+							</div>
+						</div>
+
+						
+						<div class="clearfix"></div>
+						<div class="hidden-medium-up" id="print-text"><span id="printMobileInfoText">To ensure the best printing experience, we recommend using the ProMRI SystemCheck on a desktop computer.</span>
+						</div>
+						<div id="print-report">
+							<div id="print-btn">
+								<div class="printer-icon"></div>
+								<div><span id="printBtnText">Print</span>
+								</div>
+							</div>
+						</div>
+						
+
+						<div class="report hidden-phone"><a id="resetLink" href="https://www.promricheck.com/spring/main?execution=e2s1#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;resetLink&quot;,onco:function(xhr,status,args,data){window.location.reload();;},fi:&quot;conditionalResultFragment&quot;});return false;">
+								<div class="report-icon restart"></div>
+								<span><span id="resetRestart">Reset &amp; restart</span>
+								</span></a>
+								<a id="hrefManualLink" href="https://manuals.biotronik.com/emanuals-professionals/" target="_blank">
+									<div class="report-icon more-info"></div> 
+									<span><span id="moreInfo">ProMRI manual</span>
+									</span>
+								</a>
+								<a id="hrefLinkToShare" href="mailto:?body=ProPatient%E2%84%A2%20ProMRI%0D%0A%0D%0AThe%20ProMRI%20SystemCheck%20helps%20verify%20the%20MRI%20conditions%20of%20a%20patient%27s%20implanted%20BIOTRONIK%20cardiac%20system%20to%20give%20your%20patient%20safe%20access%20to%20MRI%20scans.%0D%0A%0D%0APlease%20open%20the%20following%20link%20to%20find%20the%20result%20of%20a%20ProMRI%20SystemCheck%20request:%0D%0A%0D%0Ahttps://promricheck.com/spring/main%0D%0A%0D%0AFor%20complete%20details%20about%20the%20ProMRI%20conditions,%20please%20refer%20to%20the%20ProMRI%20System%20manual.%0D%0A%0D%0AThis%20manual%20is%20available%20in%20the%20BIOTRONIK%20manual%20library%20at%20manuals.biotronik.com.%0D%0A%0D%0Ahttps://manuals.biotronik.com/emanuals-professionals/%0D%0A%0D%0A">
+								<div class="report-icon share-link"></div> 
+								<span><span id="shareLink">Share result</span>
+								</span>
+								</a>
+								<a id="hrefMarketingLink" href="https://www.biotronik.com/promri/us" target="_blank">
+									<div class="report-icon world-link"></div> 
+									<span><span id="marketingLink">ProMRI website</span></span>
+								</a>
+						</div></div>
+				</div>
+			</div>
+
+
+			
+			<div id="base" class="b3" style="display: none;"></div>
+
+			
+			<div id="footer">
+				<div class="inner">
+					<a href="https://www.promricheck.com/spring/main?execution=e2s1#imprint-popup" class="open-popup-link" id="impressum" title="Imprint">Imprint</a>
+					&nbsp;&nbsp;|&nbsp;&nbsp; 
+					<a href="https://www.promricheck.com/spring/main?execution=e2s1#privacy-popup" class="open-popup-link" id="privacy" title="Privacy statement">Privacy statement</a>
+					&nbsp;&nbsp;|&nbsp;&nbsp; 
+					<a id="lawHint" href="http://www.biotronik.com/content/promri_legalinfo_en.pdf" target="_blank" title="Legal Disclaimer">Legal Disclaimer</a> 
+					&nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://www.biotronik.com/" target="_blank">BIOTRONIK© 2023</a>
+				</div>
+			</div>
+
+		</div>
+
+		
+		<div class="report hidden-medium-up" id="mobile-report">
+			<div><a id="resetLinkMobile" href="https://www.promricheck.com/spring/main?execution=e2s1#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;resetLinkMobile&quot;,onco:function(xhr,status,args,data){window.location.reload();;}});return false;">
+					<div class="report-icon restart"></div></a>
+			</div>
+			<div><div id="mobileUpdate">
+						<a id="hrefManualLinkMobile" href="https://manuals.biotronik.com/emanuals-professionals/" target="_blank">
+							<div class="report-icon more-info"></div>
+						</a></div><div id="mobileLinkToShareUpdate">
+						<a id="hrefLinkToShare" href="mailto:?body=ProPatient%E2%84%A2%20ProMRI%0D%0A%0D%0AThe%20ProMRI%20SystemCheck%20helps%20verify%20the%20MRI%20conditions%20of%20a%20patient%27s%20implanted%20BIOTRONIK%20cardiac%20system%20to%20give%20your%20patient%20safe%20access%20to%20MRI%20scans.%0D%0A%0D%0APlease%20open%20the%20following%20link%20to%20find%20the%20result%20of%20a%20ProMRI%20SystemCheck%20request:%0D%0A%0D%0Ahttps://promricheck.com/spring/main%0D%0A%0D%0AFor%20complete%20details%20about%20the%20ProMRI%20conditions,%20please%20refer%20to%20the%20ProMRI%20System%20manual.%0D%0A%0D%0AThis%20manual%20is%20available%20in%20the%20BIOTRONIK%20manual%20library%20at%20manuals.biotronik.com.%0D%0A%0D%0Ahttps://manuals.biotronik.com/emanuals-professionals/%0D%0A%0D%0A">
+						<div class="report-icon share-link"></div> 
+						</a></div><div id="mobileMarketingUpdate">
+						<a id="hrefMarketingLinkMobile" href="https://www.biotronik.com/promri/us" target="_blank">
+							<div class="report-icon world-link"></div>
+						</a></div>
+			</div>
+		</div>
+
+
+
+		
+		<div id="privacy-popup" class="white-popup mfp-hide">
+			<div class="popup-header"><span id="privacyStatement">Privacy statement</span>
+			</div>
+			<div class="popup-content">
+				<p>
+					<a id="dataPrivacyStatementLink" href="http://www.biotronik.com/content/promri_privacystatement_en.pdf" target="_blank" title="Privacy statement">Privacy statement</a> 
+				</p>
+			</div>
+		</div>
+
+		<div class="white-popup mfp-hide" id="imprint-popup">
+			<div class="popup-header"><span id="imprint">Imprint</span>
+			</div>
+				<div class="popup-content">
+					<p><span id="imprint1">Imprint</span>
+					</p>
+					<p><span id="imprint2">Company Name: BIOTRONIK SE &amp; Co. KG</span>
+					</p>
+					<p><span id="imprint3">Address: Woermannkehre&nbsp;1, 12359&nbsp;Berlin, Germany</span>
+					</p>
+					<p><span id="imprint4">Tel: + 49 - 30 - 6 89 05 - 0</span>
+					</p>
+					<p><span id="imprint5">Fax: + 49 - 30 - 6 84 40 - 60</span>
+					</p>
+					<p><span id="imprint6">e-Mail: impressum@biotronik.de</span>
+					</p>
+					<p><span id="imprint7">Limited Partnership having its registered place of business in Berlin</span>
+					</p>
+					<p><span id="imprint8">Commercial Register No.: Berlin-Charlottenburg HRA&nbsp;6501&nbsp;B</span>
+					</p>
+					<p><span id="imprint9">General partner: BIOTRONIK MT SE</span>
+					</p>
+					<p><span id="imprint10">Commercial Register No.: Berlin-Charlottenburg HRB&nbsp;118866&nbsp;B</span>
+					</p>
+					<p><span id="imprint11">Managing Directors: Dr. Alexander Uhl (Chairman), Dr. Andreas Hecker, Stephan Schulz-Gohritz </span>
+					</p>
+					<p><span id="imprint12">Ust ID No.: DE&nbsp;136651322</span>
+					</p>
+				</div>
+		</div>
+
+		<div id="country-popup" class="white-popup mfp-hide">
+			<div class="popup-header"><span id="countryFAQ">FAQ - Country/Region</span>
+			</div>
+			<div class="popup-content">
+				<div class="popup-heading"><span id="questionFaq1">Where to get help?</span>
+				</div>
+				<p><span id="answerFaq1a">Please contact us</span> &nbsp;
+					
+						<a id="hrefContactLink1" href="https://www.biotronik.com/en-de/contact" target="_blank"><span id="answerFaqLink">here</span>
+						</a>
+						&nbsp;
+					
+					<span id="answerFaq1b">if you need assistance.</span>
+				</p>
+				<div class="popup-heading"><span id="questionFaq2">Why is the selection of a country/region required?</span>
+				</div>
+				<p><span id="answerFaq2">In general, the use of medical devices is only allowed if they are approved. As the approval process takes a different amount of time in each country, MR conditions and available MR conditional systems may differ from country to country. To make sure that only approved products and conditions will be shown, the country where the scan will take place must be selected. You can find detailed information about the requirements, conditions and measures for safely conducting an MRI scan in the ProMRI System Technical Manual.</span>
+				</p>
+			</div>
+		</div>
+		<div id="device-popup" class="white-popup mfp-hide">
+			<div class="popup-header"><span id="deviceFAQ">FAQ - ICD, pacemaker or cardiac monitor</span>
+			</div>
+			<div class="popup-content">
+				<div class="popup-heading"><span id="questionFaq3">Where to get help?</span>
+				</div>
+				<p><span id="answerFaq3a">Please contact us</span>
+					&nbsp;
+					
+					
+						<a id="hrefContactLink2" href="https://www.biotronik.com/en-de/contact" target="_blank"><span id="answerFaqLink2">here</span>
+						</a>
+					
+					&nbsp;
+					<span id="answerFaq3b">if you need assistance.</span>
+				</p>
+				<div class="popup-heading"><span id="questionFaq4">Where can I find the serial number or the product name?</span>
+				</div>
+				<p><span id="answerFaq4">The serial number and product name can be found on:</span>
+				</p>
+				<ul>
+					<li><span id="answerFaq4a">Pacemaker or ICD patient ID card. Please see image below.</span></li>
+					<li><span id="answerFaq4b">The product label (on the packaging)</span></li>
+					<li><span id="answerFaq4c">Programmer user interface / Programmer printout</span></li>
+					<li><span id="answerFaq4d">Home Monitoring Service Center</span></li>
+					<li><span id="answerFaq4e">Home Monitoring Status Report (printout)</span></li>
+					<li><span id="answerFaq4f">Instructions for use (product name only)</span></li>
+				</ul>
+				<div class="popup-heading"><span id="questionFaq5">Where can I find the order number of the product?</span>
+				</div>
+				<ul>
+					<li><span id="answerFaq5a">The product label (on the packaging)</span></li>
+					<li><span id="answerFaq5b">Device manual, instruction for use</span></li>
+				</ul>
+
+				<div class="popup-heading"><span id="questionFaq6">Will the data be stored?</span>
+				</div>
+				<p><span id="answerFaq6">None of the entered data will be stored. Neither data such as the serial number, product names or order numbers, nor the result will be stored.</span>
+				</p>
+				<div class="popup-heading"><span id="faqPatientIdCard">Patient ID card</span>
+				</div>
+				<img src="./biomonitor3_files/patient_id_card.jpg" alt="">
+			</div>
+		</div>
+		<div id="leads-popup" class="white-popup mfp-hide">
+			<div class="popup-header"><span id="leadsFAQ">FAQ - Leads</span>
+			</div>
+			<div class="popup-content">
+				<div class="popup-heading"><span id="questionFaq7">Where to get help?</span>
+				</div>
+				<p><span id="answerFaq7a">Please contact us</span>
+					&nbsp;
+						
+						<a id="hrefContactLink3" href="https://www.biotronik.com/en-de/contact" target="_blank"><span id="answerFaqLink3">here</span>
+						</a>
+					
+					&nbsp;
+					<span id="answerFaq7b">if you need assistance.</span>
+				</p>
+				<div class="popup-heading"><span id="questionFaq8">Where can I find the serial number or the product name?</span>
+				</div>
+				<p><span id="answerFaq8">The serial number and product name can be found on:</span>
+				</p>
+				<ul>
+					<li><span id="answerFaq8a">Pacemaker or ICD patient ID card. Please see image below.</span></li>
+					<li><span id="answerFaq8b">The product label (on the packaging)</span></li>
+					<li><span id="answerFaq8c">Programmer user interface / Programmer printout</span></li>
+					<li><span id="answerFaq8d">Home Monitoring Service Center</span></li>
+					<li><span id="answerFaq8e">Home Monitoring Status Report (printout)</span></li>
+					<li><span id="answerFaq8f">Instructions for use (product name only)</span></li>
+				</ul>
+				<div class="popup-heading"><span id="questionFaq9">Where can I find the order number of the product?</span>
+				</div>
+				<ul>
+					<li><span id="answerFaq9a">The product label (on the packaging)</span></li>
+					<li><span id="answerFaq9b">Device manual, instruction for use</span></li>
+				</ul>
+				<div class="popup-heading"><span id="questionFaq10">Will the data be stored?</span>
+				</div>
+				<p><span id="answerFaq10">None of the entered data will be stored. Neither data such as the serial number, product names or order numbers, nor the result will be stored.</span>
+				</p>
+				<div class="popup-heading"><span id="faqPatientIdCard2">Patient ID card</span>
+				</div>
+				<img src="./biomonitor3_files/patient_id_card.jpg" alt="">
+			</div>
+		</div>
+		<div id="results-popup" class="white-popup mfp-hide">
+			<div class="popup-header"><span id="resultsFAQ">FAQ - Results</span>
+			</div>
+			<div class="popup-content">
+				<div class="popup-heading"><span id="questionFaq11">Field strength</span>
+				</div>
+				<p><span id="answerFaq11">The field strength is measured in tesla (T). The MR scan with BIOTRONIK systems requires the use of a clinical MRI scanner with a closed bore, cylindrical magnets and a static magnetic field strength of 1.5&nbsp;T or 3&nbsp;T.</span>
+				</p>
+				<div class="popup-heading"><span id="questionFaq12">Isocenter position</span>
+				</div>
+				<p><span id="answerFaq12">The isocenter position is an MR condition that describes the permissible scan areas of the patient. Regarding the isocenter position you can find two possible scan conditions:</span>
+				</p>
+				<p>
+					<b><span id="answerFaq12a">Full body</span></b>&nbsp;
+					<span id="answerFaq12b">will be shown for BIOTRONIK products that have been tested under the conditions of an MR scan and are approved as MR conditional without a scan exclusion zone.</span>
+				</p>
+				<p>
+					<b><span id="answerFaq12c">Hip and eye</span></b>&nbsp;
+					<span id="answerFaq12d">will be shown for BIOTRONIK products that have been tested under the conditions of an MR scan and are approved as MR conditional with a scan exclusion zone.</span>
+				</p>
+
+				<div class="popup-heading"><span id="questionFaq13">Hip and eye - permissible positioning zone</span>
+				</div>
+				<p>
+					<b><span id="answerFaq13a">General considerations</span></b>&nbsp;
+					<span id="answerFaq13b">The permissible positioning zone explained below must always be maintained during MR scans of patients with restricted device systems.</span>
+				</p>
+				<p>
+					<b><span id="answerFaq13c">Isocenter</span></b>&nbsp;
+					<span id="answerFaq13d">Starting from the feet, the permissible positioning zone for the isocenter of the high-frequency coil is at the greater trochanter level. Starting from the top of the skull, the permissible positioning zone for the isocenter is at the level of the eyes or the lower edge of the eye socket. In practice, this means that the marker line of the MRI scanner's laser positioning marks must be within this zone. However, receiver only coils can also be positioned outside this area.</span>
+				</p>
+				<p>
+					<b><span id="answerFaq13e">Field of view</span></b>&nbsp;
+					<span id="answerFaq13f">An MRI scanner's field of view is the area within which imaging data can be obtained. The scan exclusion zone is determined by the MRI scanner's field of view and the size of the patient.</span>
+				</p>
+
+				<div class="popup-heading"><span id="questionFaq14">Slew rate</span>
+				</div>
+				<p><span id="answerFaq14">The slew rate of the MRI scanner's gradient fields is shown in tesla per meter per second per axis (T/m/s per axis). This website shows the maximum for the slew rate value, which must not be exceeded during the scan. Note: A maximum slew rate of 125 T/m/s per axis is valid for Evia, Entovis, Estella and Ecuro models up to and including serial number 66237094.</span>
+				</p>
+
+				<div class="popup-heading"><span id="questionFaq15">Whole body SAR</span>
+				</div>
+				<p><span id="answerFaq15a">The mean specific absorption rate (SAR) for the whole body is shown in watts per kilogram (W/kg). This website shows the maximum value for the whole body SAR. It must not be exceeded during the scan.</span>
+				</p>
+				<p>&nbsp;</p>
+				<p><span id="answerFaq15b">Caution: Detailed information about ProMRI can be found in the ProMRI System Technical Manual. Please contact your local BIOTRONIK representative.</span>
+				</p>
+			</div>
+		</div><script type="text/javascript" src="./biomonitor3_files/jquery-ui.min.js.download"></script><script type="text/javascript" src="./biomonitor3_files/modernizr.custom.js.download"></script><script type="text/javascript" src="./biomonitor3_files/spin.min.js.download"></script><script type="text/javascript" src="./biomonitor3_files/jquery.spin.js.download"></script><script type="text/javascript" src="./biomonitor3_files/magnific.js.download"></script><script type="text/javascript" src="./biomonitor3_files/extend.js.download"></script><div id="js-logic-part">
+			<script type="text/javascript">
+			var body = $('body');
+			var mainWrap = $('#main-wrap');
+			var section0 = $('#section0');
+			var section1 = $('#section1');
+			var section2 = $('#section2');
+			var section3 = $('#section3');
+			var section4 = $('#section4');
+			var section4empty = $('#section4empty');
+			var countryInput = $('#checkProMriFrom\\:country_input');
+			var countryInitialInput; // necessary to check whether a section was reopend
+			var deviceInput = $('#checkProMriFrom\\:device_input');
+			var deviceInitialInput; // necessary to check whether a section was reopend
+			var l0 = $('#checkProMriFrom\\:inLead1_input');
+			var l1 = $('#checkProMriFrom\\:inLead2_input');
+			var l2 = $('#checkProMriFrom\\:inLead3_input');
+			var configMessage = $('#configuration-message');
+			var enterCountryButton = $('#checkProMriFrom\\:enter-country');
+			var enterDeviceButton = $('#checkProMriFrom\\:enter-device');
+			var enterLeadButton = $('#checkProMriFrom\\:enter-lead');
+
+			/* initial display of the web-page if the client uses parameter in the url */
+			$(document).ready(function() {
+				if ('true' === 'true') {
+
+					checkCountryInput();
+
+					if ('false' === 'false') { 
+						if ('false' === 'false') {
+					
+							deviceInput.val('BIOMONITOR III');
+							checkDeviceInput();
+	
+							l0.val('');
+							l1.val('');
+							l2.val('');
+							checkLeadInput();
+						}
+					}
+				}
+			});
+
+			function checkCountryInput() {
+				prepareCountryDisplay();
+
+				if ('false' === 'true' || countryInput.val() === '') {
+					displayCountryFailure();
+				} else if ('false' === 'true') {
+					displayCountryFailureNoDevice();
+				} else {
+					$('#country-conditional').addClass('true');
+					if (section1.hasClass('error')) {
+						$('#country-conditional').removeClass('false');
+						body.removeClass('report-up');
+						countryInput.parent().parent().removeClass('error');
+						section1.removeClass('error');
+						mainWrap.removeClass('error error01 error02');
+						configMessage.addClass('positive');
+						configMessage.removeClass('negative');
+						if (section2.hasClass('error')) {
+							section2.addClass('initial');
+							section2.removeClass('error');
+							section2.find('.input-wrap').removeClass('error');
+						}
+						;
+					}
+					;
+
+					// enter country name in result field
+					$('#chosen-country').html(htmlEncode(countryInput.val()));
+					section2.addClass('on');
+
+					setTimeout(function() {
+						$('#section2 .question-wrap').addClass('open');
+					}, 200);
+					contractSection(0);
+					setTimeout(function() {
+						contractSection(1);
+					}, 0) // needed so that section still animates after error
+					section1.removeClass('initial');
+					section2.addClass('initial');
+					$('#base').removeClass().addClass('b3');
+				}
+				;
+
+			}
+
+			function prepareCountryDisplay() {
+				closeProgressDialog();
+
+				// get the first country input to avoid change without confirm
+				countryInitialInput = countryInput.val();
+
+				// reset form
+				countryInput.parent().parent().removeClass('error');
+
+				section0.removeClass('condensed');
+				section0.addClass('expanded');
+
+				section4.css('display', 'none');
+				section2.removeClass('on');
+				section3.removeClass('on');
+
+				section2.removeClass('condensed');
+				section2.removeClass('error');
+				section3.removeClass('condensed');
+				section3.removeClass('error');
+				deviceInput.val('');
+				deviceInput.parent().parent().removeClass('error');
+				$('#chosen-country').html('');
+				$('#device-name').html('');
+				$('#lead0').html('');
+				$('#lead1').html('');
+				$('#lead2').html('');
+				$('#country-conditional').removeClass('true');
+				$('#country-conditional').removeClass('false');
+				$('#device-conditional').removeClass('true');
+				$('#device-conditional').removeClass('false');
+				mainWrap.removeClass('success02');
+				mainWrap.removeClass('error error02');
+				mainWrap.removeClass('error error03');
+				l0.val('');
+				l1.val('');
+				l2.val('');
+				l0.parent().parent().find('.conditional').removeClass('true');
+				l0.parent().parent().find('.conditional').removeClass('false');
+				l1.parent().parent().find('.conditional').removeClass('true');
+				l1.parent().parent().find('.conditional').removeClass('false');
+				l2.parent().parent().find('.conditional').removeClass('true');
+				l2.parent().parent().find('.conditional').removeClass('false');
+				l0.parent().parent().removeClass('error');
+				l1.parent().parent().removeClass('error');
+				l2.parent().parent().removeClass('error');
+
+				$('#conditionsResults').css('display', 'block');
+				$('#fc1').css('display', 'none');
+				$('#unknownCountryInputError').css('display', 'block');
+
+				$('#summary-country .summary-input .value').html(htmlEncode(countryInput.val()));
+				$('#summary-device .summary-input .value').html('');
+				$('#summary-leads .value0').html('');
+				$('#summary-leads .value1').html('');
+				$('#summary-leads .value2').html('');
+
+			}
+
+			//check the device input
+			function checkDeviceInput() {
+				// if country input changes we have to continue at step one else we could check the input
+				if (countryInput.val() != countryInitialInput) {
+					countryInitialInput = countryInput.val();
+					checkCountryInput();
+				} else {
+					displayDeviceResult();
+				}
+
+			}
+
+			// function to check the lead input
+			function checkLeadInput() {
+				// if country input changed, country have to be checked again
+				if (countryInput.val() != countryInitialInput) {
+					checkCountryInput();
+				} else if (deviceInput.val() != deviceInitialInput) {
+					checkDeviceInput();
+				} else {
+					displayLeadResult();
+				}
+
+			}
+
+			function displayDeviceResult() {
+				// save first deviceInput to avoid later change of the input without confirm
+				deviceInitialInput = 'BIOMONITOR III';
+
+				if ('false' === 'true') {
+					closeProgressDialog();
+					PF('serviceNotAvailableDialog').show();
+					return; // no other display changes
+				} else {
+					closeProgressDialog();
+				}
+
+				// reset form
+				section4.css('display', 'none');
+				section3.removeClass('on');
+
+				section3.removeClass('condensed');
+				section3.removeClass('error');
+				mainWrap.removeClass('success02');
+				section3.addClass('initial');
+				$('#device-name').html('');
+				$('#section3 .question-wrap').addClass('open');
+				$('#device-conditional').removeClass('true');
+				$('#device-conditional').removeClass('false');
+				$('#lead0').html('');
+				$('#lead1').html('');
+				$('#lead2').html('');
+				l0.val('');
+				l1.val('');
+				l2.val('');
+				l0.parent().parent().find('.conditional').removeClass('true');
+				l0.parent().parent().find('.conditional').removeClass('false');
+				l1.parent().parent().find('.conditional').removeClass('true');
+				l1.parent().parent().find('.conditional').removeClass('false');
+				l2.parent().parent().find('.conditional').removeClass('true');
+				l2.parent().parent().find('.conditional').removeClass('false');
+
+				l0.parent().parent().removeClass('error');
+				l1.parent().parent().removeClass('error');
+				l2.parent().parent().removeClass('error');
+
+				$('#conditionsResults').css('display', 'block');
+				$('#fc1').css('display', 'block');
+				$('.toggle-btn#edit3').removeClass('edit');
+				$('#summary-leads .value0').html('');
+				$('#summary-leads .value1').html('');
+				$('#summary-leads .value2').html('');
+
+				if ('false' === 'true' || countryInput.val() === '') {
+					displayCountryFailure();
+				} else if ('false' === 'true' || deviceInput.val() === '') {
+					displayDeviceFailure();
+				} else {
+					
+					$('#summary-device .summary-input .value').html('BIOMONITOR III (Ref. 436066)');
+					$('#device-conditional').addClass('true');
+					if (section2.hasClass('error')) {
+						$('#device-conditional').removeClass('false');
+						body.removeClass('report-up')
+						deviceInput.parent().parent().removeClass('error');
+						section2.removeClass('error');
+						mainWrap.removeClass('error error02 error03');
+						configMessage.addClass('positive');
+						configMessage.removeClass('negative');
+						if (section3.hasClass('error')) {
+							section3.addClass('initial');
+							section3.removeClass('error');
+							section3.find('.input-wrap').removeClass('error');
+						}
+						;
+					}
+					;
+
+					// enter device name in result field
+					$('#device-name').html('BIOMONITOR III (Ref. 436066)');
+
+					// set default lead inputs
+					section3.removeClass('triple');
+					l0.parent().parent().removeClass('active');
+					l1.parent().parent().removeClass('active');
+					l2.parent().parent().removeClass('active');
+					$('#lead0').html('');
+					$('#lead1').html('');
+					$('#lead2').html('');
+
+					if ('0' == 1) {
+						l0.parent().parent().addClass('active');
+					} else if ('0' == 2) {
+						l0.parent().parent().addClass('active');
+						l1.parent().parent().addClass('active');
+					} else if ('0' == 3) {
+						section3.addClass('triple');
+						l0.parent().parent().addClass('active');
+						l1.parent().parent().addClass('active');
+						l2.parent().parent().addClass('active');
+					}
+
+					if ('0' != 0) {
+						// condense current section and expand next section
+						section3.addClass('on');
+
+						setTimeout(function() {
+							contractSection(2);
+						}, 0) // needed so that section still animates after error
+
+						section2.removeClass('initial');
+						$('#base').removeClass(); // change base color
+					} else {
+						section4.css('display', 'block');
+						$('#summary-leads .value0').html('---');
+
+						mainWrap.addClass('success02');
+
+						mainWrap.removeClass('error error03');
+						configMessage.addClass('positive');
+						configMessage.removeClass('negative');
+
+						setTimeout(function() {
+							contractSection(2);
+						}, 0); // needed so that section still animates after error
+						body.addClass('report-up');
+						section3.removeClass('initial');
+						section2.removeClass('initial');
+						// hide spacer
+						$('#base').hide();
+						// scroll body to top of section1
+						setTimeout(function() {
+							dh = section1.offset().top;
+							$('html, body').animate({
+								scrollTop : dh
+							}, 300);
+						}, 600);
+					}
+				}
+				;
+
+				return false;
+			}
+
+			//function to display lead result
+			function displayLeadResult() {
+				if ('false' === 'true') {
+					closeProgressDialog();
+					PF('serviceNotAvailableDialog').show();
+					return; // no other display changes
+				} else {
+					closeProgressDialog();
+				}
+
+				l0.parent().parent().find('.conditional').removeClass('true');
+				l0.parent().parent().find('.conditional').removeClass('false');
+				l1.parent().parent().find('.conditional').removeClass('true');
+				l1.parent().parent().find('.conditional').removeClass('false');
+				l2.parent().parent().find('.conditional').removeClass('true');
+				l2.parent().parent().find('.conditional').removeClass('false');
+
+				$('#conditionsResults').css('display', 'block');
+				$('#fc1').css('display', 'block');
+
+				if ('false' === 'true' || countryInput.val() === '') {
+					displayCountryFailure();
+				}
+
+				if ('false' === 'true' || deviceInput.val() === '') {
+					displayDeviceFailure();
+				} else {
+
+					// error handling if field empty or not
+					if ('false' === 'true') {
+						l0.parent().parent().addClass('error');
+						l0.parent().parent().find('.conditional').removeClass('true');
+						l0.parent().parent().find('.conditional').addClass('false');
+						$('#summary-leads .value0').html(htmlEncode(l0.val()));
+					} else {
+						l0.parent().parent().removeClass('error');
+						l0.parent().parent().find('.conditional').removeClass('false');
+						$('#lead0').html(''); // enter lead name in result field
+						$('#summary-leads .value0').html('');
+					}
+
+					if (l1.parent().parent().hasClass('active')) {
+						if ('false' === 'true') {
+							l1.parent().parent().addClass('error');
+							l1.parent().parent().find('.conditional').removeClass('true');
+							l1.parent().parent().find('.conditional').addClass('false');
+							$('#summary-leads .value1').html(htmlEncode(l1.val()));
+
+						} else {
+							l1.parent().parent().removeClass('error');
+							l1.parent().parent().find('.conditional').removeClass('false');
+							$('#lead1').html(''); // enter lead name in result field
+							$('#summary-leads .value1').html('');
+						}
+						;
+					} else {
+						l1.parent().parent().removeClass('error');
+					}
+
+					if (l2.parent().parent().hasClass('active')) {
+						if ('false' === 'true') {
+							l2.parent().parent().addClass('error');
+							l2.parent().parent().find('.conditional').removeClass('true');
+							l2.parent().parent().find('.conditional').addClass('false');
+							$('#summary-leads .value2').html(htmlEncode(l2.val()));
+						} else {
+							l2.parent().parent().removeClass('error');
+							l2.parent().parent().find('.conditional').removeClass('false');
+							$('#lead2').html(''); // enter lead name in result field
+							$('#summary-leads .value2').html('');
+						}
+					} else {
+						l2.parent().parent().removeClass('error');
+					}
+
+					if ('false' === 'true') {
+						configMessage.removeClass('positive');
+						configMessage.addClass('negative');
+						section3.addClass('error');
+						section4.css('display', 'block');
+						$('#conditionsResults').css('display', 'none');
+						$('#fc1').css('display', 'none');
+						$('#base').hide();
+
+						// scroll body to top of section3
+						s2 = section2.offset().top;
+						setTimeout(function() {
+							$('html, body').animate({
+								scrollTop : s2
+							}, 300);
+						}, 300);
+					} else {
+						section3.removeClass('error');
+						$('input.lead').parent().removeClass('error');
+						$('.input-wrap .conditional').removeClass('false');
+						$('.input-wrap .conditional').addClass('true');
+						section2.removeClass('error');
+						mainWrap.removeClass('error error03');
+						configMessage.addClass('positive');
+						configMessage.removeClass('negative');
+
+						section4.css('display', 'block');
+
+						setTimeout(function() {
+							contractSection(3);
+						}, 0); // needed so that section still animates after error
+						body.addClass('report-up');
+						section3.removeClass('initial');
+						// hide spacer
+						$('#base').hide();
+						// scroll body to top of section1
+						setTimeout(function() {
+							dh = section1.offset().top;
+							$('html, body').animate({
+								scrollTop : dh
+							}, 300);
+						}, 600);
+					}
+
+				}
+			}
+
+			// display country failure
+			function displayCountryFailure() {
+				countryInput.parent().parent().addClass('error');
+				section1.addClass('error');
+				mainWrap.addClass('error error01');
+				configMessage.removeClass('positive');
+				configMessage.addClass('negative');
+				body.addClass('report-up');
+				$('#country-conditional').removeClass('true');
+				$('#country-conditional').addClass('false');
+
+				// scroll body to top of section1
+				s1 = section1.offset().top;
+				setTimeout(function() {
+					$('html, body').animate({
+						scrollTop : s1
+					}, 300);
+				}, 300);
+			}
+
+			// display the country failure if no device exists for country
+			function displayCountryFailureNoDevice() {
+				contractSection(0);
+				section4.css('display', 'block');
+				mainWrap.addClass('success02');
+				mainWrap.addClass('error error03');
+
+				countryInput.parent().parent().addClass('error');
+				configMessage.removeClass('positive');
+				configMessage.addClass('negative');
+				$('#country-conditional').removeClass('true');
+				$('#country-conditional').addClass('false');
+				$('#conditionsResults').css('display', 'none');
+
+				$('#unknownCountryInputError').css('display', 'none');
+
+				setTimeout(function() {
+					contractSection(2);
+				}, 0); // needed so that section still animates after error
+				body.addClass('report-up');
+				section3.removeClass('initial');
+				// hide spacer
+				$('#base').hide();
+				// scroll body to top of section1
+				setTimeout(function() {
+					dh = section1.offset().top;
+					$('html, body').animate({
+						scrollTop : dh
+					}, 300);
+				}, 600);
+			}
+
+			// display device failure
+			function displayDeviceFailure() {
+				$('#summary-device .summary-input .value').html(htmlEncode(deviceInput.val()));
+				$('#summary-leads .value0').html('---');
+				deviceInput.parent().parent().addClass('error');
+				section2.addClass('error');
+				mainWrap.addClass('error error02');
+				configMessage.removeClass('positive');
+				configMessage.addClass('negative');
+				$('#device-conditional').removeClass('true');
+				$('#device-conditional').addClass('false');
+				body.addClass('report-up');
+				section4.css('display', 'block');
+				$('#conditionsResults').css('display', 'none');
+				$('#fc1').css('display', 'none');
+				$('#base').hide();
+
+				// scroll body to top of section1
+				s1 = section1.offset().top;
+				setTimeout(function() {
+					$('html, body').animate({
+						scrollTop : s1
+					}, 300);
+				}, 300);
+
+			}
+			
+			// helper to encode input values
+			function htmlEncode(value) {
+				return $('<div></div>').text(value).html();
+			}
+	    				
+            </script></div>
+<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div><div class="ui-dialog-docking-zone"></div><span id="checkProMriFrom:country_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" role="listbox" style="visibility: visible; height: auto; width: 650px; z-index: 1001; top: 439.24px; left: 275px; display: none;"><ul class="ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset"><li class="ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight" data-item-label="USA" data-item-value="USA" role="option"><span class="ui-autocomplete-query">USA</span></li></ul></span><span id="checkProMriFrom:device_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" role="listbox" style="visibility: visible; height: auto; width: 650px; z-index: 1004; display: none; top: 463.578px; left: 275px;"><ul class="ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset"><li class="ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight" data-item-label="BIOMONITOR III" data-item-value="BIOMONITOR III" role="option"><span class="ui-autocomplete-query">BIO</span>MONITOR III</li><li class="ui-autocomplete-item ui-autocomplete-list-item ui-corner-all" data-item-label="BIOMONITOR IIIm" data-item-value="BIOMONITOR IIIm" role="option"><span class="ui-autocomplete-query">BIO</span>MONITOR IIIm</li><li class="ui-autocomplete-item ui-autocomplete-list-item ui-corner-all" data-item-label="BIOMONITOR IV" data-item-value="BIOMONITOR IV" role="option"><span class="ui-autocomplete-query">BIO</span>MONITOR IV</li><li class="ui-autocomplete-item ui-autocomplete-list-item ui-corner-all" data-item-label="BioMonitor" data-item-value="BioMonitor" role="option"><span class="ui-autocomplete-query">Bio</span>Monitor</li><li class="ui-autocomplete-item ui-autocomplete-list-item ui-corner-all" data-item-label="BioMonitor 2-AF" data-item-value="BioMonitor 2-AF" role="option"><span class="ui-autocomplete-query">Bio</span>Monitor 2-AF</li><li class="ui-autocomplete-item ui-autocomplete-list-item ui-corner-all" data-item-label="BioMonitor 2-S" data-item-value="BioMonitor 2-S" role="option"><span class="ui-autocomplete-query">Bio</span>Monitor 2-S</li></ul></span><span id="checkProMriFrom:inLead1_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" role="listbox"></span><span id="checkProMriFrom:inLead2_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" role="listbox"></span><span id="checkProMriFrom:inLead3_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" role="listbox"></span></body></html>
