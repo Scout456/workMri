@@ -685,8 +685,8 @@ alert("NOT MR-CONDITIONAL");
    window.open('abbottImplants/dbs.pdf', '_blank');  
 
    
-  }else if(pacerValue.toUpperCase() === 'IMPLUSE'|| pacerValue.toUpperCase() === 'OPTIMIZER'){
-   window.open('Docs/impluseOptimizer.pdf', '_blank');  
+  }else if(pacerValue.toUpperCase() === 'IMPULSE'|| pacerValue.toUpperCase() === 'OPTIMIZER'){
+   window.open('Docs/impulseOptimizer.pdf', '_blank');  
 
 
   
