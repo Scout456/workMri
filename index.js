@@ -684,6 +684,10 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === '6660'|| pacerValue.toUpperCase() === '6662' || pacerValue.toUpperCase() === '6170' || pacerValue.toUpperCase() === '6171' || pacerValue.toUpperCase() === '6172' || pacerValue.toUpperCase() === '6173' || pacerValue.toUpperCase() === '6371' || pacerValue.toUpperCase() === '6372' || pacerValue.toUpperCase() === 'INFINITY'){
    window.open('abbottImplants/dbs.pdf', '_blank');  
 
+   
+  }else if(pacerValue.toUpperCase() === 'IMPLUSE'|| pacerValue.toUpperCase() === 'OPTIMIZER'){
+   window.open('Docs/impluseOptimizer.pdf', '_blank');  
+
 
   
 
