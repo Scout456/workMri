@@ -107,6 +107,7 @@ button:hover{
   background-color: whitesmoke;
   color: blue;
   margin-top: .5em;
+  transition: .5s ease-in; 
 }
 
 
