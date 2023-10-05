@@ -529,8 +529,10 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'SPECTRA WAVEWRITER' || pacerValue.toUpperCase() === 'SC-1160'|| pacerValue.toUpperCase() === 'SC1160' ){
      window.open('https://www.bostonscientific.com/content/dam/elabeling/nm/91171762-02_ImageReady%E2%84%A2_MRI_Head_Only_Guidelines_for_Spectra_WaveWriter%E2%84%A2_Spinal_Cord_Stimulator_System_s.pdf', '_blank');
 
+/*Wavewriter spinal stimulator------------------------------------*/
 }else if(pacerValue.toUpperCase() === 'WAVEWRITER' || pacerValue.toUpperCase() === 'SC-1232' || pacerValue.toUpperCase() === 'SC-1216' || pacerValue.toUpperCase() === 'SC-1432' || pacerValue.toUpperCase() === 'SC-1416'){
      window.open('https://www.bostonscientific.com/content/dam/elabeling/nm/92395569-01_B_ImageReady_MRI_Full_Body_Guidelines_for_WaveWriter_Alpha_and_WaveWriter_Alpha_Prime_Spinal_Cord_Stimulator_Systems_en-US_s.pdf', '_blank');
+
 
 }else if(pacerValue.toUpperCase() === 'ADAPTA' || pacerValue.toUpperCase() === 'ADDR01' || pacerValue.toUpperCase() === 'ADDR03' || pacerValue.toUpperCase() === 'ADDRO6' || pacerValue.toUpperCase() === 'ADDRS1'){
      window.open('Docs/medtronic-non-mriConditional-devices.pdf', '_blank');
@@ -616,7 +618,7 @@ alert("NOT MR-CONDITIONAL");
 
    /*Cochlear implants--------------------------------------------------*/
 
-    }else if(pacerValue.toUpperCase() === 'COCHLEAR' || pacerValue.toUpperCase() === 'COCHLEAR IMPLANT'){
+    }else if(pacerValue.toUpperCase() === 'COCHLEAR' || pacerValue.toUpperCase() === 'COCHLEAR IMPLANT' || pacerValue.toUpperCase() === ' CI632' || pacerValue.toUpperCase() === 'C1632' || pacerValue.toUpperCase() === 'CI624' || pacerValue.toUpperCase() === 'C1624'|| pacerValue.toUpperCase() === 'CI622'|| pacerValue.toUpperCase() === 'C1622' || pacerValue.toUpperCase() === 'CI612' || pacerValue.toUpperCase() === 'C1612' || pacerValue.toUpperCase() === 'CI532'|| pacerValue.toUpperCase() === 'C1532' || pacerValue.toUpperCase() === 'CI522' || pacerValue.toUpperCase() === 'C1522'|| pacerValue.toUpperCase() === 'CI512' || pacerValue.toUpperCase() === 'C1512' || pacerValue.toUpperCase() === 'ABI541'|| pacerValue.toUpperCase() === 'AB1541' || pacerValue.toUpperCase() === 'CI422' || pacerValue.toUpperCase() === 'C1422' || pacerValue.toUpperCase() === 'CI24REH' || pacerValue.toUpperCase() === 'CI24RECA' || pacerValue.toUpperCase() === 'C124REH'|| pacerValue.toUpperCase() === 'C124RECA' || pacerValue.toUpperCase() === 'CI24REST'|| pacerValue.toUpperCase() === 'C124REST' || pacerValue.toUpperCase() === 'ABI24M'|| pacerValue.toUpperCase() === 'AB124M' || pacerValue.toUpperCase() === 'CI24R'|| pacerValue.toUpperCase() === 'C124R'|| pacerValue.toUpperCase() === 'CI24M' || pacerValue.toUpperCase() === 'C124M' || pacerValue.toUpperCase() === 'CI11+11+2M' || pacerValue.toUpperCase() === 'CI22M' || pacerValue.toUpperCase() === 'C122M'){
    window.open('../implantGuides/cochlear.html', '_blank');
 
   }else if(pacerValue.toUpperCase() === 'ADVANCED BIONICS'|| pacerValue.toUpperCase() === 'HIRES ULTRA 3D' || pacerValue.toUpperCase() === 'CI-1601-04'){
