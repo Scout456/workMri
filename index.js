@@ -690,6 +690,9 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'IMPULSE'|| pacerValue.toUpperCase() === 'OPTIMIZER' || pacerValue.toUpperCase() === 'IMPULSE DYNAMICS'){
    window.open('Docs/impulseOptimizer.pdf', '_blank');  
 
+  }else if(pacerValue.toUpperCase() === 'HYDRUS MICROSTENT'|| pacerValue.toUpperCase() === 'HYDRUS' || pacerValue.toUpperCase() === 'IVANTIS' || pacerValue.toUpperCase() === 'FOOO22'){
+   window.open('https://www.accessdata.fda.gov/cdrh_docs/pdf17/P170034D.pdf', '_blank');  
+
 
   
 
