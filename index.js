@@ -647,7 +647,7 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'AVEIR'|| pacerValue.toUpperCase() === 'LSP112V'){
    window.open('Docs/aveirPacemaker.pdf', '_blank');  
 
-  }else if(pacerValue.toUpperCase() === 'GORE'|| pacerValue.toUpperCase() === 'GORE TAG' || pacerValue.toUpperCase() === 'GORE VIABIL' || pacerValue.toUpperCase() === 'GORE CARDIOFORM' || pacerValue.toUpperCase() === 'GORE EXCLUDER' || pacerValue.toUpperCase() === 'GORE VIABAHN' || pacerValue.toUpperCase() === 'GORE VIATORR'){
+  }else if(pacerValue.toUpperCase() === 'GORE'|| pacerValue.toUpperCase() === 'GORE TAG' || pacerValue.toUpperCase() === 'GORE VIABIL' || pacerValue.toUpperCase() === 'GORE CARDIOFORM' || pacerValue.toUpperCase() === 'GORE EXCLUDER' || pacerValue.toUpperCase() === 'GORE VIABAHN' || pacerValue.toUpperCase() === 'GORE VIATORR' || pacerValue.toUpperCase() === 'BIO-A' || pacerValue.toUpperCase() === 'CARDIOFORM' || pacerValue.toUpperCase() === 'DUALMESH' || pacerValue.toUpperCase() === 'EXCLUDER' || pacerValue.toUpperCase() === 'SEAMGUARD' || pacerValue.toUpperCase() === 'TEX' || pacerValue.toUpperCase() === 'SYNECOR' || pacerValue.toUpperCase() === 'TAG' || pacerValue.toUpperCase() === 'VIABAHN'|| pacerValue.toUpperCase() === 'VIABIL' || pacerValue.toUpperCase() === 'VIATORR'){
    window.open('https://www.goremedical.com/support/mri-safety-information', '_blank');  
 
   }else if(pacerValue.toUpperCase() === 'LOCKADO'){
