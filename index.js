@@ -452,8 +452,7 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'PROCLAIM' || pacerValue.toUpperCase() === '3662' ){
    window.open('abbottImplants/neurostimulation.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'LIVANOVA' || pacerValue.toUpperCase() === '103' || pacerValue.toUpperCase() === '105' || pacerValue.toUpperCase() === '106' || pacerValue.toUpperCase() === '1000' || pacerValue.toUpperCase() === 'DEMIPULSE' || pacerValue.toUpperCase() === 'ASPIREHC' || pacerValue.toUpperCase() === 'ASPIRESR' || pacerValue.toUpperCase() === 'SENTIVA' || pacerValue.toUpperCase() === '102' || pacerValue.toUpperCase() === 'PULSE DUO' || pacerValue.toUpperCase() === '102R' || pacerValue.toUpperCase() === 'DEMIPULSE DUO'){
-   window.open('https://www.livanova.com/epilepsy-vnstherapy/getmedia/7a696c39-8777-4d24-afdf-fea7d54b7475/im-7601036-epi-mri-guidelines-digital_5.pdf', '_blank');
+
 
 }else if(pacerValue.toUpperCase() === 'PROCLAIM DRG' || pacerValue.toUpperCase() === '3664' ){
    window.open('abbottImplants/neurostimulation.pdf', '_blank');
@@ -691,8 +690,31 @@ alert("NOT MR-CONDITIONAL");
    window.open('Docs/impulseOptimizer.pdf', '_blank');  
 
   }else if(pacerValue.toUpperCase() === 'HYDRUS MICROSTENT'|| pacerValue.toUpperCase() === 'HYDRUS' || pacerValue.toUpperCase() === 'IVANTIS' || pacerValue.toUpperCase() === 'FOOO22'){
-   window.open('https://www.accessdata.fda.gov/cdrh_docs/pdf17/P170034D.pdf', '_blank');  
+   window.open('https://www.accessdata.fda.gov/cdrh_docs/pdf17/P170034D.pdf', '_blank'); 
 
+
+   
+   }else if(pacerValue.toUpperCase() === 'LIVANOVA' || pacerValue.toUpperCase() === '103' || pacerValue.toUpperCase() === '105' || pacerValue.toUpperCase() === '106' || pacerValue.toUpperCase() === '1000' || pacerValue.toUpperCase() === 'DEMIPULSE' || pacerValue.toUpperCase() === 'ASPIREHC' || pacerValue.toUpperCase() === 'ASPIRESR' || pacerValue.toUpperCase() === 'SENTIVA' || pacerValue.toUpperCase() === '102' || pacerValue.toUpperCase() === 'PULSE DUO' || pacerValue.toUpperCase() === '102R' || pacerValue.toUpperCase() === 'DEMIPULSE DUO'){
+   window.open('https://www.livanova.com/epilepsy-vnstherapy/getmedia/7a696c39-8777-4d24-afdf-fea7d54b7475/im-7601036-epi-mri-guidelines-digital_5.pdf', '_blank');
+
+   }else if(pacerValue.toUpperCase() === '100C' || pacerValue.toUpperCase() === '101') {
+   window.open('https://www.livanova.com/epilepsy-vnstherapy/en-us/hcp/mri-safety/q2/b', '_blank'); 
+
+   }else if(pacerValue.toUpperCase() === '100B' || pacerValue.toUpperCase() === 'COLOPLAST'|| pacerValue.toUpperCase() === 'GENESIS' || pacerValue.toUpperCase() === 'ACU-FORM'|| pacerValue.toUpperCase() === 'ACUFORM' || pacerValue.toUpperCase() === 'MALLEABLE'|| pacerValue.toUpperCase() === 'TITAN'|| pacerValue.toUpperCase() === 'ALPHA 1'|| pacerValue.toUpperCase() === 'ALPHA1'|| pacerValue.toUpperCase() === 'MARK 2'|| pacerValue.toUpperCase() === 'MARK2'|| pacerValue.toUpperCase() === 'EXCEL') {
+   window.open('https://iu.coloplast.us/wp-content/uploads/2022/02/MRI-Compatibility-and-Latex-Content-Memo-Penile-Prostheses.pdf', '_blank'); 
+
+
+   }else if(pacerValue.toUpperCase() === 'CORDIS' || pacerValue.toUpperCase() === 'PALMAZ'|| pacerValue.toUpperCase() === 'PALMAZ GENESIS'|| pacerValue.toUpperCase() === 'PG295P'|| pacerValue.toUpperCase() === 'PG395P') {
+   window.open('https://www.rad.pitt.edu/sites/rad_docs/mrrc-docs/Cordis_Palmaz_stent.pdf', '_blank'); 
+
+   }else if(pacerValue.toUpperCase() === 'WALLSTENT' || pacerValue.toUpperCase() === 'EXPRESS'|| pacerValue.toUpperCase() === 'WALLGRAFT' || pacerValue.toUpperCase() === 'CAROTID WALLSTENT'|| pacerValue.toUpperCase() === 'EPIC' || pacerValue.toUpperCase() === 'WALFLEX'|| pacerValue.toUpperCase() === 'SENTINOL'|| pacerValue.toUpperCase() === 'GREENFIELD'|| pacerValue.toUpperCase() === 'TITANIUM GREENFIELD'|| pacerValue.toUpperCase() === 'INNOVA') {
+   window.open('https://www.bostonscientific.com/content/dam/bostonscientific/pi/portfolio-group/resources/MRI%20Compatibility%20for%20PI%20Products.pdf', '_blank'); 
+
+   
+   }else if(pacerValue.toUpperCase() === 'ABSOLUTE PRO' || pacerValue.toUpperCase() === 'ABSOLUTE'|| pacerValue.toUpperCase() === 'OMNILINK ELITE'|| pacerValue.toUpperCase() === 'OMNILINK') {
+   window.open('https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110043c.pdf', '_blank'); 
+   
+   
 
   
 
