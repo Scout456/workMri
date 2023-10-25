@@ -569,8 +569,6 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'VILIGANT'|| pacerValue.toUpperCase() === 'D220' || pacerValue.toUpperCase() === 'D221' || pacerValue.toUpperCase() === 'D232' || pacerValue.toUpperCase() === 'D233' || pacerValue.toUpperCase() === 'G248' || pacerValue.toUpperCase() === 'G247'){
    window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/359450-007_Tachy_MRI_TG_us_s.pdf', '_blank');  
 
-}else if(pacerValue.toUpperCase() === 'LUX-DX' || pacerValue.toUpperCase() === 'M301'){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/92216906-001_IMAGEREADY_MRITG_en_S.pdf', '_blank');  
 
    
 }else if(pacerValue.toUpperCase() === 'SYNCHRONY2' || pacerValue.toUpperCase() === 'SYNCHRONY 2' || pacerValue.toUpperCase() === 'MI1250' || pacerValue.toUpperCase() === 'SYNCHRONY' || pacerValue.toUpperCase() === 'MI1200'  || pacerValue.toUpperCase() === 'MED-EL CONCERT'  || pacerValue.toUpperCase() === 'CONCERT'  || pacerValue.toUpperCase() === 'MI1000' || pacerValue.toUpperCase() === 'SONATA' || pacerValue.toUpperCase() === 'PULSAR' || pacerValue.toUpperCase() === 'C40+' || pacerValue.toUpperCase() === 'C40')  {
@@ -716,6 +714,9 @@ alert("NOT MR-CONDITIONAL");
    
    }else if(pacerValue.toUpperCase() === 'ABSOLUTE PRO' || pacerValue.toUpperCase() === 'ABSOLUTE'|| pacerValue.toUpperCase() === 'OMNILINK ELITE'|| pacerValue.toUpperCase() === 'OMNILINK') {
    window.open('https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110043c.pdf', '_blank'); 
+
+   }else if(pacerValue.toUpperCase() === 'LUX-DX' || pacerValue.toUpperCase() === 'LUX-DX2'|| pacerValue.toUpperCase() === 'LUX-DX 2'|| pacerValue.toUpperCase() === 'M301' || pacerValue.toUpperCase() === 'M302' || pacerValue.toUpperCase() === 'M312') {
+   window.open('bostonImplants/lux-dx.pdf', '_blank'); 
    
    
 
