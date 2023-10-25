@@ -386,22 +386,22 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'QUADRA ALLURE MP' || pacerValue.toUpperCase() === 'PM3562' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1311-36Q' ){
+}else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1311-36Q'|| pacerValue.toUpperCase() === 'CD1311' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1411-36Q' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1411-36QC' ){
+}else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1411-36QC'  || pacerValue.toUpperCase() === 'CD1411'){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD2311-36Q' ){
+}else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD2311-36Q' || pacerValue.toUpperCase() === 'CD2311'){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD2411-36Q' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD2411-36QC' ){
+}else if(pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD2411-36QC' || pacerValue.toUpperCase() === 'CD2411'){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'CERTAS'){
@@ -416,25 +416,25 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD1357-40Q' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD1357-40QC' ){
+}else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD1357-40QC'  || pacerValue.toUpperCase() === 'CD1357'){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD2357-40Q' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD2357-40QC' ){
+}else if(pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD2357-40QC'|| pacerValue.toUpperCase() === 'CD2357' ){
   window.open('abbottImplants/assurity.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3365-40Q' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3365-40QC' ){
+}else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3365-40QC'|| pacerValue.toUpperCase() === 'CD3365' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3369-40Q' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3369-40QC' ){
+}else if(pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3369-40QC'|| pacerValue.toUpperCase() === 'CD3369' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'PROCLAIM XR' || pacerValue.toUpperCase() === '3660' ){
@@ -635,6 +635,7 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'VISTAFIX'){
    window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
 
+  /*End of cochlear implant----------------------------------------*/
 
   }else if(pacerValue.toUpperCase() === 'WALLFLEX'|| pacerValue.toUpperCase() === 'COLONIC AND DUODENAL SOFT STENT'){
    window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/wallflex-colonic-and-duodenal/Wallflex_Soft_Abbreviated_DFU_FINAL.pdf', '_blank');  
@@ -692,13 +693,15 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'HYDRUS MICROSTENT'|| pacerValue.toUpperCase() === 'HYDRUS' || pacerValue.toUpperCase() === 'IVANTIS' || pacerValue.toUpperCase() === 'FOOO22'){
    window.open('https://www.accessdata.fda.gov/cdrh_docs/pdf17/P170034D.pdf', '_blank'); 
 
-
+  /*LivaNova----------------------------------------------*/
    
    }else if(pacerValue.toUpperCase() === 'LIVANOVA' || pacerValue.toUpperCase() === '103' || pacerValue.toUpperCase() === '105' || pacerValue.toUpperCase() === '106' || pacerValue.toUpperCase() === '1000' || pacerValue.toUpperCase() === 'DEMIPULSE' || pacerValue.toUpperCase() === 'ASPIREHC' || pacerValue.toUpperCase() === 'ASPIRESR' || pacerValue.toUpperCase() === 'SENTIVA' || pacerValue.toUpperCase() === '102' || pacerValue.toUpperCase() === 'PULSE DUO' || pacerValue.toUpperCase() === '102R' || pacerValue.toUpperCase() === 'DEMIPULSE DUO'){
    window.open('https://www.livanova.com/epilepsy-vnstherapy/getmedia/7a696c39-8777-4d24-afdf-fea7d54b7475/im-7601036-epi-mri-guidelines-digital_5.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === '100C' || pacerValue.toUpperCase() === '101') {
    window.open('https://www.livanova.com/epilepsy-vnstherapy/en-us/hcp/mri-safety/q2/b', '_blank'); 
+
+  /*End of LivaNova-----------------------------------------------------*/
 
    }else if(pacerValue.toUpperCase() === '100B' || pacerValue.toUpperCase() === 'COLOPLAST'|| pacerValue.toUpperCase() === 'GENESIS' || pacerValue.toUpperCase() === 'ACU-FORM'|| pacerValue.toUpperCase() === 'ACUFORM' || pacerValue.toUpperCase() === 'MALLEABLE'|| pacerValue.toUpperCase() === 'TITAN'|| pacerValue.toUpperCase() === 'ALPHA 1'|| pacerValue.toUpperCase() === 'ALPHA1'|| pacerValue.toUpperCase() === 'MARK 2'|| pacerValue.toUpperCase() === 'MARK2'|| pacerValue.toUpperCase() === 'EXCEL') {
    window.open('https://iu.coloplast.us/wp-content/uploads/2022/02/MRI-Compatibility-and-Latex-Content-Memo-Penile-Prostheses.pdf', '_blank'); 
