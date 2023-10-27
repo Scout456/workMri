@@ -716,10 +716,9 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110043c.pdf', '_blank'); 
 
    }else if(pacerValue.toUpperCase() === 'LUX-DX' || pacerValue.toUpperCase() === 'LUX-DX2'|| pacerValue.toUpperCase() === 'LUX-DX 2'|| pacerValue.toUpperCase() === 'M301' || pacerValue.toUpperCase() === 'M302' || pacerValue.toUpperCase() === 'M312') {
-   window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=0,right=0,width=300,height=300");
+   window.open('bostonImplants/lux-dx.pdf', "_blank");
 
-     /*window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=700,height=700"); */
-/*window.open('bostonImplants/lux-dx.pdf', "_blank");*/ 
+   /*  window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=0,right=0,width=300,height=300");*/
    
    
 
