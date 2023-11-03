@@ -718,6 +718,12 @@ alert("NOT MR-CONDITIONAL");
    }else if(pacerValue.toUpperCase() === 'LUX-DX' || pacerValue.toUpperCase() === 'LUX-DX2'|| pacerValue.toUpperCase() === 'LUX-DX 2'|| pacerValue.toUpperCase() === 'M301' || pacerValue.toUpperCase() === 'M302' || pacerValue.toUpperCase() === 'M312') {
    window.open('bostonImplants/lux-dx.pdf', "_blank");
 
+   }else if(pacerValue.toUpperCase() === '638R' || pacerValue.toUpperCase() === '638B'|| pacerValue.toUpperCase() === '638RL32'|| pacerValue.toUpperCase() === '638RL' || pacerValue.toUpperCase() === 'MEDTRONIC ANNULOPLASTY RING' || pacerValue.toUpperCase() === 'MEDTRONIC ANNULOPLASTY' || pacerValue.toUpperCase() === 'CG FUTURE') {
+   window.open('https://www.medtronic.com/content/dam/emanuals/cardio/CONTRIB_101226.pdf', '_blank'); 
+
+   }else if(pacerValue.toUpperCase() === 'ANGELMED GUARDIAN' || pacerValue.toUpperCase() === 'GUARDIAN'|| pacerValue.toUpperCase() === 'ANGEL MED GUARDIAN'|| pacerValue.toUpperCase() === 'ANGELMED') {
+   window.open('https://www.mrisafety.com/TMDL_view.php?editid1=5114', '_blank'); 
+
    /*  window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=0,right=0,width=300,height=300");*/
    
    
