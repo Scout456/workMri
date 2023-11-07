@@ -560,7 +560,7 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://cdn2.hubspot.net/hubfs/2618738/L00135-01_RevA%20Patient%20Implant%20Card.pdf', '_blank');  
 
 /*Implant alert page--------------------------------------*/
-}else if(pacerValue.toUpperCase() === 'PIPELINE'){
+}else if(pacerValue.toUpperCase() === 'PIPELINE' || pacerValue.toUpperCase() === 'EV3'){
    window.open('../implantGuides/pipeLine.html', '_blank');  
 
 }else if(pacerValue.toUpperCase() === 'WAVECREST'){
@@ -723,6 +723,9 @@ alert("NOT MR-CONDITIONAL");
 
    }else if(pacerValue.toUpperCase() === 'ANGELMED GUARDIAN' || pacerValue.toUpperCase() === 'GUARDIAN'|| pacerValue.toUpperCase() === 'ANGEL MED GUARDIAN'|| pacerValue.toUpperCase() === 'ANGELMED') {
    window.open('https://www.mrisafety.com/TMDL_view.php?editid1=5114', '_blank'); 
+
+   }else if(pacerValue.toUpperCase() === 'RESOLUTE INTEGRITY' || pacerValue.toUpperCase() === 'RESOLUTE' || pacerValue.toUpperCase() === 'INTEGRITY'){
+   window.open('https://www.medtronic.com/content/dam/emanuals/cardio/M724130B001DOC1_AA_view_color.pdf', '_blank'); 
 
    /*  window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=0,right=0,width=300,height=300");*/
    
