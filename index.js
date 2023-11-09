@@ -727,6 +727,16 @@ alert("NOT MR-CONDITIONAL");
    }else if(pacerValue.toUpperCase() === 'RESOLUTE INTEGRITY' || pacerValue.toUpperCase() === 'RESOLUTE' || pacerValue.toUpperCase() === 'INTEGRITY'){
    window.open('https://www.medtronic.com/content/dam/emanuals/cardio/M724130B001DOC1_AA_view_color.pdf', '_blank'); 
 
+     /*Implant guide alert page--------------------------------------*/
+   }else if(pacerValue.toUpperCase() === 'SAPIEN 3' || pacerValue.toUpperCase() === 'SAPIEN3' || pacerValue.toUpperCase() === 'EDWARDS SAPIEN 3' || pacerValue.toUpperCase() === 'SAPIEN' || pacerValue.toUpperCase() === '9600CM20A' || pacerValue.toUpperCase() === '9600CM23A'|| pacerValue.toUpperCase() === '9600CM26A'|| pacerValue.toUpperCase() === '9600CM29A' || pacerValue.toUpperCase() === '9600TFX'){
+   window.open('../implantGuides/sapien.html', '_blank'); 
+
+   }else if(pacerValue.toUpperCase() === 'PROMUS ELITE' || pacerValue.toUpperCase() === 'PROMUS'|| pacerValue.toUpperCase() === 'MONORAIL') {
+   window.open('https://www.bostonscientific.com/content/dam/elabeling/ic/50920154-01A_Promus%20Elite_DFU_en_s.pdf', '_blank'); 
+
+   }else if(pacerValue.toUpperCase() === 'BAROSTIM' || pacerValue.toUpperCase() === 'BAROSTIM NEO'|| pacerValue.toUpperCase() === 'BAROSTIMNEO' || pacerValue.toUpperCase() === 'BAROSTIMNEO2'|| pacerValue.toUpperCase() === 'BAROSTIM NEO2' || pacerValue.toUpperCase() === 'BAROSTIM LEGACY' || pacerValue.toUpperCase() === '2100' || pacerValue.toUpperCase() === '2102' || pacerValue.toUpperCase() === '2104') {
+   window.open('https://www.cvrx.com/wp-content/uploads/2022/04/900133-004B_IFU_MRI.pdf', '_blank'); 
+
    /*  window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=0,right=0,width=300,height=300");*/
    
    
