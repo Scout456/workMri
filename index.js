@@ -211,7 +211,7 @@ alert("NOT MR-CONDITIONAL");
 
 
 
-}else if(pacerValue.toUpperCase() === 'LINQ11' || pacerValue.toUpperCase() === 'LNQ11' || pacerValue.toUpperCase() === 'LNQ22 ' || pacerValue.toUpperCase() === 'LINQ' || pacerValue.toUpperCase() === 'LINQ22' || pacerValue.toUpperCase() === 'LNQ'){
+}else if(pacerValue.toUpperCase() === 'LINQ11' || pacerValue.toUpperCase() === 'LNQ11' || pacerValue.toUpperCase() === 'LNQ22' || pacerValue.toUpperCase() === 'LINQ' || pacerValue.toUpperCase() === 'LINQ22' || pacerValue.toUpperCase() === 'LNQ'){
    window.open('../implantGuides/linq.html', '_blank');
 
 /*Implant alert page----------------------------------------------------*/
@@ -736,6 +736,11 @@ alert("NOT MR-CONDITIONAL");
 
    }else if(pacerValue.toUpperCase() === 'BAROSTIM' || pacerValue.toUpperCase() === 'BAROSTIM NEO'|| pacerValue.toUpperCase() === 'BAROSTIMNEO' || pacerValue.toUpperCase() === 'BAROSTIMNEO2'|| pacerValue.toUpperCase() === 'BAROSTIM NEO2' || pacerValue.toUpperCase() === 'BAROSTIM LEGACY' || pacerValue.toUpperCase() === '2100' || pacerValue.toUpperCase() === '2102' || pacerValue.toUpperCase() === '2104') {
    window.open('https://www.cvrx.com/wp-content/uploads/2022/04/900133-004B_IFU_MRI.pdf', '_blank'); 
+
+
+   
+   }else if(pacerValue.toUpperCase() === 'ONYX' || pacerValue.toUpperCase() === 'LIQUID EMBOLIC SYSTEM'  || pacerValue.toUpperCase() === 'ONYX HD-500'  || pacerValue.toUpperCase() === 'HD-500'  || pacerValue.toUpperCase() === 'HD500') {
+   window.open('https://www.mrisafety.com/TMDL_list.php?qs=Onyx', '_blank'); 
 
    /*  window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=0,right=0,width=300,height=300");*/
    
