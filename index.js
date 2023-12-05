@@ -322,12 +322,6 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'INTERSTIM' || pacerValue.toUpperCase() === '3023'  || pacerValue.toUpperCase() === 'INTERSTIM II' || pacerValue.toUpperCase() === '3058' || pacerValue.toUpperCase() === 'INTERSTIM MICRO' || pacerValue.toUpperCase() === '97810'|| pacerValue.toUpperCase() === 'INTERSTIM X' || pacerValue.toUpperCase() === '97800' || pacerValue.toUpperCase() === 'INTERSTIM TWIN' || pacerValue.toUpperCase() === '7427T'  ){
    window.open('../implantGuides/InterStim.html', '_blank');
 
-/*Implant guide alert page-----------------------------------------*/
-}else if(pacerValue.toUpperCase() === 'ENTERRA' || pacerValue.toUpperCase() === '3116'){
-    window.open('../implantGuides/enterra.html', '_blank'); 
-/*Implant guide alert page-----------------------------------------*/
-}else if(pacerValue.toUpperCase() === 'ENTERRA II' || pacerValue.toUpperCase() === '37800'){
-    window.open('../implantGuides/enterra.html', '_blank'); 
 
 }else if(pacerValue.toUpperCase() === 'ENITRA'){
    window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
@@ -741,6 +735,14 @@ alert("NOT MR-CONDITIONAL");
    
    }else if(pacerValue.toUpperCase() === 'ONYX' || pacerValue.toUpperCase() === 'LIQUID EMBOLIC SYSTEM'  || pacerValue.toUpperCase() === 'ONYX HD-500'  || pacerValue.toUpperCase() === 'HD-500'  || pacerValue.toUpperCase() === 'HD500') {
    window.open('https://www.mrisafety.com/TMDL_list.php?qs=Onyx', '_blank'); 
+
+   /*Implant guide alert page-----------------------------------------*/
+   }else if(pacerValue.toUpperCase() === 'ENTERRA' || pacerValue.toUpperCase() === '3116'){
+    window.open('../implantGuides/enterra.html', '_blank'); 
+
+
+   }else if(pacerValue.toUpperCase() === 'ENTERRA 2' || pacerValue.toUpperCase() === 'ENTERRA2'  || pacerValue.toUpperCase() === 'ENTERRA II'  || pacerValue.toUpperCase() === 'ENTERRAII'  || pacerValue.toUpperCase() === '37800') {
+   window.open('https://enterramedical.com/wp-content/uploads/169-MRI-Guidelines-Physicians-Manual_r6a_FNL-interactive.pdf', '_blank'); 
 
    /*  window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=0,right=0,width=300,height=300");*/
    
