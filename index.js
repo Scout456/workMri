@@ -73,7 +73,7 @@ alert("NOT MR-CONDITIONAL");
 
     
 
- }else if(pacerValue.toUpperCase() === 'NEVRO' || pacerValue.toUpperCase() === 'SENZA'){
+ }else if(pacerValue.toUpperCase() === 'NEVRO' || pacerValue.toUpperCase() === 'SENZA' || pacerValue.toUpperCase() === 'NIPG1000' || pacerValue.toUpperCase() === 'NIPG1500' || pacerValue.toUpperCase() === 'NIPG2000' || pacerValue.toUpperCase() === 'NIPG2500' || pacerValue.toUpperCase() === '1000' || pacerValue.toUpperCase() === '1500' || pacerValue.toUpperCase() === '2000' || pacerValue.toUpperCase() === '2500'){
 
    window.open('https://s28.q4cdn.com/260621474/files/doc_downloads/2022/05/1.5T-and-3T-MRI-Guidelines-for-the-Senza-Neuromodulation-Systems-(11096)-Rev-P.pdf', '_blank' );
 
