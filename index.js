@@ -744,6 +744,10 @@ alert("NOT MR-CONDITIONAL");
    }else if(pacerValue.toUpperCase() === 'ENTERRA 2' || pacerValue.toUpperCase() === 'ENTERRA2'  || pacerValue.toUpperCase() === 'ENTERRA II'  || pacerValue.toUpperCase() === 'ENTERRAII'  || pacerValue.toUpperCase() === '37800') {
    window.open('https://enterramedical.com/wp-content/uploads/169-MRI-Guidelines-Physicians-Manual_r6a_FNL-interactive.pdf', '_blank'); 
 
+   }else if(pacerValue.toUpperCase() === 'MCA GEM COUPLER' || pacerValue.toUpperCase() === 'COUPLER RING'
+   || pacerValue.toUpperCase() === 'SYNOVIS MICRO COMPANY' || pacerValue.toUpperCase() === 'SYNOVIS'|| pacerValue.toUpperCase() === 'GEM COUPLER' || pacerValue.toUpperCase() === 'COUPLER' || pacerValue.toUpperCase() === 'COUPLER RINGS'){
+    window.open('Docs/MriCoupler.pdf', '_blank'); 
+
    /*  window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=0,right=0,width=300,height=300");*/
    
    
