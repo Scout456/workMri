@@ -748,6 +748,17 @@ alert("NOT MR-CONDITIONAL");
    || pacerValue.toUpperCase() === 'SYNOVIS MICRO COMPANY' || pacerValue.toUpperCase() === 'SYNOVIS'|| pacerValue.toUpperCase() === 'GEM COUPLER' || pacerValue.toUpperCase() === 'COUPLER' || pacerValue.toUpperCase() === 'COUPLER RINGS'){
     window.open('Docs/MriCoupler.pdf', '_blank'); 
 
+   }else if(pacerValue.toUpperCase() === 'ONYX STENT' || pacerValue.toUpperCase() === 'ONYX FRONTIER'|| pacerValue.toUpperCase() === 'FRONTIER') {
+   window.open('https://www.medtronic.com/content/dam/emanuals/cardio/M016449C001DOC1-D_view.pdf', '_blank');
+   
+   }else if(pacerValue.toUpperCase() === 'XIENCE SKYPOINT' || pacerValue.toUpperCase() === 'SKYPOINT'|| pacerValue.toUpperCase() === 'SKYPOINT STENT') {
+   window.open('https://manuals.eifu.abbott/en/detail-screen.html', '_blank');
+
+   }else if(pacerValue.toUpperCase() === 'XIENCE SIERRA' || pacerValue.toUpperCase() === 'SIERRA'|| pacerValue.toUpperCase() === 'SIERRA STENT') {
+   window.open('https://manuals.eifu.abbott/en/detail-screen.html', '_blank');
+
+
+
    /*  window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=0,right=0,width=300,height=300");*/
    
    
