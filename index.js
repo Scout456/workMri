@@ -757,6 +757,10 @@ alert("NOT MR-CONDITIONAL");
    }else if(pacerValue.toUpperCase() === 'XIENCE SIERRA' || pacerValue.toUpperCase() === 'SIERRA'|| pacerValue.toUpperCase() === 'SIERRA STENT') {
    window.open('https://manuals.eifu.abbott/en/detail-screen.html', '_blank');
 
+   
+   }else if(pacerValue.toUpperCase() === 'XIENCE PRIME' || pacerValue.toUpperCase() === 'PRIME'|| pacerValue.toUpperCase() === 'PRIME STENT') {
+   window.open('https://manuals.eifu.abbott/en/detail-screen.html', '_blank');
+
 
 
    /*  window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=0,right=0,width=300,height=300");*/
