@@ -752,14 +752,14 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://www.medtronic.com/content/dam/emanuals/cardio/M016449C001DOC1-D_view.pdf', '_blank');
    
    }else if(pacerValue.toUpperCase() === 'XIENCE SKYPOINT' || pacerValue.toUpperCase() === 'SKYPOINT'|| pacerValue.toUpperCase() === 'SKYPOINT STENT') {
-   window.open('https://manuals.eifu.abbott/en/detail-screen.html', '_blank');
+   window.open('Docs/skypoint.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === 'XIENCE SIERRA' || pacerValue.toUpperCase() === 'SIERRA'|| pacerValue.toUpperCase() === 'SIERRA STENT') {
-   window.open('https://manuals.eifu.abbott/en/detail-screen.html', '_blank');
+   window.open('Docs/Sierra.pdf', '_blank');
 
    
    }else if(pacerValue.toUpperCase() === 'XIENCE PRIME' || pacerValue.toUpperCase() === 'PRIME'|| pacerValue.toUpperCase() === 'PRIME STENT') {
-   window.open('https://manuals.eifu.abbott/en/detail-screen.html', '_blank');
+   window.open('Docs/prime.pdf', '_blank');
 
 
 
