@@ -91,24 +91,31 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'ATTESTA DR' || pacerValue.toUpperCase() === 'ATDR01'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+
 }else if(pacerValue.toUpperCase() === 'ATTESTA L DR' || pacerValue.toUpperCase() === 'ATDRL1'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+
 }else if(pacerValue.toUpperCase() === 'ATTESTA S DR' || pacerValue.toUpperCase() === 'ATDRS1'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+
 }else if(pacerValue.toUpperCase() === 'ATTESTA SR' || pacerValue.toUpperCase() === 'ATSR01'){
 
   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+
 }else if(pacerValue.toUpperCase() === 'RESTORE' || pacerValue.toUpperCase() === '37712'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/neuro/CONTRIB_171957.pdf', '_blank' );
+
 }else if(pacerValue.toUpperCase() === 'SPHERA SR' || pacerValue.toUpperCase() === 'SPSR01'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+
 }else if(pacerValue.toUpperCase() === 'SPHERA DR' || pacerValue.toUpperCase() === 'SPDR01'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+
 }else if(pacerValue.toUpperCase() === 'SPHERA L DR' || pacerValue.toUpperCase() === 'SPDRL1'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
@@ -116,6 +123,7 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'ATTESTA' || pacerValue.toUpperCase() === 'ATDRL1'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
+
 }else if(pacerValue.toUpperCase() === 'SPHERA' || pacerValue.toUpperCase() === 'ATDRL1'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
@@ -151,7 +159,7 @@ alert("NOT MR-CONDITIONAL");
    
    
    
-}else if(pacerValue.toUpperCase() === 'VISIA AF' || pacerValue.toUpperCase() === 'DVFB1D1'  || pacerValue.toUpperCase() === 'DVFB1D1'  || pacerValue.toUpperCase() === 'DVFB1D4' || pacerValue.toUpperCase() === 'DVFC3D1'  || pacerValue.toUpperCase() === 'DVFC3D4'  || pacerValue.toUpperCase() === 'DVFC3D4'  || pacerValue.toUpperCase() === 'VISIA'){
+}else if(pacerValue.toUpperCase() === 'VISIA AF' || pacerValue.toUpperCase() === 'DVFB1D1'  || pacerValue.toUpperCase() === 'DVFB1D1'  || pacerValue.toUpperCase() === 'DVFB1D4' || pacerValue.toUpperCase() === 'DVFC3D1'  || pacerValue.toUpperCase() === 'DVFC3D4'|| pacerValue.toUpperCase() === 'VISIA'){
 
    window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf', '_blank');
 
@@ -367,7 +375,7 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'ASSURITY' || pacerValue.toUpperCase() === 'PM1272' || pacerValue.toUpperCase() === 'PM2272' ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'ENDURITY' || pacerValue.toUpperCase() === 'PM1172'|| pacerValue.toUpperCase() === 'PM2172'  ){
+}else if(pacerValue.toUpperCase() === 'ENDURITY' || pacerValue.toUpperCase() === 'PM1172' || pacerValue.toUpperCase() === 'PM2172'  ){
    window.open('abbottImplants/assurity.pdf', '_blank');
 
     
@@ -588,10 +596,12 @@ alert("NOT MR-CONDITIONAL");
  }else if(pacerValue.toUpperCase() === 'KURZ'){
    window.open('https://www.ccmed.co.uk/wp-content/uploads/2019/10/MR_Information_en_Rev_06.pdf', '_blank'); 
 
- }else if(pacerValue.toUpperCase() === 'HYDROFRAME'|| pacerValue.toUpperCase() === 'MICROPLEX' || pacerValue.toUpperCase() === 'HYDROCOIL'){
-   window.open('https://www.microvention.com/product/hydroframe/instructions-for-use/mri-safety-information-hydrocoil', '_blank'); 
 
- }else if(pacerValue.toUpperCase() === 'VIGILANT' || pacerValue.toUpperCase() === 'G228' || pacerValue.toUpperCase() === 'G248' || pacerValue.toUpperCase() === 'G237' || pacerValue.toUpperCase() === 'G247'  || pacerValue.toUpperCase() === 'G224'  || pacerValue.toUpperCase() === 'G225'  || pacerValue.toUpperCase() === 'AUTOGEN' || pacerValue.toUpperCase() === 'G166' || pacerValue.toUpperCase() === 'G168' || pacerValue.toUpperCase() === 'G160' || pacerValue.toUpperCase() === 'G161' || pacerValue.toUpperCase() === 'G168' || pacerValue.toUpperCase() === 'DYNAGEN' || pacerValue.toUpperCase() === 'G156' || pacerValue.toUpperCase() === 'G158'  || pacerValue.toUpperCase() === 'G150' || pacerValue.toUpperCase() === 'G151' || pacerValue.toUpperCase() === 'INOGEN'  || pacerValue.toUpperCase() === 'G146' || pacerValue.toUpperCase() === 'G148' || pacerValue.toUpperCase() === 'G140'  || pacerValue.toUpperCase() === 'G141' || pacerValue.toUpperCase() === 'MOMENTUM' || pacerValue.toUpperCase() === 'G128'  || pacerValue.toUpperCase() === 'G138' || pacerValue.toUpperCase() === 'G124' || pacerValue.toUpperCase() === 'G125'  || pacerValue.toUpperCase() === 'ORIGEN' || pacerValue.toUpperCase() === 'G056' || pacerValue.toUpperCase() === 'G058'  || pacerValue.toUpperCase() === 'G050' || pacerValue.toUpperCase() === 'G051' || pacerValue.toUpperCase() === 'RESONATE'  || pacerValue.toUpperCase() === 'G524' || pacerValue.toUpperCase() === 'G525' || pacerValue.toUpperCase() === 'G528'  || pacerValue.toUpperCase() === 'G548' || pacerValue.toUpperCase() === 'G537' || pacerValue.toUpperCase() === 'G547'  || pacerValue.toUpperCase() === 'G428' || pacerValue.toUpperCase() === 'G448' || pacerValue.toUpperCase() === 'G437'  || pacerValue.toUpperCase() === 'G447' || pacerValue.toUpperCase() === 'G424' || pacerValue.toUpperCase() === 'G425'){
+ }else if(pacerValue.toUpperCase() === 'HYDROFRAME'|| pacerValue.toUpperCase() === 'MICROPLEX' || pacerValue.toUpperCase() === 'HYDROCOIL'){
+   window.open('https://www.microvention.com/products/hydroframe/additional-information/mri-safety-information', '_blank'); 
+
+
+ }else if(pacerValue.toUpperCase() === 'VIGILANT' || pacerValue.toUpperCase() === 'G228' || pacerValue.toUpperCase() === 'G248' || pacerValue.toUpperCase() === 'G237' || pacerValue.toUpperCase() === 'G237'  || pacerValue.toUpperCase() === 'G224'  || pacerValue.toUpperCase() === 'G225'  || pacerValue.toUpperCase() === 'AUTOGEN' || pacerValue.toUpperCase() === 'G166' || pacerValue.toUpperCase() === 'G168' || pacerValue.toUpperCase() === 'G160' || pacerValue.toUpperCase() === 'G161' || pacerValue.toUpperCase() === 'G168' || pacerValue.toUpperCase() === 'DYNAGEN' || pacerValue.toUpperCase() === 'G156' || pacerValue.toUpperCase() === 'G158'  || pacerValue.toUpperCase() === 'G150' || pacerValue.toUpperCase() === 'G151' || pacerValue.toUpperCase() === 'INOGEN'  || pacerValue.toUpperCase() === 'G146' || pacerValue.toUpperCase() === 'G148' || pacerValue.toUpperCase() === 'G140'  || pacerValue.toUpperCase() === 'G141' || pacerValue.toUpperCase() === 'MOMENTUM' || pacerValue.toUpperCase() === 'G128'  || pacerValue.toUpperCase() === 'G138' || pacerValue.toUpperCase() === 'G124' || pacerValue.toUpperCase() === 'G125'  || pacerValue.toUpperCase() === 'ORIGEN' || pacerValue.toUpperCase() === 'G056' || pacerValue.toUpperCase() === 'G058'  || pacerValue.toUpperCase() === 'G050' || pacerValue.toUpperCase() === 'G051' || pacerValue.toUpperCase() === 'RESONATE'  || pacerValue.toUpperCase() === 'G524' || pacerValue.toUpperCase() === 'G525' || pacerValue.toUpperCase() === 'G528'  || pacerValue.toUpperCase() === 'G548' || pacerValue.toUpperCase() === 'G537' || pacerValue.toUpperCase() === 'G547'  || pacerValue.toUpperCase() === 'G428' || pacerValue.toUpperCase() === 'G448' || pacerValue.toUpperCase() === 'G437'  || pacerValue.toUpperCase() === 'G447' || pacerValue.toUpperCase() === 'G424' || pacerValue.toUpperCase() === 'G425'){
      window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/51114094-001A_IMAGEREADY_MRITG_en_S.pdf', '_blank');   
 
 
@@ -609,7 +619,7 @@ alert("NOT MR-CONDITIONAL");
 
    /*Cochlear implants--------------------------------------------------*/
 
-    }else if(pacerValue.toUpperCase() === 'COCHLEAR' || pacerValue.toUpperCase() === 'COCHLEAR IMPLANT' || pacerValue.toUpperCase() === 'CI632' || pacerValue.toUpperCase() === 'C1632' || pacerValue.toUpperCase() === 'CI624' || pacerValue.toUpperCase() === 'C1624'|| pacerValue.toUpperCase() === 'CI622'|| pacerValue.toUpperCase() === 'C1622' || pacerValue.toUpperCase() === 'CI612' || pacerValue.toUpperCase() === 'C1612' || pacerValue.toUpperCase() === 'CI532'|| pacerValue.toUpperCase() === 'C1532' || pacerValue.toUpperCase() === 'CI522' || pacerValue.toUpperCase() === 'C1522'|| pacerValue.toUpperCase() === 'CI512' || pacerValue.toUpperCase() === 'C1512' || pacerValue.toUpperCase() === 'ABI541'|| pacerValue.toUpperCase() === 'AB1541' || pacerValue.toUpperCase() === 'CI422' || pacerValue.toUpperCase() === 'C1422' || pacerValue.toUpperCase() === 'CI24REH' || pacerValue.toUpperCase() === 'CI24RECA' || pacerValue.toUpperCase() === 'C124REH'|| pacerValue.toUpperCase() === 'C124RECA' || pacerValue.toUpperCase() === 'CI24REST'|| pacerValue.toUpperCase() === 'C124REST' || pacerValue.toUpperCase() === 'ABI24M'|| pacerValue.toUpperCase() === 'AB124M' || pacerValue.toUpperCase() === 'CI24R'|| pacerValue.toUpperCase() === 'C124R'|| pacerValue.toUpperCase() === 'CI24M' || pacerValue.toUpperCase() === 'C124M' || pacerValue.toUpperCase() === 'CI11+11+2M' || pacerValue.toUpperCase() === 'CI22M' || pacerValue.toUpperCase() === 'C122M'){
+    }else if(pacerValue.toUpperCase() === 'COCHLEAR' || pacerValue.toUpperCase() === 'COCHLEAR IMPLANT' || pacerValue.toUpperCase() === 'CI632' || pacerValue.toUpperCase() === 'C1632' || pacerValue.toUpperCase() === 'CI624' || pacerValue.toUpperCase() === 'C1624'|| pacerValue.toUpperCase() === 'CI622'|| pacerValue.toUpperCase() === 'C1622' || pacerValue.toUpperCase() === 'CI612' || pacerValue.toUpperCase() === 'C1612' || pacerValue.toUpperCase() === 'CI532'|| pacerValue.toUpperCase() === 'C1532' || pacerValue.toUpperCase() === 'CI522' || pacerValue.toUpperCase() === 'C1522'|| pacerValue.toUpperCase() === 'CI512' || pacerValue.toUpperCase() === 'C1512' || pacerValue.toUpperCase() === 'ABI541'|| pacerValue.toUpperCase() === 'AB1541' || pacerValue.toUpperCase() === 'CI422' || pacerValue.toUpperCase() === 'C1422' || pacerValue.toUpperCase() === 'CI24REH' || pacerValue.toUpperCase() === 'CI24RECA' || pacerValue.toUpperCase() === 'C124REH'|| pacerValue.toUpperCase() === 'C124RECA' || pacerValue.toUpperCase() === 'CI24REST'|| pacerValue.toUpperCase() === 'C124REST' || pacerValue.toUpperCase() === 'ABI24M' || pacerValue.toUpperCase() === 'AB124M' || pacerValue.toUpperCase() === 'CI24R' || pacerValue.toUpperCase() === 'C124R'|| pacerValue.toUpperCase() === 'CI24M' || pacerValue.toUpperCase() === 'C124M' || pacerValue.toUpperCase() === 'CI11+11+2M' || pacerValue.toUpperCase() === 'CI22M' || pacerValue.toUpperCase() === 'C122M'){
    window.open('../implantGuides/cochlear.html', '_blank');
 
   }else if(pacerValue.toUpperCase() === 'ADVANCED BIONICS'|| pacerValue.toUpperCase() === 'HIRES ULTRA 3D' || pacerValue.toUpperCase() === 'CI-1601-04'){
@@ -639,7 +649,7 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'AVEIR'|| pacerValue.toUpperCase() === 'LSP112V'){
    window.open('Docs/aveirPacemaker.pdf', '_blank');  
 
-  }else if(pacerValue.toUpperCase() === 'GORE'|| pacerValue.toUpperCase() === 'GORE TAG' || pacerValue.toUpperCase() === 'GORE VIABIL' || pacerValue.toUpperCase() === 'GORE CARDIOFORM' || pacerValue.toUpperCase() === 'GORE EXCLUDER' || pacerValue.toUpperCase() === 'GORE VIABAHN' || pacerValue.toUpperCase() === 'GORE VIATORR' || pacerValue.toUpperCase() === 'BIO-A' || pacerValue.toUpperCase() === 'CARDIOFORM' || pacerValue.toUpperCase() === 'DUALMESH' || pacerValue.toUpperCase() === 'EXCLUDER' || pacerValue.toUpperCase() === 'SEAMGUARD' || pacerValue.toUpperCase() === 'TEX' || pacerValue.toUpperCase() === 'SYNECOR' || pacerValue.toUpperCase() === 'TAG' || pacerValue.toUpperCase() === 'VIABAHN'|| pacerValue.toUpperCase() === 'VIABIL' || pacerValue.toUpperCase() === 'VIATORR'){
+  }else if(pacerValue.toUpperCase() === 'GORE'|| pacerValue.toUpperCase() === 'GORE TAG' || pacerValue.toUpperCase() === 'GORE VIABIL' || pacerValue.toUpperCase() === 'GORE CARDIOFORM' || pacerValue.toUpperCase() === 'GORE EXCLUDER' || pacerValue.toUpperCase() === 'GORE VIABAHN' || pacerValue.toUpperCase() === 'GORE VIATORR' || pacerValue.toUpperCase() === ' GORE BIO-A' || pacerValue.toUpperCase() === 'CARDIOFORM' || pacerValue.toUpperCase() === 'DUALMESH' || pacerValue.toUpperCase() === 'EXCLUDER' || pacerValue.toUpperCase() === 'SEAMGUARD' || pacerValue.toUpperCase() === 'GORE TEX' || pacerValue.toUpperCase() === 'SYNECOR' || pacerValue.toUpperCase() === 'TAG' || pacerValue.toUpperCase() === 'VIABAHN'|| pacerValue.toUpperCase() === 'VIABIL' || pacerValue.toUpperCase() === 'VIATORR'){
    window.open('https://www.goremedical.com/support/mri-safety-information', '_blank');  
 
   }else if(pacerValue.toUpperCase() === 'LOCKADO'){
