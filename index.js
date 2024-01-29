@@ -258,7 +258,7 @@ alert("NOT MR-CONDITIONAL");
 
    
    }else if(pacerValue.toUpperCase() === 'PENUMBRA' || pacerValue.toUpperCase() === 'PENUMBRA COIL'){
-    window.open('https://www.penumbrainc.com/nl/mri-compatibility/', '_blank'); 
+    window.open('https://www.penumbrainc.com/mri-compatibility/', '_blank'); 
 
     /*Implant alert page---------------------------------------------------*/
    }else if(pacerValue.toUpperCase() === 'SPETZLER' || pacerValue.toUpperCase() === 'SPETZLER TITANIUM ANEURYSM CLIP'){
