@@ -597,8 +597,14 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://www.ccmed.co.uk/wp-content/uploads/2019/10/MR_Information_en_Rev_06.pdf', '_blank'); 
 
 
- }else if(pacerValue.toUpperCase() === 'HYDROFRAME'|| pacerValue.toUpperCase() === 'MICROPLEX' || pacerValue.toUpperCase() === 'HYDROCOIL'){
+ }else if(pacerValue.toUpperCase() === 'HYDROFRAME COIL'|| pacerValue.toUpperCase() === 'MICROPLEX COIL' || pacerValue.toUpperCase() === 'HYDRO COIL'){
    window.open('https://www.microvention.com/products/hydroframe/additional-information/mri-safety-information', '_blank'); 
+
+ }else if(pacerValue.toUpperCase() === 'COSMOS PLATINUM COILS'){
+   window.open('https://www.microvention.com/products/cosmos/additional-information/mri-safety-information', '_blank'); 
+
+ }else if(pacerValue.toUpperCase() === 'MICROPORT'){
+   window.open('https://www.crm.microport.com/automri/en/radiologist/tool/device-type#device-type', '_blank'); 
 
 
  }else if(pacerValue.toUpperCase() === 'VIGILANT' || pacerValue.toUpperCase() === 'G228' || pacerValue.toUpperCase() === 'G248' || pacerValue.toUpperCase() === 'G237' || pacerValue.toUpperCase() === 'G237'  || pacerValue.toUpperCase() === 'G224'  || pacerValue.toUpperCase() === 'G225'  || pacerValue.toUpperCase() === 'AUTOGEN' || pacerValue.toUpperCase() === 'G166' || pacerValue.toUpperCase() === 'G168' || pacerValue.toUpperCase() === 'G160' || pacerValue.toUpperCase() === 'G161' || pacerValue.toUpperCase() === 'G168' || pacerValue.toUpperCase() === 'DYNAGEN' || pacerValue.toUpperCase() === 'G156' || pacerValue.toUpperCase() === 'G158'  || pacerValue.toUpperCase() === 'G150' || pacerValue.toUpperCase() === 'G151' || pacerValue.toUpperCase() === 'INOGEN'  || pacerValue.toUpperCase() === 'G146' || pacerValue.toUpperCase() === 'G148' || pacerValue.toUpperCase() === 'G140'  || pacerValue.toUpperCase() === 'G141' || pacerValue.toUpperCase() === 'MOMENTUM' || pacerValue.toUpperCase() === 'G128'  || pacerValue.toUpperCase() === 'G138' || pacerValue.toUpperCase() === 'G124' || pacerValue.toUpperCase() === 'G125'  || pacerValue.toUpperCase() === 'ORIGEN' || pacerValue.toUpperCase() === 'G056' || pacerValue.toUpperCase() === 'G058'  || pacerValue.toUpperCase() === 'G050' || pacerValue.toUpperCase() === 'G051' || pacerValue.toUpperCase() === 'RESONATE'  || pacerValue.toUpperCase() === 'G524' || pacerValue.toUpperCase() === 'G525' || pacerValue.toUpperCase() === 'G528'  || pacerValue.toUpperCase() === 'G548' || pacerValue.toUpperCase() === 'G537' || pacerValue.toUpperCase() === 'G547'  || pacerValue.toUpperCase() === 'G428' || pacerValue.toUpperCase() === 'G448' || pacerValue.toUpperCase() === 'G437'  || pacerValue.toUpperCase() === 'G447' || pacerValue.toUpperCase() === 'G424' || pacerValue.toUpperCase() === 'G425'){
@@ -639,8 +645,10 @@ alert("NOT MR-CONDITIONAL");
 
   /*End of cochlear implant----------------------------------------*/
 
+
   }else if(pacerValue.toUpperCase() === 'WALLFLEX'|| pacerValue.toUpperCase() === 'COLONIC AND DUODENAL SOFT STENT'){
    window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/wallflex-colonic-and-duodenal/Wallflex_Soft_Abbreviated_DFU_FINAL.pdf', '_blank');  
+
 
 
   }else if(pacerValue.toUpperCase() === 'PROGAV 2.0'|| pacerValue.toUpperCase() === 'PROGAV'){
@@ -746,9 +754,12 @@ alert("NOT MR-CONDITIONAL");
    }else if(pacerValue.toUpperCase() === 'ONYX' || pacerValue.toUpperCase() === 'LIQUID EMBOLIC SYSTEM'  || pacerValue.toUpperCase() === 'ONYX HD-500'  || pacerValue.toUpperCase() === 'HD-500'  || pacerValue.toUpperCase() === 'HD500') {
    window.open('https://www.mrisafety.com/TMDL_list.php?qs=Onyx', '_blank'); 
 
-   /*Implant guide alert page-----------------------------------------*/
    }else if(pacerValue.toUpperCase() === 'ENTERRA' || pacerValue.toUpperCase() === '3116'){
     window.open('../implantGuides/enterra.html', '_blank'); 
+
+   /*Implant guide alert page-----------------------------------------*/
+   }else if(pacerValue.toUpperCase() === 'MEDTRONIC RESOLUTE ONYX' || pacerValue.toUpperCase() === '3116'){
+    window.open('https://www.medtronic.com/content/dam/emanuals/cardio/M055193T001DOC1-AE_view.pdf', '_blank'); 
 
 
    }else if(pacerValue.toUpperCase() === 'ENTERRA 2' || pacerValue.toUpperCase() === 'ENTERRA2'  || pacerValue.toUpperCase() === 'ENTERRA II'  || pacerValue.toUpperCase() === 'ENTERRAII'  || pacerValue.toUpperCase() === '37800') {
@@ -770,6 +781,9 @@ alert("NOT MR-CONDITIONAL");
    
    }else if(pacerValue.toUpperCase() === 'XIENCE PRIME' || pacerValue.toUpperCase() === 'PRIME'|| pacerValue.toUpperCase() === 'PRIME STENT') {
    window.open('abbottImplants/prime.pdf', '_blank');
+
+   }else if(pacerValue.toUpperCase() === 'ALIZEA DR' || pacerValue.toUpperCase() === 'ALIZEA SR'|| pacerValue.toUpperCase() === 'CELEA DR' || pacerValue.toUpperCase() === 'CELEA SR') {
+   window.open('https://www.crm.microport.com/automri/en/radiologist/tool/result/1-5-3t-fb-brady-step-1#device', '_blank');
 
 
 
