@@ -303,9 +303,6 @@ input{
 }
 
 
-
-
-
 button{
   background: transparent;
   border: 0;
@@ -389,6 +386,7 @@ overflow-y: scroll;
   border-radius: 5px;
   }
 
+
  
 
 
@@ -408,9 +406,7 @@ overflow-y: scroll;
 
 @media screen and (min-width: 700px){
 
-  .open-bars{
-    width: 50%;
-  }
+ 
 
 
   .searchBar{
@@ -436,6 +432,25 @@ font-size: 1.1em;
   border-radius: 5px;
   height: 4.4em;
   }
+
+  
+button{
+  background: transparent;
+  border: 0;
+  outline: 0;
+  width: 17%;
+}
+
+
+
+button .fa-solid {
+  width: 20%;
+  /*color:#555;*/
+  color:blue;
+ font-size: 22px;
+ cursor: pointer;
+ 
+}
 
  
 /*
@@ -465,6 +480,9 @@ font-size: 1.1em;
 
 */
 
+ .open-bars{
+    width: 50%;
+  }
 
 
  .overlay a, p {
@@ -516,22 +534,24 @@ font-size: 1.1em;
   height: 5em;
   }
 
-
-button .fa-solid {
-  width: 10%;
-  /*color:#555;*/
-  color: blue;
- font-size: 22px;
- cursor: pointer;
+button{
+  background: transparent;
+  border: 0;
+  outline: 0;
+  width: 15%;
 }
 
 
-.fa-bars {
-  font-size: 40px;
-  padding: 1em;
-  color:black;
-  cursor: pointer;
- }
+
+button .fa-solid {
+  width: 15%;
+  /*color:#555;*/
+  color:blue;
+ font-size: 22px;
+ cursor: pointer;
+ 
+}
+
 
  /*
  .search-bar {
@@ -660,6 +680,24 @@ button .fa-solid {
   height: 5em;
   }
 
+button{
+  background: transparent;
+  border: 0;
+  outline: 0;
+  width: 10%;
+}
+
+
+
+button .fa-solid {
+  width: 15%;
+  /*color:#555;*/
+  color:blue;
+ font-size: 22px;
+ cursor: pointer;
+ 
+}
+
 
 
  .overlay a, p {
@@ -736,6 +774,25 @@ button .fa-solid {
   border-radius: 5px;
   height: 6em;
   }
+
+
+ button{
+  background: transparent;
+  border: 0;
+  outline: 0;
+  width: 10%;
+}
+
+
+
+button .fa-solid {
+  width: 15%;
+  /*color:#555;*/
+  color:blue;
+ font-size: 22px;
+ cursor: pointer;
+ 
+}
 
 
  .overlay a, p {
