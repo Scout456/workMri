@@ -263,10 +263,7 @@ input{
 
 /*Begining of search bar--------------------------------------------*/
 
-.mainSearchBar{
-  width: 100%;
 
-}
 
 .searchBar{
   width: 100%;
@@ -286,7 +283,7 @@ input{
 .search-bar{
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 300px;
   padding: 10px 20px;
   background-color: rgb(224, 223, 223);
   border-radius: 5px;
