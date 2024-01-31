@@ -269,7 +269,7 @@ input{
 }
 
 .searchBar{
-  width: 300px;
+  width: 100%;
   background-color: whitesmoke;
   margin: 100px auto 0;
   border-radius: 5px;
@@ -278,6 +278,7 @@ input{
 
    .searchBar:hover{
     border: 2px solid blue;
+   
   }
 
 
@@ -289,8 +290,8 @@ input{
   padding: 10px 20px;
   background-color: rgb(224, 223, 223);
   border-radius: 5px;
-  
-}
+  height: 4em;
+  }
 
 input{
   flex: 1;
@@ -299,8 +300,13 @@ input{
   outline: 0;
   font-size: 18px;
   color: #333;
+  height: 4em;
+  
+  
   
 }
+
+
 
 
 
@@ -322,8 +328,8 @@ button .fa-solid {
 
 ::placeholder{
 color: #555;
-font-size: .83em;
-width: 100%;
+font-size: .80em;
+
 }
 
 
@@ -410,12 +416,28 @@ overflow-y: scroll;
 
 
   .searchBar{
-  width: 300px;
+  width: 400px;
   background-color: whitesmoke;
   margin: 50px auto 0;
   border-radius: 5px;
   
 }
+
+::placeholder{
+color: #555;
+font-size: 1.1em;
+
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: rgb(224, 223, 223);
+  border-radius: 5px;
+  height: 4.4em;
+  }
 
  
 /*
@@ -474,7 +496,7 @@ overflow-y: scroll;
 
  
   .searchBar{
-  width: 300px;
+  width: 400px;
   background-color: whitesmoke;
   margin: 80px auto 0;
   border-radius: 5px;
@@ -482,9 +504,19 @@ overflow-y: scroll;
 
   ::placeholder{
    color: #555;
-   font-size: .88em;
-   width: 100%;
+   font-size: 1.15em;
+   
 }
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: rgb(224, 223, 223);
+  border-radius: 5px;
+  height: 5em;
+  }
 
 
 button .fa-solid {
@@ -608,10 +640,26 @@ button .fa-solid {
 
  
   .searchBar{
-  width: 300px;
+  width: 400px;
   background-color: whitesmoke;
   margin: 100px auto 0;
   border-radius: 5px;
+  }
+
+  ::placeholder{
+  color: #555;
+  font-size: 1.2em;
+
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: rgb(224, 223, 223);
+  border-radius: 5px;
+  height: 5em;
   }
 
 
@@ -669,10 +717,26 @@ button .fa-solid {
 
  
   .searchBar{
-  width: 300px;
+  width: 430px;
   background-color: whitesmoke;
   margin: 100px auto 0;
   border-radius: 5px;
+  }
+
+  ::placeholder{
+  color: #555;
+  font-size: 1.3em;
+
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: rgb(224, 223, 223);
+  border-radius: 5px;
+  height: 6em;
   }
 
 
