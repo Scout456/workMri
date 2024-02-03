@@ -270,14 +270,18 @@ input{
   background-color: whitesmoke;
   margin: 100px auto 0;
   border-radius: 5px;
+  border: 5px ridge lightblue;
   }
 
 
    .search-bar:hover{
-    border: 2px solid blue;
-    
-   
-  }
+    background-color: lightblue;
+    }
+
+    input:focus{
+      border-radius: 10px;
+      color: blue;
+      }
 
 
 
@@ -343,7 +347,7 @@ font-size: .80em;
 }
 
 .result-box ul li:hover{
-  background-color: #e6ede6;
+  background-color: #cccecc;
 }
 
 .result-box{
@@ -553,6 +557,15 @@ button .fa-solid {
  
 }
 
+.result-box ul li{
+  list-style: none;
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 15px 10px;
+  cursor: pointer;
+
+}
+
 
  /*
  .search-bar {
@@ -698,6 +711,8 @@ button .fa-solid {
  cursor: pointer;
  
 }
+
+
 
 
 
