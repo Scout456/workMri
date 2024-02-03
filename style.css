@@ -323,13 +323,14 @@ button .fa-solid {
   color: blue;
  font-size: 22px;
  cursor: pointer;
- padding-right: 5em;
+ 
  
 }
 
 ::placeholder{
 color: #555;
 font-size: .80em;
+padding-left: .3em;
 
 }
 
@@ -425,7 +426,8 @@ overflow-y: scroll;
 
 ::placeholder{
 color: #555;
-font-size: 1.1em;
+font-size: 1em;
+padding-left: .3em;
 
 }
 
@@ -524,10 +526,11 @@ button .fa-solid {
   border-radius: 5px;
   }
 
-  ::placeholder{
-   color: #555;
-   font-size: 1.15em;
-   
+ ::placeholder{
+color: #555;
+font-size: 1.1em;
+padding-left: .3em;
+
 }
 
 .search-bar{
