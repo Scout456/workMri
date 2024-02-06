@@ -319,13 +319,13 @@ button{
 
 button .fa-solid {
   width: 100%;
-  /*color:#555;*/
+ /*color:#555;*/
   color: blue;
  font-size: 22px;
  cursor: pointer;
+ }
+
  
- 
-}
 
 ::placeholder{
 color: #555;
@@ -543,6 +543,12 @@ padding-left: .3em;
   height: 5em;
   }
 
+   input[type="search"]
+{
+    font-size:1.1em;
+}
+
+
 button{
   background: transparent;
   border: 0;
@@ -699,6 +705,13 @@ button .fa-solid {
   border-radius: 5px;
   height: 5em;
   }
+
+
+  input[type="search"]
+{
+    font-size:1.1em;
+}
+
 
 button{
   background: transparent;
