@@ -279,7 +279,7 @@ input{
     }
 
     .searchBar:hover{
-        border: 5px groove blue;
+        border: 2px ridge blue;
     }
 
     input:focus{
@@ -323,9 +323,8 @@ button{
 
 button .fa-solid {
   width: 100%;
- /*color:#555;*/
-  color: blue;
- font-size: 22px;
+  color:#555;
+ font-size: 20px;
  cursor: pointer;
  }
 
@@ -456,9 +455,8 @@ button{
 
 
 button .fa-solid {
-  width: 20%;
-  /*color:#555;*/
-  color:blue;
+ width: 20%;
+ color:#555;
  font-size: 22px;
  cursor: pointer;
  
@@ -562,8 +560,7 @@ button{
 
 button .fa-solid {
   width: 15%;
-  /*color:#555;*/
-  color:blue;
+ color:#555;
  font-size: 27px;
  cursor: pointer;
  
@@ -723,9 +720,8 @@ button{
 
 
 button .fa-solid {
-  width: 15%;
-  /*color:#555;*/
-  color:blue;
+ width: 15%;
+ color:#555;
  font-size: 27px;
  cursor: pointer;
  
@@ -825,9 +821,8 @@ padding-left: .3em;
 
 
 button .fa-solid {
-  width: 15%;
-  /*color:#555;*/
-  color:blue;
+ width: 15%;
+ color:#555;
  font-size: 27px;
  cursor: pointer;
  
