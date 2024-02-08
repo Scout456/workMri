@@ -524,7 +524,7 @@ button .fa-solid {
 
  
   .searchBar{
-  width: 400px;
+  width: 500px;
   background-color: whitesmoke;
   margin: 80px auto 0;
   border-radius: 5px;
@@ -532,7 +532,6 @@ button .fa-solid {
 
  ::placeholder{
 color: #555;
-font-size: 1.1em;
 padding-left: .3em;
 
 }
@@ -545,11 +544,10 @@ padding-left: .3em;
   background-color: rgb(224, 223, 223);
   border-radius: 5px;
   height: 5em;
-  }
+}
 
-   input[type="search"]
-{
-    font-size:1.1em;
+#implant{
+  font-size: 1.6em;
 }
 
 
@@ -573,7 +571,7 @@ button .fa-solid {
 
 .result-box ul li{
   list-style: none;
-  font-size: 20px;
+  font-size: 24px;
   border-radius: 3px;
   padding: 15px 10px;
   cursor: pointer;
@@ -688,15 +686,15 @@ button .fa-solid {
 
  
   .searchBar{
-  width: 400px;
+  width: 500px;
   background-color: whitesmoke;
-  margin: 100px auto 0;
+  margin: 80px auto 0;
   border-radius: 5px;
   }
 
-  ::placeholder{
-  color: #555;
-  font-size: 1.2em;
+ ::placeholder{
+color: #555;
+padding-left: .3em;
 
 }
 
@@ -708,12 +706,10 @@ button .fa-solid {
   background-color: rgb(224, 223, 223);
   border-radius: 5px;
   height: 5em;
-  }
+}
 
-
-  input[type="search"]
-{
-    font-size:1.1em;
+#implant{
+  font-size: 1.6em;
 }
 
 
@@ -790,17 +786,17 @@ button .fa-solid {
 
 */
 
- 
+
   .searchBar{
-  width: 430px;
+  width: 500px;
   background-color: whitesmoke;
-  margin: 100px auto 0;
+  margin: 80px auto 0;
   border-radius: 5px;
   }
 
-  ::placeholder{
-  color: #555;
-  font-size: 1.3em;
+ ::placeholder{
+color: #555;
+padding-left: .3em;
 
 }
 
@@ -812,7 +808,11 @@ button .fa-solid {
   background-color: rgb(224, 223, 223);
   border-radius: 5px;
   height: 5em;
-  }
+}
+
+#implant{
+  font-size: 1.6em;
+}
 
 
  button{
