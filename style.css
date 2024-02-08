@@ -294,7 +294,7 @@ input{
 .search-bar{
   display: flex;
   align-items: center;
-  width: 290px;
+  width: 100%;
   padding: 10px 10px;
   background-color: rgb(224, 223, 223);
   border-radius: 5px;
