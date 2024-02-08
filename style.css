@@ -276,10 +276,12 @@ input{
 
    .search-bar:hover{
     background-color: lightblue;
+    width: 100%;
     }
 
     .searchBar:hover{
         border: 2px ridge blue;
+        
     }
 
     input:focus{
