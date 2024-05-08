@@ -678,7 +678,7 @@ alert("NOT MR-CONDITIONAL");
 
 
    }else if(pacerValue.toUpperCase() === 'KYLEENA'){
-   window.open('https://www.bayer.com/sites/default/files/KYLEENA%20ENG%20PI%2023.11.17.pdf', '_blank');
+   window.open('implantGuides/kyleena.html', '_blank');
    
    }else if(pacerValue.toUpperCase() === 'ALTO'|| pacerValue.toUpperCase() === '6XX' || pacerValue.toUpperCase() === 'GRACE MEDICAL' || pacerValue.toUpperCase() === 'GRACE MEDICAL OTOLOGIC IMPLANTS' || pacerValue.toUpperCase() === '612-001L' ){
    window.open('https://www.gracemedical.com/mri-info/', '_blank');  
