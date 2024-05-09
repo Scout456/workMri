@@ -73,13 +73,11 @@ function implantLookup(){
   
 
 
-  if(pacerValue.toUpperCase() === 'ADVISA SR' || pacerValue.toUpperCase() === 'A3SR01' || pacerValue.toUpperCase() === 'ADVISA'){
+  if(pacerValue.toUpperCase() === 'ADVISA SR' || pacerValue.toUpperCase() === 'A3SR01' || pacerValue.toUpperCase() === 'ADVISA' || pacerValue.toUpperCase() === 'ADVISA DR' || pacerValue.toUpperCase() === 'A2DR01'){
      
  window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf', '_blank' );
 
- }else if(pacerValue.toUpperCase() === 'ADVISA DR' || pacerValue.toUpperCase() === 'A2DR01'){ 
-   
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf', '_blank' );
+
 
 /*Implant alert page----------------------------------------------*/
  }else if(pacerValue.toUpperCase() === 'ENSURA' || pacerValue.toUpperCase() === 'EN1DR01'|| pacerValue.toUpperCase() === 'EN1SR01'){ 
