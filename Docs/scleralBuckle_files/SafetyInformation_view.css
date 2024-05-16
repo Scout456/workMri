@@ -1,0 +1,18 @@
+[data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"] > * > label,
+[data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"] > * > * > input,
+[data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"] > * > * > select,
+[data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field4"] > * > * > * > select {
+  text-decoration: underline;
+  font-weight: bold;
+}
+[data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"] > * > label,
+[data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"] > * > * > input,
+[data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"] > * > * > select,
+[data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"][data-page="SafetyInformation_view"][data-itemid="integrated_edit_field5"] > * > * > * > select {
+  white-space: normal;
+}
+[data-page="SafetyInformation_view"][data-itemid="view_back_list1"] > .btn {
+  padding-left: 25px;
+}
+
+
