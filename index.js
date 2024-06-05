@@ -319,47 +319,47 @@ alert("NOT MR-CONDITIONAL");
 
    
     }else if(pacerValue.toUpperCase() === 'VANTA' || pacerValue.toUpperCase() === '977006'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37704'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37703'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
 
     }else if(pacerValue.toUpperCase() === 'ITREL 3' || pacerValue.toUpperCase() === '7425'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
 
 
 }else if(pacerValue.toUpperCase() === 'RESTORESENSOR' || pacerValue.toUpperCase() === '37714'  || pacerValue.toUpperCase() === 'RESTORE SENSOR'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
 
 
 }else if(pacerValue.toUpperCase() === 'RESTOREULTRA' || pacerValue.toUpperCase() === '97712'  || pacerValue.toUpperCase() === 'RESTORE ULTRA'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
 
 
 }else if(pacerValue.toUpperCase() === 'RESTOREADVANCED' || pacerValue.toUpperCase() === '97713'  || pacerValue.toUpperCase() === 'RESTORE ADVANCED'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
 
 
 }else if(pacerValue.toUpperCase() === 'RESTORESENSOR' || pacerValue.toUpperCase() === '97714' || pacerValue.toUpperCase() === 'RESTORE SENSOR' ){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
 
 }else if(pacerValue.toUpperCase() === 'RESTORE' || pacerValue.toUpperCase() === '37711'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
 
 
 
 }else if(pacerValue.toUpperCase() === 'VERSITREL' || pacerValue.toUpperCase() === '7427V'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_b_027_view.pdf', '_blank');
+   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
 
 
 
 
 
 }else if(pacerValue.toUpperCase() === 'AMS 700'){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/uro-ph/ams700-ms-pump/50654574-01A_AMS700_MSPump_IFU_multi_s.pdf', '_blank');
+   window.open('https://www.bostonscientific.com/content/dam/elabeling/uro-ph/50654574-01B_AMS700_MSPump_IFU_multi_s.pdf', '_blank');
 
 
 
