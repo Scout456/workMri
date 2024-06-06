@@ -372,11 +372,11 @@ alert("NOT MR-CONDITIONAL");
    window.open('../implantGuides/InterStim.html', '_blank');
 
 
+//Biotronik pacemakers/ICDs
 }else if(pacerValue.toUpperCase() === 'ENITRA'){
    window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-   
- }else if(pacerValue.toUpperCase() === 'EVITY'){
+ 
+}else if(pacerValue.toUpperCase() === 'EVITY'){
    window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ENTICOS'){
@@ -385,15 +385,30 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'EDORA'){
    window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
 
- 
-}else if(pacerValue.toUpperCase() === 'INSPIRE' || pacerValue.toUpperCase() === '3028' || pacerValue.toUpperCase() === '3024'){
-   window.open('https://manuals.inspiresleep.com/content/widgets/manual.php?NTAwfDF8MQ==', '_blank');
 
+//Biotronik pacemakers/ICDs
 }else if(pacerValue.toUpperCase() === 'ACTICOR 7 DR-T'){
-   window.open('https://www.biotronik.com/en-de/products/tachycardia/acticor_7_dr-t_vr-t', '_blank');
+   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
 
 }else if(pacerValue.toUpperCase() === 'ACTICOR 7 VR-T'){
-   window.open('https://www.biotronik.com/en-de/products/tachycardia/acticor_7_dr-t_vr-t', '_blank');
+   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
+
+}else if(pacerValue.toUpperCase() === 'INVENTRA 7 VR-T DX'){
+   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
+
+}else if(pacerValue.toUpperCase() === 'RIVACOR 7 VR-T'){
+   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
+
+}else if(pacerValue.toUpperCase() === 'RIVACOR 7 DR-T'){
+   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
+
+}else if(pacerValue.toUpperCase() === 'ACTICOR 7'){
+   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
+   
+
+}else if(pacerValue.toUpperCase() === 'AVEIR' || pacerValue.toUpperCase() === 'LSP112V' || pacerValue.toUpperCase() === 'LSP202V' || pacerValue.toUpperCase() === 'LSP201A' ){
+   window.open('abbottImplants/aveir.pdf', '_blank');
+
 
 }else if(pacerValue.toUpperCase() === 'BIOMONITOR 3M'){
    window.open('../biotronikImplants/biomonitor3m.pdf', '_blank');
@@ -410,27 +425,14 @@ alert("NOT MR-CONDITIONAL");
 }else if(pacerValue.toUpperCase() === 'BIOMONITOR'){
    window.open('../biotronikImplants/biomonitor.pdf', '_blank');
 
-}else if(pacerValue.toUpperCase() === 'INVENTRA 7 VR-T DX'){
-   window.open('https://www.biotronik.com/en-us/products/crm/tachycardia/inventra-7-vr-t-dx', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'RIVACOR 7 VR-T'){
-   window.open('https://www.biotronik.com/en-us/products/crm/tachycardia/rivacor', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'RIVACOR 7 DR-T'){
-   window.open('https://www.biotronik.com/en-us/products/crm/tachycardia/rivacor', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ACTICOR 7'){
-   window.open('https://www.biotronik.com/en-us/products/crm/cardiac-resynchronization/acticor-7-hf-t-qp', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'AVEIR' || pacerValue.toUpperCase() === 'LSP112V' || pacerValue.toUpperCase() === 'LSP202V' || pacerValue.toUpperCase() === 'LSP201A' ){
-   window.open('abbottImplants/aveir.pdf', '_blank');
-
 
 
 }else if(pacerValue.toUpperCase() === 'CODMAN CERTAS' || pacerValue.toUpperCase() === 'CODMAN HAKIM'  || pacerValue.toUpperCase() === 'CODMAN'){
    window.open('implantGuides/codman.html', '_blank');
 
 
+}else if(pacerValue.toUpperCase() === 'INSPIRE' || pacerValue.toUpperCase() === '3028' || pacerValue.toUpperCase() === '3024'){
+   window.open('https://manuals.inspiresleep.com/content/widgets/manual.php?NTAwfDF8MQ==', '_blank');
 
 
 
