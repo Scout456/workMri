@@ -558,7 +558,7 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://www.bostonscientific.com/content/dam/elabeling/ic/watchman/51221705-01A_WATCHMAN_IFU_en_s.pdf', '_blank');
    
 }else if(pacerValue.toUpperCase() === 'AMPLATZER' || pacerValue.toUpperCase() === 'PFO OCCLUDER' ){
-   window.open('https://www.myamplatzer.com/media/resources/MAT-2002608-v1.0_PFO_Spec_Sheet_US_FINAL.PDF', '_blank');  
+   window.open('abbottImplants/amplatzerAmulet.pdf', '_blank');  
 
  
 
