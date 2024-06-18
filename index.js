@@ -711,6 +711,8 @@ alert("NOT MR-CONDITIONAL");
   }else if(pacerValue.toUpperCase() === 'BIOMONITOR 3'|| pacerValue.toUpperCase() === 'BIOMONITOR3' || pacerValue.toUpperCase() === 'BIOMONITOR III' || pacerValue.toUpperCase() === '436066'){
    window.open('biotronikImplants/biomonitor3.html', '_blank');  
 
+
+
   }else if(pacerValue.toUpperCase() === '6660'|| pacerValue.toUpperCase() === '6662' || pacerValue.toUpperCase() === '6170' || pacerValue.toUpperCase() === '6171' || pacerValue.toUpperCase() === '6172' || pacerValue.toUpperCase() === '6173' || pacerValue.toUpperCase() === '6371' || pacerValue.toUpperCase() === '6372' || pacerValue.toUpperCase() === 'INFINITY'){
    window.open('abbottImplants/dbs.pdf', '_blank');  
 
@@ -727,7 +729,7 @@ alert("NOT MR-CONDITIONAL");
    window.open('https://www.livanova.com/epilepsy-vnstherapy/getmedia/7a696c39-8777-4d24-afdf-fea7d54b7475/im-7601036-epi-mri-guidelines-digital_5.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === '100C' || pacerValue.toUpperCase() === '101') {
-   window.open('https://www.livanova.com/epilepsy-vnstherapy/en-us/hcp/mri-safety/q2/b', '_blank'); 
+   window.open('https://www.livanova.com/epilepsy-vnstherapy/getmedia/11f70fde-4396-4c93-9e9f-fa0c42fdaead/mri-guidelines_hcp_2023.pdf', '_blank'); 
 
   /*End of LivaNova-----------------------------------------------------*/
 
@@ -847,9 +849,6 @@ alert("NOT MR-CONDITIONAL");
     
     }else if(pacerValue.toUpperCase() === 'ABBOTT SJM REGENT MECHANICAL HEART VALVES' || pacerValue.toUpperCase() ===  'ABBOTT SJM STANDARD AND MASTERS SERIES MECHANICAL HEART VALVES' || pacerValue.toUpperCase() === 'ABBOTT BIOCOR STENTED TISSUE VALVES' || pacerValue.toUpperCase() === 'ABBOTT EPIC STENTED TISSUE VALVES'  || pacerValue.toUpperCase() === 'ABBOTT TRIFECTA TISSUE VALVES'|| pacerValue.toUpperCase()  === 'ABBOTT SJM RIGID SADDLE ANNULOPLASTY RINGS' || pacerValue.toUpperCase() === 'ABBOTT SJM SEMI-RIGID ANNULOPLASTY RINGS' || pacerValue.toUpperCase()  === 'ABBOTT ATTUNE FLEXIABLE ADJUSTABLE ANNULOPLASTY RINGS' || pacerValue.toUpperCase() === 'ABBOTT SJM TAILOR FLEXIBLE ANNULOPLASTY RINGS' || pacerValue.toUpperCase()  === 'ABBOTT SJM TAILOR FLEXIABLE ANNULOPLASTY BAND'){
     window.open('abbottImplants/abbottHeartValves.pdf', '_blank');
-
-
-  
 
     
    }else if(pacerValue.toUpperCase() === 'NEXPLANON CONTRACEPTIVE IMPLANT'){
