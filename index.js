@@ -734,7 +734,7 @@ alert("NOT MR-CONDITIONAL");
   /*End of LivaNova-----------------------------------------------------*/
 
    }else if(pacerValue.toUpperCase() === '100B' || pacerValue.toUpperCase() === 'COLOPLAST'|| pacerValue.toUpperCase() === 'GENESIS' || pacerValue.toUpperCase() === 'ACU-FORM'|| pacerValue.toUpperCase() === 'ACUFORM' || pacerValue.toUpperCase() === 'MALLEABLE'|| pacerValue.toUpperCase() === 'TITAN'|| pacerValue.toUpperCase() === 'ALPHA 1'|| pacerValue.toUpperCase() === 'ALPHA1'|| pacerValue.toUpperCase() === 'MARK 2'|| pacerValue.toUpperCase() === 'MARK2'|| pacerValue.toUpperCase() === 'EXCEL') {
-   window.open('https://iu.coloplast.us/wp-content/uploads/2022/02/MRI-Compatibility-and-Latex-Content-Memo-Penile-Prostheses.pdf', '_blank'); 
+   window.open( 'Docs/coloplastPenileImplant.pdf', '_blank'); 
 
 
    }else if(pacerValue.toUpperCase() === 'CORDIS' || pacerValue.toUpperCase() === 'PALMAZ'|| pacerValue.toUpperCase() === 'PALMAZ GENESIS'|| pacerValue.toUpperCase() === 'PG295P'|| pacerValue.toUpperCase() === 'PG395P') {
