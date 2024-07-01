@@ -726,7 +726,7 @@ alert("NOT MR-CONDITIONAL");
   /*LivaNova----------------------------------------------*/
    
    }else if(pacerValue.toUpperCase() === 'LIVANOVA' || pacerValue.toUpperCase() === '103' || pacerValue.toUpperCase() === '105' || pacerValue.toUpperCase() === '106' || pacerValue.toUpperCase() === '1000' || pacerValue.toUpperCase() === 'DEMIPULSE' || pacerValue.toUpperCase() === 'ASPIREHC' || pacerValue.toUpperCase() === 'ASPIRESR' || pacerValue.toUpperCase() === 'SENTIVA' || pacerValue.toUpperCase() === '102' || pacerValue.toUpperCase() === 'PULSE DUO' || pacerValue.toUpperCase() === '102R' || pacerValue.toUpperCase() === 'DEMIPULSE DUO'){
-   window.open('https://www.livanova.com/epilepsy-vnstherapy/getmedia/7a696c39-8777-4d24-afdf-fea7d54b7475/im-7601036-epi-mri-guidelines-digital_5.pdf', '_blank');
+   window.open('https://www.livanova.com/epilepsy-vnstherapy/getmedia/11f70fde-4396-4c93-9e9f-fa0c42fdaead/mri-guidelines_hcp_2023.pdf', '_blank');
 
    }else if(pacerValue.toUpperCase() === '100C' || pacerValue.toUpperCase() === '101') {
    window.open('https://www.livanova.com/epilepsy-vnstherapy/getmedia/11f70fde-4396-4c93-9e9f-fa0c42fdaead/mri-guidelines_hcp_2023.pdf', '_blank'); 
