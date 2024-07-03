@@ -790,12 +790,16 @@ alert("NOT MR-CONDITIONAL");
    }else if(pacerValue.toUpperCase() === 'ENTERRA 2' || pacerValue.toUpperCase() === 'ENTERRA2'  || pacerValue.toUpperCase() === 'ENTERRA II'  || pacerValue.toUpperCase() === 'ENTERRAII'  || pacerValue.toUpperCase() === '37800' || pacerValue.toUpperCase() === 'ENTERRA'  || pacerValue.toUpperCase() === '3116') {
    window.open('../implantGuides/enterra.html', '_blank'); 
 
+
    }else if(pacerValue.toUpperCase() === 'MCA GEM COUPLER' || pacerValue.toUpperCase() === 'COUPLER RING'
    || pacerValue.toUpperCase() === 'SYNOVIS MICRO COMPANY' || pacerValue.toUpperCase() === 'SYNOVIS'|| pacerValue.toUpperCase() === 'GEM COUPLER' || pacerValue.toUpperCase() === 'COUPLER' || pacerValue.toUpperCase() === 'COUPLER RINGS'){
     window.open('Docs/MriCoupler.pdf', '_blank'); 
 
+
    }else if(pacerValue.toUpperCase() === 'ONYX STENT' || pacerValue.toUpperCase() === 'ONYX FRONTIER'|| pacerValue.toUpperCase() === 'FRONTIER') {
    window.open('https://www.medtronic.com/content/dam/emanuals/cardio/M016449C001DOC1-D_view.pdf', '_blank');
+
+
    
    }else if(pacerValue.toUpperCase() === 'XIENCE SKYPOINT' || pacerValue.toUpperCase() === 'SKYPOINT'|| pacerValue.toUpperCase() === 'SKYPOINT STENT') {
    window.open('abbottImplants/skypoint.pdf', '_blank');
@@ -807,8 +811,10 @@ alert("NOT MR-CONDITIONAL");
    }else if(pacerValue.toUpperCase() === 'XIENCE PRIME' || pacerValue.toUpperCase() === 'PRIME'|| pacerValue.toUpperCase() === 'PRIME STENT') {
    window.open('abbottImplants/prime.pdf', '_blank');
 
+
    }else if(pacerValue.toUpperCase() === 'ALIZEA DR' || pacerValue.toUpperCase() === 'ALIZEA SR'|| pacerValue.toUpperCase() === 'CELEA DR' || pacerValue.toUpperCase() === 'CELEA SR') {
-   window.open('https://www.crm.microport.com/automri/en/radiologist/tool/result/1-5-3t-fb-brady-step-1#device', '_blank');
+   window.open('https://www.crm.microport.com/automri/en/radiologist/tool/device-type#device-type', '_blank');
+
 
    }else if(pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC VENOUS WALLSTENT') {
    window.open('https://www.bostonscientific.com/content/dam/elabeling/pi/50607601-01B_Venous%20Wallstent_eDFU_US_s.pdf', '_blank');
