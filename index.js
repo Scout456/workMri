@@ -826,7 +826,7 @@ alert("NOT MR-CONDITIONAL");
 
    }else if(pacerValue.toUpperCase() ===  'BOSTON SCIENTIFIC VERCISE GENUS'
    || pacerValue.toUpperCase() === 'DB‑1408' || pacerValue.toUpperCase() === 'DB‑1416' || pacerValue.toUpperCase() === 'DB‑1432' || pacerValue.toUpperCase() === 'DB‑1216' || pacerValue.toUpperCase() === 'DB‑1232' || pacerValue.toUpperCase() === 'DB-1200-S'){
-    window.open('https://www.bostonscientific.com/content/dam/bostonscientific/neuro/portfolio-group/vercise-genus-dbs-system/NM-630016-AB%20US_DBS-Vercise-Directional-Systems-MRI-Conditions-Chart_Final.pdf', '_blank'); 
+    window.open('bostonImplants/bostonScientificVerviseGenusDbs.pdf', '_blank'); 
 
    
    }else if(pacerValue.toUpperCase() === 'MEDTRONIC RESOLUTE ONYX'){
