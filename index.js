@@ -830,7 +830,7 @@ alert("NOT MR-CONDITIONAL");
 
    
    }else if(pacerValue.toUpperCase() === 'MEDTRONIC RESOLUTE ONYX'){
-    window.open('medtronic/medtronicResoluteOnyx.pdf', '_blank'); 
+    window.open('medtronicImplants/medtronicResoluteOnyx.pdf', '_blank'); 
 
 
     }else if(pacerValue.toUpperCase() === 'BRAVO'){
