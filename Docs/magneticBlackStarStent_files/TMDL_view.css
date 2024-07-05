@@ -1,0 +1,11 @@
+[data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"] > * > label,
+[data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"] > * > * > input,
+[data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"] > * > * > select,
+[data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"][data-page="TMDL_view"][data-itemid="integrated_edit_field3"] > * > * > * > select {
+  font-weight: bold;
+}
+[data-page="TMDL_view"][data-itemid="view_back_list1"] > .btn {
+  padding-left: 25px;
+}
+
+

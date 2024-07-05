@@ -1,49 +1,33 @@
-
-let availableKeywords = [
-'ADVISA', 'A3SR01', 'ADVISA SR', 'ADVISA DR', 'A2DR01','ENSURA','EN1DR01','EN1SR01','AZURE XT DR','W1DR01','AZURE','W1SR01','W3SR01','W3DR01','PERCUFLEX PLUS','PERCUFLEX','YASARGIL','SUGITA', 'MIZUHO','VIRTUOSO','D154AWG','NEVRO','SENZA','NIPG1000','NIPG1500','NIPG2000','NIPG2500','1000','1500','2000','2500','MICRA VR', 'MICRA','MC1VR01', 'MICRA AV','MC1AVR1','ATTESTA DR','ATDR01','ATTESTA L DR','ATDRL1','ATTESTA S DR', 'ATDRS1','ATTESTA SR','ATSR01','RESTORE','37712', 'SPHERA SR','SPSR01','SPHERA DR','SPDR01','SPHERA L DR','SPDRL1','SPDRL1','SPHERA','ASTRA','REVO','RVDR01','COBALT XT','DVPA2D1','DVPA2D4' ,'DDPA2D1', 'DDPA2D4','DVPB3D1','DVPB3D4','DDPB3D1','COBALT','DDPB3D4','CROME','DVPC3D4','DVPC3D1','DDPC3D4','DDPC3D1', 'PRIMO','DDMD3D1','DDMD3D4','DVMD3D1','DVMDD3D4','MIRRO', 'DVME3D1','DVME3D4','DDME3D1','DDME3D4','VISIA AF','DVFB1D1', 'DVFB1D1','DVFB1D4','DVFC3D1', 'DVFC3D4','VISIA','EVERA XT','DDMB1D4','DVMB1D4','DDMB1D1','DVMB1D1','DVMB1D1','DDMC3D4','DDMC3D1', 'DVMC3D1','DVMC3D4','CLARIA','DTMA1QQ','DTMA1Q1','DTMA1D4','DTMA1D1','AMPLIA','DTMB1QQ', 'DTMB1Q1','DTMB1D4','DTMB1D1', 'COMPIA','DTMC1QQ','DTMC1D1','DTMCC1D1','PERCEPTA','W4TR01','W1TR01','SERENA', 'W4TR02','W1TR02','SOLARA','W4TR03','W1TR03','LINQ11','LINQ22','LNQ11', 'LNQ22','REVEAL','9529','ACTIVA','37601','37603','37612','37602','SOLETRA','7426','PRIME ADVANCED','97702','97715', '97716','977005', '977006', '97712','97713','97714','37701','37702','37703','37704','37711','37712', '37713','37714','7479', '7479B','7427','7427V','KINETRA','7428','PERCEPT PC','B35200','OPTIMA COIL','BARRICADE COIL','PENUMBRA COIL','SPETZLER TITANIUM ANEURYSM CLIP', 'OPTION ELITE','AXONICS','1101','4101','VANTA','977006','ITREL 4','37704', '37703', 'ITREL 3','7425','RESTORE SENSOR','37714','RESTORE ULTRA','97712','RESTORE ADVANCED','97713','97714','37711', 'RESTORE','MEDTRONIC SYNERGY','7427','VERSITREL','7427V','MEDTRONIC NEUROSTIMULATOR','7427V','AMS 800','AMS 700','INTERSTIM','3023','3058', '97810','97800','7427T','ENITRA','EVITY','ENTICOS','EDORA','INSPIRE','3028','3024','ACTICOR 7 DR-T','ACTICOR 7 VR-T','BIOMONITOR 3M','INVENTRA 7 VR-T DX','RIVACOR 7 VR-T','RIVACOR 7 DR-T','ACTICOR 7','AVEIR','ASSURITY','LSP112V','LSP202V','LSP201A','PM1272','PM2272','ENDURITY','PM1172','PM2172','ACCENT','PM1224','PM2218','QUADRA ALLURE','PM3542','QUADRA ALLURE MP','PM3562','ELLIPSE','CD1311-36Q','CD1311','ELLIPSE','CD1411-36Q','CD1311','CD1411-36Q','CD1411-36QC','CD1411','CD2311-36Q','CD2311','CD2411-36Q','CD2411-36QC','CD2411','CODMAN CERTAS','CODMAN HAKIM','CODMAN','FORTIFY ASSURA','CD1357-40Q','CD1357-40QC','CD2357-40Q','CD2357-40QC','CD2357','QUADRA ASSURA','CD3365-40Q','CD3365-40QC','CD3365','CD3369-40Q','CD3369-40QC','CD3369','PROCLAIM XR','3660','3662','ESSURE','INGENIO', 'K173','PROCLAIM','3662', 'PROCLAIM DRG','3664','PROTEGE','3771','3772','INFINITY 5','INFINITY 7','LIBERTA RC','62400','6660',' 7','6662','GALLANT','CDVRA500Q','CDHFA500Q','VITALIO','K275','K277','L110','L111','L131','L210','ESSENTIO','PROPONENT','L211','L231','ACCOLADE','L310','L311','L331','VALITUDE','U128','VISIONIST','U228','EMBLEM','A219','PRECISION MONTAGE MRI','SC-1200','SC1200','PRECISION SPECTRA','SC-1132','SC1132','SPECTRA WAVEWRITER','SC-1160','SC1160','WAVEWRITER','SC-1232','SC-1216','SC-1432','SC-1416','ADAPTA','ADDR01','ADDR03','ADDRO6','ADDRS1','VERSA','SENSIA','VEDR01','SEDR01','SEDRL1','SED01','SESR01','SES01','RELIA','REDRO1','RED01','RESR01','RES01','REVDD01','AVANT','NEUTRINO','CDVRA700Q','CDDRA700Q','CDVRA800Q','CDVRA600Q','CDDRA800Q','CDDRA600Q','CDHFA700Q','CDHFA800Q','CDHFA600Q','ENTRANT','CDVRA300Q','CDDRA300Q','CDHFA300Q','WATCHMAN','AMPLATZER','PFO OCCLUDER','UROLIFT','PIPELINE','WAVECREST','VILIGANT','D220','D221','D232','D233','G248','G247','SYNCHRONY 2','MI1250','MI1200','MED-EL CONCERT','MI1000','SONATA','PULSAR','C40+','C40','ASSURANCE CLIP','RHYTHMLINK','RESOLUTION CLIP','MIRENA','VIVISTIM','1001','KURZ','VIGILANT','G228','G248','G237','G237','G224','G225','AUTOGEN','G166','G168','G160','G161','G168','DYNAGEN','G156', 'G158','G150','G151','INOGEN','G146','G148','G140','G141','MOMENTUM','G128','G138','G124','G125','ORIGEN','G056','G058','G050','G051','RESONATE','G524','G525','G528','G548','G537','G547','G428','G448','G437','G447','G424','G425','D160','D161','D162','D163','D150','D151','D152','D020','D021','D153','D022','D023','D140','D141','D142','D143','G146','G148','G140','D013','D051','D052','D053','D000','G058','G050','D001','D002','D003','PERCIVA','D500','D501','D512','D513','D400','D401','D412','D413','D520','D521','D532','D533','D420','D421','D432','D433','D220','D221','D232','D233','MEDTRONIC STRATA','MEDTRONIC STRATA 2','COCHLEAR','CI632','CI624','CI622','CI612','CI532','CI522','CI512','ABI541','CI422','CI24REH','CI24RECA','CI24REST','ABI24M','CI24R','CI24R','CI24M','CI11+11+2M','CI22M','ADVANCED BIONICS','HIRES ULTRA 3D','NUCLEUS','OSIA','BAHA','VISTAFIX','BOSTON SCIENTIFIC WALLFLEX','PROGAV 2.0','GORE','GORE TAG','GORE VIABIL','GORE CARDIOFORM','GORE EXCLUDER','GORE VIABAHN','GORE VIATORR','GORE BIO-A','GORE TEX','LOCKADO','DM3500','CONFIRM RX','BOSTON SCIENTIFIC SYNERGY XD','BOSTON SCIENTIFIC SYNERGY MONORAIL','AXIOS','KYLEENA','ALTO','6XX','612-001L','GRACE MEDICAL','8637','8626','8627','8615','8616','8617','8616','8472','ABBOTT MITRA CLIP','ABBOTT MITRA CLIP G4','BIOMONITOR 3','436066','6660','6662','6170','6171','6172','6173','6371','6372','IMPULSE DYNAMICS','OPTIMIZER','HYDRUS MICROSTENT','FOOO22','LIVANOVA','103','105','106','1000','DEMIPULSE','ASPIREHC','ASPIRESR','SENTIVA','102','PULSE DUO','102R','100C','101','100B','COLOPLAST','GENESIS','ACU-FORM','MALLEABLE','TITAN','ALPHA 1','MARK 2','EXCEL','CORDIS','PALMAZ GENESIS','PG295P','PG395P','BOSTON SCIENTIFIC WALLSTENT','BOSTON SCIENTIFIC EXPRESS SD RENAL', 'BOSTON SCIENTIFIC EXPRESS LD ILIAC','BOSTON SCIENTIFIC EXPRESS LD BILIARY','BOSTON SCIENTIFIC WALLGRAFT','BOSTON SCIENTIFIC CAROTID WALLSTENT','BOSTON SCIENTIFIC EPIC','BOSTON SCIENTIFIC WALFLEX','BOSTON SCIENTIFIC SENTINOL','BOSTON SCIENTIFIC GREENFIELD','BOSTON SCIENTIFIC TITANIUM GREENFIELD','BOSTON SCIENTIFIC INNOVA','ABSOLUTE PRO','OMNILINK ELITE','LUX-DX','LUX-DX 2','M301','M302','M312','638R','638B','638RL32','638RL','MEDTRONIC ANNULOPLASTY RING','ANGELMED GUARDIAN','RESOLUTE INTEGRITY','EDWARDS SAPIEN 3','9600CM20A','9600CM23A','9600CM26A','9600CM29A','9600TFX','PROMUS ELITE','BAROSTIM','2100','2102','2104','ONYX','ONYX HD-500','ENTERRA','3116','ENTERRA 2','37800','MCA GEM COUPLER','SYNOVIS MICRO COMPANY','ONYX FRONTIER','XIENCE SKYPOINT','XIENCE SIERRA','XIENCE PRIME','ALIZEA DR','ALIZEA SR','CELEA DR','CELEA SR','COSMOS PLATINUM COILS','HYDROFRAME COIL','MICROPLEX COIL','HYDRO COIL','MICROPORT','MEDTRONIC RESOLUTE ONYX','BIOMONITOR 2','BIOMONITOR 4','BIOMONITOR','LP COIL','RUBY COIL','PENUMBRA POD SYSTEM','MEDTRONIC EVOLUT TAVR','BOSTON SCIENTIFIC VENOUS WALLSTENT','Carpentier-Edwards aortic and mitral bioprostheses','2625','6625','2650','6625LP','6625-ESR-LP','4300','2700','2700TFX','2700','2800TFX','3000','3000TFX','3300TFX','6900','6900P','6900PTFX','7000','7000TFX','7200TFX','7300TFX','8300AB','11500A','11060A','11400M','9000','9000TFX','9000PHV','9300TFX','9600TFX','9750TFX','9755RSL','14000RSL','TMV3040B','9650TMV','BOSTON SCIENTIFIC VERCISE GENUS','DB‑1408','DB‑1416','DB‑1432','DB‑1216','DB‑1232','DB-1200-S','CG FUTURE','9850TMV','9850EV44','9850EV48','9850EV52','9850EV56','20000IS','20000ISM','9551S','29AP4045','9600TFX','9770DDS','9780DDS','9680DSC','9680TFX29M','9880DDS','9880TFX29M','CDVRA500Q','CDDRA500Q','CDHFA500Q','BRAVO',' 2','SYNCHROMED 2','SYNCHROMED 3','SYNCHROMED EL','SYNCHROMED','8667','CODMAN CERELINK ICP','CODMAN MICROSENSOR ICP','ABBOTT AMULET LEFT ATRIAL APPENDAGE OCCLUDER','REMUNITY PUMP FOR REMODULIN','B35300','EV3 EVERFLEX PERIPHERAL STENT','EV3 PROTEGE EVERFLEX  BILIARY STENT','EV3 PROTEGE EVERFLEX PERIPHERAL STENT','ABBOTT SJM REGENT MECHANICAL HEART VALVES','ABBOTT SJM STANDARD AND MASTERS SERIES MECHANICAL HEART VALVES','ABBOTT BIOCOR STENTED TISSUE VALVES','ABBOTT EPIC STENTED TISSUE VALVES','ABBOTT TRIFECTA TISSUE VALVES','ABBOTT SJM RIGID SADDLE ANNULOPLASTY RINGS','ABBOTT SJM SEMI-RIGID ANNULOPLASTY RINGS','ABBOTT ATTUNE FLEXIABLE ADJUSTABLE ANNULOPLASTY RINGS','ABBOTT SJM TAILOR FLEXIBLE ANNULOPLASTY RINGS', 'ABBOTT SJM TAILOR FLEXIABLE ANNULOPLASTY BAND','977117','977118','977119','ETERNA','32400','NEXPLANON CONTRACEPTIVE IMPLANT','BOSTON SCIENTIFIC ADVANIX BILIARY STENT','SCLERAL BUCKLE','BOSTON SCIENTIFIC FIBERED IDC','BOSTON SCIENTIFIC INTERLOCKING DETACHABLE COIL','BOSTON SCIENTIFIC VORTX COIL','BOSTON SCIENTIFIC VORTX DIAMOND COIL','BOSTON SCIENTIFIC MULTILOOP COIL','BOSTON SCIENTIFIC COMPLEX HELICAL COIL','BOSTON SCIENTIFIC 2D HELICAL COIL','BOSTON SCIENTIFIC FIBERED PLATINUM COIL','STRYKER HOFFMANN 2','STRYKER HOFFMANN 3','STRYKER HOFFMANN LRF','PARAGARD IUD'
-];
+const availableKeywords = ['ADVISA', 'A3SR01', 'ADVISA SR', 'ADVISA DR', 'A2DR01','ENSURA','EN1DR01','EN1SR01','AZURE XT DR','W1DR01','AZURE','W1SR01','W3SR01','W3DR01','PERCUFLEX PLUS','PERCUFLEX','YASARGIL','SUGITA', 'MIZUHO','VIRTUOSO','D154AWG','NEVRO','SENZA','NIPG1000','NIPG1500','NIPG2000','NIPG2500','MICRA VR', 'MICRA','MC1VR01', 'MICRA AV','MC1AVR1','ATTESTA DR','ATDR01','ATTESTA L DR','ATDRL1','ATTESTA S DR','ATTESTA','ATDRS1','ATTESTA SR','ATSR01','MEDTRONIC RESTORE','37712', 'SPHERA SR','SPSR01','SPHERA DR','SPDR01','SPHERA L DR','SPDRL1','SPHERA','ASTRA','REVO','RVDR01','COBALT XT','DVPA2D1','DVPA2D4' ,'DDPA2D1', 'DDPA2D4','DVPB3D1','DVPB3D4','DDPB3D1','COBALT','DDPB3D4','CROME','DVPC3D4','DVPC3D1','DDPC3D4','DDPC3D1', 'PRIMO','DDMD3D1','DDMD3D4','DVMD3D1','DVMDD3D4','MIRRO', 'DVME3D1','DVME3D4','DDME3D1','DDME3D4','VISIA AF','DVFB1D1', 'DVFB1D1','DVFB1D4','DVFC3D1', 'DVFC3D4','VISIA','EVERA XT','DDMB1D4','DVMB1D4','DDMB1D1','DVMB1D1','DVMB1D1','DDMC3D4','DDMC3D1', 'DVMC3D1','DVMC3D4','CLARIA','DTMA1QQ','DTMA1Q1','DTMA1D4','DTMA1D1','AMPLIA','DTMB1QQ', 'DTMB1Q1','DTMB1D4','DTMB1D1', 'COMPIA','DTMC1QQ','DTMC1D1','DTMCC1D1','PERCEPTA','W4TR01','W1TR01','SERENA', 'W4TR02','W1TR02','SOLARA','W4TR03','W1TR03','LINQ11','LINQ22','LNQ11', 'LNQ22','REVEAL XT','9529','MEDTRONIC ACTIVA PC DBS','MEDTRONIC ACTIVA SC DBS','MEDTRONIC ACTIVA RC DBS','37601','37603','37612','37602','MEDTRONIC SOLETRA DBS','MEDTRONIC KINETRA DBS','7426','MEDTRONIC PRIME ADVANCED NEUROSTIMULATOR','97702','97715', '97716','977005', '977006', '97712','97713','97714','37701','37702','37703','37704','37711','37712', '37713','37714','7479', '7479B','7427','7427V','KINETRA','7428','MEDTRONIC PERCEPT PC DBS','MEDTRONIC PERCEPT RC DBS','B35200','OPTIMA COIL','BARRICADE COIL','PENUMBRA COIL','SPETZLER TITANIUM ANEURYSM CLIP', 'OPTION ELITE','AXONICS','1101','4101','VANTA','977006','MEDTRONIC ITREL 4','37704', '37703', 'MEDTRONIC ITREL 3','7425','MEDTRONIC RESTORE SENSOR','37714',' MEDTRONIC RESTORE ULTRA','97712','MEDTRONIC RESTORE ADVANCED','97713','97714','37711','MEDTRONIC SYNERGY','7427','MEDTRONIC VERSITREL','MEDTRONIC NEUROSTIMULATOR','BOSTON SCIENTIFIC AMS 700','BOSTON SCIENTIFIC AMS 800','MEDTRONIC INTERSTIM','MEDTRONIC INTERSTIM 2','MEDTRONIC INTERSTIM X','MEDTRONIC INTERSTIM TWIN','3023','3058', '97810','97800','7427T','ENITRA','EVITY','ENTICOS','EDORA','INSPIRE','3028','3024','ACTICOR 7 DR-T','ACTICOR 7 VR-T','BIOMONITOR 3M','INVENTRA 7 VR-T DX','RIVACOR 7 VR-T','RIVACOR 7 DR-T','ACTICOR 7','ABBOTT LEADLESS PACEMAKER AVEIR','ASSURITY','LSP112V','LSP202V','LSP201A','PM1272','PM2272','ENDURITY','PM1172','PM2172','ACCENT','PM1224','PM2218','QUADRA ALLURE','PM3542','QUADRA ALLURE MP','PM3562','ELLIPSE','CD1311-36Q','CD1311','ELLIPSE','CD1411-36Q','CD1311','CD1411-36Q','CD1411-36QC','CD1411','CD2311-36Q','CD2311','CD2411-36Q','CD2411-36QC','CD2411','CERTAS','CODMAN HAKIM','CODMAN CERTAS','CODMAN','FORTIFY ASSURA','CD1357-40Q','CD1357-40QC','CD2357-40Q','CD2357-40QC','CD2357','QUADRA ASSURA','CD3365-40Q','CD3365-40QC','CD3365','CD3369-40Q','CD3369-40QC','CD3369','PROCLAIM XR','3660','3662','ESSURE','INGENIO', 'K173','PROCLAIM','3662', 'PROCLAIM DRG','3664','PROTEGE','3771','3772','INFINITY 5','INFINITY 7','LIBERTA RC','62400','6660','6662','GALLANT','CDVRA500Q','CDHFA500Q','VITALIO','K275','K277','L110','L111','L131','L210','ESSENTIO','PROPONENT','L211','L231','ACCOLADE','L310','L311','L331','VALITUDE','U128','VISIONIST','U228','EMBLEM','A219','PRECISION MONTAGE MRI','SC-1200','SC1200','PRECISION SPECTRA','SC-1132','SC1132','SPECTRA WAVEWRITER','SC-1160','SC1160','WAVEWRITER ALPHA IPG','WAVEWRITER ALPHA 16 IPG','WAVEWRITER ALPHA PRIME IPG','WAVEWRITER ALPHA PRIME 16 IPG','SC-1232','SC-1216','SC-1432','SC-1416','ADAPTA','ADDR01','ADDR03','ADDRO6','ADDRS1','VERSA','SENSIA','VEDR01','SEDR01','SEDRL1','SED01','SESR01','SES01','RELIA','REDRO1','RED01','RESR01','RES01','REVDD01','AVANT','NEUTRINO','CDVRA700Q','CDDRA700Q','CDVRA800Q','CDVRA600Q','CDDRA800Q','CDDRA600Q','CDHFA700Q','CDHFA800Q','CDHFA600Q','ENTRANT','CDVRA300Q','CDDRA300Q','CDHFA300Q','WATCHMAN','AMPLATZER AMULET','AMPLATZER VASCULAR PLUG 4','AMPLATZER VASCULAR PLUG 2','AMPLATZER DUCT OCCLUDER 2','AMPLATZER SEPTAL OCCLUDER','AMPLATZER TALISMAN PFO OCCLUDER','AMPLATZER PICCOLO OCCLUDER','UROLIFT','PIPELINE FLEX EMBOLIXATION DEVICE','WAVECREST','VILIGANT','D220','D221','D232','D233','G248','G247','COCHLEAR','MED-EL COCHLEAR SYNCHRONY 2','MI1250','MI1200','MED-EL COCHLEAR CONCERT','MI1000','MED-EL COCHLEAR SONATA','MED-EL COCHLEAR PULSAR','C40+','C40','ASSURANCE HEMOCLIP','RHYTHMLINK','RESOLUTION CLIP','RESOLUTION CLIP 360','RESOLUTION CLIP 360 ULTRA','MIRENA IUD','1001','KURZ MIDDLE EAR IMPLANTS','VIGILANT','G228','G248','G237','G237','G224','G225','AUTOGEN','G166','G168','G160','G161','G168','DYNAGEN','G156', 'G158','G150','G151','INOGEN','G146','G148','G140','G141','MOMENTUM','G128','G138','G124','G125','ORIGEN','G056','G058','G050','G051','RESONATE','G524','G525','G528','G548','G537','G547','G428','G448','G437','G447','G424','G425','D160','D161','D162','D163','D150','D151','D152','D020','D021','D153','D022','D023','D140','D141','D142','D143','G146','G148','G140','D013','D051','D052','D053','D000','G058','G050','D001','D002','D003','PERCIVA','D500','D501','D512','D513','D400','D401','D412','D413','D520','D521','D532','D533','D420','D421','D432','D433','D220','D221','D232','D233','MEDTRONIC STRATA','MEDTRONIC STRATA 2','COCHLEAR IMPLANT','CI632','CI624','CI622','CI612','CI532','CI522','CI512','ABI541','CI422','CI24REH','CI24RECA','CI24REST','ABI24M','CI24R','CI24R','CI24M','CI11+11+2M','CI22M','ADVANCED BIONICS','HIRES ULTRA 3D','NUCLEUS','OSIA','BAHA','VISTAFIX','BOSTON SCIENTIFIC WALLFLEX STENT','PROGAV 2.0','GORE','GORE TAG','GORE VIABIL','GORE CARDIOFORM','GORE EXCLUDER','GORE VIABAHN','GORE VIATORR','GORE BIO-A','GORE TEX','LOCKADO HEMOSTASIS CLIP','DM3500','ST JUDE CONFIRM RX CARDIAC MONITOR','BOSTON SCIENTIFIC SYNERGY XD','BOSTON SCIENTIFIC SYNERGY MONORAIL','BOSTON SCIENTIFIC AXIOS STENT','KYLEENA IUD','GRACE MEDICAL ALTO OTOLOGIC IMPLANT' ,'6XX','612-001L','8637','8626','8627','8615','8616','8617','8616','8472','ABBOTT MITRA CLIP','ABBOTT MITRA CLIP G4','BIOMONITOR 3','436066','6662','6170','6171','6172','6173','6371','6372','IMPULSE DYNAMICS','OPTIMIZER','HYDRUS MICROSTENT','FOOO22','IVANTIS','LIVANOVA','103','105','106','1000','DEMIPULSE','ASPIREHC','ASPIRESR','SENTIVA','102','PULSE DUO','102R','100C','101','100B','COLOPLAST','GENESIS','ACU-FORM','MALLEABLE','TITAN','ALPHA 1','MARK 2','EXCEL','CORDIS PALMAZ GENESIS STENT','PALMAZ GENESIS','PG295P','PG395P','BOSTON SCIENTIFIC WALLSTENT','BOSTON SCIENTIFIC EXPRESS SD RENAL', 'BOSTON SCIENTIFIC EXPRESS LD ILIAC','BOSTON SCIENTIFIC EXPRESS LD BILIARY','BOSTON SCIENTIFIC WALLGRAFT','BOSTON SCIENTIFIC CAROTID WALLSTENT','BOSTON SCIENTIFIC EPIC','BOSTON SCIENTIFIC WALFLEX','BOSTON SCIENTIFIC SENTINOL','BOSTON SCIENTIFIC GREENFIELD','BOSTON SCIENTIFIC TITANIUM GREENFIELD','BOSTON SCIENTIFIC INNOVA','ABBOTT ABSOLUTE PRO','ABBOTT OMNILINK ELITE','BOSTON SCIENTIFIC LUX-DX','BOSTON SCIENTIFIC LUX-DX2','M301','M302','M312','638R','638B','638RL32','638RL','MEDTRONIC ANNULOPLASTY RING','ANGELMED GUARDIAN','MEDTRONIC RESOLUTE INTEGRITY','EDWARDS SAPIEN 3','9600CM20A','9600CM23A','9600CM26A','9600CM29A','9600TFX','BOSTON SCIENTIFIC PROMUS ELITE','BAROSTIM','BAROSTIM NEO','BAROSTIM NEO2','BAROSTIM LEGACY','2100','2102','2104','MEDTRONIC ONYX LIQUID EMBOLIC SYSTEM','ONYX HD-500','ENTERRA','3116','ENTERRA 2','37800','MCA GEM COUPLER','SYNOVIS MICRO COMPANY','MEDTRONIC ONYX FRONTIER STENT','ABBOTT XIENCE SKYPOINT STENT','ABBOTT XIENCE SIERRA STENT','ABBOTT XIENCE PRIME STENT','ALIZEA DR','ALIZEA SR','CELEA DR','CELEA SR','COSMOS PLATINUM COILS','HYDROFRAME COIL','MICROPLEX  COIL','HYDRO COIL','MICROPORT PACEMAKERS','MEDTRONIC RESOLUTE ONYX','BIOMONITOR 2','BIOMONITOR 4','BIOMONITOR','LP COIL','RUBY COIL','PENUMBRA POD SYSTEM','BOSTON SCIENTIFIC VENOUS WALLSTENT','BOSTON SCIENTIFIC CAROTID WALLSTENT','Carpentier-Edwards aortic and mitral bioprostheses','2625','6625','2650','6625LP','6625-ESR-LP','4300','2700','2700TFX','2700','2800TFX','3000','3000TFX','3300TFX','6900','6900P','6900PTFX','7000','7000TFX','7200TFX','7300TFX','8300AB','11500A','11060A','11400M','9000','9000TFX','9000PHV','9300TFX','9600TFX','9750TFX','9755RSL','14000RSL','TMV3040B','9650TMV','BOSTON SCIENTIFIC VERCISE GENUS','DB‑1408','DB‑1416','DB‑1432','DB‑1216','DB‑1232','DB-1200-S','CG FUTURE','9850TMV','9850EV44','9850EV48','9850EV52','9850EV56','20000IS','20000ISM','9551S','29AP4045','9600TFX','9770DDS','9780DDS','9680DSC','9680TFX29M','9880DDS','9880TFX29M','CDVRA500Q','CDDRA500Q','CDHFA500Q','BRAVO PH CAPSULE',' 2','SYNCHROMED 2','SYNCHROMED 3','SYNCHROMED EL','SYNCHROMED','8667','CODMAN CERELINK ICP','CODMAN MICROSENSOR ICP','ABBOTT AMULET LEFT ATRIAL APPENDAGE OCCLUDER','REMUNITY PUMP FOR REMODULIN','B35300','EV3 EVERFLEX PERIPHERAL STENT','EV3 PROTEGE EVERFLEX  BILIARY STENT','EV3 PROTEGE EVERFLEX PERIPHERAL STENT','ABBOTT SJM REGENT MECHANICAL HEART VALVES','ABBOTT SJM STANDARD AND MASTERS SERIES MECHANICAL HEART VALVES','ABBOTT BIOCOR STENTED TISSUE VALVES','ABBOTT EPIC STENTED TISSUE VALVES','ABBOTT TRIFECTA TISSUE VALVES','ABBOTT SJM RIGID SADDLE ANNULOPLASTY RINGS','ABBOTT SJM SEMI-RIGID ANNULOPLASTY RINGS','ABBOTT ATTUNE FLEXIABLE ADJUSTABLE ANNULOPLASTY RINGS','ABBOTT SJM TAILOR FLEXIBLE ANNULOPLASTY RINGS', 'ABBOTT SJM TAILOR FLEXIABLE ANNULOPLASTY BAND','977117','977118','977119', 'ETERNA','32400','NEXPLANON CONTRACEPTIVE IMPLANT','BOSTON SCIENTIFIC ADVANIX BILIARY STENT','SCLERAL BUCKLE','BOSTON SCIENTIFIC FIBERED IDC','BOSTON SCIENTIFIC INTERLOCKING DETACHABLE COIL','BOSTON SCIENTIFIC VORTX COIL','BOSTON SCIENTIFIC VORTX DIAMOND COIL','BOSTON SCIENTIFIC MULTILOOP COIL','BOSTON SCIENTIFIC COMPLEX HELICAL COIL','BOSTON SCIENTIFIC 2D HELICAL COIL','BOSTON SCIENTIFIC FIBERED PLATINUM COIL','STRYKER HOFFMANN 2','STRYKER HOFFMANN 3','STRYKER HOFFMANN LRF','PARAGARD IUD','MEDTRONIC EVOLUT FX TAVR','MEDTRONIC EVOLUT COREVALUE TAVR','MEDTRONIC EVOLUT R TAVR','MEDTRONIC EVOLUT PRO TAVR','MEDTRONIC EVOLUT FX TAVR','PENUMBRA SMART COIL','SWIFT COIL SYSTEM','VIVISTIM NEUROSTIMULATOR','GORE DUALMESH','GORE SEAMGUARD','GORE SYNECOR','GRACE MEDICAL 400-XXX, 401-XXX, 402-XXX, 403-XXX, 406-XXX, 408-XXX, 436-XXX','GRACE MEDICAL 1XX, 190-XXX, 749-XXX','GRACE MEDICAL 209, 210, 259, 260, 270, 271, 272, 273, 293, 293A','650-075','655-075','GRACE MEDICAL 756-XXX, 757-XXX','GRACE MEDICAL K-HELIX OTOLOGIC IMPLANT','GRACE MEDICAL STRASNICK OTOLOGIC IMPLANT','GRACE MEDICAL 220-XXX, 270-XXX','GRACE MEDICAL 200 THROUGH 208-250 THROUGH 258, 220-800','104','BOSTON SCIENTIFIC EMBOLD FIBERED COIL','AVANOS ON-Q PUMP','MAGNETIC BLACK STAR URETERAL STENT','GLAUKOS ISTENT','GTS100L','GTS100R','GLAUKOS ISTENT INJECT','G2-M-IS','GLAUKOS ISTENT INJECT W','G2-W','GLAUKOS ISTENT INFINITE', 'IS3','SOPHYSA POLARIS SHUNT','SOPHYSA SM8 SHUNT','SOPHYSA SM1 SHUNT','MEDTRONIC AURORA EV-ICD','VESPER DUO-HYBRID VENOUS STENT','VESPER DUO-EXTEND VENOUS STENT','CORDIS PALMAZ MULLINS XD STENT',];
 
 const resultsBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("implant");
 
-inputBox.onkeyup = function(){
-  let result = [];
-  let input = inputBox.value;
-  if(input.length){
-    result = availableKeywords.filter((keyword)=>{
-     return keyword.toLowerCase().includes(input.toLowerCase());
-    });
+inputBox.addEventListener("keyup", () => {
+  const input = inputBox.value.toLowerCase();
+  const result = input.length
+    ? availableKeywords.filter(keyword => keyword.toLowerCase().includes(input))
+    : [];
 
-}
-display(result);
+  display(result);
 
-if(!result.length){
-  resultsBox.innerHTML = '';
-}
-}
+  if (!result.length) {
+    resultsBox.innerHTML = '';
+  }
+});
 
-function display(result){
-  const content = result.map((list)=>{
-    return "<li onclick=selectInput(this)>" + list.toLowerCase() + "</li>";
-  });
-
-   resultsBox.innerHTML = "<ul>" + content.join('') + "<ul>";
+function display(result) {
+  const content = result.map(list => `<li>${list.toLowerCase()}</li>`).join('');
+  resultsBox.innerHTML = `<ul>${content}</ul>`;
 }
 
-
-function selectInput(list){
-  inputBox.value = list.innerHTML; 
-  resultsBox.innerHTML = '';
-}
-
-/*End of auto search---------------------------------------*/
+resultsBox.addEventListener("click", (event) => {
+  if (event.target.tagName === "LI") {
+    selectInput(event.target);
+  }
+});
 
 
-/* Open when someone clicks on the span element */
-
-/*function openNav() {
-document.getElementById("myNav").style.width = "70%";
-}*/
 
 function openNav(){
    var nav = document.getElementById('myNav');
@@ -65,862 +49,1062 @@ function closeNav() {
 }
 
 
-
-/*---------------------------------------------------------------------------*/
-
-function implantLookup(){
-  let implantInput = document.getElementById('implant');
-  let pacerValue = implantInput.value;
-  
-
-
-  if(pacerValue.toUpperCase() === 'ADVISA SR' || pacerValue.toUpperCase() === 'A3SR01' || pacerValue.toUpperCase() === 'ADVISA' || pacerValue.toUpperCase() === 'ADVISA DR' || pacerValue.toUpperCase() === 'A2DR01'){
-     
- window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf', '_blank' );
-
-
-
-/*Implant alert page----------------------------------------------*/
- }else if(pacerValue.toUpperCase() === 'ENSURA' || pacerValue.toUpperCase() === 'EN1DR01'|| pacerValue.toUpperCase() === 'EN1SR01'){ 
-  window.open('../implantGuides/ensura.html', '_blank');
-
-
-
-
- }else if(pacerValue.toUpperCase() === 'AZURE XT DR' || pacerValue.toUpperCase() === 'W1DR01' || pacerValue.toUpperCase() === 'AZURE' || pacerValue.toUpperCase() === 'W1SR01' || pacerValue.toUpperCase() === 'W3SR01' || pacerValue.toUpperCase() === 'W3DR01'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf', '_blank' );
-   
-
- }else if(pacerValue.toUpperCase() === 'PERCUFLEX PLUS' || pacerValue.toUpperCase() === 'PERCUFLEX'){
-
-  window.open('http://www.mrisafety.com/TMDL_view.php?editid1=6058', '_blank' );
-
-
- }else if(pacerValue.toUpperCase() === 'YASARGIL'){
-
-  window.open('Docs/MRI-Safety-Information-Yasargil-Titanium-and-Phynox-Aneurysm-Clips.pdf', '_blank' );
-
- }else if(pacerValue.toUpperCase() === 'SUGITA' || pacerValue.toUpperCase() === 'MIZUHO'){
-
-  window.open('https://www.mrisafety.com/TMDL_list.php?goto=201', '_blank' );
-
-
-/*Implant alert page-----------------------------------------------------*/
- }else if(pacerValue.toUpperCase() === 'VIRTUOSO' || pacerValue.toUpperCase() === 'D154AWG'){
-
-alert("NOT MR-CONDITIONAL");
-
-    
-
- }else if(pacerValue.toUpperCase() === 'NEVRO' || pacerValue.toUpperCase() === 'SENZA' || pacerValue.toUpperCase() === 'NIPG1000' || pacerValue.toUpperCase() === 'NIPG1500' || pacerValue.toUpperCase() === 'NIPG2000' || pacerValue.toUpperCase() === 'NIPG2500'){
-
-   window.open('https://s28.q4cdn.com/260621474/files/doc_downloads/2022/05/1.5T-and-3T-MRI-Guidelines-for-the-Senza-Neuromodulation-Systems-(11096)-Rev-P.pdf', '_blank' );
-
-
-
-}else if(pacerValue.toUpperCase() === 'MICRA VR' || pacerValue.toUpperCase() === 'MICRA' || pacerValue.toUpperCase() === 'MC1VR01' ){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M992497A001A_view.pdf', '_blank' );
-  
-}else if(pacerValue.toUpperCase() === 'MICRA AV' || pacerValue.toUpperCase() === 'MC1AVR1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M995149A001A_view.pdf', '_blank' );
-
-  
-}else if(pacerValue.toUpperCase() === 'ATTESTA DR' || pacerValue.toUpperCase() === 'ATDR01'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
-
-}else if(pacerValue.toUpperCase() === 'ATTESTA L DR' || pacerValue.toUpperCase() === 'ATDRL1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
-
-
-}else if(pacerValue.toUpperCase() === 'ATTESTA S DR' || pacerValue.toUpperCase() === 'ATDRS1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
-
-
-}else if(pacerValue.toUpperCase() === 'ATTESTA SR' || pacerValue.toUpperCase() === 'ATSR01'){
-
-  window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
-
-}else if(pacerValue.toUpperCase() === 'RESTORE' || pacerValue.toUpperCase() === '37712'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/CONTRIB_171957.pdf', '_blank' );
-
-}else if(pacerValue.toUpperCase() === 'SPHERA SR' || pacerValue.toUpperCase() === 'SPSR01'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
-
-}else if(pacerValue.toUpperCase() === 'SPHERA DR' || pacerValue.toUpperCase() === 'SPDR01'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
-
-}else if(pacerValue.toUpperCase() === 'SPHERA L DR' || pacerValue.toUpperCase() === 'SPDRL1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
-
-}else if(pacerValue.toUpperCase() === 'ATTESTA' || pacerValue.toUpperCase() === 'ATDRL1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
-
-}else if(pacerValue.toUpperCase() === 'SPHERA' || pacerValue.toUpperCase() === 'ATDRL1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', '_blank' );
-
-
-}else if(pacerValue.toUpperCase() === 'ASTRA'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'REVO' || pacerValue.toUpperCase() === 'RVDR01'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_184935.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'COBALT XT' || pacerValue.toUpperCase() === 'DVPA2D1'  || pacerValue.toUpperCase() === 'DVPA2D4'  || pacerValue.toUpperCase() === 'DDPA2D1' || pacerValue.toUpperCase() === 'DDPA2D4' || pacerValue.toUpperCase() === 'DVPB3D1'  || pacerValue.toUpperCase() === 'DVPB3D4' || pacerValue.toUpperCase() === 'DVPB3D4' || pacerValue.toUpperCase() === 'COBALT' || pacerValue.toUpperCase() === 'DDPB3D4'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'CROME' || pacerValue.toUpperCase() === 'DVPC3D4' || pacerValue.toUpperCase() === 'DVPC3D1' || pacerValue.toUpperCase() === 'DDPC3D4' || pacerValue.toUpperCase() === 'DDPC3D1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', '_blank');
-
-
-   
-}else if(pacerValue.toUpperCase() === 'PRIMO' || pacerValue.toUpperCase() === 'DDMD3D1' || pacerValue.toUpperCase() === 'DDMD3D4'  || pacerValue.toUpperCase() === 'DVMD3D1'  || pacerValue.toUpperCase() === 'DVMDD3D4'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'MIRRO' || pacerValue.toUpperCase() === 'DVME3D1' || pacerValue.toUpperCase() === 'DVME3D4' || pacerValue.toUpperCase() === 'DDME3D1' || pacerValue.toUpperCase() === 'DDME3D4'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf', '_blank');
-   
-   
-   
-}else if(pacerValue.toUpperCase() === 'VISIA AF' || pacerValue.toUpperCase() === 'DVFB1D1'  || pacerValue.toUpperCase() === 'DVFB1D1'  || pacerValue.toUpperCase() === 'DVFB1D4' || pacerValue.toUpperCase() === 'DVFC3D1'  || pacerValue.toUpperCase() === 'DVFC3D4'|| pacerValue.toUpperCase() === 'VISIA'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf', '_blank');
-
-   
-
-   
-}else if(pacerValue.toUpperCase() === 'EVERA XT' || pacerValue.toUpperCase() === 'DDMB1D4'  || pacerValue.toUpperCase() === 'DVMB1D4'  || pacerValue.toUpperCase() === 'DDMB1D1' || pacerValue.toUpperCase() === 'DVMB1D1' || pacerValue.toUpperCase() === 'EVERA' || pacerValue.toUpperCase() === 'DDMC3D4'  || pacerValue.toUpperCase() === 'DDMC3D1'  || pacerValue.toUpperCase() === 'DVMC3D1' || pacerValue.toUpperCase() === 'DVMC3D4'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', '_blank');
-
-   
-  
-}else if(pacerValue.toUpperCase() === 'CLARIA' || pacerValue.toUpperCase() === 'DTMA1QQ' || pacerValue.toUpperCase() === 'DTMA1Q1' || pacerValue.toUpperCase() === 'DTMA1D4'  || pacerValue.toUpperCase() === 'DTMA1D1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', '_blank');
-
-   
-
-
-   
-}else if(pacerValue.toUpperCase() === 'AMPLIA' || pacerValue.toUpperCase() === 'DTMB1QQ' || pacerValue.toUpperCase() === 'DTMB1Q1' || pacerValue.toUpperCase() === 'DTMB1D4' || pacerValue.toUpperCase() === 'DTMB1D1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
-
-   
-   
-
-   
-}else if(pacerValue.toUpperCase() === 'COMPIA' || pacerValue.toUpperCase() === 'DTMC1QQ' || pacerValue.toUpperCase() === 'DTMC1D1'  || pacerValue.toUpperCase() === 'DTMCC1D1'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', '_blank');
-
-   
-   
-   
-}else if(pacerValue.toUpperCase() === 'PERCEPTA' || pacerValue.toUpperCase() === 'W4TR01' || pacerValue.toUpperCase() === 'W1TR01'){
-
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
-
-
-
-
-}else if(pacerValue.toUpperCase() === 'SERENA' || pacerValue.toUpperCase() === 'W4TR02' || pacerValue.toUpperCase() === 'W1TR02'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
-
-
-
-
-
-}else if(pacerValue.toUpperCase() === 'SOLARA' || pacerValue.toUpperCase() === 'W4TR03'  || pacerValue.toUpperCase() === 'W1TR03'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'MEDTRONIC EVOLUT TAVR'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/cardio/M004015C001DOC1_RevD_view.pdf', '_blank');
-
-
-
-
-
-
-
-}else if(pacerValue.toUpperCase() === 'LINQ11' || pacerValue.toUpperCase() === 'LNQ11' || pacerValue.toUpperCase() === 'LNQ22' || pacerValue.toUpperCase() === 'LINQ' || pacerValue.toUpperCase() === 'LINQ22' || pacerValue.toUpperCase() === 'LNQ'){
-   window.open('../implantGuides/linq.html', '_blank');
-
-/*Implant alert page----------------------------------------------------*/
-}else if(pacerValue.toUpperCase() === 'REVEAL' || pacerValue.toUpperCase() === '9529'){
-
-   window.open('../implantGuides/reveal.html', '_blank');
-   
- 
-}else if(pacerValue.toUpperCase() === 'ACTIVA' || pacerValue.toUpperCase() === '37601'  || pacerValue.toUpperCase() === '37603' || pacerValue.toUpperCase() === '37612' || pacerValue.toUpperCase() === '37602' || pacerValue.toUpperCase() === 'PERCEPT PC' || pacerValue.toUpperCase() === 'B35200' || pacerValue.toUpperCase() === 'B35300'){
-   window.open('medtronicImplants/medtronicDBS.pdf', '_blank');
-
-
-
-
-}else if(pacerValue.toUpperCase() === 'SOLETRA' || pacerValue.toUpperCase() === '7426'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/CONTRIB_228155.pdf', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'PRIME ADVANCED'|| pacerValue.toUpperCase() === '97702' || pacerValue.toUpperCase() === '97715' || pacerValue.toUpperCase() === '97716' || pacerValue.toUpperCase() === '977005' || pacerValue.toUpperCase() === '977006' || pacerValue.toUpperCase() === '97712' || pacerValue.toUpperCase() === '97713' || pacerValue.toUpperCase() === '97714' || pacerValue.toUpperCase() === '37701'  || pacerValue.toUpperCase() === '37702'  || pacerValue.toUpperCase() === '37703'  || pacerValue.toUpperCase() === '37704'  || pacerValue.toUpperCase() === '37711'  || pacerValue.toUpperCase() === '37712'  || pacerValue.toUpperCase() === '37713'  || pacerValue.toUpperCase() === '37714'  || pacerValue.toUpperCase() === '7479'  || pacerValue.toUpperCase() === '7479B'  || pacerValue.toUpperCase() === '7427'  || pacerValue.toUpperCase() === '7427V' || pacerValue.toUpperCase() ===  'MEDTRONIC SYNERGY' || pacerValue.toUpperCase() ===  '977117' || pacerValue.toUpperCase() ===  '977118' || pacerValue.toUpperCase() ===  '977119' || pacerValue.toUpperCase() ===  '7425' || pacerValue.toUpperCase() ===  'MEDTRONIC NEUROSTIMULATOR'){
-   window.open('medtronicImplants/medtronicNeuroStim.pdf', '_blank');
-
-
-   }else if(pacerValue.toUpperCase() === 'KINETRA' || pacerValue.toUpperCase() === '7428'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/CONTRIB_228155.pdf', '_blank');
-
-
-  
-
-  /*Implant alert page----------------------------------------------------*/
-   }else if(pacerValue.toUpperCase() === 'OPTIMA' || pacerValue.toUpperCase() === 'OPTIMA COIL'){
-   window.open('../implantGuides/optima.html', '_blank');
-
-   /*Implant alert page------------------------------------------------------------*/
-    }else if (pacerValue.toUpperCase() === 'BARRICADE' ||  pacerValue.toUpperCase() === 'BARRICADE COIL'){
-    window.open('../implantGuides/barricade.html', '_blank');
-
-   
-   }else if(pacerValue.toUpperCase() === 'PENUMBRA' || pacerValue.toUpperCase() === 'PENUMBRA COIL'  || pacerValue.toUpperCase() === 'LP COIL'  || pacerValue.toUpperCase() === 'RUBY COIL'  || pacerValue.toUpperCase() === 'PENUMBRA POD SYSTEM'){
-    window.open('https://www.penumbrainc.com/mri-compatibility/', '_blank'); 
-
-    /*Implant alert page---------------------------------------------------*/
-   }else if(pacerValue.toUpperCase() === 'SPETZLER' || pacerValue.toUpperCase() === 'SPETZLER TITANIUM ANEURYSM CLIP'){
-    window.open('../implantGuides/spetzler.html', '_blank'); 
-   
-
-    }else if(pacerValue.toUpperCase() === 'OPTION' || pacerValue.toUpperCase() === 'OPTION ELITE'|| pacerValue.toUpperCase() === 'OPTIONELITE' || pacerValue.toUpperCase() === 'ELITE'){
-   window.open('https://www.argonmedical.com/wp-content/uploads/2022/09/OptionELITE-70cm-IFU.pdf', '_blank');
-   
-    }else if(pacerValue.toUpperCase() === 'AXONICS' || pacerValue.toUpperCase() === '1101' ||pacerValue.toUpperCase() === '4101'){
-   window.open('https://www.axonics.com/images/hcp/resources/03-16-2022/110-0093-001rY_-_MRI_Patient_Guidelines_Axonics_SNM_System_US_English.pdf', '_blank'); 
- 
-
-   
-    }else if(pacerValue.toUpperCase() === 'VANTA' || pacerValue.toUpperCase() === '977006'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
-
-    }else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37704'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
-
-    }else if(pacerValue.toUpperCase() === 'ITREL 4' || pacerValue.toUpperCase() === '37703'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
-
-    }else if(pacerValue.toUpperCase() === 'ITREL 3' || pacerValue.toUpperCase() === '7425'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'RESTORESENSOR' || pacerValue.toUpperCase() === '37714'  || pacerValue.toUpperCase() === 'RESTORE SENSOR'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'RESTOREULTRA' || pacerValue.toUpperCase() === '97712'  || pacerValue.toUpperCase() === 'RESTORE ULTRA'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'RESTOREADVANCED' || pacerValue.toUpperCase() === '97713'  || pacerValue.toUpperCase() === 'RESTORE ADVANCED'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'RESTORESENSOR' || pacerValue.toUpperCase() === '97714' || pacerValue.toUpperCase() === 'RESTORE SENSOR' ){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
-
-}else if(pacerValue.toUpperCase() === 'RESTORE' || pacerValue.toUpperCase() === '37711'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
-
-
-
-}else if(pacerValue.toUpperCase() === 'VERSITREL' || pacerValue.toUpperCase() === '7427V'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',  '_blank');
-
-
-
-
-
-}else if(pacerValue.toUpperCase() === 'AMS 700'){
-   window.open('../bostonImplants/ams700.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'AMS 800'){
-   window.open('../bostonImplants/ams800.pdf', '_blank');
-
-
-
-
-/*Medtronic InterStim------------------------------------------------------*/
-}else if(pacerValue.toUpperCase() === 'INTERSTIM' || pacerValue.toUpperCase() === '3023'  || pacerValue.toUpperCase() === 'INTERSTIM II' || pacerValue.toUpperCase() === '3058' || pacerValue.toUpperCase() === 'INTERSTIM MICRO' || pacerValue.toUpperCase() === '97810'|| pacerValue.toUpperCase() === 'INTERSTIM X' || pacerValue.toUpperCase() === '97800' || pacerValue.toUpperCase() === 'INTERSTIM TWIN' || pacerValue.toUpperCase() === '7427T'  ){
-   window.open('../implantGuides/InterStim.html', '_blank');
-
-
-//Biotronik pacemakers/ICDs
-}else if(pacerValue.toUpperCase() === 'ENITRA'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
- 
-}else if(pacerValue.toUpperCase() === 'EVITY'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ENTICOS'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'EDORA'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-
-//Biotronik pacemakers/ICDs
-}else if(pacerValue.toUpperCase() === 'ACTICOR 7 DR-T'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ACTICOR 7 VR-T'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'INVENTRA 7 VR-T DX'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'RIVACOR 7 VR-T'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'RIVACOR 7 DR-T'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ACTICOR 7'){
-   window.open('https://www.promricheck.com/spring/welcome?execution=e11s1', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'AVEIR' || pacerValue.toUpperCase() === 'LSP112V' || pacerValue.toUpperCase() === 'LSP202V' || pacerValue.toUpperCase() === 'LSP201A' ){
-   window.open('abbottImplants/aveir.pdf', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'BIOMONITOR 3M'){
-   window.open('../biotronikImplants/biomonitor3m.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'BIOMONITOR 3'){
-   window.open('../biotronikImplants/biomonitor3.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'BIOMONITOR 2'){
-   window.open('../biotronikImplants/biomonitor2.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'BIOMONITOR 4'){
-   window.open('../biotronikImplants/biomonitor4.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'BIOMONITOR'){
-   window.open('../biotronikImplants/biomonitor.pdf', '_blank');
-
-
-
-}else if(pacerValue.toUpperCase() === 'CODMAN CERTAS' || pacerValue.toUpperCase() === 'CODMAN HAKIM'  || pacerValue.toUpperCase() === 'CODMAN'){
-   window.open('implantGuides/codman.html', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'INSPIRE' || pacerValue.toUpperCase() === '3028' || pacerValue.toUpperCase() === '3024'){
-   window.open('implantGuides/inspire.pdf', '_blank');
-
-
-
-
-   }else if(pacerValue.toUpperCase() === 'ASSURITY' || pacerValue.toUpperCase() === 'PM1272' || pacerValue.toUpperCase() === 'PM2272' || pacerValue.toUpperCase() === 'PM1172' || pacerValue.toUpperCase() === 'PM2172'  || pacerValue.toUpperCase() === 'ENDURITY'  || pacerValue.toUpperCase() === 'ACCENT' || pacerValue.toUpperCase() === 'PM1224' || pacerValue.toUpperCase() === 'PM2218' || pacerValue.toUpperCase() === 'PM3542' || pacerValue.toUpperCase() === 'QUADRA ALLURE' || pacerValue.toUpperCase() === 'PM3562' || pacerValue.toUpperCase() === 'QUADRA ALLURE MP' || pacerValue.toUpperCase() === 'CD1311-36Q'|| pacerValue.toUpperCase() === 'CD1311'  || pacerValue.toUpperCase() === 'ELLIPSE' || pacerValue.toUpperCase() === 'CD1411-36Q' || pacerValue.toUpperCase() === 'CD1411-36QC'  || pacerValue.toUpperCase() === 'CD1411'  || pacerValue.toUpperCase() === 'CD1411-36QC'  || pacerValue.toUpperCase() === 'CD1411' || pacerValue.toUpperCase() === 'CD2411-36Q' || pacerValue.toUpperCase() === 'CD2411-36QC' || pacerValue.toUpperCase() === 'CD2411'  || pacerValue.toUpperCase() === 'CD1357-40Q' || pacerValue.toUpperCase() === 'FORTIFY ASSURA' || pacerValue.toUpperCase() === 'CD1357-40QC'  || pacerValue.toUpperCase() === 'CD1357' || pacerValue.toUpperCase() === 'CD2357-40Q' || pacerValue.toUpperCase() === 'CD2357-40QC'|| pacerValue.toUpperCase() === 'CD2357' || pacerValue.toUpperCase() === 'CD3365-40Q' || pacerValue.toUpperCase() === 'QUADRA ASSURA' || pacerValue.toUpperCase() === 'CD3365-40QC'|| pacerValue.toUpperCase() === 'CD3365'|| pacerValue.toUpperCase() === 'CD3369-40Q'|| pacerValue.toUpperCase() === 'CD3369-40QC'|| pacerValue.toUpperCase() === 'CD3369' ){
-   window.open('abbottImplants/abbottPacemakerIcd.pdf', '_blank');
-
-
-
-}else if(pacerValue.toUpperCase() === 'PROCLAIM XR' || pacerValue.toUpperCase() === '3660' ){
-   window.open('abbottImplants/neurostimulation.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'PROCLAIM XR' || pacerValue.toUpperCase() === '3662' ){
-   window.open('abbottImplants/neurostimulation.pdf', '_blank')
-
-}else if(pacerValue.toUpperCase() === 'PROCLAIM DRG' || pacerValue.toUpperCase() === '3664' ){
-   window.open('abbottImplants/newAbbottProclaimMRIsettings.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'PROTEGE' || pacerValue.toUpperCase() === '3771' ){
-   window.open('abbottImplants/neurostimulation.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'PROTEGE' || pacerValue.toUpperCase() === '3772' ){
-   window.open('abbottImplants/neurostimulation.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ETERNA' || pacerValue.toUpperCase() === '32400'){
-    window.open('abbottImplants/abbottEterna.pdf', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'INFINITY 5' || pacerValue.toUpperCase() === '6660'  || pacerValue.toUpperCase() === 'INFINITY 7'  || pacerValue.toUpperCase() === '6662'  || pacerValue.toUpperCase() === 'LIBERTA RC'  || pacerValue.toUpperCase() === '62400'){
-   window.open('abbottImplants/infinity.pdf', '_blank');
-
-
-
-}else if(pacerValue.toUpperCase() === 'ESSURE' ){
-   window.open('https://labeling.bayerhealthcare.com/html/products/pi/essure_ifu.pdf', '_blank');
-
-/*else if(pacerValue.toUpperCase() === 'INGENIO' || pacerValue.toUpperCase() === 'K173' ){
-    alert('Not MR-Conditional');*/
-
-
-}else if(pacerValue.toUpperCase() === 'VITALIO' || pacerValue.toUpperCase() === 'K275' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'VITALIO' || pacerValue.toUpperCase() === 'K277' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ESSENTIO' || pacerValue.toUpperCase() === 'L110' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ESSENTIO' || pacerValue.toUpperCase() === 'L111' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ESSENTIO' || pacerValue.toUpperCase() === 'L131' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'PROPONENT' || pacerValue.toUpperCase() === 'L210' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'PROPONENT' || pacerValue.toUpperCase() === 'L211' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'PROPONENT' || pacerValue.toUpperCase() === 'L231' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ACCOLADE' || pacerValue.toUpperCase() === 'L310' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ACCOLADE' || pacerValue.toUpperCase() === 'L311' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'ACCOLADE' || pacerValue.toUpperCase() === 'L331' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'VALITUDE' || pacerValue.toUpperCase() === 'U128' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'VISIONIST' || pacerValue.toUpperCase() === 'U228' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/360167-003_Brady_MRI_TG_us_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'EMBLEM' || pacerValue.toUpperCase() === 'A209' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/92346926-001_IMAGEREADY_MRITG_en-USA_S.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'EMBLEM' || pacerValue.toUpperCase() === 'A219' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/92346926-001_IMAGEREADY_MRITG_en-USA_S.pdf', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'PRECISION MONTAGE MRI' || pacerValue.toUpperCase() === 'SC-1200' || pacerValue.toUpperCase() === 'SC1200'|| pacerValue.toUpperCase() === 'MONTAGE' ){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/nm/91035972-02_RevA_ImageReady_MRI_Full_Body_Guidelines_for_Precision_Montage_MRI_Spinal_Cord_Stimulator_System_MRI_en-US_S.pdf', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'PRECISION SPECTRA' || pacerValue.toUpperCase() === 'SC-1132' || pacerValue.toUpperCase() === 'SC1132'){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/nm/91057049-04_ImageReady%E2%84%A2_MRI_Head_Only_Guidelines_for_Precision_Spectra%E2%84%A2_Spinal_Cord_Stimulator_System_s.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'SPECTRA WAVEWRITER' || pacerValue.toUpperCase() === 'SC-1160'|| pacerValue.toUpperCase() === 'SC1160' ){
-     window.open('https://www.bostonscientific.com/content/dam/elabeling/nm/91171762-02_ImageReady%E2%84%A2_MRI_Head_Only_Guidelines_for_Spectra_WaveWriter%E2%84%A2_Spinal_Cord_Stimulator_System_s.pdf', '_blank');
-
-/*Wavewriter spinal stimulator------------------------------------*/
-}else if(pacerValue.toUpperCase() === 'WAVEWRITER' || pacerValue.toUpperCase() === 'SC-1232' || pacerValue.toUpperCase() === 'SC-1216' || pacerValue.toUpperCase() === 'SC-1432' || pacerValue.toUpperCase() === 'SC-1416'){
-     window.open('https://www.bostonscientific.com/content/dam/elabeling/nm/92395569-01_B_ImageReady_MRI_Full_Body_Guidelines_for_WaveWriter_Alpha_and_WaveWriter_Alpha_Prime_Spinal_Cord_Stimulator_Systems_en-US_s.pdf', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'ADAPTA' || pacerValue.toUpperCase() === 'ADDR01' || pacerValue.toUpperCase() === 'ADDR03' || pacerValue.toUpperCase() === 'ADDRO6' || pacerValue.toUpperCase() === 'ADDRS1'){
-     window.open('Docs/medtronic-non-mriConditional-devices.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'VERSA' || pacerValue.toUpperCase() === 'SENSIA' || pacerValue.toUpperCase() === 'VEDR01' || pacerValue.toUpperCase() === 'SEDR01' || pacerValue.toUpperCase() === 'SEDRL1' || pacerValue.toUpperCase() === 'SED01' || pacerValue.toUpperCase() === 'SESR01' || pacerValue.toUpperCase() === 'SES01'){
-     window.open('Docs/medtronic-non-mriConditional-devices.pdf', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'RELIA' || pacerValue.toUpperCase() === 'REDRO1' || pacerValue.toUpperCase() === 'RED01' || pacerValue.toUpperCase() === 'RESR01' || pacerValue.toUpperCase() === 'RES01' || pacerValue.toUpperCase() === 'REVDD01'){
-     window.open('Docs/medtronic-non-mriConditional-devices.pdf', '_blank');
-
-
-}else if(pacerValue.toUpperCase() === 'AVANT' || pacerValue.toUpperCase() === 'NEUTRINO' || pacerValue.toUpperCase() === 'CDVRA700Q' || pacerValue.toUpperCase() === 'CDDRA700Q' || pacerValue.toUpperCase() === 'CDVRA800Q'  || pacerValue.toUpperCase() === 'CDVRA600Q'  || pacerValue.toUpperCase() === 'CDDRA800Q'  || pacerValue.toUpperCase() === 'CDDRA600Q' || pacerValue.toUpperCase() === 'CDHFA700Q' || pacerValue.toUpperCase() === 'CDHFA800Q' || pacerValue.toUpperCase() === 'CDHFA600Q'){
-     window.open('abbottImplants/STjude.pdf', '_blank');    
-
-}else if(pacerValue.toUpperCase() === 'ENTRANT' || pacerValue.toUpperCase() === 'CDVRA300Q' || pacerValue.toUpperCase() === 'CDDRA300Q' || pacerValue.toUpperCase() === 'CDHFA300Q'){
-   window.open('abbottImplants/STjude.pdf', '_blank');     
-
-}else if(pacerValue.toUpperCase() === 'GALLANT' || pacerValue.toUpperCase() === 'CDVRA500Q' || pacerValue.toUpperCase() === 'CDDRA500Q' || pacerValue.toUpperCase() === 'CDHFA500Q' ){
-   window.open('abbottImplants/STjude.pdf', '_blank'); 
-
-
-}else if(pacerValue.toUpperCase() === 'WATCHMAN'){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/ic/watchman/51221705-01A_WATCHMAN_IFU_en_s.pdf', '_blank');
-   
-}else if(pacerValue.toUpperCase() === 'AMPLATZER' || pacerValue.toUpperCase() === 'PFO OCCLUDER' ){
-   window.open('abbottImplants/amplatzerAmulet.pdf', '_blank');  
-
- 
-
-}else if(pacerValue.toUpperCase() === 'UROLIFT'){
-   window.open('https://cdn2.hubspot.net/hubfs/2618738/L00135-01_RevA%20Patient%20Implant%20Card.pdf', '_blank');  
-
-/*Implant alert page--------------------------------------*/
-}else if(pacerValue.toUpperCase() === 'PIPELINE'){
-   window.open('../implantGuides/pipeLine.html', '_blank');  
-
-}else if(pacerValue.toUpperCase() === 'WAVECREST'){
-   window.open('http://www.mrisafety.com/OBJ_STATUS_view.php?editid1=11', '_blank');  
- 
-
-
-   
-}else if(pacerValue.toUpperCase() === 'SYNCHRONY2' || pacerValue.toUpperCase() === 'SYNCHRONY 2' || pacerValue.toUpperCase() === 'MI1250' || pacerValue.toUpperCase() === 'SYNCHRONY' || pacerValue.toUpperCase() === 'MI1200'  || pacerValue.toUpperCase() === 'MED-EL CONCERT'  || pacerValue.toUpperCase() === 'CONCERT'  || pacerValue.toUpperCase() === 'MI1000' || pacerValue.toUpperCase() === 'SONATA' || pacerValue.toUpperCase() === 'PULSAR' || pacerValue.toUpperCase() === 'C40+' || pacerValue.toUpperCase() === 'C40')  {
-     window.open('https://www.medel.com/docs/default-source/isi-important-safety-information/languages/en-us-english-usa/ci-cochlear-implants/aw33290_80_manual-medical-procedures-ci-systems-en-english-us_web.pdf?auto=format&sfvrsn=b5299142_4', '_blank'); 
-
- 
-
- }else if(pacerValue.toUpperCase() === 'ASSURANCE' || pacerValue.toUpperCase() === 'ASSURANCE CLIP'){
-   window.open('https://ww1.steris.com/onbDocs/V517/0/4101648.pdf', '_blank');      
-
- }else if(pacerValue.toUpperCase() === 'RHYTHMLINK'){
-   window.open('../implantGuides/eeg.html', '_blank');   
-
- }else if(pacerValue.toUpperCase() === 'RESOLUTION' || pacerValue.toUpperCase() === 'RESOLUTION CLIP'){
-   window.open('BostonImplants/resolutionClip.pdf','_blank');  
-   
- }else if(pacerValue.toUpperCase() === 'MIRENA'){
-   window.open('https://www.mrisafety.com/SafetyInformation_view.php?editid1=181', '_blank'); 
-
- }else if(pacerValue.toUpperCase() === 'VIVISTIM'|| pacerValue.toUpperCase() === '1001'){
-   window.open('Docs/Vivistim.pdf', '_blank'); 
-
- }else if(pacerValue.toUpperCase() === 'KURZ'){
-   window.open('https://www.ccmed.co.uk/wp-content/uploads/2019/10/MR_Information_en_Rev_06.pdf', '_blank'); 
-
-
- }else if(pacerValue.toUpperCase() === 'HYDROFRAME COIL' || pacerValue.toUpperCase() === 'MICROPLEX COIL' || pacerValue.toUpperCase() === 'HYDRO COIL'){
-   window.open('https://www.microvention.com/products/hydrosoft3d/additional-information/mri-safety-information#content','_blank'); 
-
- }else if(pacerValue.toUpperCase() === 'COSMOS PLATINUM COILS'){
-   window.open('https://www.microvention.com/products/cosmos/additional-information/mri-safety-information', '_blank'); 
-
-
- }else if(pacerValue.toUpperCase() === 'MICROPORT'){
-   window.open('https://www.crm.microport.com/automri/en/radiologist/tool/device-type#device-type', '_blank');
-   
-
-
- }else if(pacerValue.toUpperCase() === 'VIGILANT'|| pacerValue.toUpperCase() === 'D220' || pacerValue.toUpperCase() === 'D221' || pacerValue.toUpperCase() === 'D232' || pacerValue.toUpperCase() === 'D233' || pacerValue.toUpperCase() === 'G248' || pacerValue.toUpperCase() === 'G247'){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/359450-007_Tachy_MRI_TG_us_s.pdf', '_blank'); 
-
-
- }else if(pacerValue.toUpperCase() === 'VIGILANT' || pacerValue.toUpperCase() === 'G228' || pacerValue.toUpperCase() === 'G248' || pacerValue.toUpperCase() === 'G237' || pacerValue.toUpperCase() === 'G224'  || pacerValue.toUpperCase() === 'G225'  || pacerValue.toUpperCase() === 'AUTOGEN' || pacerValue.toUpperCase() === 'G166' || pacerValue.toUpperCase() === 'G168' || pacerValue.toUpperCase() === 'G160' || pacerValue.toUpperCase() === 'G161' || pacerValue.toUpperCase() === 'G168' || pacerValue.toUpperCase() === 'DYNAGEN' || pacerValue.toUpperCase() === 'G156' || pacerValue.toUpperCase() === 'G158'  || pacerValue.toUpperCase() === 'G150' || pacerValue.toUpperCase() === 'G151' || pacerValue.toUpperCase() === 'INOGEN'  || pacerValue.toUpperCase() === 'G146' || pacerValue.toUpperCase() === 'G148' || pacerValue.toUpperCase() === 'G140'  || pacerValue.toUpperCase() === 'G141' || pacerValue.toUpperCase() === 'MOMENTUM' || pacerValue.toUpperCase() === 'G128'  || pacerValue.toUpperCase() === 'G138' || pacerValue.toUpperCase() === 'G124' || pacerValue.toUpperCase() === 'G125'  || pacerValue.toUpperCase() === 'ORIGEN' || pacerValue.toUpperCase() === 'G056' || pacerValue.toUpperCase() === 'G058'  || pacerValue.toUpperCase() === 'G050' || pacerValue.toUpperCase() === 'G051' || pacerValue.toUpperCase() === 'RESONATE'  || pacerValue.toUpperCase() === 'G524' || pacerValue.toUpperCase() === 'G525' || pacerValue.toUpperCase() === 'G528'  || pacerValue.toUpperCase() === 'G548' || pacerValue.toUpperCase() === 'G537' || pacerValue.toUpperCase() === 'G547'  || pacerValue.toUpperCase() === 'G428' || pacerValue.toUpperCase() === 'G448' || pacerValue.toUpperCase() === 'G437'  || pacerValue.toUpperCase() === 'G447' || pacerValue.toUpperCase() === 'G424' || pacerValue.toUpperCase() === 'G425'){
-     window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/51114094-001A_IMAGEREADY_MRITG_en_S.pdf', '_blank');   
-
-
-  }else if(pacerValue.toUpperCase() === 'D160' || pacerValue.toUpperCase() === 'D161' || pacerValue.toUpperCase() === 'D162' || pacerValue.toUpperCase() === 'D163' || pacerValue.toUpperCase() === 'D150'  || pacerValue.toUpperCase() === 'D151'  || pacerValue.toUpperCase() === 'D152'  || pacerValue.toUpperCase() === 'D020' || pacerValue.toUpperCase() === 'D021' || pacerValue.toUpperCase() === 'D153' || pacerValue.toUpperCase() === 'D022' || pacerValue.toUpperCase() === 'D022' || pacerValue.toUpperCase() === 'D140' || pacerValue.toUpperCase() === 'D141' || pacerValue.toUpperCase() === 'D142' || pacerValue.toUpperCase() === 'D143'  || pacerValue.toUpperCase() === 'D010' || pacerValue.toUpperCase() === 'D011' || pacerValue.toUpperCase() === 'D012'  || pacerValue.toUpperCase() === 'G146' || pacerValue.toUpperCase() === 'G148' || pacerValue.toUpperCase() === 'G140'  || pacerValue.toUpperCase() === 'D013' || pacerValue.toUpperCase() === 'D120' || pacerValue.toUpperCase() === 'D121'  || pacerValue.toUpperCase() === 'D050' || pacerValue.toUpperCase() === 'D051' || pacerValue.toUpperCase() === 'D052'  || pacerValue.toUpperCase() === 'D053' || pacerValue.toUpperCase() === 'D000' || pacerValue.toUpperCase() === 'G058'  || pacerValue.toUpperCase() === 'G050' || pacerValue.toUpperCase() === 'D001' || pacerValue.toUpperCase() === 'D002'  || pacerValue.toUpperCase() === 'D003' || pacerValue.toUpperCase() === 'PERCIVA' || pacerValue.toUpperCase() === 'D500'  || pacerValue.toUpperCase() === 'D501' || pacerValue.toUpperCase() === 'D512' || pacerValue.toUpperCase() === 'D513'  || pacerValue.toUpperCase() === 'D400' || pacerValue.toUpperCase() === 'D401' || pacerValue.toUpperCase() === 'D412'  || pacerValue.toUpperCase() === 'D413'){
-     window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/51114094-001A_IMAGEREADY_MRITG_en_S.pdf', '_blank');      
-
-  }else if(pacerValue.toUpperCase() === 'D520' || pacerValue.toUpperCase() === 'D521' || pacerValue.toUpperCase() === 'D532' || pacerValue.toUpperCase() === 'D533' || pacerValue.toUpperCase() === 'D420'  || pacerValue.toUpperCase() === 'D421'  || pacerValue.toUpperCase() === 'D432'  || pacerValue.toUpperCase() === 'D433' || pacerValue.toUpperCase() === 'D220' || pacerValue.toUpperCase() === 'D221' || pacerValue.toUpperCase() === 'D232' || pacerValue.toUpperCase() === 'D233'){
-     window.open('https://www.bostonscientific.com/content/dam/elabeling/crm/51114094-001A_IMAGEREADY_MRITG_en_S.pdf', '_blank');     
-
-
-  /*Implant guide alert page-----------------------------------------*/
-  }else if(pacerValue.toUpperCase() === 'MEDTRONIC STRATA'|| pacerValue.toUpperCase() === 'STRATAMR'){
-   window.open('../implantGuides/strata.html', '_blank'); 
-
-   }else if(pacerValue.toUpperCase() === 'MEDTRONIC STRATA 2'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/st/M972504A001B.pdf', '_blank'); 
-
-
-   /*Cochlear implants--------------------------------------------------*/
-
-    }else if(pacerValue.toUpperCase() === 'COCHLEAR' || pacerValue.toUpperCase() === 'COCHLEAR IMPLANT' || pacerValue.toUpperCase() === 'CI632' || pacerValue.toUpperCase() === 'CI624' || pacerValue.toUpperCase() === 'CI622' || pacerValue.toUpperCase() === 'CI612' || pacerValue.toUpperCase() === 'CI532'|| pacerValue.toUpperCase() === 'CI522' || pacerValue.toUpperCase() === 'CI512' ||pacerValue.toUpperCase() === 'ABI541' || pacerValue.toUpperCase() === 'CI422' || pacerValue.toUpperCase() === 'CI24RECA' || pacerValue.toUpperCase() === 'CI24REH' || pacerValue.toUpperCase() === 'CI24REST'|| pacerValue.toUpperCase() === 'ABI24M' ||  pacerValue.toUpperCase() === 'CI24R' || pacerValue.toUpperCase() === 'CI24M' || pacerValue.toUpperCase() === 'CI11+11+2M' || pacerValue.toUpperCase() === 'CI22M'){
-   window.open('../implantGuides/cochlear.html', '_blank');
-
-  }else if(pacerValue.toUpperCase() === 'ADVANCED BIONICS'|| pacerValue.toUpperCase() === 'HIRES ULTRA 3D' || pacerValue.toUpperCase() === 'CI-1601-04'){
-   window.open('../implantGuides/cochlearAdvancedBionics.html', '_blank'); 
-
-   }else if(pacerValue.toUpperCase() === 'NUCLEUS'){
-   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'OSIA'){
-   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'BAHA'){
-   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
-
-}else if(pacerValue.toUpperCase() === 'VISTAFIX'){
-   window.open('https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines', '_blank');
-
-  /*End of cochlear implant----------------------------------------*/
-
-
-  }else if(pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC WALLFLEX'|| pacerValue.toUpperCase() === 'COLONIC AND DUODENAL SOFT STENT'){
-   window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/wallflex-colonic-and-duodenal/Wallflex_Soft_Abbreviated_DFU_FINAL.pdf', '_blank');  
-
-
-
-  }else if(pacerValue.toUpperCase() === 'PROGAV 2.0'|| pacerValue.toUpperCase() === 'PROGAV'){
-   window.open('Docs/proGav.pdf', '_blank');  
-
-  }else if(pacerValue.toUpperCase() === 'AVEIR'|| pacerValue.toUpperCase() === 'LSP112V' || pacerValue.toUpperCase() === 'LSP202V' || pacerValue.toUpperCase() === 'LSP201A'){
-   window.open('Docs/aveirPacemaker.pdf', '_blank');  
-
-  }else if(pacerValue.toUpperCase() === 'GORE' || pacerValue.toUpperCase() === 'GORE TAG' || pacerValue.toUpperCase() === 'GORE VIABIL' || pacerValue.toUpperCase() === 'GORE CARDIOFORM' || pacerValue.toUpperCase() === 'GORE EXCLUDER' || pacerValue.toUpperCase() === 'GORE VIABAHN' || pacerValue.toUpperCase() === 'GORE VIATORR' || pacerValue.toUpperCase() === 'GORE BIO-A' || pacerValue.toUpperCase() === 'CARDIOFORM' || pacerValue.toUpperCase() === 'DUALMESH' || pacerValue.toUpperCase() === 'EXCLUDER' || pacerValue.toUpperCase() === 'SEAMGUARD' || pacerValue.toUpperCase() === 'GORE TEX' || pacerValue.toUpperCase() === 'SYNECOR' || pacerValue.toUpperCase() === 'TAG' || pacerValue.toUpperCase() === 'VIABAHN'|| pacerValue.toUpperCase() === 'VIABIL' || pacerValue.toUpperCase() === 'VIATORR'){
-   window.open('https://www.goremedical.com/support/mri-safety-information', '_blank');  
-
-  }else if(pacerValue.toUpperCase() === 'LOCKADO'){
-   window.open('https://mtendoscopy.com/wp-content/uploads/2023/01/Lockado-MRI_Card_1-0027609-REV-5-2.pdf', '_blank');   
-
-   
-  }else if(pacerValue.toUpperCase() === 'DM3500'|| pacerValue.toUpperCase() === 'CONFIRM RX' || pacerValue.toUpperCase() === 'CONFIRMRX' || pacerValue.toUpperCase() === 'CONFIRM' || pacerValue.toUpperCase() === '3500' ){
-   window.open('Docs/dm3500.pdf', '_blank');  
-
-  }else if(pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC SYNERGY XD'){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/ic/synergy_xd/51266501-02A_SYNERGYXD_PatientGuide_US_EN_s.pdf', '_blank');  
-
-  }else if(pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC SYNERGY MONORAIL'){
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/ic/50984864-01A_Synergy_IFU_en_s.pdf', '_blank'); 
-
-  }else if(pacerValue.toUpperCase() === 'AXIOS'){
-   window.open('https://www.bostonscientific.com/content/dam/bostonscientific/endo/portfolio-group/AXIOS/dfu_AXIOS-stent-and%20delivery-system.pdf', '_blank');  
-
-
-   }else if(pacerValue.toUpperCase() === 'KYLEENA'){
-   window.open('implantGuides/kyleena.html', '_blank');
-   
-   }else if(pacerValue.toUpperCase() === 'ALTO'|| pacerValue.toUpperCase() === '6XX' || pacerValue.toUpperCase() === 'GRACE MEDICAL' || pacerValue.toUpperCase() === 'GRACE MEDICAL OTOLOGIC IMPLANTS' || pacerValue.toUpperCase() === '612-001L' ){
-   window.open('https://www.gracemedical.com/mri-info/', '_blank');  
-
-
-
-
-  }else if(pacerValue.toUpperCase() === '8637'  || pacerValue.toUpperCase() === 'SYNCHROMED'  || pacerValue.toUpperCase() === 'SYNCHROMED2'  || pacerValue.toUpperCase() === 'SYNCHROMED 2' || pacerValue.toUpperCase() === '8626'  || pacerValue.toUpperCase() === '8627'  || pacerValue.toUpperCase() === '8615'  || pacerValue.toUpperCase() === '8616'  || pacerValue.toUpperCase() === '8617'  || pacerValue.toUpperCase() === '8618'  || pacerValue.toUpperCase() === 'ISOMED' || pacerValue.toUpperCase() === '8472' || pacerValue.toUpperCase() === 'SYNCHROMED 3' || pacerValue.toUpperCase() === '8667' || pacerValue.toUpperCase() === 'SYNCHROMED EL' ){
-   window.open('../implantGuides/synchromed.html', '_blank');
- 
-  }else if(pacerValue.toUpperCase() === 'ABBOTT MITRA CLIP'){
-   window.open('Docs/mitraClip.pdf', '_blank');  
-
-   
-  }else if(pacerValue.toUpperCase() === 'ABBOTT MITRA CLIP G4'){
-   window.open('abbottImplants/mitraClipG4.pdf', '_blank'); 
-
-
-  }else if(pacerValue.toUpperCase() === 'BIOMONITOR 3'|| pacerValue.toUpperCase() === 'BIOMONITOR3' || pacerValue.toUpperCase() === 'BIOMONITOR III' || pacerValue.toUpperCase() === '436066'){
-   window.open('biotronikImplants/biomonitor3.html', '_blank');  
-
-
-
-  }else if(pacerValue.toUpperCase() === '6660'|| pacerValue.toUpperCase() === '6662' || pacerValue.toUpperCase() === '6170' || pacerValue.toUpperCase() === '6171' || pacerValue.toUpperCase() === '6172' || pacerValue.toUpperCase() === '6173' || pacerValue.toUpperCase() === '6371' || pacerValue.toUpperCase() === '6372' || pacerValue.toUpperCase() === 'INFINITY'){
-   window.open('abbottImplants/dbs.pdf', '_blank');  
-
-   
-  }else if(pacerValue.toUpperCase() === 'IMPULSE'|| pacerValue.toUpperCase() === 'OPTIMIZER' || pacerValue.toUpperCase() === 'IMPULSE DYNAMICS'){
-   window.open('Docs/impulseOptimizer.pdf', '_blank');  
-
-  }else if(pacerValue.toUpperCase() === 'HYDRUS MICROSTENT'|| pacerValue.toUpperCase() === 'HYDRUS' || pacerValue.toUpperCase() === 'IVANTIS' || pacerValue.toUpperCase() === 'FOOO22'){
-   window.open('https://www.accessdata.fda.gov/cdrh_docs/pdf17/P170034D.pdf', '_blank'); 
-
-  /*LivaNova----------------------------------------------*/
-   
-   }else if(pacerValue.toUpperCase() === 'LIVANOVA' || pacerValue.toUpperCase() === '103' || pacerValue.toUpperCase() === '105' || pacerValue.toUpperCase() === '106' || pacerValue.toUpperCase() === '1000' || pacerValue.toUpperCase() === 'DEMIPULSE' || pacerValue.toUpperCase() === 'ASPIREHC' || pacerValue.toUpperCase() === 'ASPIRESR' || pacerValue.toUpperCase() === 'SENTIVA' || pacerValue.toUpperCase() === '102' || pacerValue.toUpperCase() === 'PULSE DUO' || pacerValue.toUpperCase() === '102R' || pacerValue.toUpperCase() === 'DEMIPULSE DUO'){
-   window.open('https://www.livanova.com/epilepsy-vnstherapy/getmedia/11f70fde-4396-4c93-9e9f-fa0c42fdaead/mri-guidelines_hcp_2023.pdf', '_blank');
-
-   }else if(pacerValue.toUpperCase() === '100C' || pacerValue.toUpperCase() === '101') {
-   window.open('https://www.livanova.com/epilepsy-vnstherapy/getmedia/11f70fde-4396-4c93-9e9f-fa0c42fdaead/mri-guidelines_hcp_2023.pdf', '_blank'); 
-
-  /*End of LivaNova-----------------------------------------------------*/
-
-   }else if(pacerValue.toUpperCase() === '100B' || pacerValue.toUpperCase() === 'COLOPLAST'|| pacerValue.toUpperCase() === 'GENESIS' || pacerValue.toUpperCase() === 'ACU-FORM'|| pacerValue.toUpperCase() === 'ACUFORM' || pacerValue.toUpperCase() === 'MALLEABLE'|| pacerValue.toUpperCase() === 'TITAN'|| pacerValue.toUpperCase() === 'ALPHA 1'|| pacerValue.toUpperCase() === 'ALPHA1'|| pacerValue.toUpperCase() === 'MARK 2'|| pacerValue.toUpperCase() === 'MARK2'|| pacerValue.toUpperCase() === 'EXCEL') {
-   window.open( 'Docs/coloplastPenileImplant.pdf', '_blank'); 
-
-
-   }else if(pacerValue.toUpperCase() === 'CORDIS' || pacerValue.toUpperCase() === 'PALMAZ'|| pacerValue.toUpperCase() === 'PALMAZ GENESIS'|| pacerValue.toUpperCase() === 'PG295P'|| pacerValue.toUpperCase() === 'PG395P') {
-   window.open('https://www.rad.pitt.edu/sites/rad_docs/mrrc-docs/Cordis_Palmaz_stent.pdf', '_blank'); 
-
-   }else if(pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC WALLSTENT' || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC EXPRESS SD RENAL'|| pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC WALLGRAFT' || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC CAROTID WALLSTENT'|| pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC EPIC' || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC WALFLEX'|| pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC SENTINOL'|| pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC GREENFIELD'|| pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC TITANIUM GREENFIELD'|| pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC INNOVA' || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC EXPRESS LD ILIAC' || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC EXPRESS LD BILIARY') {
-   window.open('https://www.bostonscientific.com/content/dam/bostonscientific/pi/portfolio-group/resources/MRI%20Compatibility%20for%20PI%20Products.pdf', '_blank'); 
-
-   
-   }else if(pacerValue.toUpperCase() === 'ABSOLUTE PRO' || pacerValue.toUpperCase() === 'ABSOLUTE'|| pacerValue.toUpperCase() === 'OMNILINK ELITE'|| pacerValue.toUpperCase() === 'OMNILINK') {
-   window.open('https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110043c.pdf', '_blank'); 
-
-
-   }else if(pacerValue.toUpperCase() === 'LUX-DX' || pacerValue.toUpperCase() === 'LUX-DX2'|| pacerValue.toUpperCase() === 'LUX-DX 2'|| pacerValue.toUpperCase() === 'M301' || pacerValue.toUpperCase() === 'M302' || pacerValue.toUpperCase() === 'M312') {
-   window.open('bostonImplants/lux-dx.pdf', "_blank");
-
-
-   }else if(pacerValue.toUpperCase() === '638R' || pacerValue.toUpperCase() === '638B'|| pacerValue.toUpperCase() === '638RL32'|| pacerValue.toUpperCase() === '638RL' || pacerValue.toUpperCase() === 'MEDTRONIC ANNULOPLASTY RING' || pacerValue.toUpperCase() === 'MEDTRONIC ANNULOPLASTY' || pacerValue.toUpperCase() === 'CG FUTURE') {
-   window.open('medtronicImplants/medtronicAnnuloplastyRing.pdf', '_blank');
-
-
-   }else if(pacerValue.toUpperCase() === 'ANGELMED GUARDIAN' || pacerValue.toUpperCase() === 'GUARDIAN'|| pacerValue.toUpperCase() === 'ANGEL MED GUARDIAN'|| pacerValue.toUpperCase() === 'ANGELMED') {
-   window.open('https://www.mrisafety.com/TMDL_view.php?editid1=5114', '_blank'); 
-   
-
-   }else if(pacerValue.toUpperCase() === 'RESOLUTE INTEGRITY' || pacerValue.toUpperCase() === 'RESOLUTE' || pacerValue.toUpperCase() === 'INTEGRITY'){
-   window.open('https://www.medtronic.com/content/dam/emanuals/cardio/M724130B001DOC1_AA_view_color.pdf', '_blank'); 
-
-     /*Implant guide alert page--------------------------------------*/
-   }else if(pacerValue.toUpperCase() === 'SAPIEN 3' || pacerValue.toUpperCase() === 'SAPIEN3' || pacerValue.toUpperCase() === 'EDWARDS SAPIEN 3' || pacerValue.toUpperCase() === 'SAPIEN' || pacerValue.toUpperCase() === '9600CM20A' || pacerValue.toUpperCase() === '9600CM23A'|| pacerValue.toUpperCase() === '9600CM26A'|| pacerValue.toUpperCase() === '9600CM29A' || pacerValue.toUpperCase() === '9600TFX'){
-   window.open('../implantGuides/sapien.html', '_blank'); 
-
-
-   }else if(pacerValue.toUpperCase() === 'PROMUS ELITE' || pacerValue.toUpperCase() === 'PROMUS'|| pacerValue.toUpperCase() === 'MONORAIL') {
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/ic/50920154-01A_Promus%20Elite_DFU_en_s.pdf', '_blank'); 
-
-
-   }else if(pacerValue.toUpperCase() === 'BAROSTIM' || pacerValue.toUpperCase() === 'BAROSTIM NEO'|| pacerValue.toUpperCase() === 'BAROSTIMNEO' || pacerValue.toUpperCase() === 'BAROSTIMNEO2'|| pacerValue.toUpperCase() === 'BAROSTIM NEO2' || pacerValue.toUpperCase() === 'BAROSTIM LEGACY' || pacerValue.toUpperCase() === '2100' || pacerValue.toUpperCase() === '2102' || pacerValue.toUpperCase() === '2104') {
-   window.open('https://www.cvrx.com/wp-content/uploads/2022/04/900133-004B_IFU_MRI.pdf', '_blank'); 
-
-
-   
-   }else if(pacerValue.toUpperCase() === 'ONYX' || pacerValue.toUpperCase() === 'LIQUID EMBOLIC SYSTEM'  || pacerValue.toUpperCase() === 'ONYX HD-500'  || pacerValue.toUpperCase() === 'HD-500'  || pacerValue.toUpperCase() === 'HD500') {
-   window.open('https://www.mrisafety.com/TMDL_list.php?qs=Onyx', '_blank'); 
-
-
-/*
-   }else if(pacerValue.toUpperCase() === 'ENTERRA' || pacerValue.toUpperCase() === '3116'){
-    window.open('../implantGuides/enterra.html', '_blank'); 
-*/
-
-
-   }else if(pacerValue.toUpperCase() === 'ENTERRA 2' || pacerValue.toUpperCase() === 'ENTERRA2'  || pacerValue.toUpperCase() === 'ENTERRA II'  || pacerValue.toUpperCase() === 'ENTERRAII'  || pacerValue.toUpperCase() === '37800' || pacerValue.toUpperCase() === 'ENTERRA'  || pacerValue.toUpperCase() === '3116') {
-   window.open('../implantGuides/enterra.html', '_blank'); 
-
-
-   }else if(pacerValue.toUpperCase() === 'MCA GEM COUPLER' || pacerValue.toUpperCase() === 'COUPLER RING'
-   || pacerValue.toUpperCase() === 'SYNOVIS MICRO COMPANY' || pacerValue.toUpperCase() === 'SYNOVIS'|| pacerValue.toUpperCase() === 'GEM COUPLER' || pacerValue.toUpperCase() === 'COUPLER' || pacerValue.toUpperCase() === 'COUPLER RINGS'){
-    window.open('Docs/MriCoupler.pdf', '_blank'); 
-
-
-   }else if(pacerValue.toUpperCase() === 'ONYX STENT' || pacerValue.toUpperCase() === 'ONYX FRONTIER'|| pacerValue.toUpperCase() === 'FRONTIER') {
-   window.open('https://www.medtronic.com/content/dam/emanuals/cardio/M016449C001DOC1-D_view.pdf', '_blank');
-
-
-   
-   }else if(pacerValue.toUpperCase() === 'XIENCE SKYPOINT' || pacerValue.toUpperCase() === 'SKYPOINT'|| pacerValue.toUpperCase() === 'SKYPOINT STENT') {
-   window.open('abbottImplants/skypoint.pdf', '_blank');
-
-   }else if(pacerValue.toUpperCase() === 'XIENCE SIERRA' || pacerValue.toUpperCase() === 'SIERRA'|| pacerValue.toUpperCase() === 'SIERRA STENT') {
-   window.open('abbottImplants/Sierra.pdf', '_blank');
-
-   
-   }else if(pacerValue.toUpperCase() === 'XIENCE PRIME' || pacerValue.toUpperCase() === 'PRIME'|| pacerValue.toUpperCase() === 'PRIME STENT') {
-   window.open('abbottImplants/prime.pdf', '_blank');
-
-
-   }else if(pacerValue.toUpperCase() === 'ALIZEA DR' || pacerValue.toUpperCase() === 'ALIZEA SR'|| pacerValue.toUpperCase() === 'CELEA DR' || pacerValue.toUpperCase() === 'CELEA SR') {
-   window.open('https://www.crm.microport.com/automri/en/radiologist/tool/device-type#device-type', '_blank');
-
-
-   }else if(pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC VENOUS WALLSTENT') {
-   window.open('https://www.bostonscientific.com/content/dam/elabeling/pi/50607601-01B_Venous%20Wallstent_eDFU_US_s.pdf', '_blank');
-
-
-   }else if(pacerValue.toUpperCase() === 'CARPENTIER-EDWARDS AORTIC AND MITRAL BIOPROSTHESES' || pacerValue.toUpperCase() === '2625'|| pacerValue.toUpperCase() === '6625' || pacerValue.toUpperCase() === '2650' || pacerValue.toUpperCase() === '6625LP'  || pacerValue.toUpperCase() === '6625-ESR-LP' || pacerValue.toUpperCase() === '2700'  || pacerValue.toUpperCase() === '2700TFX' || pacerValue.toUpperCase() === '2800' || pacerValue.toUpperCase() === '2800TFX' || pacerValue.toUpperCase() === '3000' || pacerValue.toUpperCase() === '3000TFX' || pacerValue.toUpperCase() === '3300TFX' || pacerValue.toUpperCase() === '6900' || pacerValue.toUpperCase() === '6900P' || pacerValue.toUpperCase() === '6900PTFX' || pacerValue.toUpperCase() === '7000' || pacerValue.toUpperCase() === '7000TFX' || pacerValue.toUpperCase() === '8300AB' || pacerValue.toUpperCase() === '9000PHV' || pacerValue.toUpperCase() === '11500A' || pacerValue.toUpperCase() === '11060A' || pacerValue.toUpperCase() === '11400M' || pacerValue.toUpperCase() === '9000'  || pacerValue.toUpperCase() === '9000TFX'  || pacerValue.toUpperCase() === '9300TFX'  || pacerValue.toUpperCase() === '9600TFX'  || pacerValue.toUpperCase() === '9750TFX' || pacerValue.toUpperCase() === '9755RSL' || pacerValue.toUpperCase() === '14000RSL' || pacerValue.toUpperCase() === 'TMV3040B' || pacerValue.toUpperCase() === '9650TMV' || pacerValue.toUpperCase() === '9850TMV' || pacerValue.toUpperCase() === '9850EV44' || pacerValue.toUpperCase() === '9850EV48' || pacerValue.toUpperCase() === '9850EV52' || pacerValue.toUpperCase() === '9850EV56' || pacerValue.toUpperCase() === '20000IS' || pacerValue.toUpperCase() === '20000ISM' || pacerValue.toUpperCase() === '9551S' || pacerValue.toUpperCase() === '29AP4045' || pacerValue.toUpperCase() === '9600TFX' || pacerValue.toUpperCase() === '9770DDS' || pacerValue.toUpperCase() === '9780DDS'|| pacerValue.toUpperCase() === '9680DSC' || pacerValue.toUpperCase() === '9680TFX29M' || pacerValue.toUpperCase() === '9880DDS' || pacerValue.toUpperCase() === '9880TFX29M' ) {
-   window.open('https://assets-us-01.kc-usercontent.com/6239a81e-8f0f-0040-a1df-b4932a10f6ae/c1db6423-2795-4037-be0a-c6f7cb58d10a/US_MRI_Letter%20v12.pdf', '_blank');
-
-
-   }else if(pacerValue.toUpperCase() ===  'BOSTON SCIENTIFIC VERCISE GENUS'
-   || pacerValue.toUpperCase() === 'DB‑1408' || pacerValue.toUpperCase() === 'DB‑1416' || pacerValue.toUpperCase() === 'DB‑1432' || pacerValue.toUpperCase() === 'DB‑1216' || pacerValue.toUpperCase() === 'DB‑1232' || pacerValue.toUpperCase() === 'DB-1200-S'){
-    window.open('bostonImplants/bostonScientificVerviseGenusDbs.pdf', '_blank'); 
-
-   
-   }else if(pacerValue.toUpperCase() === 'MEDTRONIC RESOLUTE ONYX'){
-    window.open('medtronicImplants/medtronicResoluteOnyx.pdf', '_blank'); 
-
-
-    }else if(pacerValue.toUpperCase() === 'BRAVO'){
-    window.open('../implantGuides/medtronicBravo.html', '_blank'); 
-
-    }else if(pacerValue.toUpperCase() === 'CODMAN CERELINK ICP'){
-    window.open('Docs/cereLinkIcp.pdf', '_blank'); 
-
-   }else if(pacerValue.toUpperCase() === 'CODMAN MICROSENSOR ICP'){
-    window.open('Docs/codmanMicroSensorIcp.pdf', '_blank');
-    
-    
-   }else if(pacerValue.toUpperCase() === 'ABBOTT AMULET LEFT ATRIAL APPENDAGE OCCLUDER'){
-    window.open('abbottImplants/abbottAmulet.pdf', '_blank'); 
-
-
-   }else if(pacerValue.toUpperCase() === 'REMUNITY PUMP FOR REMODULIN'){
-    window.open('implantGuides/remunityPump.html', '_blank'); 
-
-   }else if(pacerValue.toUpperCase() === 'EV3 EVERFLEX PERIPHERAL STENT' || pacerValue.toUpperCase() === 'EV3 PROTEGE EVERFLEX  BILIARY STENT' ){
-    window.open('/implantGuides/everFlexStent.html', '_blank');
-
-   }else if(pacerValue.toUpperCase() === 'EV3 PROTEGE EVERFLEX PERIPHERAL STENT' ){
-    window.open('Docs/protegeEverflexPeripheralStent.pdf', '_blank');
-
-    
-    }else if(pacerValue.toUpperCase() === 'ABBOTT SJM REGENT MECHANICAL HEART VALVES' || pacerValue.toUpperCase() ===  'ABBOTT SJM STANDARD AND MASTERS SERIES MECHANICAL HEART VALVES' || pacerValue.toUpperCase() === 'ABBOTT BIOCOR STENTED TISSUE VALVES' || pacerValue.toUpperCase() === 'ABBOTT EPIC STENTED TISSUE VALVES'  || pacerValue.toUpperCase() === 'ABBOTT TRIFECTA TISSUE VALVES'|| pacerValue.toUpperCase()  === 'ABBOTT SJM RIGID SADDLE ANNULOPLASTY RINGS' || pacerValue.toUpperCase() === 'ABBOTT SJM SEMI-RIGID ANNULOPLASTY RINGS' || pacerValue.toUpperCase()  === 'ABBOTT ATTUNE FLEXIABLE ADJUSTABLE ANNULOPLASTY RINGS' || pacerValue.toUpperCase() === 'ABBOTT SJM TAILOR FLEXIBLE ANNULOPLASTY RINGS' || pacerValue.toUpperCase()  === 'ABBOTT SJM TAILOR FLEXIABLE ANNULOPLASTY BAND'){
-    window.open('abbottImplants/abbottHeartValves.pdf', '_blank');
-
-    
-   }else if(pacerValue.toUpperCase() === 'NEXPLANON CONTRACEPTIVE IMPLANT'){
-    window.open('https://www.mrisafety.com/TMDL_view.php?editid1=7412', '_blank');
-
-   }else if(pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC ADVANIX BILIARY STENT'){
-    window.open('implantGuides/advanixBiliaryStent.html', '_blank');
-
-   }else if(pacerValue.toUpperCase() === 'SCLERAL BUCKLE'){
-    window.open('Docs/scleralBuckle.html', '_blank');
-
-    }else if(pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC FIBERED IDC' || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC INTERLOCKING DETACHABLE COIL' || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC VORTX COIL' || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC VORTX DIAMOND COIL' || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC VORTX MULTILOOP COIL' || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC COMPLEX HELICAL COIL' || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC 2D HELICAL COIL'  || pacerValue.toUpperCase() === 'BOSTON SCIENTIFIC FIBERED PLATINUM COIL' ){
-    window.open('bostonImplants/bostonInterlockCoil.pdf', '_blank');
-
-   }else if(pacerValue.toUpperCase() === 'STRYKER HOFFMANN 2'){
-    window.open('Docs/Hoffmann2.pdf', '_blank');
-
-   }else if(pacerValue.toUpperCase() === 'STRYKER HOFFMANN 3'){
-    window.open('Docs/Hoffmann3.pdf', '_blank');
-
-    
-   }else if(pacerValue.toUpperCase() === 'STRYKER HOFFMANN LRF'){
-    window.open('Docs/HoffmannLRF.pdf', '_blank');
-
-   }else if(pacerValue.toUpperCase() === 'PARAGARD IUD'){
-    window.open('Docs/paragardIud.pdf', '_blank');
-
-    
-   
-
-
-
-   /*  window.open('bostonImplants/lux-dx.pdf', "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=0,right=0,width=300,height=300");*/
-   
-   
-
-  
-
-
-}else{
-      alert("Something went wrong please try again. If that doesn't work use slideout/hamburger menu(UPPER LEFT CORNER OF WEBPAGE 3 Horizontal lines) for manufactures website search."
-      );
-     }     
+function selectInput(list) {
+  inputBox.value = list.textContent;
+  resultsBox.innerHTML = '';
 }
-        
+
+const implantMapping = {
+   //Medtronic pacemakers
+  'ADVISA SR': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf',
+  'A3SR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf',
+  'ADVISA': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf',
+  'ADVISA DR': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf',
+  'A2DR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235435.pdf',
+
+  //Not FDA approved but MR-conditional Medtronic pacemaker
+  'ENSURA': '../implantGuides/ensura.html',
+  'EN1DR01': '../implantGuides/ensura.html',
+  'EN1SR01': '../implantGuides/ensura.html',
+
+   //Medtronic pacemakers
+  'AZURE XT DR': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf',
+  'W1DR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf',
+  'AZURE': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf',
+  'W1SR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf',
+  'W3SR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf',
+  'W3DR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf',
+
+  //Boston Scientific Ureteral Stent
+  'PERCUFLEX PLUS': 'http://www.mrisafety.com/TMDL_view.php?editid1=6058',
+  'PERCUFLEX': 'http://www.mrisafety.com/TMDL_view.php?editid1=6058',
+
+ //Aneurysm Clips
+  'YASARGIL': 'Docs/MRI-Safety-Information-Yasargil-Titanium-and-Phynox-Aneurysm-Clips.pdf',
+  'SUGITA': 'https://www.mrisafety.com/TMDL_list.php?goto=201',
+  'MIZUHO': 'https://www.mrisafety.com/TMDL_list.php?goto=201',//
+  'SPETZLER TITANIUM ANEURYSM CLIP': '../implantGuides/spetzler.html',
+
+  //Medtronic ICD
+  'VIRTUOSO': 'https://www.mrisafety.com/TMDL_list.php?goto=226',
+  'D154AWG':  'https://www.mrisafety.com/TMDL_view.php?editid1=7027',
+
+  //Medtronic Aurora EV-ICD
+  'MEDTRONIC AURORA EV-ICD':  'medtronicImplants/medtronicAuroraIcd.pdf',
+
+  //NEVRO Spinal Cord Stimulation (SCS)
+  'NEVRO':  'https://s28.q4cdn.com/260621474/files/doc_downloads/2022/05/1.5T-and-3T-MRI-Guidelines-for-the-Senza-Neuromodulation-Systems-(11096)-Rev-P.pdf',
+
+  'SENZA': 'https://s28.q4cdn.com/260621474/files/doc_downloads/2022/05/1.5T-and-3T-MRI-Guidelines-for-the-Senza-Neuromodulation-Systems-(11096)-Rev-P.pdf',
+
+  'NIPG1000': 'https://s28.q4cdn.com/260621474/files/doc_downloads/2022/05/1.5T-and-3T-MRI-Guidelines-for-the-Senza-Neuromodulation-Systems-(11096)-Rev-P.pdf',
+
+  'NIPG1500': 'https://s28.q4cdn.com/260621474/files/doc_downloads/2022/05/1.5T-and-3T-MRI-Guidelines-for-the-Senza-Neuromodulation-Systems-(11096)-Rev-P.pdf',
+
+  'NIPG2000': 'https://s28.q4cdn.com/260621474/files/doc_downloads/2022/05/1.5T-and-3T-MRI-Guidelines-for-the-Senza-Neuromodulation-Systems-(11096)-Rev-P.pdf',
+
+  'NIPG2500' : 'https://s28.q4cdn.com/260621474/files/doc_downloads/2022/05/1.5T-and-3T-MRI-Guidelines-for-the-Senza-Neuromodulation-Systems-(11096)-Rev-P.pdf',
+
+//Medtronic pacemakers
+ 'MICRA VR': 'https://www.medtronic.com/content/dam/emanuals/crdm/M992497A001A_view.pdf',
+ 'MICRA': 'https://www.medtronic.com/content/dam/emanuals/crdm/M992497A001A_view.pdf',
+ 'MC1VR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/M992497A001A_view.pdf',
+ 'MICRA AV': 'https://www.medtronic.com/content/dam/emanuals/crdm/M995149A001A_view.pdf', 
+ 'MC1AVR1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M995149A001A_view.pdf', 
+ 'ATTESTA DR': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
+ 'ATDR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf',  
+ 'ATTESTA L DR': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
+ 'ATDRL1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf',   
+ 'ATTESTA SR DR': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
+ 'ATDRS1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf',  
+ 'ATTESTA SR' : 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
+ 'ATSR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf',
+  
+
+ //Medtronic pacemakers
+ 'SPHERA SR': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
+ 'SPSR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf',  
+ 'SPHERA DR': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
+ 'SPDR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf',  
+ 'SPHERA L DR': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
+ 'SPDRL1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
+ 'ATTESTA': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
+ 'ATDRL1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
+ 'SPHERA': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
+ 'ASTRA': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf',
+ 'REVO': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_184935.pdf',
+ 'RVDR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_184935.pdf', 
+
+ //Medtronic pacemakers
+ 'COBALT XT': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', 
+ 'DVPA2D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',  
+ 'DVPA2D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+ 'DDPA2D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+ 'DDPA2D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', 
+ 'DVPB3D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+ 'DVPB3D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+ 'COBALT': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+ 'DDPB3D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+ 'DDPB3D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+
+ //Medtronic defibrillators
+ 'CROME'  : 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+ 'DVPC3D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+ 'DVPC3D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+ 'DDPC3D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+ 'DDPC3D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
+
+ //Medtronic defibrillators
+ 'PRIMO': 'https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf',
+ 'DDMD3D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf',
+ 'DDMD3D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf',
+ 'DVMD3D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf',
+ 'DVMDD3D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf',
+ 'MIRRO': 'https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf',
+ 'DVME3D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf',
+ 'DVME3D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf',
+ 'DDME3D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf',
+ 'DDME3D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/M976736A001B_view.pdf',
+
+ //Medtronic defibrillators
+ 'VISIA AF': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf',
+ 'DVFB1D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf',
+ 'DVFB1D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf', 
+ 'DVFB1D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf',
+ 'DVFC3D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf',
+ 'DVFC3D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235962.pdf',  
+
+ //Medtronic defibrillators
+ 'EVERA XT': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf',
+ 'DDMB1D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', 
+ 'DVMB1D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf',
+ 'DDMB1D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', 
+ 'DVMB1D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf',
+ 'DDMC3D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', 
+ 'DDMC3D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf',
+ 'DVMC3D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf',  
+ 'DVMC3D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf',  
+ 'EVERA': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_235453.pdf', 
+
+ //Medtronic defibrillators
+ 'CLARIA': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', 
+ 'DTMA1QQ': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', 
+ 'DTMA1Q1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', 
+ 'DTMA1D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', 
+ 'DTMA1D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_242350.pdf', 
+
+ //Medtronic defibrillators
+ 'AMPLIA': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', 
+ 'DTMB1QQ': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', 
+ 'DTMB1Q1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', 
+ 'DTMB1D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', 
+ 'DTMB1D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', 
+
+ //Medtronic defibrillators
+ 'COMPIA': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', 
+ 'DTMC1QQ': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', 
+ 'DTMC1D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', 
+ 'DTMCC1D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_241677.pdf', 
+
+ //Medtronic pacemaker
+'PERCEPTA': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', 
+'W4TR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', 
+'W1TR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', 
+
+//Medtronic pacemaker
+'SERENA': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', 
+'W4TR02': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', 
+'W1TR02': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', 
+
+
+ //Medtronic pacemaker
+'SOLARA': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', 
+'W4TR03': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', 
+'W1TR03': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_254285.pdf', 
+
+ //Medtronic Tavr
+'MEDTRONIC EVOLUT FX TAVR': 'https://www.medtronic.com/content/dam/emanuals/cardio/M004015C001DOC1_RevD_view.pdf', 
+'MEDTRONIC EVOLUT PRO TAVR': 'https://www.medtronic.com/content/dam/emanuals/cardio/M058433T001DOC1_Rev1D_EN_view.pdf',
+'MEDTRONIC EVOLUT R TAVR': 'https://www.medtronic.com/content/dam/emanuals/cardio/CONTRIB_198083.pdf',
+'MEDTRONIC EVOLUT COREVALUE TAVR': 'https://www.medtronic.com/content/dam/emanuals/cardio/CONTRIB_192454.pdf',
+'MEDTRONIC EVOLUT FX+ TAVR': 'https://www.medtronic.com/content/dam/emanuals/cardio/CONTRIB_192454.pdf',
+
+//Medtronic loop recorders
+'LINQ11': '../implantGuides/linq.html',
+'LNQ11': '../implantGuides/linq.html',
+'LNQ22': '../implantGuides/linq.html',
+'LINQ22': '../implantGuides/linq.html',
+'REVEAL XT': '../implantGuides/reveal.html', 
+'9529': '../implantGuides/reveal.html', 
+
+////Medtronic DBS
+'MEDTRONIC ACTIVA PC DBS': 'medtronicImplants/medtronicDBS.pdf', 
+'MEDTRONIC ACTIVA SC DBS': 'medtronicImplants/medtronicDBS.pdf',
+'MEDTRONIC ACTIVA RC DBS': 'medtronicImplants/medtronicDBS.pdf',
+'37601': 'medtronicImplants/medtronicDBS.pdf', 
+'37603' : 'medtronicImplants/medtronicDBS.pdf', 
+'37612' : 'medtronicImplants/medtronicDBS.pdf', 
+'37602' : 'medtronicImplants/medtronicDBS.pdf', 
+'MEDTRONIC PERCEPT PC DBS' : 'medtronicImplants/medtronicDBS.pdf', 
+'MEDTRONIC PERCEPT RC DBS' : 'medtronicImplants/medtronicDBS.pdf', 
+'B35200': 'medtronicImplants/medtronicDBS.pdf', 
+'B35300': 'medtronicImplants/medtronicDBS.pdf', 
+'MEDTRONIC SOLETRA DBS': 'https://www.medtronic.com/content/dam/emanuals/neuro/CONTRIB_228155.pdf',
+'7426': 'https://www.medtronic.com/content/dam/emanuals/neuro/CONTRIB_228155.pdf',
+'MEDTRONIC KINETRA DBS': 'https://www.medtronic.com/content/dam/emanuals/neuro/CONTRIB_228155.pdf',
+'7428': 'https://www.medtronic.com/content/dam/emanuals/neuro/CONTRIB_228155.pdf',
+
+//Medtronic Neurostimulator
+'MEDTRONIC PRIME ADVANCED NEUROSTIMULATOR': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'97702': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'97715': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'97716': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'977005': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'977006': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'97714': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'97713': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'97712': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'37701': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'37702': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'37703': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'37712': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'37711': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'37711': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'37712': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'37713': 'medtronicImplants/medtronicNeuroStim.pdf',
+'37714': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'7479': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'7479B': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'7427V': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'7427': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'977117': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'977118': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'977119': 'medtronicImplants/medtronicNeuroStim.pdf', 
+'7425': 'medtronicImplants/medtronicNeuroStim.pdf', 
+
+//Coils
+'OPTIMA COIL': '../implantGuides/optima.html', 
+'BARRICADE COIL': '../implantGuides/barricade.html',
+'PENUMBRA COIL': 'https://www.penumbrainc.com/mri-compatibility/', 
+'LP COIL': 'https://www.penumbrainc.com/mri-compatibility/', 
+'RUBY COIL'  : 'https://www.penumbrainc.com/mri-compatibility/', 
+'PENUMBRA POD SYSTEM': 'https://www.penumbrainc.com/mri-compatibility/', 
+'PENUMBRA SMART COIL': 'https://www.penumbrainc.com/mri-compatibility/', 
+'SWIFT COIL SYSTEM': 'https://www.penumbrainc.com/mri-compatibility/', 
+//MicroVention coils
+'HYDROFRAME COIL': 'https://www.microvention.com/products/hydrosoft3d/additional-information/mri-safety-information#content',
+'MICROPLEX  COIL': 'https://www.microvention.com/products/hydrosoft3d/additional-information/mri-safety-information#content',
+'HYDRO COIL': 'https://www.microvention.com/products/hydrosoft3d/additional-information/mri-safety-information#content',
+'COSMOS PLATINUM COILS': 'https://www.microvention.com/products/cosmos/additional-information/mri-safety-information',
+
+
+//IVC filter
+'OPTION ELITE': 'https://www.argonmedical.com/wp-content/uploads/2022/09/OptionELITE-70cm-IFU.pdf',
+
+//Sacral Neuromodulation (SNM) 
+ 'AXONICS': 'https://www.axonics.com/images/hcp/resources/03-16-2022/110-0093-001rY_-_MRI_Patient_Guidelines_Axonics_SNM_System_US_English.pdf',
+ '1101' : 'https://www.axonics.com/images/hcp/resources/03-16-2022/110-0093-001rY_-_MRI_Patient_Guidelines_Axonics_SNM_System_US_English.pdf',
+ '4101': 'https://www.axonics.com/images/hcp/resources/03-16-2022/110-0093-001rY_-_MRI_Patient_Guidelines_Axonics_SNM_System_US_English.pdf',
+
+
+ //Medtronic Neurostimulator
+'MEDTRONIC RESTORE': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf', 
+'37712': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf', 
+'VANTA': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf', 
+'977006': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf', 
+'MEDTRONIC ITREL 4' : 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf', 
+'37704': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf', 
+'37703': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf', 
+'ITREL 3': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf', 
+'7425': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',
+'MEDTRONIC RESTORE SENSOR': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',
+'37714': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',
+'RESTORE ULTRA': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',
+'97712': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',
+'MEDTRONIC RESTORE ADVANCED': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',
+'97713': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',
+'97714': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',
+'37711': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',
+'MEDTRONIC VERSITREL': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',
+'7427V': 'https://www.medtronic.com/content/dam/emanuals/neuro/M939858A_a_028_view.pdf',
+
+//Boston Scientific penile implants
+'BOSTON SCIENTIFIC AMS 700': '../bostonImplants/AMS700.pdf',
+'BOSTON SCIENTIFIC AMS 800': '../bostonImplants/AMS800.pdf',
+
+//Medtronic interstim
+'MEDTRONIC INTERSTIM': '../implantGuides/InterStim.html',
+'MEDTRONIC INTERSTIM 2': '../implantGuides/InterStim.html',
+'MEDTRONIC INTERSTIM X': '../implantGuides/InterStim.html',
+'MEDTRONIC INTERSTIM TWIN': '../implantGuides/InterStim.html',
+'3023': '../implantGuides/InterStim.html',
+'3058' : '../implantGuides/InterStim.html',
+'97810': '../implantGuides/InterStim.html',
+'97800': '../implantGuides/InterStim.html',
+'7427T' : '../implantGuides/InterStim.html',
+
+//Biotronik pacemakers/ICDs
+'ENITRA': 'https://www.promricheck.com/spring/welcome?execution=e11s1',
+'EVITY': 'https://www.promricheck.com/spring/welcome?execution=e11s1',
+'ENTICOS': 'https://www.promricheck.com/spring/welcome?execution=e11s1',
+'EDORA': 'https://www.promricheck.com/spring/welcome?execution=e11s1',
+'ACTICOR 7 DR-T': 'https://www.promricheck.com/spring/welcome?execution=e11s1',
+'ACTICOR 7 VR-T': 'https://www.promricheck.com/spring/welcome?execution=e11s1',
+'INVENTRA 7 VR-T DX': 'https://www.promricheck.com/spring/welcome?execution=e11s1',
+'RIVACOR 7 VR-T': 'https://www.promricheck.com/spring/welcome?execution=e11s1',
+'RIVACOR 7 DR-T': 'https://www.promricheck.com/spring/welcome?execution=e11s1',
+'ACTICOR 7': 'https://www.promricheck.com/spring/welcome?execution=e11s1',
+
+//Abbott leadless pacemaker
+'ABBOTT LEADLESS PACEMAKER AVEIR': 'abbottImplants/aveirPacemaker.pdf',
+'LSP112V' : 'abbottImplants/aveirPacemaker.pdf',
+'LSP202V':  'abbottImplants/aveirPacemaker.pdf',
+'LSP201A':  'abbottImplants/aveirPacemaker.pdf',
+
+//Biotronik cardiac monitor
+'BIOMONITOR': '../biotronikImplants/biomonitor.pdf',
+'BIOMONITOR 2': '../biotronikImplants/biomonitor.pdf',
+'BIOMONITOR 3': '../biotronikImplants/biomonitor.pdf',
+'BIOMONITOR 3M': '../biotronikImplants/biomonitor.pdf',
+'BIOMONITOR 4': '../biotronikImplants/biomonitor.pdf',
+
+//Codman programmable shunts
+'CODMAN CERTAS': 'implantGuides/codman.html',
+'CODMAN HAKIM': 'implantGuides/codman.html',
+'CODMAN': 'implantGuides/codman.html',
+
+//Inspire sleep apnea implant
+'INSPIRE': 'implantGuides/inspire.pdf',
+'3028': 'implantGuides/inspire.pdf',
+'3024': 'implantGuides/inspire.pdf',
+
+//Abbott pacemakers and 
+'ASSURITY': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'PM1272': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'PM2272': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'PM1172': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'PM2172': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'ENDURITY': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'ACCENT': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'PM1224': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'PM2218': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'PM3542': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'QUADRA ALLURE': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'PM3562' : 'abbottImplants/abbottPacemakerIcd.pdf', 
+'QUADRA ALLURE MP': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD1311-36Q': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD1311' : 'abbottImplants/abbottPacemakerIcd.pdf', 
+'ELLIPSE': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD1411-36Q' : 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD1411-36QC' : 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD1411': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD1411-36QC' : 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD1411' : 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD2411-36Q': 'abbottImplants/abbottPacemakerIcd.pdf',
+'CD2411-36QC': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD2411'  : 'abbottImplants/abbottPacemakerIcd.pdf',
+'CD1357-40Q': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'FORTIFY ASSURA': 'abbottImplants/abbottPacemakerIcd.pdf',
+ 'CD1357-40QC'  : 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD1357': 'abbottImplants/abbottPacemakerIcd.pdf',
+'CD2357-40Q': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD2357-40QC': 'abbottImplants/abbottPacemakerIcd.pdf',
+'CD2357': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD3365-40Q': 'abbottImplants/abbottPacemakerIcd.pdf',
+'QUADRA ASSURA': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD3365-40QC': 'abbottImplants/abbottPacemakerIcd.pdf',
+'CD3365': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD3369-40Q': 'abbottImplants/abbottPacemakerIcd.pdf',
+'CD3369-40QC': 'abbottImplants/abbottPacemakerIcd.pdf', 
+'CD3369': 'abbottImplants/abbottPacemakerIcd.pdf',
+
+
+//Abbott neurostimulators
+'PROCLAIM XR': 'abbottImplants/neurostimulation.pdf', 
+'3660': 'abbottImplants/neurostimulation.pdf', 
+'3662': 'abbottImplants/neurostimulation.pdf', 
+'PROCLAIM DRG': 'abbottImplants/newAbbottProclaimMRIsettings.pdf',
+'3664': 'abbottImplants/newAbbottProclaimMRIsettings.pdf',
+'PROTEGE': 'abbottImplants/neurostimulation.pdf', 
+'3771': 'abbottImplants/neurostimulation.pdf', 
+'3772': 'abbottImplants/neurostimulation.pdf', 
+'ETERNA' : 'abbottImplants/abbottEterna.pdf',
+
+//Abbott DBS
+'INFINITY 5': 'abbottImplants/infinity.pdf',
+'6660': 'abbottImplants/infinity.pdf',
+'INFINITY 5': 'abbottImplants/infinity.pdf',
+'INFINITY 7': 'abbottImplants/infinity.pdf',
+'6662'  : 'abbottImplants/infinity.pdf',
+'LIBERTA RC': 'abbottImplants/infinity.pdf',
+'62400': 'abbottImplants/infinity.pdf',
+
+
+ //Boston scientific pacemakers
+ 'VITALIO': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'K275': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'ESSENTIO': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'L110': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'L111': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'L131': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'PROPONENT': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'L210': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'L211': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'L231': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'ACCOLADE' : 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'L310': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'L311': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'L331': 'bostonImplants/bostonScientificPacemakers.pdf', 
+'VALITUDE': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'U128': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'VISIONIST': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'U228': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'EMBLEM': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'A209': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 'A219': 'bostonImplants/bostonScientificPacemakers.pdf', 
+ 
+//Boston scientific spinal cord stimulator
+'PRECISION MONTAGE MRI': 'bostonImplants/precisionMontageSCS.pdf', 
+'SC-1200': 'bostonImplants/precisionMontageSCS.pdf', 
+'PRECISION SPECTRA' : 'bostonImplants/precisionSpectraSCS.pdf', 
+'SC-1132': 'bostonImplants/precisionSpectraSCS.pdf', 
+'SPECTRA WAVEWRITER' : 'bostonImplants/spectraWavewriterSCS.pdf', 
+'SC-1160' : 'bostonImplants/spectraWavewriterSCS.pdf', 
+'WAVEWRITER ALPHA IPG': 'bostonImplants/wavewriterAlphaSCS.pdf', 
+'WAVEWRITER ALPHA 16 IPG': 'bostonImplants/wavewriterAlphaSCS.pdf', 
+'WAVEWRITER ALPHA PRIME IPG': 'bostonImplants/wavewriterAlphaSCS.pdf', 
+'WAVEWRITER ALPHA PRIME 16 IPG': 'bostonImplants/wavewriterAlphaSCS.pdf', 
+'SC-1232': 'bostonImplants/wavewriterAlphaSCS.pdf', 
+'SC-1216' : 'bostonImplants/wavewriterAlphaSCS.pdf', 
+'SC-1432' : 'bostonImplants/wavewriterAlphaSCS.pdf', 
+'SC-1416': 'bostonImplants/wavewriterAlphaSCS.pdf', 
+
+//Medtronic Non-MRI Conditional devices
+'ADAPTA': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'ADDR01': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'ADDR03': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'ADDRO6': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'ADDRS1': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'VERSA': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'SENSIA': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'VEDR01': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'SEDR01': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'SEDRL1': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'SED01': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'SESR01': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'SES01': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'RELIA' : 'Docs/medtronic-non-mriConditional-devices.pdf',
+'REDRO1': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'RED01': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'RESR01' : 'Docs/medtronic-non-mriConditional-devices.pdf',
+'RES01': 'Docs/medtronic-non-mriConditional-devices.pdf',
+'REVDD01': 'Docs/medtronic-non-mriConditional-devices.pdf',
+
+ //ST Jude/Abbott pacemakers and ICDs
+'AVANT': 'abbottImplants/STjude.pdf',
+'NEUTRINO': 'abbottImplants/STjude.pdf',
+'CDVRA700Q': 'abbottImplants/STjude.pdf',
+'CDDRA700Q': 'abbottImplants/STjude.pdf',
+'CDVRA800Q': 'abbottImplants/STjude.pdf',
+'CDVRA600Q': 'abbottImplants/STjude.pdf',
+'CDDRA800Q': 'abbottImplants/STjude.pdf',
+'CDDRA600Q' : 'abbottImplants/STjude.pdf',
+'CDHFA700Q': 'abbottImplants/STjude.pdf',
+'CDHFA800Q': 'abbottImplants/STjude.pdf',
+'CDHFA600Q': 'abbottImplants/STjude.pdf',
+'ENTRANT': 'abbottImplants/STjude.pdf',
+'CDVRA300Q': 'abbottImplants/STjude.pdf',
+'CDDRA300Q': 'abbottImplants/STjude.pdf',
+'CDHFA300Q': 'abbottImplants/STjude.pdf',
+'GALLANT' : 'abbottImplants/STjude.pdf',
+'CDVRA500Q': 'abbottImplants/STjude.pdf',
+'CDDRA500Q': 'abbottImplants/STjude.pdf',
+'CDHFA500Q': 'abbottImplants/STjude.pdf',
+
+//Boston Scientific Watchman
+'WATCHMAN': 'bostonImplants/bostonWatchman.pdf',
+ 
+//Abbott Amplatzer
+'AMPLATZER AMULET': 'abbottImplants/amplatzerAmulet.pdf',
+'AMPLATZER VASCULAR PLUG 4': 'abbottImplants/amplatzerPlug4.pdf',
+'AMPLATZER VASCULAR PLUG 2': 'abbottImplants/amplatzerPlug2.pdf',
+'AMPLATZER DUCT OCCLUDER 2': 'abbottImplants/amplatzerDuctOccluder2.pdf',
+'AMPLATZER SEPTAL OCCLUDER': 'abbottImplants/amplatzerSeptalOccluder.pdf',
+'AMPLATZER TALISMAN PFO OCCLUDER': 'abbottImplants/amplatzerTalisman.pdf',
+'AMPLATZER PICCOLO OCCLUDER': 'abbottImplants/amplatzerPiccolo.pdf',
+
+//Urolift
+'UROLIFT': 'Docs/urolift.pdf',
+
+//Pipeline
+'PIPELINE FLEX EMBOLIXATION DEVICE': '../implantGuides/pipeLine.html',
+
+//WaveCrest Left Atrial Appendage Occlusion Device#
+'WAVECREST': 'http://www.mrisafety.com/OBJ_STATUS_view.php?editid1=11', 
+
+//Assurance Hemoclip
+'ASSURANCE HEMOCLIP': 'Docs/assuranceHemoclip.pdf', 
+
+//Rhythmlink
+'RHYTHMLINK': '../implantGuides/eeg.html',
+
+//Resolution clip
+'RESOLUTION CLIP': 'BostonImplants/resolutionClip.pdf',
+'RESOLUTION CLIP 360': 'BostonImplants/resolutionClip.pdf',
+'RESOLUTION CLIP 360 ULTRA': 'BostonImplants/resolutionClip.pdf',
+
+//Mirena IUD
+'MIRENA IUD': 'https://www.mrisafety.com/SafetyInformation_view.php?editid1=181', 
+
+//Essure permanent birth control
+ 'ESSURE': 'https://labeling.bayerhealthcare.com/html/products/pi/essure_ifu.pdf', 
+
+//Vivistim neurostimulator
+ 'VIVISTIM NEUROSTIMULATOR': 'Docs/Vivistim.pdf',
+
+//KURZ Passive Middle Ear Implants
+ 'KURZ MIDDLE EAR IMPLANTS': 'Docs/kurzEarImplants.pdf',
+
+//MicroPort pacemakers
+'MICROPORT PACEMAKERS': 'https://www.crm.microport.com/automri/en/radiologist/tool/device-type#device-type', 
+
+'ALIZEA DR': 'https://www.crm.microport.com/automri/en/radiologist/tool/device-type#device-type', 
+'ALIZEA SR': 'https://www.crm.microport.com/automri/en/radiologist/tool/device-type#device-type', 
+'CELEA DR': 'https://www.crm.microport.com/automri/en/radiologist/tool/device-type#device-type', 
+'CELEA SR': 'https://www.crm.microport.com/automri/en/radiologist/tool/device-type#device-type', 
 
 
 
+//Boston Scientific ICDs
+'VIGILANT': 'BostonImplants/bostonICDs.pdf',
+'D220': 'BostonImplants/bostonICDs.pdf',
+'D221' : 'BostonImplants/bostonICDs.pdf',
+'D232': 'BostonImplants/bostonICDs.pdf',
+'D233': 'BostonImplants/bostonICDs.pdf',
+'G247': 'BostonImplants/bostonICDs.pdf',
+'G228': 'BostonImplants/bostonICDs.pdf',
+'G248': 'BostonImplants/bostonICDs.pdf',
+'G237': 'BostonImplants/bostonICDs.pdf',
+'G224': 'BostonImplants/bostonICDs.pdf',
+'G225': 'BostonImplants/bostonICDs.pdf',
+'G166': 'BostonImplants/bostonICDs.pdf',
+'G168': 'BostonImplants/bostonICDs.pdf',
+'G156': 'BostonImplants/bostonICDs.pdf',
+'G158': 'BostonImplants/bostonICDs.pdf',
+'G150': 'BostonImplants/bostonICDs.pdf',
+'G151': 'BostonImplants/bostonICDs.pdf',
+'INOGEN': 'BostonImplants/bostonICDs.pdf',
+'G146': 'BostonImplants/bostonICDs.pdf',
+'G148': 'BostonImplants/bostonICDs.pdf',
+'G140': 'BostonImplants/bostonICDs.pdf',
+'G141': 'BostonImplants/bostonICDs.pdf',
+'MOMENTUM': 'BostonImplants/bostonICDs.pdf',
+'G128': 'BostonImplants/bostonICDs.pdf',
+'G138': 'BostonImplants/bostonICDs.pdf',
+'G124': 'BostonImplants/bostonICDs.pdf',
+'G125' : 'BostonImplants/bostonICDs.pdf',
+'ORIGEN': 'BostonImplants/bostonICDs.pdf',
+'G056': 'BostonImplants/bostonICDs.pdf',
+'G058': 'BostonImplants/bostonICDs.pdf',
+'G050': 'BostonImplants/bostonICDs.pdf',
+'G051' : 'BostonImplants/bostonICDs.pdf',
+'RESONATE': 'BostonImplants/bostonICDs.pdf',
+'G524': 'BostonImplants/bostonICDs.pdf',
+'G525': 'BostonImplants/bostonICDs.pdf',
+'G528': 'BostonImplants/bostonICDs.pdf',
+'G548': 'BostonImplants/bostonICDs.pdf',
+'G537': 'BostonImplants/bostonICDs.pdf',
+'G547': 'BostonImplants/bostonICDs.pdf',
+'G428': 'BostonImplants/bostonICDs.pdf',
+'G448': 'BostonImplants/bostonICDs.pdf',
+'G437': 'BostonImplants/bostonICDs.pdf',
+'G447': 'BostonImplants/bostonICDs.pdf',
+'G424': 'BostonImplants/bostonICDs.pdf',
+'G425': 'BostonImplants/bostonICDs.pdf',
+'D160': 'BostonImplants/bostonICDs.pdf',
+'D161': 'BostonImplants/bostonICDs.pdf',
+'D162': 'BostonImplants/bostonICDs.pdf',
+'D163': 'BostonImplants/bostonICDs.pdf',
+'D150': 'BostonImplants/bostonICDs.pdf',
+'D151': 'BostonImplants/bostonICDs.pdf',
+'D152': 'BostonImplants/bostonICDs.pdf',
+'D020': 'BostonImplants/bostonICDs.pdf',
+'D021': 'BostonImplants/bostonICDs.pdf',
+'D153': 'BostonImplants/bostonICDs.pdf',
+'D022': 'BostonImplants/bostonICDs.pdf',
+'D022': 'BostonImplants/bostonICDs.pdf',
+'D140': 'BostonImplants/bostonICDs.pdf',
+'D141': 'BostonImplants/bostonICDs.pdf',
+'D142': 'BostonImplants/bostonICDs.pdf',
+'D143': 'BostonImplants/bostonICDs.pdf',
+'D010': 'BostonImplants/bostonICDs.pdf',
+'D011': 'BostonImplants/bostonICDs.pdf',
+'D012': 'BostonImplants/bostonICDs.pdf',
+'G146': 'BostonImplants/bostonICDs.pdf',
+'G148': 'BostonImplants/bostonICDs.pdf',
+'G140': 'BostonImplants/bostonICDs.pdf',
+'D013': 'BostonImplants/bostonICDs.pdf',
+'D120': 'BostonImplants/bostonICDs.pdf',
+'D121': 'BostonImplants/bostonICDs.pdf',
+'D050': 'BostonImplants/bostonICDs.pdf',
+'D051': 'BostonImplants/bostonICDs.pdf',
+'D052': 'BostonImplants/bostonICDs.pdf',
+'D053': 'BostonImplants/bostonICDs.pdf',
+'D000': 'BostonImplants/bostonICDs.pdf',
+'G058': 'BostonImplants/bostonICDs.pdf',
+'G050': 'BostonImplants/bostonICDs.pdf',
+'D001': 'BostonImplants/bostonICDs.pdf',
+'D002': 'BostonImplants/bostonICDs.pdf',
+'D003': 'BostonImplants/bostonICDs.pdf',
+'PERCIVA' : 'BostonImplants/bostonICDs.pdf',
+'D500': 'BostonImplants/bostonICDs.pdf',
+'D501': 'BostonImplants/bostonICDs.pdf',
+'D512': 'BostonImplants/bostonICDs.pdf',
+'D513': 'BostonImplants/bostonICDs.pdf',
+'D400': 'BostonImplants/bostonICDs.pdf',
+'D401': 'BostonImplants/bostonICDs.pdf',
+'D412': 'BostonImplants/bostonICDs.pdf',
+'D413': 'BostonImplants/bostonICDs.pdf',
+'D520': 'BostonImplants/bostonICDs.pdf',
+'D521': 'BostonImplants/bostonICDs.pdf',
+'D532': 'BostonImplants/bostonICDs.pdf',
+'D533': 'BostonImplants/bostonICDs.pdf',
+'D420': 'BostonImplants/bostonICDs.pdf',
+'D421': 'BostonImplants/bostonICDs.pdf',
+'D432': 'BostonImplants/bostonICDs.pdf',
+'D433': 'BostonImplants/bostonICDs.pdf',
 
-document.getElementById('resultBoxId').onclick = function(){
-  var implantInput = document.getElementById('implant');
-implantInput.addEventListener('keyup', function(event){
-  if(event.key === "13"){
-    event.preventDefault();
-    document.getElementById('pacerSubmit').click();
+//Medtronic Strata shunt
+'MEDTRONIC STRATA': '../implantGuides/strata.html',
+'MEDTRONIC STRATA 2':'../implantGuides/strata2.html',
+
+//ProGAV 2.0 shunt
+ 'PROGAV 2.0': 'Docs/proGav.pdf',
+
+
+//Cochlear implants Advanced Bionics and Cochlear
+'COCHLEAR': '../implantGuides/cochlear.html',
+'ADVANCED BIONICS': '../implantGuides/cochlear.html',
+'OSIA': '../implantGuides/cochlear.html',
+'BAHA': '../implantGuides/cochlear.html',
+'CI632': '../implantGuides/cochlear.html',
+'CI624': '../implantGuides/cochlear.html',
+'CI622': '../implantGuides/cochlear.html',
+'CI612': '../implantGuides/cochlear.html',
+'CI532': '../implantGuides/cochlear.html',
+'CI522': '../implantGuides/cochlear.html',
+'CI512': '../implantGuides/cochlear.html',
+'ABI541': '../implantGuides/cochlear.html',
+'CI422': '../implantGuides/cochlear.html',
+'CI24RECA': '../implantGuides/cochlear.html',
+'CI24REH': '../implantGuides/cochlear.html',
+'CI24REST': '../implantGuides/cochlear.html',
+'ABI24M': '../implantGuides/cochlear.html',
+'CI24R': '../implantGuides/cochlear.html',
+'CI24M': '../implantGuides/cochlear.html',
+'CI11+11+2M': '../implantGuides/cochlear.html',
+'CI22M': '../implantGuides/cochlear.html',
+'HIRES ULTRA 3D': '../implantGuides/cochlear.html',
+
+//MED-EL Cochlear Implants
+'MED-EL COCHLEAR SYNCHRONY 2': 'Docs/MED-ELCochlearImplant.pdf', 
+'MI1250': 'Docs/MED-ELCochlearImplant.pdf', 
+'MI1200': 'Docs/MED-ELCochlearImplant.pdf', 
+'MED-EL COCHLEAR CONCERT': 'Docs/MED-ELCochlearImplant.pdf', 
+'MI1000': 'Docs/MED-ELCochlearImplant.pdf', 
+'MED-EL COCHLEAR SONATA': 'Docs/MED-ELCochlearImplant.pdf', 
+'MED-EL COCHLEAR PULSAR': 'Docs/MED-ELCochlearImplant.pdf', 
+'C40+': 'Docs/MED-ELCochlearImplant.pdf', 
+'C40': 'Docs/MED-ELCochlearImplant.pdf', 
+
+//BOSTON SCIENTIFIC WALLFLEX STENT
+'BOSTON SCIENTIFIC WALLFLEX STENT': 'bostonImplants/wallflexStent.pdf',
+'COLONIC AND DUODENAL SOFT STENT': 'bostonImplants/wallflexStent.pdf',
+
+//GORE occluders
+'GORE TAG': 'https://www.goremedical.com/support/mri-safety-information',
+'GORE VIABIL': 'https://www.goremedical.com/support/mri-safety-information',
+'GORE': 'https://www.goremedical.com/support/mri-safety-information',
+'GORE CARDIOFORM': 'https://www.goremedical.com/support/mri-safety-information',
+'GORE EXCLUDER': 'https://www.goremedical.com/support/mri-safety-information',
+'GORE VIABAHN': 'https://www.goremedical.com/support/mri-safety-information',
+'GORE VIATORR': 'https://www.goremedical.com/support/mri-safety-information',
+'GORE BIO-A' : 'https://www.goremedical.com/support/mri-safety-information',
+'GORE DUALMESH': 'https://www.goremedical.com/support/mri-safety-information',
+'GORE SEAMGUARD': 'https://www.goremedical.com/support/mri-safety-information',
+'GORE TEX': 'https://www.goremedical.com/support/mri-safety-information',
+'GORE SYNECOR': 'https://www.goremedical.com/support/mri-safety-information',
+
+//Lockado hemostasis clip
+'LOCKADO HEMOSTASIS CLIP': 'Docs/LockadoClip.pdf',
+
+//ST Jude cardiac monitor
+'ST JUDE CONFIRM RX CARDIAC MONITOR': 'Docs/dm3500.pdf',
+'DM3500': 'Docs/dm3500.pdf',
+
+//Boston scientific coronary stent
+'BOSTON SCIENTIFIC SYNERGY XD': 'bostonImplants/synergyStent.pdf',
+'BOSTON SCIENTIFIC SYNERGY MONORAIL': 'bostonImplants/monorailStent.pdf',
+'BOSTON SCIENTIFIC AXIOS STENT': 'bostonImplants/axiosStent.pdf',
+
+//Kyleena IUD
+'KYLEENA IUD': 'implantGuides/kyleena.html',
+
+// Grace Medical Otologic Implants
+'GRACE MEDICAL OTOLOGIC IMPLANTS': 'https://www.gracemedical.com/mri-info/',
+'GRACE MEDICAL ALTO OTOLOGIC IMPLANT': 'https://www.gracemedical.com/mri-info/',
+'612-001L': 'https://www.gracemedical.com/mri-info/',
+'6XX': 'https://www.gracemedical.com/mri-info/',
+'612-002R': 'https://www.gracemedical.com/mri-info/',
+'GRACE MEDICAL 400-XXX, 401-XXX, 402-XXX, 403-XXX, 406-XXX, 408-XXX, 436-XXX' : 'https://www.gracemedical.com/mri-info/',
+'GRACE MEDICAL 1XX, 190-XXX, 749-XXX': 'https://www.gracemedical.com/mri-info/',
+'GRACE MEDICAL 209, 210, 259, 260, 270, 271, 272, 273, 293, 293A' : 'https://www.gracemedical.com/mri-info/',
+'650-075': 'https://www.gracemedical.com/mri-info/',
+'655-075': 'https://www.gracemedical.com/mri-info/',
+'GRACE MEDICAL 756-XXX, 757-XXX' : 'https://www.gracemedical.com/mri-info/',
+'GRACE MEDICAL K-HELIX OTOLOGIC IMPLANT' : 'https://www.gracemedical.com/mri-info/',
+'GRACE MEDICAL STRASNICK OTOLOGIC IMPLANT': 'https://www.gracemedical.com/mri-info/',
+'GRACE MEDICAL 220-XXX, 270-XXX': 'https://www.gracemedical.com/mri-info/',
+'GRACE MEDICAL 200 THROUGH 208-250 THROUGH 258, 220-800': 'https://www.gracemedical.com/mri-info/',
+
+//Medtronic SynchroMed pump
+'SYNCHROMED 2': '../implantGuides/synchromed.html',
+'SYNCHROMED 3': '../implantGuides/synchromed.html',
+ '8637': '../implantGuides/synchromed.html',
+ '8626': '../implantGuides/synchromed.html',
+'8627': '../implantGuides/synchromed.html',
+'8615': '../implantGuides/synchromed.html',
+'8616': '../implantGuides/synchromed.html',
+'8617': '../implantGuides/synchromed.html',
+'8618': '../implantGuides/synchromed.html',
+'ISOMED': '../implantGuides/synchromed.html',
+'8472': '../implantGuides/synchromed.html',
+'8667': '../implantGuides/synchromed.html',
+'SYNCHROMED': '../implantGuides/synchromed.html',
+'SYNCHROMED EL': '../implantGuides/synchromed.html',
+
+//Abbott MitraClip
+'ABBOTT MITRA CLIP':  'abbottImplants/mitraClip.pdf',
+//Abbott MitraClip G4
+'ABBOTT MITRA CLIP G4': 'abbottImplants/mitraClipG4.pdf',
+
+//Impulse Optimizer smart mini pulse generator
+'IMPULSE DYNAMICS': 'Docs/impulseOptimizer.pdf',
+'OPTIMIZER': 'Docs/impulseOptimizer.pdf',
+
+//Ivantis Hydrus Microstent
+'HYDRUS MICROSTENT': 'Docs/hydrusMicrostent.pdf',
+'FOOO22': 'Docs/hydrusMicrostent.pdf',
+'IVANTIS': 'Docs/hydrusMicrostent.pdf',
+
+//VNS Therapy Livanova
+'LIVANOVA': 'Docs/livanovaVns.pdf',
+'103': 'Docs/livanovaVns.pdf',
+'105': 'Docs/livanovaVns.pdf',
+'106': 'Docs/livanovaVns.pdf',
+'1000': 'Docs/livanovaVns.pdf',
+'ASPIREHC': 'Docs/livanovaVns.pdf',
+'ASPIRESR': 'Docs/livanovaVns.pdf',
+'SENTIVA' : 'Docs/livanovaVns.pdf',
+'102': 'Docs/livanovaVns.pdf',
+'PULSE DUO' : 'Docs/livanovaVns.pdf',
+'102R': 'Docs/livanovaVns.pdf',
+'DEMIPULSE DUO': 'Docs/livanovaVns.pdf',
+'104': 'Docs/livanovaVns.pdf',
+'100C': 'Docs/livanovaVns.pdf',
+'101': 'Docs/livanovaVns.pdf',
+
+//Coloplast penile implant
+'100B': 'Docs/coloplastPenileImplant.pdf',
+'COLOPLAST': 'Docs/coloplastPenileImplant.pdf',
+'GENESIS': 'Docs/coloplastPenileImplant.pdf',
+'ACU-FORM': 'Docs/coloplastPenileImplant.pdf',
+'MALLEABLE': 'Docs/coloplastPenileImplant.pdf',
+'TITAN': 'Docs/coloplastPenileImplant.pdf',
+'ALPHA 1': 'Docs/coloplastPenileImplant.pdf',
+'MARK 2': 'Docs/coloplastPenileImplant.pdf',
+'EXCEL': 'Docs/coloplastPenileImplant.pdf',
+
+//Cordis Genesis peripheral stent
+'CORDIS PALMAZ GENESIS STENT': 'Docs/cordisStent.pdf',
+'PALMAZ GENESIS': 'Docs/cordisStent.pdf',
+'PG395P': 'Docs/cordisStent.pdf',
+'PG295P': 'Docs/cordisStent.pdf',
+
+//Boston Scientific WallStent
+'BOSTON SCIENTIFIC WALLSTENT': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC EXPRESS SD RENAL': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC WALLGRAFT': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC CAROTID WALLSTENT': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC EPIC': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC WALFLEX': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC SENTINOL': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC GREENFIELD': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC TITANIUM GREENFIELD': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC INNOVA': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC TITANIUM GREENFIELD': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC INNOVA': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC EXPRESS LD ILIAC': 'bostonImplants/bostonScientificWallstent.pdf',
+'BOSTON SCIENTIFIC EXPRESS LD BILIARY': 'bostonImplants/bostonScientificWallstent.pdf',
+
+//Abbott Absolute and Omnilink stents
+'ABBOTT ABSOLUTE PRO':  'abbottImplants/abbottAbsoluteOmnilinkStents.pdf',
+'ABBOTT OMNILINK ELITE':  'abbottImplants/abbottAbsoluteOmnilinkStents.pdf',
+
+//Boston Scientific Insertable Cardiac Monitor(ICM)
+'BOSTON SCIENTIFIC LUX-DX': 'bostonImplants/lux-dx.pdf',
+'BOSTON SCIENTIFIC LUX-DX2': 'bostonImplants/lux-dx.pdf',
+'M301': 'bostonImplants/lux-dx.pdf',
+'M302': 'bostonImplants/lux-dx.pdf',
+'M312': 'bostonImplants/lux-dx.pdf',
+
+//Medtronic annuloplasty ring
+'638R':  'medtronicImplants/medtronicAnnuloplastyRing.pdf',
+'638B':  'medtronicImplants/medtronicAnnuloplastyRing.pdf', 
+'638RL32':  'medtronicImplants/medtronicAnnuloplastyRing.pdf', 
+'MEDTRONIC ANNULOPLASTY RING':  'medtronicImplants/medtronicAnnuloplastyRing.pdf',
+'CG FUTURE':  'medtronicImplants/medtronicAnnuloplastyRing.pdf', 
+
+//AngelMed guardian Implanted Medical Device(IMD)
+'ANGELMED GUARDIAN': 'Docs/angelMedImd.pdf',
+
+//Medtronic Resolute Integrity heart stent
+'MEDTRONIC RESOLUTE INTEGRITY':  'medtronicImplants/medtronicResoluteStent.pdf', 
+
+//Edwards Lifesciences TAVR
+'EDWARDS SAPIEN 3': '../implantGuides/sapien.html',
+'9600CM20A': '../implantGuides/sapien.html',
+'9600CM23A': '../implantGuides/sapien.html',
+'9600CM26A': '../implantGuides/sapien.html',
+'9600CM29A': '../implantGuides/sapien.html',
+'9600TFX': '../implantGuides/sapien.html',
+
+//Boston Scientific Promus Elite heart stent
+'BOSTON SCIENTIFIC PROMUS ELITE': 'bostonImplants/bostonScientificPromusEliteStent.pdf',
+
+//CVRx Barostim implantable pulse generator (IPG)
+'BAROSTIM': 'Docs/barostimIpg.pdf',
+'BAROSTIM NEO': 'Docs/barostimIpg.pdf',
+'BAROSTIM NEO2': 'Docs/barostimIpg.pdf',
+'BAROSTIM LEGACY': 'Docs/barostimIpg.pdf',
+'2100': 'Docs/barostimIpg.pdf',
+'2102': 'Docs/barostimIpg.pdf',
+'2104': 'Docs/barostimIpg.pdf',
+
+//Medtronic Onyx liquid embolic system
+'MEDTRONIC ONYX LIQUID EMBOLIC SYSTEM': 'https://www.mrisafety.com/TMDL_list.php?qs=Onyx', 
+'ONYX HD-500': 'https://www.mrisafety.com/TMDL_list.php?qs=Onyx', 
+
+//Enterra Medical Gastric Electrical Stimulation System
+'ENTERRA': '../implantGuides/enterra.html',
+'ENTERRA 2': '../implantGuides/enterra.html',
+'37800': '../implantGuides/enterra.html',
+'3116': '../implantGuides/enterra.html',
+
+//Synovis Micro Company Coupler ring
+'MCA GEM COUPLER': 'Docs/MriCoupler.pdf', 
+'SYNOVIS MICRO COMPANY': 'Docs/MriCoupler.pdf', 
+
+//Medtronic Onyx Frontier heart stent
+ 'MEDTRONIC ONYX FRONTIER STENT':  'medtronicImplants/medtronicFrontierStent.pdf', 
+
+//Abbott Skypoint heart stent
+'ABBOTT XIENCE SKYPOINT STENT': 'abbottImplants/skypoint.pdf',
+
+//Abbott SIERRA heart stent
+'ABBOTT XIENCE SIERRA STENT': 'abbottImplants/Sierra.pdf',
+
+//Abbott PRIME heart stent
+'ABBOTT XIENCE PRIME STENT': 'abbottImplants/prime.pdf', 
+
+//Boston Scientific Venous Wallstent
+'BOSTON SCIENTIFIC VENOUS WALLSTENT': 'bostonImplants/bostonScientificVenousWallstent.pdf',
+
+//Carpentier-Edwards Lifesciences implants
+'CARPENTIER-EDWARDS AORTIC AND MITRAL BIOPROSTHESES': 'Docs/carpentierEdwardsImplants.pdf', 
+'2625': 'Docs/carpentierEdwardsImplants.pdf', 
+'6625': 'Docs/carpentierEdwardsImplants.pdf', 
+'2650': 'Docs/carpentierEdwardsImplants.pdf', 
+'6625LP': 'Docs/carpentierEdwardsImplants.pdf', 
+'6625-ESR-LP': 'Docs/carpentierEdwardsImplants.pdf', 
+'2700': 'Docs/carpentierEdwardsImplants.pdf', 
+'2700TFX': 'Docs/carpentierEdwardsImplants.pdf', 
+'2800': 'Docs/carpentierEdwardsImplants.pdf', 
+'2800TFX': 'Docs/carpentierEdwardsImplants.pdf', 
+'3000': 'Docs/carpentierEdwardsImplants.pdf', 
+'3000TFX': 'Docs/carpentierEdwardsImplants.pdf', 
+'3300TFX': 'Docs/carpentierEdwardsImplants.pdf', 
+'6900': 'Docs/carpentierEdwardsImplants.pdf', 
+'6900P': 'Docs/carpentierEdwardsImplants.pdf', 
+'6900PTFX': 'Docs/carpentierEdwardsImplants.pdf', 
+'7000': 'Docs/carpentierEdwardsImplants.pdf', 
+'7000TFX': 'Docs/carpentierEdwardsImplants.pdf', 
+'8300AB': 'Docs/carpentierEdwardsImplants.pdf', 
+'9000PHV': 'Docs/carpentierEdwardsImplants.pdf', 
+'11500A': 'Docs/carpentierEdwardsImplants.pdf', 
+'11060A': 'Docs/carpentierEdwardsImplants.pdf', 
+'11400M': 'Docs/carpentierEdwardsImplants.pdf', 
+'9000': 'Docs/carpentierEdwardsImplants.pdf', 
+'9000TFX': 'Docs/carpentierEdwardsImplants.pdf', 
+ '9300TFX': 'Docs/carpentierEdwardsImplants.pdf', 
+'9600TFX': 'Docs/carpentierEdwardsImplants.pdf',
+'9750TFX': 'Docs/carpentierEdwardsImplants.pdf', 
+'9755RSL': 'Docs/carpentierEdwardsImplants.pdf', 
+'14000RSL': 'Docs/carpentierEdwardsImplants.pdf', 
+'TMV3040B': 'Docs/carpentierEdwardsImplants.pdf', 
+'9650TMV': 'Docs/carpentierEdwardsImplants.pdf', 
+'9850TMV': 'Docs/carpentierEdwardsImplants.pdf', 
+'9850EV44': 'Docs/carpentierEdwardsImplants.pdf', 
+'9850EV48': 'Docs/carpentierEdwardsImplants.pdf', 
+'9850EV52': 'Docs/carpentierEdwardsImplants.pdf',
+'9850EV44': 'Docs/carpentierEdwardsImplants.pdf', 
+'9850EV48': 'Docs/carpentierEdwardsImplants.pdf', 
+'9850EV52': 'Docs/carpentierEdwardsImplants.pdf', 
+'9850EV56': 'Docs/carpentierEdwardsImplants.pdf', 
+'20000IS': 'Docs/carpentierEdwardsImplants.pdf', 
+'20000ISM': 'Docs/carpentierEdwardsImplants.pdf', 
+'9551S': 'Docs/carpentierEdwardsImplants.pdf', 
+'29AP4045': 'Docs/carpentierEdwardsImplants.pdf', 
+'9770DDS': 'Docs/carpentierEdwardsImplants.pdf', 
+'9780DDS': 'Docs/carpentierEdwardsImplants.pdf', 
+'9680DSC': 'Docs/carpentierEdwardsImplants.pdf', 
+'9680TFX29M': 'Docs/carpentierEdwardsImplants.pdf', 
+'9880DDS': 'Docs/carpentierEdwardsImplants.pdf', 
+'9880TFX29M': 'Docs/carpentierEdwardsImplants.pdf', 
+
+//Boston Scientific Vercise Genus DBS
+'BOSTON SCIENTIFIC VERCISE GENUS': 'bostonImplants/bostonScientificVerviseGenusDbs.pdf',
+'DB‑1408': 'bostonImplants/bostonScientificVerviseGenusDbs.pdf',
+'DB‑1416': 'bostonImplants/bostonScientificVerviseGenusDbs.pdf',
+'DB‑1432': 'bostonImplants/bostonScientificVerviseGenusDbs.pdf',
+'DB‑1216': 'bostonImplants/bostonScientificVerviseGenusDbs.pdf',
+'DB‑1232': 'bostonImplants/bostonScientificVerviseGenusDbs.pdf',
+'DB-1200-S': 'bostonImplants/bostonScientificVerviseGenusDbs.pdf',
+
+//Medtronic Resolute Onyx stent
+'MEDTRONIC RESOLUTE ONYX': 'medtronicImplants/medtronicResoluteOnyx.pdf',
+
+//Bravo PH capsule
+'BRAVO PH CAPSULE': '../implantGuides/medtronicBravo.html',
+
+//Codman CereLink ICP
+'CODMAN CERELINK ICP': 'Docs/cereLinkIcp.pdf',
+
+//Codman Microsensor ICP
+'CODMAN MICROSENSOR ICP': 'Docs/codmanMicroSensorIcp.pdf',
+
+//Abbott Amulet LEFT ATRIAL APPENDAGE OCCLUDER
+'ABBOTT AMULET LEFT ATRIAL APPENDAGE OCCLUDER': 'abbottImplants/abbottAmulet.pdf',
+
+//REMUNITY PUMP FOR REMODULIN
+'REMUNITY PUMP FOR REMODULIN': 'implantGuides/remunityPump.html', 
+
+//EV3 EverFlex stent
+'EV3 EVERFLEX PERIPHERAL STENT': '/implantGuides/everFlexStent.html',
+'EV3 PROTEGE EVERFLEX  BILIARY STENT': '/implantGuides/everFlexStent.html',
+
+//EV3 Protege stent
+'EV3 PROTEGE EVERFLEX PERIPHERAL STENT': 'Docs/protegeEverflexPeripheralStent.pdf',
+
+//Abbott mechanical heart valve
+'ABBOTT SJM REGENT MECHANICAL HEART VALVES': 'abbottImplants/abbottHeartValves.pdf',
+'ABBOTT SJM STANDARD AND MASTERS SERIES MECHANICAL HEART VALVES': 'abbottImplants/abbottHeartValves.pdf',
+'ABBOTT BIOCOR STENTED TISSUE VALVES': 'abbottImplants/abbottHeartValves.pdf',
+'ABBOTT EPIC STENTED TISSUE VALVES': 'abbottImplants/abbottHeartValves.pdf',
+'ABBOTT TRIFECTA TISSUE VALVES': 'abbottImplants/abbottHeartValves.pdf',
+'ABBOTT SJM RIGID SADDLE ANNULOPLASTY RINGS': 'abbottImplants/abbottHeartValves.pdf',
+'ABBOTT SJM SEMI-RIGID ANNULOPLASTY RINGS': 'abbottImplants/abbottHeartValves.pdf',
+'ABBOTT ATTUNE FLEXIABLE ADJUSTABLE ANNULOPLASTY RINGS': 'abbottImplants/abbottHeartValves.pdf',
+'ABBOTT SJM TAILOR FLEXIBLE ANNULOPLASTY RINGS': 'abbottImplants/abbottHeartValves.pdf',
+'ABBOTT SJM TAILOR FLEXIABLE ANNULOPLASTY BAND': 'abbottImplants/abbottHeartValves.pdf',
+
+//Nexplanon Contraceptive Implant
+'NEXPLANON CONTRACEPTIVE IMPLANT': 'https://www.mrisafety.com/TMDL_view.php?editid1=7412',
+
+//Boston Scientific Advanix stent
+'BOSTON SCIENTIFIC ADVANIX BILIARY STENT': 'implantGuides/advanixBiliaryStent.html',
+
+//Scleral buckle
+'SCLERAL BUCKLE': 'Docs/scleralBuckle.html', 
+
+//Boston Scientific Fibered ICD Occlusion system
+'BOSTON SCIENTIFIC FIBERED IDC': 'bostonImplants/bostonInterlockCoil.pdf',
+'BOSTON SCIENTIFIC INTERLOCKING DETACHABLE COIL': 'bostonImplants/bostonInterlockCoil.pdf',
+'BOSTON SCIENTIFIC VORTX COIL' : 'bostonImplants/bostonInterlockCoil.pdf',
+'BOSTON SCIENTIFIC VORTX DIAMOND COIL': 'bostonImplants/bostonInterlockCoil.pdf',
+'BOSTON SCIENTIFIC VORTX MULTILOOP COIL': 'bostonImplants/bostonInterlockCoil.pdf',
+'BOSTON SCIENTIFIC COMPLEX HELICAL COIL': 'bostonImplants/bostonInterlockCoil.pdf',
+'BOSTON SCIENTIFIC 2D HELICAL COIL': 'bostonImplants/bostonInterlockCoil.pdf',
+'BOSTON SCIENTIFIC FIBERED PLATINUM COIL': 'bostonImplants/bostonInterlockCoil.pdf',
+
+//Stryker Hoffman 2
+ 'STRYKER HOFFMANN 2': 'Docs/Hoffmann2.pdf',
+
+//Stryker Hoffman 3
+ 'STRYKER HOFFMANN 3': 'Docs/Hoffmann3.pdf', 
+
+//Stryker Hoffman LRF
+ 'STRYKER HOFFMANN LRF': 'Docs/HoffmannLRF.pdf',
+
+//Paragard IUD
+ 'PARAGARD IUD': 'Docs/paragardIud.pdf',
+
+//Boston Scientific Embold coil
+'BOSTON SCIENTIFIC EMBOLD FIBERED COIL': 'bostonImplants/bostonScientificEmboldCoil.pdf',
+
+//Avanos ON-Q pain management system pump
+ 'AVANOS ON-Q PUMP': 'Docs/avanosOn-qPump.pdf',
+
+//Magnetic Black-Star Ureteral Stent
+ 'MAGNETIC BLACK STAR URETERAL STENT': 'Docs/magneticBlackStarStent.html',
+
+//Glaukos iStent
+ 'GLAUKOS ISTENT': 'https://www.glaukos.com/mri-information/',
+ 'GTS100L': 'https://www.glaukos.com/mri-information/',
+ 'GTS100R': 'https://www.glaukos.com/mri-information/',
+ 'GLAUKOS ISTENT INJECT': 'https://www.glaukos.com/mri-information/',
+ 'G2-M-IS': 'https://www.glaukos.com/mri-information/',
+ 'GLAUKOS ISTENT INJECT W': 'https://www.glaukos.com/mri-information/',
+ 'G2-W': 'https://www.glaukos.com/mri-information/',
+ 'GLAUKOS ISTENT INFINITE': 'https://www.glaukos.com/mri-information/',
+ 'IS3': 'https://www.glaukos.com/mri-information/',
+
+ //Sophysa 
+ 'SOPHYSA POLARIS SHUNT': 'Docs/sophysaShunts.pdf',
+ 'SOPHYSA SM8 SHUNT': 'Docs/sophysaShunts.pdf',
+ 'SOPHYSA SM1 SHUNT': 'Docs/sophysaShunts.pdf',  
+
+ //Vesper Medical venous stents
+ 'VESPER DUO-HYBRID VENOUS STENT': 'https://vespermedical.com/duo-venous-stent-system/',  
+ 'VESPER DUO-EXTEND VENOUS STENT': 'https://vespermedical.com/duo-venous-stent-system/',
+
+ //Cordis Palmaz Mullins XD™ Pulmonary Stent System
+ 'CORDIS PALMAZ MULLINS XD STENT': 'Docs/cordisPalmazMullinsXdStent.pdf',  
+ 
+
+
+};
+
+function implantLookup() {
+  const pacerValue = inputBox.value.toUpperCase();
+  const url = implantMapping[pacerValue];
+
+  if (url) {
+    window.open(url, '_blank');
+  } else {
+    alert("Something went wrong. Please try again. If that doesn't work, use the slideout/hamburger menu (UPPER LEFT CORNER OF WEBPAGE 3 Horizontal lines) for the manufacturer's website search.");
   }
-});
-  implantLookup();
 }
 
 
 
-
-
+document.getElementById('resultBoxId').onclick = () => {
+  inputBox.addEventListener('keyup', (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      document.getElementById('pacerSubmit').click();
+    }
+  });
+  implantLookup();
+};
 
