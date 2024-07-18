@@ -134,10 +134,11 @@ const implantMapping = {
  'ATDRL1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
  'SPHERA': 'https://www.medtronic.com/content/dam/emanuals/crdm/M967434A001B_view.pdf', 
  'ASTRA': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_260118.pdf',
+
  'REVO': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_184935.pdf',
  'RVDR01': 'https://www.medtronic.com/content/dam/emanuals/crdm/CONTRIB_184935.pdf', 
 
- //Medtronic pacemakers
+ //Medtronic defibrillators
  'COBALT XT': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf', 
  'DVPA2D1': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',  
  'DVPA2D4': 'https://www.medtronic.com/content/dam/emanuals/crdm/M988007A001B_view.pdf',
