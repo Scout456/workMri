@@ -608,6 +608,8 @@ const implantMapping = {
 'G140': 'BostonImplants/bostonICDs.pdf',
 'G141': 'BostonImplants/bostonICDs.pdf',
 'MOMENTUM': 'BostonImplants/bostonICDs.pdf',
+'D120': 'BostonImplants/bostonICDs.pdf',
+'D121': 'BostonImplants/bostonICDs.pdf',
 'G128': 'BostonImplants/bostonICDs.pdf',
 'G138': 'BostonImplants/bostonICDs.pdf',
 'G124': 'BostonImplants/bostonICDs.pdf',
