@@ -1124,6 +1124,10 @@ const implantMapping = {
    //DePuy Synthes MatrixNEURO plating system
     'MATRIXNEURO CRANIAL PLATING SYSTEM': 'Docs/matrixNeuro.pdf',
 
+  //Zimmon Biliary stent
+  '1600': 'Docs/zollSleepApnea.pdf',
+
+
 
 };
 
