@@ -1125,7 +1125,7 @@ const implantMapping = {
     'MATRIXNEURO CRANIAL PLATING SYSTEM': 'Docs/matrixNeuro.pdf',
 
   //Zimmon Biliary stent
-  'ZIMMON BILIARY STENT': 'Docs/zimmonStent.txt',
+  'ZIMMON BILIARY STENT': 'Docs/notePad-zimmonStent.txt',
 
 
 
