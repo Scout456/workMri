@@ -1024,15 +1024,7 @@ const implantMapping = {
 '6200': 'Docs/carpentierEdwardsImplants.pdf', 
 '5100': 'Docs/carpentierEdwardsImplants.pdf', 
 '4700': 'Docs/carpentierEdwardsImplants.pdf', 
-'9880TFX29M': 'Docs/carpentierEdwardsImplants.pdf',
-'9880TFX29M': 'Docs/carpentierEdwardsImplants.pdf', 
-'9880TFX29M': 'Docs/carpentierEdwardsImplants.pdf',
-'9880TFX29M': 'Docs/carpentierEdwardsImplants.pdf', 
-'9880TFX29M': 'Docs/carpentierEdwardsImplants.pdf',
-'9880TFX29M': 'Docs/carpentierEdwardsImplants.pdf', 
-'9880TFX29M': 'Docs/carpentierEdwardsImplants.pdf',
-'9880TFX29M': 'Docs/carpentierEdwardsImplants.pdf', 
-'9880TFX29M': 'Docs/carpentierEdwardsImplants.pdf',
+
 
 //Boston Scientific Vercise Genus DBS
 'BOSTON SCIENTIFIC VERCISE GENUS': 'bostonImplants/bostonScientificVerviseGenusDbs.pdf',
