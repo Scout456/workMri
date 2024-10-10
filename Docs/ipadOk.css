@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    
+    
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap:4px 0px;
+    width: 100%;
+    
+    
+    
+    
+}
+
+.grid-item {
+    background-color: whitesmoke;
+    color: blue;
+    /*border: 2px solid #333;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 7px;
+    line-height: 1.4em;
+    
+}
