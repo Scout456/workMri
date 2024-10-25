@@ -247,7 +247,7 @@ const implantMapping = {
 
 
 'MEDTRONIC EVOLUT COREVALUE TAVR': 'https://www.medtronic.com/content/dam/emanuals/cardio/CONTRIB_192454.pdf',
-'MEDTRONIC EVOLUT FX+ TAVR': 'https://www.medtronic.com/content/dam/emanuals/cardio/CONTRIB_192454.pdf',
+'MEDTRONIC EVOLUT FX+ TAVR': 'https://www.medtronic.com/content/dam/emanuals/cardio/M051369C001DOC1_RevA_view.pdf',
 
 //Medtronic loop recorders
 'LINQ11': '../implantGuides/linq.html',
