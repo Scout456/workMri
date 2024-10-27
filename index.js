@@ -250,10 +250,10 @@ const implantMapping = {
 'MEDTRONIC EVOLUT FX+ TAVR': 'https://www.medtronic.com/content/dam/emanuals/cardio/M051369C001DOC1_RevA_view.pdf',
 
 //Medtronic loop recorders
-'LINQ11': '../implantGuides/linq.html',
+'LINQ': '../implantGuides/linq.html',
 'LNQ11': '../implantGuides/linq.html',
 'LNQ22': '../implantGuides/linq.html',
-'LINQ22': '../implantGuides/linq.html',
+'LINQ2': '../implantGuides/linq.html',
 
 'REVEAL XT': '../implantGuides/reveal.html', 
 '9529': '../implantGuides/reveal.html', 
