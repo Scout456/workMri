@@ -1084,13 +1084,11 @@ const implantMapping = {
 //REMUNITY PUMP FOR REMODULIN
 'REMUNITY PUMP FOR REMODULIN': 'implantGuides/remunityPump.html', 
 
-//EV3 EverFlex stent
+//EV3 EverFlex and Protege stent
 'EV3 EVERFLEX PERIPHERAL STENT': '/implantGuides/everFlexStent.html',
 'EV3 PROTEGE EVERFLEX  BILIARY STENT': '/implantGuides/everFlexStent.html',
 'EV3 PROTEGE RX CAROTID STENT': '/implantGuides/protegeCarotidStent.pdf',
 'EV3 PROTEGE GPS SELF EXPANDING STENT': '/implantGuides/protegeGpsSelfExpandingStent.pdf',
-
-//EV3 Protege stent
 'EV3 PROTEGE EVERFLEX PERIPHERAL STENT': 'Docs/protegeEverflexPeripheralStent.pdf',
 
 //Abbott mechanical heart valve
