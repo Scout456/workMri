@@ -1,0 +1,8 @@
+.uws-badge {
+    top: 70% !important;
+    position: fixed !important;
+    font-size: .80em !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 400 !important;
+    z-index: 998 !important;
+}
