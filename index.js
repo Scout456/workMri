@@ -461,19 +461,7 @@ const implantMapping = {
 'CD3369-40QC': 'abbottImplants/abbottPacemakerIcd.pdf', 
 'CD3369': 'abbottImplants/abbottPacemakerIcd.pdf',
 
-//Abbott Lead models
-'ULTIPACE LPA1231 LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
-'TENDRILL STS 2088TC LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
-'ISOFLEX 1944 AND 1948 LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
-'TENDRIL LPA1200M LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
-'QUARTET 1456Q LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
-'QUARTET 1457Q LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
-'QUARTET 1458Q LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
-'QUARTET 1458QL LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
-'DURATA 7120Q LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
-'DURATA 7122Q LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
-'OPTISURE LDA220Q LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
-'OPTISURE LDA210Q LEAD': 'abbottImplants/abbottPacemakerIcd.pdf',
+
 
 //Untested not MR-Conditional
 'ENDURITY PM1160 (UNTESTED)': 'abbottImplants/untestedPacers.pdf',
