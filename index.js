@@ -1430,11 +1430,12 @@ function implantLookup() {
 
 
 
-document.getElementById('resultBoxId').onclick = () => {
+document.getElementById('pacerSubmit').onclick = () => {
   inputBox.addEventListener('keyup', (event) => {
     if (event.key === "Enter") {
-      event.preventDefault();
-      document.getElementById('pacerSubmit').click();
+       event.preventDefault();
+      //document.getElementById('pacerSubmit').onclick();
+      //'resultBoxId' to open in search box without clicking enter.
     }
   });
   implantLookup();
