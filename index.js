@@ -1305,7 +1305,7 @@ const implantMapping = {
  //ABBOTT XACT CAROTID STENT
   'ABBOTT XACT CAROTID STENT': 'abbottImplants/abbottXactCarotidStent.pdf',
 
- //ABBOTT TRICLIP G4 SYSTEM
+ //ABBOTT TRICLIP G4 SYSTEMcarotid stent'
   'ABBOTT TRICLIP': 'abbottImplants/abbottTriClip.pdf',
 
   //LINX
