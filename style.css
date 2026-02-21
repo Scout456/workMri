@@ -195,6 +195,17 @@ h1{
   
 }
 
+#refreshPage {
+  text-align: center;
+  font-family: "Open Sans", "Roboto", sans-serif;
+  font-weight: 600;
+  color: #004080;          /* Medical navy */
+  margin-top: 20px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+
 
 p:hover{
   color: white;
