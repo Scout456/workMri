@@ -82,8 +82,8 @@ const implantMapping = {
 
  //Aneurysm Clips
   'YASARGIL': 'Docs/MRI-Safety-Information-Yasargil-Titanium-and-Phynox-Aneurysm-Clips.pdf',
-  'SUGITA TITANIUM ANEURYSM CLIP 2': 'Docs/mizuhoClip.png',
-   'SUGITA ELGILOY ANEURYSM CLIP': 'Docs/sugitaElgiloyAneurysmClips.pdf',
+  'SUGITA TITANIUM ANEURYSM CLIP 2': 'Docs/sugita_aneurysm_clip_mri_information.pdf',
+   'SUGITA ELGILOY ANEURYSM CLIP': 'Docs/sugita_aneurysm_clip_mri_information.pdf',
   'MIZUHO': 'Docs/mizuhoClip.png',
   'SPETZLER TITANIUM ANEURYSM CLIP': '../implantGuides/spetzler.html',
   'PETER LAZIC TITANIUM ANEURYSM CLIP': 'Docs/peterLazicClips.pdf',
